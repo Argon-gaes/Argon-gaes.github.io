@@ -4,11 +4,61 @@
   
   
   <entry>
-    <title>生活中的化学001</title>
-    <link href="/2022/02/05/%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%9A%84%E5%8C%96%E5%AD%A6001/"/>
-    <url>/2022/02/05/%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%9A%84%E5%8C%96%E5%AD%A6001/</url>
+    <title>白嫖VPN</title>
+    <link href="/2022/04/04/%E7%99%BD%E5%AB%96VPN/"/>
+    <url>/2022/04/04/%E7%99%BD%E5%AB%96VPN/</url>
     
-    <content type="html"><![CDATA[<p>竞赛结束之后就再没碰过化学书了（，之前的有机析题也是写了两篇就再无动力去写。不过终究还是想写点什么聊以自慰，就以平常做题遇到的药物合成研究研究，也比较贴近生活XD</p><a id="more"></a><p><img src="https://gitee.com/myman/picbed/raw/master/img/chem.png" alt="生活中的化学001" /></p><h2 id="概述"><a class="markdownIt-Anchor" href="#概述"></a> 概述</h2><p>今天讨论的药物是<strong>氯苯噻乙酸</strong>,相关数据<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="http://www.ichemistry.cn/chemistry/18046-21-4.htm">[1]</span></a></sup>如下：</p><div class="note note-info">            <p>中文名：氯苯噻乙酸 / 4-对氯苯基-2-苯基噻唑-5-乙酸<br />英文名：4-(p-chlorophenyl)-2-phenyl-5-thiazoleacetic acid<br />分子结构：<br /><img src="https://gitee.com/myman/picbed/raw/master/img/001m.png" alt="" /><br />分子量：329.810<br />物理化学性质：无色针状结晶。熔点161-162℃（157-158℃）。易溶于丙酮，稍溶于甲醇；乙醇，难溶于氯仿；苯，几乎不溶于水。遇光渐变色，无臭。<br />医学应用：氯苯噻乙酸为一种新的甾体消炎镇压痛药，可用于慢性关节炎；变形性关节症；肩周炎；腰痛；呼吸道炎症的消炎镇痛，也用于外伤及术后，拔牙的消炎镇痛。</p>          </div><h2 id="合成"><a class="markdownIt-Anchor" href="#合成"></a> 合成</h2><p>常见的一种合成路线如下：</p><p><img src="https://gitee.com/myman/picbed/raw/master/img/001s1.png" alt="合成方案" /></p><p>找到的文献<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://www.sciencedirect.com/science/article/abs/pii/S0960894X0901720X">[2]</span></a></sup>给出的制备方案描述较为简易，仅仅是说 <em>微波辅助加热</em> (by microwave assisted heating in DMF)，另外也给出了一种生物合成法。我尝试写了一下该反应的机理：<br /><img src="https://gitee.com/myman/picbed/raw/master/img/001.png" alt="可能机理" /></p><p>没什么好说的，根据产物不难推得机理。</p><p>同时文献还给出了一种衍生物的制备方法，我同样尝试给出可能机理：</p><p><img src="https://gitee.com/myman/picbed/raw/master/img/001s2.png" alt="衍生物" /></p><p><img src="https://gitee.com/myman/picbed/raw/master/img/001b.png" alt="可能机理" /></p><p>第一步反应构建噻唑环与方案一有所不同，通过氰基来构建碳氮双键；第二步首先用<strong>三氟甲磺酸酐</strong>与酚羟基反应，得到磺酸酯，磺酸基负离子为很好的离去基团，可以大大增加反应活性。s接着利用<strong>Suzuki-Miyaura反应</strong>把芳基偶联上去。</p><h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2><p>总结一下涉及的知识点：</p><ul><li><p>三氟甲磺酸酐，有机常用的试剂，三氟甲基磺酸根是非常好的离去基团，可大大增加反应活性。</p></li><li><p><a href="https://baike.baidu.com/item/%E9%93%83%E6%9C%A8%E5%8F%8D%E5%BA%94/1112494">Suzuki-Miyaura反应</a>，超棒的过渡金属催化偶联，非常常用。</p></li></ul><h2 id="参考"><a class="markdownIt-Anchor" href="#参考"></a> 参考</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="http://www.ichemistry.cn/chemistry/18046-21-4.htm">http://www.ichemistry.cn/chemistry/18046-21-4.htm</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://www.sciencedirect.com/science/article/abs/pii/S0960894X0901720X">https://www.sciencedirect.com/science/article/abs/pii/S0960894X0901720X</a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    <content type="html"><![CDATA[<p>找到了一个可白嫖的高速可用梯子，懂的都懂XD</p><a id="more"></a><p>他就是<strong>西部世界VPN</strong>(West World VPN)，好像名气还挺大的，应该很多人知道。</p><p><img src="https://gitee.com/myman/picbed/raw/master/img/WestWorldVPN.png" alt="WestWorldVPN" /></p><p>这个VPN实际上是付费的，不过有可以薅羊毛的方法。</p><p>注册的每个新用户都有6h，5G的流量，如果验证了邮箱则加长到3天。</p><p><img src="https://gitee.com/myman/picbed/raw/master/img/VPNlogin.png" alt="login" /></p><p>VPN的速度相当的快，即使是拿来看YouTube也没问题，浏览网页更不在话下。</p><p>6h的限制实际上对我来说完全够用，反正只是消遣用途，什么时候需要去申请一个就行了。</p><p>邮箱的注册十分简单，且不需要邮箱验证，随便填也是可以的，具体操作步骤其官网上说的蛮详细，照着操作即可。</p><p><a href="https://xbww6889.xyz/?index=1">West World VPN</a></p><p>官网说是永不跑路，不过反正我只是薅羊毛图一乐啦。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>网络技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>trifle</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>时逢清明闲记</title>
+    <link href="/2022/04/04/%E6%97%B6%E9%80%A2%E6%B8%85%E6%98%8E%E9%97%B2%E8%AE%B0/"/>
+    <url>/2022/04/04/%E6%97%B6%E9%80%A2%E6%B8%85%E6%98%8E%E9%97%B2%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<p>这段时间经历了很多事啊，清明放假在家得以摸一下电脑，记录一下自己的碎碎念。</p><a id="more"></a><p>首先就是由于疫情封在学校带了一个月，不过反正我是高贵的全住宿生（笑），这于我其实影响不大。反而我觉得封校这一段时间待的还挺爽，唯一不足就是换洗衣物和文具有点捉襟见肘。</p><p>不过放假时我还是很兴奋的，毕竟终于得以自由，我坐车回家时开着窗吹着风，那时候真是这半年来少有的惬意心情。</p><p>再就是时间过得真快啊，一转眼已经四月了，到了高三才有时不我待之感，不过身体上还是依然惫怠，也许会这样一直摇摆到高考吧。</p><p>让我心神不宁之事依然存在，也许应该再决绝一点全部抛开会更好一些吧，我还是懦弱。</p><hr /><p>家里的电脑之前下软件中病毒坏掉了（，病毒好像侵染系统文件，然后我用杀毒软件清除后重启就直接打不开系统了，连安全模式都进不去。后来我就回学校，暂时忘掉了这事，这次回来才知道我爸把电脑拿去重装系统，重置了C盘，常用的软件基本上都没了，不过能用已是万幸，我也没心思打游戏了。</p><p>唯一令我不爽的就是系统改回Win7了，不过也不影响我冲浪XD</p><p>为了能重新写和提交Blog，我费了好一番工夫。先是安装Nodejs，结果发现新版本已经不支持Win7了，费劲才找到旧版本下载下来，然后又安装git和Hexo，然后去下回来VSC当编辑器。这期间折腾了好久，还安装了一大堆相关组件，属实有点心力交瘁。</p><p>结果写文章的时候又有意外，gitee封禁了picgo上传图片，不让白嫖图床了，搞得我措手不及。</p><p>我这Blog图片确实没几张，但是要一张一张换还是很费劲，这下gitee也没法白嫖了，好像也没什么好用的免费图床了，果然免费的才是最贵的，想着要好好弄的话还是等高考完后老实买大厂的对象储存吧。</p><p>在网上看到有些人的图床仓库直接被封禁了，我的仓库倒是没事，应该是图片外链比较少，没有管我。手动地上传图片仍然可以，图片也还能正常显示，现在只能凑合凑合了，到时候还是要换的，gitee已经不太行了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>无病呻吟</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>essay</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>化学漫谈001</title>
+    <link href="/2022/02/05/%E5%8C%96%E5%AD%A6%E6%BC%AB%E8%B0%88001/"/>
+    <url>/2022/02/05/%E5%8C%96%E5%AD%A6%E6%BC%AB%E8%B0%88001/</url>
+    
+    <content type="html"><![CDATA[<p>竞赛结束之后就再没碰过化学书了（，之前的有机析题也是写了两篇就再无动力去写。不过终究还是想写点什么聊以自慰，就以平常做题遇到的药物合成研究研究，也比较贴近生活XD</p><a id="more"></a><p><img src="https://gitee.com/myman/picbed/raw/master/img/chem.png" alt="化学漫谈001" /></p><h2 id="概述"><a class="markdownIt-Anchor" href="#概述"></a> 概述</h2><p>今天讨论的药物是<strong>氯苯噻乙酸</strong>,相关数据<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="http://www.ichemistry.cn/chemistry/18046-21-4.htm">[1]</span></a></sup>如下：</p><div class="note note-info">            <p>中文名：氯苯噻乙酸 / 4-对氯苯基-2-苯基噻唑-5-乙酸<br />英文名：4-(p-chlorophenyl)-2-phenyl-5-thiazoleacetic acid<br />分子结构：<br /><img src="https://gitee.com/myman/picbed/raw/master/img/001m.png" alt="" /><br />分子量：329.810<br />物理化学性质：无色针状结晶。熔点161-162℃（157-158℃）。易溶于丙酮，稍溶于甲醇；乙醇，难溶于氯仿；苯，几乎不溶于水。遇光渐变色，无臭。<br />医学应用：氯苯噻乙酸为一种新的甾体消炎镇压痛药，可用于慢性关节炎；变形性关节症；肩周炎；腰痛；呼吸道炎症的消炎镇痛，也用于外伤及术后，拔牙的消炎镇痛。</p>          </div><h2 id="合成"><a class="markdownIt-Anchor" href="#合成"></a> 合成</h2><p>常见的一种合成路线如下：</p><p><img src="https://gitee.com/myman/picbed/raw/master/img/001s1.png" alt="合成方案" /></p><p>找到的文献<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://www.sciencedirect.com/science/article/abs/pii/S0960894X0901720X">[2]</span></a></sup>给出的制备方案描述较为简易，仅仅是说 <em>微波辅助加热</em> (by microwave assisted heating in DMF)，另外也给出了一种生物合成法。我尝试写了一下该反应的机理：<br /><img src="https://gitee.com/myman/picbed/raw/master/img/001.png" alt="可能机理" /></p><p>没什么好说的，根据产物不难推得机理。</p><p>同时文献还给出了一种衍生物的制备方法，我同样尝试给出可能机理：</p><p><img src="https://gitee.com/myman/picbed/raw/master/img/001s2.png" alt="衍生物" /></p><p><img src="https://gitee.com/myman/picbed/raw/master/img/001b.png" alt="可能机理" /></p><p>第一步反应构建噻唑环与方案一有所不同，通过氰基来构建碳氮双键；第二步首先用<strong>三氟甲磺酸酐</strong>与酚羟基反应，得到磺酸酯，磺酸基负离子为很好的离去基团，可以大大增加反应活性。s接着利用<strong>Suzuki-Miyaura反应</strong>把芳基偶联上去。</p><h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2><p>总结一下涉及的知识点：</p><ul><li><p>三氟甲磺酸酐，有机常用的试剂，三氟甲基磺酸根是非常好的离去基团，可大大增加反应活性。</p></li><li><p><a href="https://baike.baidu.com/item/%E9%93%83%E6%9C%A8%E5%8F%8D%E5%BA%94/1112494">Suzuki-Miyaura反应</a>，超棒的过渡金属催化偶联，非常常用。</p></li></ul><h2 id="参考"><a class="markdownIt-Anchor" href="#参考"></a> 参考</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="http://www.ichemistry.cn/chemistry/18046-21-4.htm">http://www.ichemistry.cn/chemistry/18046-21-4.htm</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://www.sciencedirect.com/science/article/abs/pii/S0960894X0901720X">https://www.sciencedirect.com/science/article/abs/pii/S0960894X0901720X</a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
     
     
     <categories>
@@ -158,7 +208,7 @@
     <link href="/2021/11/27/%E8%B0%88%E8%B0%88%E3%80%8C%E6%91%86%E7%83%82%E3%80%8D/"/>
     <url>/2021/11/27/%E8%B0%88%E8%B0%88%E3%80%8C%E6%91%86%E7%83%82%E3%80%8D/</url>
     
-    <content type="html"><![CDATA[<p>没有简介，我要摆烂（误</p><a id="more"></a><p>「摆烂」也算一个流行词了XD，我去百度查了查，好像还真有正经出处：</p><blockquote><p>摆烂，指事情已经无法向好的方向发展，于是就干脆不再采取措施加以控制而是任由其往坏的方向继续发展下去。常被用于形容NBA篮球联赛中为了获得更好的选秀权故意输球的行为。</p></blockquote><p>从释义来看，它其实反映了一种战术或者说是策略，颇有点田忌赛马的意思。</p><p>但是我们平常常听常说的摆烂其实与其还是相差甚远的，或者说只有“不再采取措施，任由往坏的方向发展”的部分。倒是和之前出现的“佛系”可比。不过也很容易理解，在内卷逐渐加剧的今天，我们常常“摆烂”，实际上是玩笑般地消解竞争压力，给自己一点喘息空间。</p><p>摆烂往往是对事情的发展并不满意而产生的，其实也是一种无可奈何的反抗的方式。当然结果大抵不遂人意，但是至少自己很爽，某种程度上倒算不错的排解方式。（笑</p><p>摆烂是一种“有目的的降低生活目标”，高远的目标一时无法实现，那不如先躺一小会，漫看天上云卷云舒。</p>]]></content>
+    <content type="html"><![CDATA[<p>没有简介，我要摆烂（误</p><a id="more"></a><p>「摆烂」也算一个流行词了XD，我去百度查了查，好像还真有正经出处：</p><blockquote><p>摆烂，指事情已经无法向好的方向发展，于是就干脆不再采取措施加以控制而是任由其往坏的方向继续发展下去。常被用于形容NBA篮球联赛中为了获得更好的选秀权故意输球的行为。</p></blockquote><p>从释义来看，它其实反映了一种战术或者说是策略，颇有点田忌赛马的意思。</p><p>但是我们平常常听常说的摆烂其实与其还是相差甚远的，或者说只有“不再采取措施，任由往坏的方向发展”的部分，倒是和之前出现的“佛系”可比。</p><p>不过也很容易理解，在内卷逐渐加剧的今天，我们常常“摆烂”，实际上是玩笑般地消解竞争压力，给自己一点喘息空间。时代在变化，只要努力就能成功的理想化目标实际上越来越遥不可及。</p><p>某些公知之所以被群嘲，就是因为内卷式的无效竞争和时代规则早已铲除了说教式的正能量鸡汤的生长土壤。他们用过去自己略显落后的奋斗经验指点年轻人，但在当下来说，是在把人推进奋斗主义的粪坑。</p><p>当然，作为新时代的有志青年XD，一味的颓下去更非一个好选择，可以用摆烂的借口逃避一时，但自己的生活和命运终究要自己去面对。关键是要“张弛有度”，即使当自己的步伐慢下来甚至停下来的时候，也能不急不乱。说到底，摆烂其实是一种无可奈何的反抗的方式，虽然结果大抵不遂人意，但是至少自己很爽，某种程度上倒算不错的排解方式。（笑</p><p>摆烂是一种“有目的的降低生活目标”，高远的目标一时无法实现，那不如先躺一小会，漫看天上云卷云舒，不失为一种雅趣闲情。</p>]]></content>
     
     
     <categories>
