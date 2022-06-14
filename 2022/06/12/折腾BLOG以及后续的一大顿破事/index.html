@@ -17,7 +17,7 @@
   <meta name="description" content="essay &amp; trifle &amp; chem &amp; internet">
   <meta name="author" content="Sun">
   <meta name="keywords" content="">
-  <title>折腾BLOG - Sun&#39;s BLOG</title>
+  <title>折腾BLOG以及后续的一大堆破事 - Sun&#39;s BLOG</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
 
@@ -162,7 +162,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="折腾BLOG">
+            <span class="h2" id="subtitle" title="折腾BLOG以及后续的一大堆破事">
               
             </span>
 
@@ -184,7 +184,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      807 字
+      944 字
     </span>
   
 
@@ -194,7 +194,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      8
+      9
        分钟
     </span>
   
@@ -224,7 +224,7 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">折腾BLOG</h1>
+            <h1 style="display: none">折腾BLOG以及后续的一大堆破事</h1>
             
             <div class="markdown-body">
               <p>高考结束了，所以想要继续拾起我的BLOG，继续写点什么。结果一看吓一大跳，图片全都爆炸了:(，而且gitee又增加了诸多限制，思来想去，还是又换回了github。</p>
@@ -245,14 +245,21 @@
 <p>所以还是改成了github，迁移过程并不复杂，加载速度也基本没有什么变化，不得不说主题优化还是很给力的XD</p>
 <hr />
 <p>6.13</p>
-<p>好了，现在咱的blog也有自定义顶级域名了：<a href="argon-gas.top">argon-gas.top</a></p>
+<p>好了，现在咱的blog也有自定义顶级域名了：<a target="_blank" rel="noopener" href="http://argon-gas.top">argon-gas.top</a></p>
 <p>域名商选了国外的<a target="_blank" rel="noopener" href="https://www.namesilo.com/">Nameslio</a>，选了最便宜的.top域名，原本其实是比较喜欢.xyz的，不过比这个略贵一点点。第一年还算比较便宜，折后仅需6元，之后就是一年30多块了，不过与其他后缀相比真的是很便宜了。</p>
 <p>国内域名因为要备案，太麻烦，就没搞。</p>
 <hr />
 <p>6.14</p>
 <p>结果域名刚配置完，然后重新部署了一次之后就打不开了。</p>
 <p>研究了一下发现是因为重新部署后缺少了CNAME文件，所以DNS解析出了问题。</p>
-<p>所以只要在本地需上传的文件里加入CNAME文件，里面写上自己的自定义域名即可。</p>
+<p>所以只要在本地的source文件夹里加入CNAME文件，里面写上自己的自定义域名即可。</p>
+<p>没想到我刚准备部署又出问题。我的git bash里用不了hexo命令了，甚至连npm也用不了了。</p>
+<p><em>（可能是我最近安装了一些破解软件，然后使用注册机时影响到了nodejs的环境配置的原因）</em></p>
+<p>然后只好把nodejs重装了一遍，然后又照着网上教程配置了环境变量：</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/web18224617243/article/details/123191441">Nodejs环境变量配置</a></p>
+<p>Hexo的命令还是不能用，又配置Hexo的环境：</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_36759224/article/details/100411949">完美解决 bash: hexo: command not found</a></p>
+<p>然后才解决。真是挺折磨的 😦</p>
 
             </div>
             <hr>
