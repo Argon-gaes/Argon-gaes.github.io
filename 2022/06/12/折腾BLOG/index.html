@@ -184,7 +184,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      718 字
+      807 字
     </span>
   
 
@@ -194,7 +194,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      7
+      8
        分钟
     </span>
   
@@ -248,6 +248,11 @@
 <p>好了，现在咱的blog也有自定义顶级域名了：<a href="argon-gas.top">argon-gas.top</a></p>
 <p>域名商选了国外的<a target="_blank" rel="noopener" href="https://www.namesilo.com/">Nameslio</a>，选了最便宜的.top域名，原本其实是比较喜欢.xyz的，不过比这个略贵一点点。第一年还算比较便宜，折后仅需6元，之后就是一年30多块了，不过与其他后缀相比真的是很便宜了。</p>
 <p>国内域名因为要备案，太麻烦，就没搞。</p>
+<hr />
+<p>6.14</p>
+<p>结果域名刚配置完，然后重新部署了一次之后就打不开了。</p>
+<p>研究了一下发现是因为重新部署后缺少了CNAME文件，所以DNS解析出了问题。</p>
+<p>所以只要在本地需上传的文件里加入CNAME文件，里面写上自己的自定义域名即可。</p>
 
             </div>
             <hr>
