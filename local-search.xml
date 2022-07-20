@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>iframe的响应式处理</title>
+    <link href="/2022/07/20/iframe%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E5%A4%84%E7%90%86/"/>
+    <url>/2022/07/20/iframe%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E5%A4%84%E7%90%86/</url>
+    
+    <content type="html"><![CDATA[<p>由于要展示一个其他网站的页面，所以用到了iframe，虽然网上看到iframe有种种的问题和缺点，但是其实对我来说倒无所谓。</p><p>但是遇到了一些问题：iframe并不能自动适应不同设备的分辨率大小，导致在电脑上看大小正常，但是手机浏览就过大了，所以尝试解决这个问题。</p><a id="more"></a><div class="note note-info">            <p>问题：<br />使用的iframe窗口不能自动适应不同设备的不同分辨率，导致在部分设备上体验不好。</p>          </div><div class="note note-success">            <p>解决方法：<br />对<iframe>标签作处理。</p><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">iframe</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://tabbycats.club/cat/16o880&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">445</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;100%&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;frame_full&quot;</span> <span class="hljs-attr">frameborder</span>=<span class="hljs-string">&quot;0&quot;</span> <span class="hljs-attr">scrolling</span>=<span class="hljs-string">&quot;no&quot;</span>  <span class="hljs-attr">onload</span>=<span class="hljs-string">&quot;this.style.height=document.body.clientHeight-50&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;SpaceBug&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span></code></pre><p><strong>width</strong>设置为100%，同时配合<strong>onload</strong>获得body的宽度，就能实现iframe窗口随不同分辨率来变化，至于<strong>height</strong>直接设置高度，虽然不是按照比例缩放，但效果也还不错</p>          </div><p>解决思路来自：<a href="https://www.cnblogs.com/colinliu/p/4817723.html">iframe框架嵌套技巧（全屏，去双滚动条）</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>网络技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>trifle</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>可爱的chrome扩展</title>
     <link href="/2022/07/18/%E5%8F%AF%E7%88%B1%E7%9A%84chrome%E6%89%A9%E5%B1%95/"/>
     <url>/2022/07/18/%E5%8F%AF%E7%88%B1%E7%9A%84chrome%E6%89%A9%E5%B1%95/</url>
@@ -108,7 +133,7 @@
     <link href="/2022/06/12/%E5%81%87%E6%9C%9F%E8%AE%A1%E5%88%92/"/>
     <url>/2022/06/12/%E5%81%87%E6%9C%9F%E8%AE%A1%E5%88%92/</url>
     
-    <content type="html"><![CDATA[<p>回家没几天感觉摸鱼就摸累了（笑，感觉还是不能颓一整个假期，得找点事做。</p><p>之前考试的时候其实已经计划了不少了XD，记录一下，以勉励自己。</p><p>希望不会一事无成。</p><a id="more"></a><ul><li>[ ]  练练魔方，背一下CFOP，希望sub20</li><li>[ ]  学习编曲，创作一首完整的音乐作品并发布</li><li>[X]  <s>学吉他，能弹出曲</s></li><li>[ ]  学习编程，python</li><li>[ ]  看几本书，之前好几本小说想看都补上</li><li>[ ]  化学学习，把以前的东西拾起来一些，把Art刷完</li><li>[ ]  学习一些大学数理的内容，最近先准备一下强基面试8</li></ul><p>好吧，写完之后发现任务非常艰巨XD</p><p>一点一点去做吧，反正不能太闲，看看最后能完成多少。</p>]]></content>
+    <content type="html"><![CDATA[<p>回家没几天感觉摸鱼就摸累了（笑，感觉还是不能颓一整个假期，得找点事做。</p><p>之前考试的时候其实已经计划了不少了XD，记录一下，以勉励自己。</p><p>希望不会一事无成。</p><a id="more"></a><div>            <input type="checkbox" disabled >练练魔方，背一下CFOP，希望sub20          </div><div>            <input type="checkbox" disabled >学习编曲，创作一首完整的音乐作品并发布          </div><div>            <input type="checkbox" disabled ><s>学吉他，能弹出曲</s>          </div><div>            <input type="checkbox" disabled >学习编程，python          </div><div>            <input type="checkbox" disabled >看几本书，之前好几本小说想看都补上          </div><div>            <input type="checkbox" disabled >化学学习，把以前的东西拾起来一些，把Art刷完          </div><div>            <input type="checkbox" disabled >学习一些大学数理的内容，最近先准备一下强基面试8          </div><p>好吧，写完之后发现任务非常艰巨XD</p><p>一点一点去做吧，反正不能太闲，看看最后能完成多少。</p>]]></content>
     
     
     <categories>
