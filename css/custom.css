@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../themes/fluid/source/fonts/iconfont.woff2') format('woff2'),
+         url('../../themes/fluid/source/fonts/iconfont.woff') format('woff'),
+         url('../../themes/fluid/source/fonts/iconfont.ttf') format('truetype');
+}
+.iconfont {
+        font-family: "iconfont" !important;
+        font-size: 16px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+}
+      
+.icon-quoteleft:before {
+        content: "\e7d1";
+}
+      
+.icon-quote-right:before {
+        content: "\e909";
+}
+
+blockquote {
+    position: relative;
+    padding: 7px 16px;
+    box-sizing: border-box;
+    font-style: italic;
+    color: #585858;
+    border: solid 3px #585858;
+}
+blockquote:before{
+    display: inline-block;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    content: "\e7d1";
+    font-family: iconfont;
+    background: #585858;
+    color: #FFF;
+    font-size: 22px;
+}
+
+blockquote:after{
+    display: inline-block;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    content: "\e909";
+    font-family: iconfont;
+    background: #585858;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+blockquote p {
+    padding: 0;
+    margin: 10px 0;
+    line-height: 1.7;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    color: #888888;
+    font-size: 0.9em;
+}
