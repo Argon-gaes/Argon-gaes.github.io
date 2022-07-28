@@ -17,7 +17,7 @@
   <meta name="description" content="essay &amp; trifle">
   <meta name="author" content="Sun">
   <meta name="keywords" content="">
-  <title>iframe的响应式处理 - Sun&#39;s BLOG</title>
+  <title>盛夏·随想 - Sun&#39;s BLOG</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
 
@@ -166,7 +166,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="iframe的响应式处理">
+            <span class="h2" id="subtitle" title="盛夏·随想">
               
             </span>
 
@@ -176,8 +176,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2022-07-20 12:38" pubdate>
-        2022年7月20日 下午
+      <time datetime="2022-07-23 14:13" pubdate>
+        2022年7月23日 下午
       </time>
     </span>
   
@@ -188,7 +188,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      277 字
+      1.2k 字
     </span>
   
 
@@ -198,7 +198,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      6
        分钟
     </span>
   
@@ -228,27 +228,35 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">iframe的响应式处理</h1>
+            <h1 style="display: none">盛夏·随想</h1>
             
             <div class="markdown-body">
-              <p>由于要展示一个其他网站的页面，所以用到了iframe，虽然网上看到iframe有种种的问题和缺点，但是其实对我来说倒无所谓。</p>
-<p>但是遇到了一些问题：iframe并不能自动适应不同设备的分辨率大小，导致在电脑上看大小正常，但是手机浏览就过大了，所以尝试解决这个问题。</p>
+              <p>今天是大暑，这个节气意味着夏天最热的一段时间将会随着热浪翻涌袭来。尽管夏天往往与燥热联系在一起，可能会给人带来不太好的体感，但我依然认为把夏天看作最美好的一个季节应该会有很多人同意。毕竟夏天是热烈的，浪漫的，自由的，洒脱的，色调鲜明的，生机迸发的，轰轰烈烈的，烘托着氛围的，承载着回忆的，连接着情感的。</p>
+<p>夏天是美好的。</p>
 <a id="more"></a>
-<div class="note note-info">
-            <p>问题：<br />使用的iframe窗口不能自动适应不同设备的不同分辨率，导致在部分设备上体验不好。</p>
-          </div>
-<div class="note note-success">
-            <p>解决方法：<br />对&quot;iframe&quot;标签作处理。</p><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">iframe</span></span>
-<span class="hljs-tag"> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://tabbycats.club/cat/16o880&quot;</span></span>
-<span class="hljs-tag"> <span class="hljs-attr">height</span>=<span class="hljs-string">445</span></span>
-<span class="hljs-tag"> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;100%&quot;</span></span>
-<span class="hljs-tag"> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;frame_full&quot;</span></span>
-<span class="hljs-tag"> <span class="hljs-attr">frameborder</span>=<span class="hljs-string">&quot;0&quot;</span></span>
-<span class="hljs-tag"> <span class="hljs-attr">scrolling</span>=<span class="hljs-string">&quot;no&quot;</span></span>
-<span class="hljs-tag"> <span class="hljs-attr">onload</span>=<span class="hljs-string">&quot;this.style.height=document.body.clientHeight-50&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;SpaceBug&quot;</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span></code></pre><p><strong>width</strong>设置为100%，同时配合<strong>onload</strong>获得body的宽度，就能实现iframe窗口随不同分辨率来变化，至于<strong>height</strong>直接设置高度，虽然不是按照比例缩放，但效果也还不错</p>
-          </div>
-<p>解决思路来自：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/colinliu/p/4817723.html">iframe框架嵌套技巧（全屏，去双滚动条）</a></p>
+<h2 id="center壹蝉鸣center"><a class="markdownIt-Anchor" href="#center壹蝉鸣center"></a> <center>壹·蝉鸣</center></h2>
+<p>如果要找一个词来形容蝉的鸣叫，我可能会选：聒噪。</p>
+<p>蝉的鸣叫确实没给我带来好印象，因为它的叫声单调，尖锐，呆板，缺乏变化与韵律，频率之高令人难以忍耐，既不如鸟鸣悦耳，又不如蛙鸣有趣。而且它常常成群结队，像是对唱山歌一样，许多只在邻近的树上神气地高歌，实在吵闹。</p>
+<p>但那些都是幼时的记忆了，我现在越来越少地感知到蝉鸣。</p>
+<p>一天，我忽然想起往昔夏日的蝉鸣，不禁感慨：现在蝉已经这么少了啊。仔细侧耳听听，蝉鸣依旧。</p>
+<h2 id="center贰光影center"><a class="markdownIt-Anchor" href="#center贰光影center"></a> <center>贰·光影</center></h2>
+<h2 id="center叁行云center"><a class="markdownIt-Anchor" href="#center叁行云center"></a> <center>叁·行云</center></h2>
+<h2 id="center肆孩童center"><a class="markdownIt-Anchor" href="#center肆孩童center"></a> <center>肆·孩童</center></h2>
+<p>也许应该对我所指的孩童下个定义：4-6岁的孩子。因为更大一些的孩子现在选择玩耍方式时不会再去在外面公园里互相追逐做游戏了。信息时代的原住民逐渐与夏日的游戏缺少交集。</p>
+<p>对小孩子们来说，一年四季都是游戏的季节，尽管夏日暴晒，热浪逼人，也不能消退他们玩耍的乐趣和兴味。</p>
+<p>玩耍的方式也许多种多样，但总以奔跑和追逐为核心，这种最原始的方法总能激发无限的乐趣，让孩子们爆发出一阵阵的叫喊和笑闹，随风飘散。</p>
+<p>在这个时期，他们并没有男女的概念，经常会看到女孩子混入一群男孩子嘻嘻哈哈，或者男孩子混入一群女生中翩翩起舞。无论如何，孩子们总是专注于游戏本身，即使因为胜负输赢而发生争执，也不会影响娱乐的气氛。孩子们的胜负欲是纯洁的。</p>
+<p>何况还有家长在一旁看护，时不时加以关心和叮嘱。大多数时候，家长们通常在聊孩子们的种种故事，事无巨细的交流育儿经验。从他们脸上的笑容不难看出此时他们正静享天伦之乐。</p>
+<p>欢乐的游戏时光往往截止到某家的饭做好，这时候家长们往往苦口婆心的劝告孩子们回家吃饭，但孩子们常常意犹未尽，婉求多玩一会。欢快的公园玩乐终有结束之时，不过孩子们往往并不感伤，而是欢快的挥手告别，因为他们知道明日有再会之期。</p>
+<p>是啊，孩子们的夏天足够长，足够尽兴的挥洒时光。他们在不知不觉中构建着自己的童年夏日。</p>
+<h2 id="center伍老人center"><a class="markdownIt-Anchor" href="#center伍老人center"></a> <center>伍·老人</center></h2>
+<p>炎热的夏天往往使得老人们难以静心坐在家中。</p>
+<p>相比于开空调吹风扇，一些老人似乎更喜欢三五成群的搬着小板凳围坐在风口处、阴影下，摇着蒲扇或者只是静静地坐着，享受清凉。</p>
+<p>有的老人喜欢聊天，大概是老太太居多，她们往往会叽叽喳喳地闲话家常。也许这种看起来像是在“嚼舌根”的行为令一些人感到反感，不过我更愿意相信这只是无可厚非的饭后消遣。</p>
+<p>有的老人沉默寡言，独自一人待着，或许再点一根烟。他们有时会出神似地望向前方，他们在想什么？也许什么也没想。这冥想一般的状态平静而柔和，但当事者并不能意识到自己已身处其中。</p>
+<p>或许他们并非是不善言辞，只是没有合适的机会与话头，如果你愿意和他们闲聊，也许他们会乐意吐露自己的思绪。</p>
+<p>很多上了年岁的老人常有这样的特征：他们可能很少提起往事，但他们并不会忘记，如果记忆一旦被激活，话语往往会不断流淌而出。尽管他们的思维可能很难保持长期的连贯性，话语常常断断续续，像从他们手上渺渺飘散的烟。</p>
+<h2 id="center陆夏夜center"><a class="markdownIt-Anchor" href="#center陆夏夜center"></a> <center>陆·夏夜</center></h2>
 
             </div>
             <hr>
@@ -258,7 +266,7 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/">网络技术</a>
+                      <a class="hover-with-bg" href="/categories/%E5%86%99%E7%82%B9%E4%BB%80%E4%B9%88/">写点什么</a>
                     
                   </div>
                 
@@ -266,7 +274,7 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/trifle/">trifle</a>
+                      <a class="hover-with-bg" href="/tags/essay/">essay</a>
                     
                   </div>
                 
@@ -279,9 +287,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/07/23/%E7%9B%9B%E5%A4%8F%C2%B7%E9%9A%8F%E6%83%B3/">
+                      <a href="/2022/07/28/%E3%80%8A%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">盛夏·随想</span>
+                        <span class="hidden-mobile">《黄金时代》读后感</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -289,8 +297,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/07/18/%E5%8F%AF%E7%88%B1%E7%9A%84chrome%E6%89%A9%E5%B1%95/">
-                        <span class="hidden-mobile">可爱的chrome扩展</span>
+                      <a href="/2022/07/20/iframe%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E5%A4%84%E7%90%86/">
+                        <span class="hidden-mobile">iframe的响应式处理</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
