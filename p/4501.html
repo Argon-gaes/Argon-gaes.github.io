@@ -238,7 +238,7 @@
             <p>问题：<br />使用的iframe窗口不能自动适应不同设备的不同分辨率，导致在部分设备上体验不好。</p>
           </div>
 <div class="note note-success">
-            <p>解决方法：<br />对&quot;iframe&quot;标签作处理。</p><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">iframe</span></span>
+            <p>解决方法：<br />对&quot;iframe&quot;标签作处理。</p><div class="hljs"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">iframe</span></span>
 <span class="hljs-tag"> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://tabbycats.club/cat/16o880&quot;</span></span>
 <span class="hljs-tag"> <span class="hljs-attr">height</span>=<span class="hljs-string">445</span></span>
 <span class="hljs-tag"> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;100%&quot;</span></span>
@@ -246,7 +246,7 @@
 <span class="hljs-tag"> <span class="hljs-attr">frameborder</span>=<span class="hljs-string">&quot;0&quot;</span></span>
 <span class="hljs-tag"> <span class="hljs-attr">scrolling</span>=<span class="hljs-string">&quot;no&quot;</span></span>
 <span class="hljs-tag"> <span class="hljs-attr">onload</span>=<span class="hljs-string">&quot;this.style.height=document.body.clientHeight-50&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;SpaceBug&quot;</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span></code></pre><p><strong>width</strong>设置为100%，同时配合<strong>onload</strong>获得body的宽度，就能实现iframe窗口随不同分辨率来变化，至于<strong>height</strong>直接设置高度，虽然不是按照比例缩放，但效果也还不错</p>
+<span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span></code></pre></div><p><strong>width</strong>设置为100%，同时配合<strong>onload</strong>获得body的宽度，就能实现iframe窗口随不同分辨率来变化，至于<strong>height</strong>直接设置高度，虽然不是按照比例缩放，但效果也还不错</p>
           </div>
 <p>解决思路来自：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/colinliu/p/4817723.html">iframe框架嵌套技巧（全屏，去双滚动条）</a></p>
 

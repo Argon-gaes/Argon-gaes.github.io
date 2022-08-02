@@ -247,14 +247,14 @@
 <p><img src="https://urlshare.img.ink/2022/14d406729ea1d.jpeg" srcset="/img/loading.gif" alt="Vercel-success" /></p>
 <p>系统会提供一个<em>xxx.vercel.app</em>的自动域名，前面的部分就是你的<em>PROJECT NAME</em>。然后你可以点击<em>View Domains</em>自定义域名。</p>
 <p>然后去你购买域名的地方设置DNS记录，系统提供的是默认的DNS记录。</p>
-<pre><code class="hljs css"><span class="hljs-selector-tag">A</span>: 76<span class="hljs-selector-class">.76</span><span class="hljs-selector-class">.21</span><span class="hljs-selector-class">.21</span>
-<span class="hljs-selector-tag">CNAME</span>: <span class="hljs-selector-tag">cname</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span></code></pre>
+<div class="hljs"><pre><code class="hljs css"><span class="hljs-selector-tag">A</span>: 76<span class="hljs-selector-class">.76</span><span class="hljs-selector-class">.21</span><span class="hljs-selector-class">.21</span>
+<span class="hljs-selector-tag">CNAME</span>: <span class="hljs-selector-tag">cname</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span></code></pre></div>
 <p>在21年5月，Vercel的IP曾经被墙过，不过后来修复了，官方也新增了针对中国优化的DNS，也可以使用这个：</p>
-<pre><code class="hljs css"><span class="hljs-selector-tag">A</span>: 76<span class="hljs-selector-class">.223</span><span class="hljs-selector-class">.126</span><span class="hljs-selector-class">.88</span>
-<span class="hljs-selector-tag">CNAME</span>: <span class="hljs-selector-tag">cname-china</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span></code></pre>
+<div class="hljs"><pre><code class="hljs css"><span class="hljs-selector-tag">A</span>: 76<span class="hljs-selector-class">.223</span><span class="hljs-selector-class">.126</span><span class="hljs-selector-class">.88</span>
+<span class="hljs-selector-tag">CNAME</span>: <span class="hljs-selector-tag">cname-china</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span></code></pre></div>
 <p>然后修改DNS服务器为：</p>
-<pre><code class="hljs css"><span class="hljs-selector-tag">ns1</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span>
-<span class="hljs-selector-tag">ns2</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span></code></pre>
+<div class="hljs"><pre><code class="hljs css"><span class="hljs-selector-tag">ns1</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span>
+<span class="hljs-selector-tag">ns2</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span></code></pre></div>
 <p>配置可能要十分钟到几小时才会生效，配置完成后可以在Vercel的域名管理处看到下图所示情况：</p>
 <p><img src="https://urlshare.img.ink/2022/97aa9186c7928.jpeg" srcset="/img/loading.gif" alt="Vercel-domains" /></p>
 <p>然后就完成了，而且完全免费，这不白嫖一波XD</p>
