@@ -3,7 +3,7 @@
     src: url('//at.alicdn.com/t/c/font_3536603_x2bmwypdoxm.woff2?t=1659431597857') format('woff2'),
          url('//at.alicdn.com/t/c/font_3536603_x2bmwypdoxm.woff?t=1659431597857') format('woff'),
          url('//at.alicdn.com/t/c/font_3536603_x2bmwypdoxm.ttf?t=1659431597857') format('truetype');
-  }
+}
 .iconfont {
         font-family: "iconfont" !important;
         font-size: 16px;
@@ -22,10 +22,10 @@
 
 blockquote {
     position: relative;
-    padding: 7px 16px;
+    padding: 7px 16px !important;
     box-sizing: border-box;
     color: #585858;
-    border: solid 3px #585858;
+    border: solid 3px #585858 !important;
 }
 blockquote:before{
     display: inline-block;
@@ -66,6 +66,7 @@ blockquote p {
     padding: 0;
     margin: 10px 0;
     line-height: 1.7;
+    color: #76828e;
 }
 
 blockquote cite {

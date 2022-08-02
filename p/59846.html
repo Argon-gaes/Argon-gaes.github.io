@@ -19,11 +19,11 @@
   <meta name="keywords" content="">
   <title>将Blog部署到Vercel - Sun&#39;s BLOG</title>
 
-  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
 
-  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
-  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
 
   
     
@@ -34,7 +34,7 @@
   
 
   
-    <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
   
 
 
@@ -237,15 +237,15 @@
 <p>大概理解，Vercel提供静态资源的托管服务，所以我们可以把托管在Github上的blog转移到Vercel上。Vercel在中国也有服务器，所以可以获得更快的访问速度。Vercel也支持自定义域名，而且完全免费。</p>
 <p>第一步要有一个Github仓库，也就是blog的仓库。</p>
 <p>第二步注册一个Vercel账号。注册时可以直接选用Github登录，很方便。</p>
-<p>第三步将Github仓库导入Vercel。首先在主页（Hobby）选择<em>New Project</em>。然后会看到如图界面。</p>
+<p>第三步将Github仓库导入Vercel。首先在主页（Hobby）选择 <em>New Project</em> 。然后会看到如图界面。</p>
 <p><img src="https://urlshare.img.ink/2022/6a5ae5fdda785.jpeg" srcset="/img/loading.gif" alt="Vercel-import" /></p>
-<p>我这里已经导入了仓库，如果是第一次使用，应该先选择左侧的下拉栏，选择<em>Add Github Account</em>增加一个账户，然后按照提示给需要部署的仓库安装Vercel，然后将其导入即可。</p>
+<p>我这里已经导入了仓库，如果是第一次使用，应该先选择左侧的下拉栏，选择 <em>Add Github Account</em> 增加一个账户，然后按照提示给需要部署的仓库安装Vercel，然后将其导入即可。</p>
 <p><img src="https://urlshare.img.ink/2022/0e1f758b3bab8.jpeg" srcset="/img/loading.gif" alt="Vercel-project" /></p>
-<p><em>PROJECT NAME</em>一栏填入项目名，与默认提供的系统域名有关。</p>
-<p>这里要注意<em>FRAMEWORK PRESET</em>一栏，它提供了多种框架供你选择。我这里默认的是<em>Other</em>，我之前试过使用<em>Hexo</em>的框架，发现blog无法正常加载，而使用默认的<em>Other</em>就好了(。总之系统会自动识别你的仓库内容，然后选择框架，如果默认的框架没有生效，可以再自己选择对应的框架。</p>
+<p><em>PROJECT NAME</em> 一栏填入项目名，与默认提供的系统域名有关。</p>
+<p>这里要注意 <em>FRAMEWORK PRESET</em> 一栏，它提供了多种框架供你选择。我这里默认的是 <em>Other</em> ，我之前试过使用 <em>Hexo</em> 的框架，发现blog无法正常加载，而使用默认的 <em>Other</em> 就好了(。总之系统会自动识别你的仓库内容，然后选择框架，如果默认的框架没有生效，可以再自己选择对应的框架。</p>
 <p>然后部署，成功后应该是这个界面:</p>
 <p><img src="https://urlshare.img.ink/2022/14d406729ea1d.jpeg" srcset="/img/loading.gif" alt="Vercel-success" /></p>
-<p>系统会提供一个<em>xxx.vercel.app</em>的自动域名，前面的部分就是你的<em>PROJECT NAME</em>。然后你可以点击<em>View Domains</em>自定义域名。</p>
+<p>系统会提供一个 <em>xxx.vercel.app</em> 的自动域名，前面的部分就是你的 <em>PROJECT NAME</em> 。然后你可以点击 <em>View Domains</em> 自定义域名。</p>
 <p>然后去你购买域名的地方设置DNS记录，系统提供的是默认的DNS记录。</p>
 <div class="hljs"><pre><code class="hljs css"><span class="hljs-selector-tag">A</span>: 76<span class="hljs-selector-class">.76</span><span class="hljs-selector-class">.21</span><span class="hljs-selector-class">.21</span>
 <span class="hljs-selector-tag">CNAME</span>: <span class="hljs-selector-tag">cname</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span></code></pre></div>
@@ -280,7 +280,7 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/trifle/">trifle</a>
+                      <a class="hover-with-bg" href="/tags/blog/">blog</a>
                     
                   </div>
                 
@@ -292,6 +292,12 @@
                 <div class="post-prevnext row">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/p/9520.html">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">引用块样式美化</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">
@@ -376,8 +382,8 @@
 
 <!-- SCRIPTS -->
 
-  <script  src="https://cdn.staticfile.org/nprogress/0.2.0/nprogress.min.js" ></script>
-  <link  rel="stylesheet" href="https://cdn.staticfile.org/nprogress/0.2.0/nprogress.min.css" />
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
 
   <script>
     NProgress.configure({"showSpinner":false,"trickleSpeed":200})
@@ -391,8 +397,8 @@
   </script>
 
 
-<script  src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js" ></script>
-<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.5.3/js/bootstrap.min.js" ></script>
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
 <script  src="/js/debouncer.js" ></script>
 <script  src="/js/events.js" ></script>
 <script  src="/js/plugins.js" ></script>
@@ -410,25 +416,25 @@
 
 
 
-  <script  src="https://cdn.staticfile.org/tocbot/4.12.0/tocbot.min.js" ></script>
+  <script  src="https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js" ></script>
 
 
 
-  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <script  src="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
 
 
 
-  <script  src="https://cdn.staticfile.org/anchor-js/4.3.0/anchor.min.js" ></script>
+  <script  src="https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js" ></script>
 
 
 
-  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script defer src="https://lib.baomitu.com/clipboard.js/2.0.10/clipboard.min.js" ></script>
 
 
 
 
 
-  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
   <script>
     (function (window, document) {
       var typing = Fluid.plugins.typing;
