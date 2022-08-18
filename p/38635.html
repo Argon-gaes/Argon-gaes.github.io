@@ -1,0 +1,494 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://urlshare.img.ink/2022/d10570d139814.png">
+  <link rel="icon" type="image/png" href="https://urlshare.img.ink/2022/d10570d139814.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="essay &amp; trifle">
+  <meta name="author" content="Sun">
+  <meta name="keywords" content="">
+  <title>化学漫谈003 - Sun&#39;s BLOG</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.1.2/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+  
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+  
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"argon-gas.top","root":"/","version":"1.8.5","typing":{"enable":true,"typeSpeed":60,"cursorChar":"_","loop":false},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"copy_btn":true,"image_zoom":{"enable":true},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>Sun's BLOG</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner intro-2" id="background" parallax=true
+         style="background: url('https://urlshare.img.ink/2022/e099c52506fd7.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="化学漫谈003">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2022-07-09 23:14" pubdate>
+        2022年7月9日 晚上
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      1.1k 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      3
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">化学漫谈003</h1>
+            
+            <div class="markdown-body">
+              <p>前段时间身上皮肤偶然出了点小问题，发现买的药中成分很有趣，试做分析。</p>
+<a id="more"></a>
+<p><img src="https://urlshare.img.ink/2022/840020239b10d.png" srcset="/img/loading.gif" alt="化学漫谈003" /></p>
+<h2 id="概述"><a class="markdownIt-Anchor" href="#概述"></a> 概述</h2>
+<p>今天讨论的药物是<strong>醋酸氟轻松</strong>(真的就叫这名字XD),相关数据<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://www.chemsrc.com/cas/67-73-2_242969.html#heChenDiv
+">[1]</span></a></sup>如下:</p>
+<div class="note note-info">
+            <p>中文名：醋酸氟轻松 / 11b-羟基-16a,17-[(1-甲基亚乙基)-双(氧)]-21-(乙酰氧基)-6a,9-二氟孕甾-1,4-二烯-3,20-二酮<br />英文名：fluocinolone acetonide<br />分子结构：<br /><img src="https://urlshare.img.ink/2022/e93634eca17c9.png" srcset="/img/loading.gif" alt="" /><br />分子量：452.488<br />物理化学性质：白色或近白色结晶性粉末，无味。熔点267-269℃。不溶于水，易溶于丙酮，在乙醇、氯仿中溶解，在乙醚中微溶。<br />医学应用：外用适用于对糖皮质激素有效的皮肤病，如接触性皮炎、特应性皮炎、脂溢性皮炎、湿疹、皮肤瘙痒症、银屑病、神经性皮炎等瘙痒性及非感染性炎症性皮肤病。</p>
+          </div>
+<p>另外还有一点比较奇怪，就是这东西和它的酯化产物<strong>氟环素</strong>经常混为一谈，例如百度百科上醋酸氟轻松词条对应的CAS号在另一个化工网站上查得实际上为氟环素。我又用英文名google了一下，查得维基百科上与百度不同，但也有一些医药网站和文献和百度是一样的。总之众说纷纭，我就不去纠结了。</p>
+<h2 id="合成"><a class="markdownIt-Anchor" href="#合成"></a> 合成</h2>
+<p><img src="https://urlshare.img.ink/2022/c60010dfc2596.jpg" srcset="/img/loading.gif" alt="合成方案" /></p>
+<p>该方案<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://pubs.acs.org/doi/abs/10.1021/ja01498a041
+">[2]</span></a></sup>是国外较早之前的一种合成方法，第一步使用<strong>氯化亚铬</strong>来将环氧还原为双键，以前确实见得少，有点陌生的。得到产物Ⅱ</p>
+<p>然后第二步为氧化双键并保护双羟基结构成缩酮。得到产物Ⅲ</p>
+<p>第三步过氧化物氧化双键成环氧，得到产物Ⅳ。文中所给的<strong>单过氧邻苯二甲酸</strong>在实际使用的试剂形态通常是单过氧邻苯二甲酸镁的六水合物，除了氧化剂外还可用作消毒剂。</p>
+<p>第四步使用<strong>三氟化硼</strong>来氟化,得到产物Ⅴ。说实话这个氟化我见的也比较少，我印象中基本三氟化硼都是拿来当LA的（。</p>
+<p>第五步使用<strong>Jones试剂</strong>，选择性氧化一级醇到羧酸,二级醇到醛/酮，丙酮是其常用溶剂。得到产物Ⅵ。</p>
+<p>第六步酸性条件下消除，脱保护。得到产物Ⅷ。</p>
+<p>第七步在微生物作用下羟基化。得到产物Ⅸ。</p>
+<p>第八步开始为上氟做准备，先使用<strong>甲磺酰氯</strong>氯化，然后碱性条件下消除得双键。得到产物Ⅹ。</p>
+<p><img src="https://urlshare.img.ink/2022/bae1edf13326b.jpg" srcset="/img/loading.gif" alt="可能机理" /></p>
+<p>先加成消除的机理，构造磺酰基集团作为离去性更好的LG，然后氯离子亲核取代，再碱性条件下消除。</p>
+<p>第九步在<strong>N-溴代乙酰胺</strong>和<strong>高氯酸</strong>条件下使用<strong>次溴酸</strong>对双键加成，再分子内亲核取代。得到产物Ⅺ。反应比较怪（看不懂，不知道是不是我理解的问题，就不写机理了。</p>
+<p>原文中是这么写的：</p>
+<blockquote>
+<p>Addition of hypobromous acid by N-bromoacetamide in dioxane-perchloric acid gave the 9α-bromo-11β-hydroxy compound</p>
+</blockquote>
+<p>第十步先用醋酸钾处理，文献说使构型转化，我不懂（，然后是在THF-二氯甲烷条件下用<strong>氟化氢</strong>上氟。得到产物Ⅻ。</p>
+<p>最后一步使用<strong>二氧化硒</strong>，氧化构造双键，得到最终产物，流程结束。</p>
+<p><em>最后吐个槽：查资料的时候发现搜索引擎(bing)把三氟化硼，氢氟酸之类的内容屏蔽了，搜索相关内容得到的全是生产事故的新闻报道，让我找资料都很难受。安全工作实在是用力用错方向了，应当提高试剂获取的门槛，不是提高知识获取的门槛，为了安全教育宣传连百科网站都屏蔽了是不是矫枉过正？</em></p>
+<h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2>
+<ul>
+<li>氯化亚铬，作为还原剂常使卤化物脱卤，氨氧化物脱氧，环氧化合物脱氧成烯，醌还原为氢醌。</li>
+<li><a target="_blank" rel="noopener" href="https://www.sohu.com/a/446222303_120133631">Jones氧化反应</a></li>
+<li>甲磺酰氯，氯化剂；酯化、聚合反应的催化剂。</li>
+<li>氟化氢，氟化剂。</li>
+<li>二氧化硒，烯丙位/苄位氧化剂。</li>
+</ul>
+<hr />
+<p>查文献真的折磨，靠着机翻来理解合成路线。</p>
+<h2 id="参考"><a class="markdownIt-Anchor" href="#参考"></a> 参考</h2>
+<section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://www.chemsrc.com/cas/67-73-2_242969.html#heChenDiv">https://www.chemsrc.com/cas/67-73-2_242969.html#heChenDiv</a>
+<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://pubs.acs.org/doi/abs/10.1021/ja01498a041">https://pubs.acs.org/doi/abs/10.1021/ja01498a041</a>
+<a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E5%AD%A6%E5%AD%A6%E5%8C%96%E5%AD%A6/">学学化学</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/chem/">chem</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/p/50082.html">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">可爱的chrome扩展</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/p/24168.html">
+                        <span class="hidden-mobile">《人生海海》读后感</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a><br /> <span>Sun Blog 2020 - 2022</span> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+<!-- SCRIPTS -->
+
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":200})
+    NProgress.start()
+    document.addEventListener('DOMContentLoaded', function() {
+      window.NProgress && window.NProgress.inc();
+    })
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  <script  src="https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js" ></script>
+
+
+
+  <script  src="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js" ></script>
+
+
+
+  <script defer src="https://lib.baomitu.com/clipboard.js/2.0.10/clipboard.min.js" ></script>
+
+
+
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    (function () {
+      var path = "/local-search.xml";
+      var inputArea = document.querySelector("#local-search-input");
+      inputArea.onclick = function () {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+        this.onclick = null
+      }
+    })()
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+
+</body>
+</html>

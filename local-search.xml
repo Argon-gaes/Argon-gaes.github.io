@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>在新电脑上写blog</title>
+    <link href="/p/38687.html"/>
+    <url>/p/38687.html</url>
+    
+    <content type="html"><![CDATA[<p>换了新电脑，花了些工夫把原来台式机上的blog编辑环境迁移到笔记本上。</p><a id="more"></a><p>网上也都有教程，基本上分为以下几步：</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>trifle</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>《ART》章末总结1</title>
+    <link href="/p/11441.html"/>
+    <url>/p/11441.html</url>
+    
+    <content type="html"><![CDATA[<p>最近开始看《The Art of Writing Reasonable Organic Reaction Mechanisms》，简称《ART》。当初学竞赛的时候就一直想着看，但是没看多少还是弃了，现在打算补上来，算是了结心愿。每章看完写个post复盘一下。</p><a id="more"></a><p><em>1.7 Summary</em></p><p><em>Getting started is usually the most difficult part of drawing a mechanism.Follow these simple steps, and you will be well on your way.</em></p><ul><li><em>Label the heavy atoms in starting material and product</em>. 把反应物和产物的对应重原子（除H之外的原子）标号。</li><li><em>Make a list of which σ bonds between non-H atoms are made or broken in going from starting material to product. Do not list π bonds or bonds to H, as they are easier to make and break at will.</em> 将反应物转化为产物过程中非H原子间σ键的断裂和形成列表记录。不用记录π键和C-H键，因为它们很容易随意形成/断裂。</li><li><em>Balance the reaction.</em> 配平反应。</li><li><em>Classify the overall reaction by looking at the starting materials and products, including by-products. Is the reaction an additon, an elimination, a substitution, or a rearrangement? Some reactions may combine two or more of these types.</em> 通过观察反应物，产物和副产物给反应从整体上分类。该反应是加成，消去，取代还是重排？有一些反应可能包括两种及以上的反应类型。</li><li><em>Classify the mechanism by looking at the reaction conditions. Is it polar under basic conditions, polar under acidic conditions, free-radical, pericyclic, or metal-mediated? Some reactions, especially pericyclic ones, may combine two or more of these types.</em> 通过观察反应条件判断机理类型。该反应是在碱性/酸性条件的极性机理，自由基机理，周环机理还是金属有机？一些反应（尤其是周环反应）可能涉及两种及以上机理类型。<br />(<em>Once you have classified the overall reaction and the mechanism, you may have a short series of mechanistic choices. For example, substitution of an aromatic ring under basic conditions generally occurs by one of three mechanisms.</em> 一旦你已经确定反应类型和机理，你就有了一系列的机理选择。例如，碱性条件下的芳环上的(亲核)取代通常是三选一(SNAr、苯炔中间体、SRN1)。)</li><li><em>If the mechanism is polar, determine the nucleophilicity, electrophilicity, and acidity of the atoms to which σ bonds are made and broken. Under basic conditions, the first step is often deprotionation of an acidic atom, rendering it nucleophilic. Under acidic conditions, the first step may be protonation of a leaving group or a π bond.</em> 如果是极性机理，确定（试剂）的亲核性、亲电性，以及成/断键的原子的酸性。碱性条件下，第一步通常是酸性原子的去质子化，使其亲核性增加。酸性条件下，第一步通常是离去基团或π键质子化。</li></ul><p><em>When faced with a mechanism problem, students often ask, How does one know that a particular nucleophile attacks a particular electrophile to give a particular product?</em> 面对一个机理问题时，学生们常问，我怎么知道哪个亲核试剂进攻哪个亲电试剂然后生成什么产物？</p><p><em>The answer to this question is relatively straightforward. A mechanism is a story that you tell about how compound A is transformed into compound B.</em> 问题的答案其实相当朴实无华。一个机理就是你讲一个化合物A如何变成化合物B的故事。</p><p><em>To tell the story, you need to know what the product is! If you do not know what the product is, your story will sound something like the game in which 15 children in turn add one paragraph to a continuing story, and the final version wanders all over the known universe.</em> 要讲这个故事，你得知道产物是什么！如果你不知道的话，你的故事就会听起来像是15个小孩的故事接龙，结果离谱到像是在漫游宇宙。</p><p><em>Sometimes the product will be a minor or unexpected product, but a mechanism problem will always give you the product.</em> 有些时候产物是次要产物或者在预期之外，但是机理题总是会给你产物。</p><p><em>Organic chemists do need to learn how to predict the product of a reaction, but this skill is deemphasized in this text, whose purpose is to help you to learn how to write mechanisms. Only occasionally will you be asked to predict the course of a reaction.</em> 有机化学家们确实需要学习如何预测反应产物，但是这个技巧在该书被淡化，因为本书目的是为了帮助你学习写机理。只是偶尔可能会让你预测反应过程。</p><hr /><p>第一章都是一些基础概念，和邢大本上东西异曲同工。不过国外教材有一点好处是解释很详细，不厌其烦地举例和阐释，便于加深理解。</p><p>写机理的步骤也是十分详细，但是一些简单反应其实用不到一步一步来。比如说标号，如果遇到碳骨架变化很大或者结构复杂的题，一眼看不明白的话，就可以按照他的思路标号对照了。</p><p>再就是质子化的问题，国内教材很多机理都不很标准，经常漏步，有时也不写质子化，我当时练机理还是做的福山题，足够详细严谨。</p><p>课后习题有空的话挑几道写写。</p><hr /><p><em>Chapter Ⅰ</em></p><p><em>2. Indicate which of each pair of compound is likely to be more acidic and why.</em></p><p><img src="https://urlshare.img.ink/2022/9446119e876c3.jpeg" alt="art-1-2(d)" /></p><details><summary>Ans</summary><p><img src="https://urlshare.img.ink/2022/bd7ea3d85fc64.jpeg" alt="art-1ans-2(d)" /></p><p>去质子化后，左侧物质10π电子，符合4n+2芳香性；右侧物质12π电子，反芳香性，不稳定。</p></details><br /><p><img src="https://urlshare.img.ink/2022/2c630166c1277.jpeg" alt="art-1-2(e)" /></p><details><summary>Ans</summary><p><img src="https://urlshare.img.ink/2022/4235172122016.jpeg" alt="art-1ans-2(e)" /></p><p>左侧吡啶环去质子化后，N变为sp2杂化，孤对电子进入sp2杂化轨道，相比于右侧去质子化后的sp3杂化轨道，轨道s成分更多，轨道离核近，重叠部分大，更稳定。</p></details><br /><p><img src="https://urlshare.img.ink/2022/ae6fb88b15349.jpeg" alt="art-1-2(k)" /></p><details><summary>Ans</summary><p><img src="https://urlshare.img.ink/2022/d735f0b01f716.jpeg" alt="art-1ans-2(k)" /></p><p>炔烃端基H酸性比较强，即使左侧物质去质子化后有苯环参与共轭，也没有右侧物质端基H酸性更强。</p></details><br /><p><em>3. Classify each of the following reactions as polar, free-radical, pericyclic, or transition-metal-catalyzed or -mediated. For the polar reactions, determine whether the conditions are basic or acidic.</em></p><p><img src="https://urlshare.img.ink/2022/910b09f2592a3.jpeg" alt="art-1-3(a)" /></p><details><summary>Ans</summary><p>本来我以为是极性机理的，但催化剂是二叔丁基过氧化物，常用作引发剂，所以应为自由基机理。</p></details><br /><p><img src="https://urlshare.img.ink/2022/f1908ccb7dbf5.jpeg" alt="art-1-3(j)" /></p><details><summary>Ans</summary><p>网上查了一下，催化剂二氯二茂锆是Kaminsky型催化体系的主催化剂，该类催化剂催化烯烃高聚的活性和等规度都很高，催化烯烃齐聚亦有文献报道。二氯二茂锆也是Negishi试剂的主要组分，该试剂可用于分子内双烯的成环反应和分子间炔烃与烯烃的成环反应。所以应该是过渡金属媒介的反应。</p></details><br /><p><em>4. Most of the heavy atoms in the starting material(s) in each of the following reactions are numbered. Classify each reaction as polar acidic, polar basic, pericyclic, or free-radical. Then, number the atoms in the product(s) appropriately, and make a list of bonds made and broken between heavy atoms. Assume aqueous workup in all cases.</em></p><p><img src="https://urlshare.img.ink/2022/46fae89fb763c.jpeg" alt="art-1-4(d)" /></p><details><summary>Ans</summary><p><img src="https://urlshare.img.ink/2022/77c130394d15e.jpeg" alt="art-1ans-4(d)" /></p><p>催化剂三苯基膦是Lewis碱，所以机理类型是碱性条件下的极性反应。</p><p>标号是比较容易的，可以从左侧反应物入手，苯基很显眼，容易看出产物左下的部分就是C1，O2，然后环右侧骨架即为右侧反应物。</p></details><br /><p><img src="https://urlshare.img.ink/2022/1bbadf63d2283.jpeg" alt="art-1-4(g)" /></p><details><summary>Ans</summary><p><img src="https://urlshare.img.ink/2022/02b1310ccdbc2.jpeg" alt="art-1ans-4(g)" /></p><p>机理是酸性条件的极性反应，酶催化的反应常能获得特定立体结构的产物，具有特定的生物活性。</p><p>产物的骨架是比较复杂的，可以从反应物左下的C1入手，因为有两个甲基很显眼。然后通过反应物中的有甲基的碳，如C5，C9，C13，来在环上标号。</p><p>这个题有意思的地方就是这几个甲基的位置很有迷惑性，在环上还有一种走法可以对上甲基碳的号，即从C1向下再向右绕。但是这个标号在（正确答案的）键C9-C14的位置是不合理的。</p></details><br /><p><img src="https://urlshare.img.ink/2022/f99802f2f463e.jpeg" alt="art-1-4(h)" /></p><details><summary>Ans</summary><p><img src="https://urlshare.img.ink/2022/c632898c0506b.jpeg" alt="art-1ans-4(h)" /></p><p>首先反应物是有机锂试剂，所以应该是碱性条件极性机理，但产物有扩环和增环，所以实际上还包含周环机理。</p><p>我个人思路和答案略有区别。我注意到反应物和产物都有一个酮羰基，但是反应物中羰基的四元环应该是扩环了，所以可能会破坏羰基，同时三甲基硅最后也下掉了，所以我猜测产物中的羰基应该不是O13，而是O7。</p><p>所以可知产物左侧两个五元环就是反应物的五元和四元环形成的，也有C5的甲基可以验证猜测。然后最右边新形成的第三个环就是有机锂试剂加上去的，从而判断出C14，C15，C16。</p></details><br /><p><img src="https://urlshare.img.ink/2022/e481aea9dd3a2.jpeg" alt="art-1-4(i)" /></p><details><summary>Ans</summary><p><img src="https://urlshare.img.ink/2022/1178dd8fcfde0.jpeg" alt="art-1ans-4(i)" /></p><p>从反应物的苯甲酸得出机理是酸性条件极性机理。</p><p>基团特征很明显，通过-Bn，-Ph和甲基容易标号。容易搞错的是几个氧的标号，不过我感觉O3，O5应该可以互换，毕竟羧酸可以写共振式。</p></details><br /><p><img src="https://urlshare.img.ink/2022/d747dff60a981.jpeg" alt="art-1-4(k)" /></p><details><summary>Ans</summary><p><img src="https://urlshare.img.ink/2022/b815f9eb765c9.jpeg" alt="art-1ans-4(k)" /></p><p>臭氧化，其实是周环机理。广泛接受的机理是Criegee机理，即先发生1，3-偶极环加成生成一级臭氧化物，再裂环后环加成生成二级臭氧化物，即图中产物结构。</p><p>标号依然从明显的基团入手，如C8的两个甲基，然后可以以此确定下面环的标号，和反应物基本没有变化。比较复杂的依然是氧的标号，臭氧是和烯烃发生环加成，所以猜测O4-C3没有断裂，所以就确定了O4位置。也就确定了剩下三个氧都来自臭氧。</p><p>如果不清楚臭氧化机理的话，剩下三个氧是无法判断标号的，不过我们直到臭氧端基氧和中间的氧是不一样的，所以可以猜测那个羟基里的氧应该是端基氧，即O9或O11。</p></details><br /><p><img src="https://urlshare.img.ink/2022/12a595468dd7e.jpeg" alt="art-1-4(m)" /></p><details><summary>Ans</summary><p><img src="https://urlshare.img.ink/2022/16e9278c52e3a.jpeg" alt="art-1ans-4(m)" /></p><p>首先试剂是溴，又看到产物上了个溴，条件里又没写明光照，所以应该是烯烃亲电加成，机理是酸性条件极性机理。</p><p>产物结构发生了比较大的变化，不过羰基结构还在，可以从C6入手。然后答案给出了观察二级碳的方法，反应物中二级碳只有C4，C7，产物中只有一个二级碳，且不与C6相邻，所以猜测是C4。</p><p>溴与烯烃反应，所以与溴相连的应该是C2或C3，再结合刚判断出的C4可知应为C3，然后最后就剩一个C1是产物里环上方的那个碳。</p></details><br /><p>写完了，第一章结束。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学学化学</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>chem</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>《夜晚的潜水艇》读后感</title>
+    <link href="/p/57640.html"/>
+    <url>/p/57640.html</url>
+    
+    <content type="html"><![CDATA[<p>假期的第三本书，这一本是在外面书店里花了3个多小时一气读完，深觉文字波谲云诡，变化莫测，决心买回来记录一下读感。</p><a id="more"></a><p><strong>剧透警告</strong></p><h2 id="1关于故事"><a class="markdownIt-Anchor" href="#1关于故事"></a> 1.关于故事</h2><p>这是陈春成的第一部短篇小说集，气质独特，写出了他独特的风格。</p><p>全书包括9篇短篇小说，有一些篇幅稍短，情节略显集中，主旨表达相对清晰。如《夜晚的潜水艇》、《传彩笔》等。</p><p>有一些则更突出为记叙一些感受和情绪，语言也更天马行空，随性而至，如《竹峰寺》，《李茵的湖》等。</p><p>另一些则更大胆随性，碎片化和意识流叙述贯穿全文，用作者自己的话来说：“ <em>我希望写出像《B小调弥撒》中某些段落展现出的飘忽、幽暗的梦幻气质</em> “，小说参杂着对意义、价值、自我实现的宏观问题的哲思，但又以极精微的角度细致落笔，借小说中人物之口提现自己的思考。</p><p>作者对故事真实性的营造颇有匠心，行云流水地衔接，不遗余力的铺垫和设计伏笔，使得有些故事虽然离奇荒诞，文本逻辑却连贯通顺。故事情节环环相扣，首尾圆合，让人读来不觉有不合理之处。这是极为难得的。</p><p>小说故事的展开基本上都是以某人口述、某人日记、某人文章或心理活动为载体，也很好的符合了陈春成文字灵动奇幻的特点。同时作者长于精妙地描述那种模模糊糊，难以言说的细微感受，通篇遍布着奇妙的想象和生动的比喻、类比，多用人物内心描写来串联情节，行文细腻。</p><p>在《夜晚的潜水艇》、《竹峰寺》、《音乐家》等篇目中，故事往往多向延伸，叙事跳跃，但前文常不经意间埋下伏笔，直到高潮或结尾时多线收束，才让人觉出妙处，回味无穷。</p><p>显而易见的，这种写法也存在一定的缺陷，叙事跳跃性过强可能会让读者观感较差，难以把握文本线索，又加上小说主旨并不显然，更重于描绘一种感受，所以很有可能读完一头雾水。</p><p>还有一个我很喜欢的处理是小说的结尾设计，在文章最末端通常会以几句话收束全文，但用语含蓄，平淡却含韵颇丰，如留白之效，有余音绕梁之感。很多篇目含蓄的结尾设计，让人沉浸在故事中难以自拔，也营造了一种“曲终人散，朱弦已绝”的悲凉与怅惘。</p><h2 id="2关于人物"><a class="markdownIt-Anchor" href="#2关于人物"></a> 2.关于人物</h2><p>仅选取个别篇目的主要人物，试做分析。</p><p><strong>陈透纳 - 《夜晚的潜水艇》</strong></p><p>首先这个名字含有深意：透纳是英国著名的风景画家，尤擅富有想象力的风景和海景。因而也暗示了主人公的丰富的想象力。</p><p>他在小时候想象力惊人，能从几个人名想象他们的生平经历，几个词语便能编出完整的故事，看到一幅画便可置身游览，即使盯着灰尘也能幻想星球的形成与发展。他的想象力如藤蔓般恣肆蔓延。但这种游离人世的想象让他不像个正常人，影响了学习和生活，最终迫于父母给出的现实压力，陈透纳放弃了自己的想象力。成为了一个俗世意义上的正常人。</p><p>他中年时开始绘画，实际是在追忆他幼时的想象，但是没有新的想象图景的补充，终有“江郎才尽”的那一天，不过他才华耗尽的时期并非中年停止作画之后，而是他十六岁放弃想象力的时候。他余生的绘画成就，“不过是火焰熄灭后升起的几缕青烟罢了”。</p><p>热烈盛大的幻想远比现实丰富有趣，但现实压力对人确实也无法忽视，保持二者的平衡往往可望不可及。陈透纳的选择对错难下定论，只好去感受那种“此情可待成追忆”的惘然。</p><p><strong>叶书华 - 《传彩笔》</strong></p><p>他是一个朴素的县城作家，在艺术上野心不大，下笔平和端正，但文笔往往不错，擅长的老式散文难以吸引到读者，也少被文学圈接受。</p><p>这样一个朴实无华的业余作家，直到在梦中从老人那里得到了一支“传彩笔”，然后便能写出文采绝代的文章。代价是只有他自己能看到这些文字。</p><p>他先是沉醉在写作中，尽情肆意地发挥自己的才能，但是由于作品无法被他人看见，所以人们以为他“江郎才尽”了。</p><p>他只能忍受写成之后的狂喜和无人分享的沮丧，并且产生了“胜事空自知”的怀疑。文中写道：</p><blockquote><p>我渴望听到别人的评价，来将这狂喜落到实处。有时我甚至想，要是当初没有得到这支笔，凭着仅有的一点天分努力下去，似乎也会有一个不错的人生，我尽力写一些还过得去的东西，得一点肯定，再踏实地写下去。那种欢乐虽然细碎，毕竟是细碎的珠玉。</p></blockquote><p>因为他的自我怀疑，那支传彩笔便离他而去，仿佛容不得一点不虔诚。他也渐渐的从失去传彩笔的懊恼，变成了接纳和释然。之前记录那些精妙作品的本子全部变成了空白，他把它们放在枕头下，枕着曾经用文字构建的宇宙，坠入日常琐碎的梦中。</p><p>小说探讨了写作者和读者关系的问题，如果作家写作仅仅是为了自己，那只好忍受无人理解，无人分享的折磨；如果完全为了读者而写出不能取悦自己的文章，“可以惊四座，不可适独坐”，又失其本心。</p><p>“我是梦中传彩笔，欲书花叶寄朝云”的自甘寂寞不是每个人都能做到，更需要在自己和读者间找到微妙平衡，“兴到闲拈笔，诗成懒示人”。叶书华历经了无言的伟大，伟大的背后则是孤独。</p><p><strong>&quot;我&quot; - 《裁云记》</strong></p><p>小说以第一人称叙述，主人公并未提及他自己的姓名，仅知道他已经当上爷爷，年纪应该不小。</p><p>“我”在城中的任务就是在云彩管理局中修剪云彩，把它们按照领导规定修剪成“卡通画里的样子，胖乎乎的，看起来很温顺”。</p><p>工作之余的闲暇时光则完全属于个人，“我”沉浸于研究各种学问，“像在洞穴中行走，前方有许多通道，每一条都深不见底”。我想要从中选择一条作为毕生的事业，却又下不了决心。</p><p>直到“我”拜访了老师生前的一位老友，他正是那种坠入洞穴的人，在研究古人对联的路上一去不返。与他的这次交流，也让我有了深入研究的动力。</p><p>小说结尾，作者用很戏谑的方式让“我”与狐狸和老龟斗地主，以命数作为赌注，从而拥有了几千年寿命，真正醉心研究。</p><p>文中有这样一段话：</p><blockquote><p>有的人注定会掉进某件事情里去，绕也绕不开。有的人就不会，一辈子活在洞穴和陷阱之外，一样活的好好的。通常会更好。</p></blockquote><p>那洞穴就是无穷无尽的学问，有时选择了它需要很大勇气，往往也会遭受惨痛代价，以至人们往往远离洞穴和洞穴的黑暗。一如在理想和现实间选择后者。</p><p>小说里的“我”通过一种聊斋般的方法获得了几千年的寿命，从而放心地钻研。而现实的我们显然没有这样机遇，我们能学习的，似乎只有那位钻研古人对联的老教授，学习他的勇气、决心和热爱。</p><p><strong>李茵 - 《李茵的湖》</strong></p><p>李茵与“我”在园林中闲逛，在一个从未去过的园林中却有熟悉的感觉。后来“我”帮助李茵寻找她童年回忆里和家人野营的湖边，才发现湖边一座小桥的材质和园林里树池的材质是同一种，她因而感到莫名的熟悉却回想不起来。原文写道：</p><blockquote><p>并非宇宙间有什么隐秘的牵连，是人的记忆常把不相干的事物无端地牵扯到一起。甚至当记忆的真伪都无从考证时，记忆所引起的情绪还潜藏在某些细节中。</p></blockquote><p>李茵的种种看似反常的行为也是陷入“记忆的情绪”的体现，对于一段记忆，其他参与者早都随手抛弃，只有自己还视若珍宝的悲怆感受让李茵深深痛苦却难以忘怀。</p><p>在寻找的过程中，不断清晰的线索一方面让她十足兴奋，另一方面又令她忐忑。而到了找到真相的那一刻，所有的事全部释怀，神秘的回忆转变为伤感的慰藉，最后只剩近乎抽象的哀伤。</p><p><strong>古廖夫 - 《音乐家》</strong></p><p>古廖夫在少年时代就一直梦想成为作曲家，他考入了音乐学院，向着自己的梦想一步步坚定前进，直到他出了车祸意外获得了通感的能力。这能力允许他只是看着乐谱就能具化出乐谱所想表达的画面，古廖夫能够无比细致地感受音乐，却也因为太过细致而被扰乱到心力交瘁，因此他不再听音乐和演奏音乐。</p><p>那时的苏联正推行文化监管，国家设计了一个乐曲审查办公室，被外界音乐家们称为“圣所”，负责审核音乐中是否有“奢靡的资本主义气息”，来“保护全国人民的耳朵”。全国所有音乐必须经圣所审核后才能出版发行，如萨克斯之类的乐器也因为不合规定而被禁止。</p><p>古廖夫因为意外获得的通感能力进入了乐曲审查办公室，工作到了53岁因精神衰弱而退休。</p><p>他的邻居瓦尔金是一个热爱音乐的大学生，并私藏了一把违规的萨克斯。某晚他在演奏时被警察发现，警察们开始搜索他家里是否私藏乐器。古廖夫出于对他的同情和对音乐热爱吹奏单簧管引开了警察，却也意外激活了他隐藏多年的“音乐人格”。</p><p>他一边继续追求着自己的作曲梦想（尽管他自己都没意识到），另一方面胆战心惊地工作，审核音乐家们提交的乐曲。迫于现实压力，他不得不拒绝那些写的不错却不符规定的音乐（也包括他自己的曲子），而是让那些“上头喜欢的激昂音乐”通过审核。</p><p>直到这一次帮助大学生意外唤醒了他意识里那个热爱音乐，一直在作曲的人格“穆辛”。穆辛请求他在意识里演奏他自己的作品，但是古廖夫还是害怕现实音乐监管的压力，始终不敢答应。后来他终于释然，在想象中演奏了自己的音乐，完成了对音乐的最终追求和对现实的无声反抗。</p><p>古廖夫代表着现实的压力，而穆辛则代表着梦想与浪漫，很长一段时间里，古廖夫占主导地位，他兢兢业业的工作，埋葬了自己的梦想。但他其实没有真正放弃，还是在潜意识里默默追求音乐。现实压力始终存在，却依然没有放弃梦想和抵抗。</p><p>原文写道：</p><blockquote><p>古廖夫一生积攒下的挫败感，在这一刻突然汹涌而至。他想起年轻时，有那么几年，毫不怀疑自己是个天才，他忘情地写着，稚拙的作品曾备受师友的夸赞；他沉醉在自己手造的光芒里，对未来满怀热望，相信自己能成为任何想成为的人物……他想起一个醉醺醺的夜晚，他坐在音乐学院的广场上，旁若无人地指挥着月光下飞驰的云影，澄鲜的乐句像从天外直灌入他的灵魂，他在黑暗中放声大笑……可到头来他又做成了什么呢？如今他跌坐在岁月的尽头，沮丧地认识到，这一生非但不是幸福的，甚至也不配称为不幸，因为整个的一生都用在了战战兢兢地回避着不幸，没有一天不是在提防，在忧虑，在克制，在沉默中庆幸，屈从于恐惧，隐藏着厌恶，躲进毫无意义的劳累中，期盼着不可言说的一切会过去，然后在忍受中习惯……</p></blockquote><p>也许我们也会像古廖夫一样经历社会的毒打后被磨平棱角，但是别忘记对梦想的不懈追求，别忘记内心不断呐喊的声音。</p><p>别忘记那只紫翅椋鸟。</p><h2 id="3关于作者"><a class="markdownIt-Anchor" href="#3关于作者"></a> 3.关于作者</h2><p>陈春成，1990年出生，本业是土木工程师，在泉州一个管理松散的植物园里工作。</p><p>对他来说，成名是个意外，他就像一个踢野球的球员，突然被大量观众关注，空中还传来解说员的声音，让他感觉很不自然。</p><p>最早他在豆瓣上每隔几月贴一篇小说，语言清新飘逸，得到了很多人的喜爱，人们甚至会把他的作品打印下来反复阅读，这在现代社会来看是几乎复古的行为。</p><p>2020年，他的第一部短篇小说集出版，收录了他的九篇短篇小说。这本书畅销无阻，多次加印，被各种文学奖评为年度作品，也让陈春成走到了大众眼前。</p><p>他在出名之后，有很多媒体去找他做采访，我看了他很多采访和介绍，确如他自己所言是个不善于表达自己的人，但富于想象力，一如他笔下《夜晚的潜水艇》中的主人公。</p><p>他是个很随性的人，常常解构问题，不会满口写作理论，但他对于写作，尤其是文学语言，有一种近乎偏执的要求，所谓“文字洁癖”。同时也足够的淡泊名利，各种文学奖项的评审让大众对于他的关注居高不下，他坦言在这样的状态下很难进行写作，“ <em>（书）其实现在都已经出版一年了，我想宝珀理想国文学奖应该是最后一波了吧，反正我现在就提起精神来，想着等这一波过去了就好了</em> ”。</p><p>我第一次看陈春成的作品，立刻就想到了双雪涛，他们两个有些相同之处，语言上天马行空的想象，结构上精巧的设计，但是他们两个又有很大不同。借用网上看到的一句话，”陈春成的文字更仙一点，双雪涛的文字更俗一点“。双雪涛的文字是很”粗粝“的，叙事语言是一种不加修饰的原始；陈春成则追求一种古典的韵味——或者说不是”追求“，只是一种审美——语言的工整典雅。他自言迷恋过一段时间的博尔赫斯，”我迷恋他的玄思，他的腔调，他叙事技法的精省和偶尔的恣肆“，体现的是一种他对寂静诡异氛围的偏爱。</p><p>最后，陈春成在访谈时也相当率真，回答常让我忍俊不禁，摘录几则：</p><blockquote><p>李诞：黄昏，一个见证过消沉的人，比如我，一颗已经野掉的心，该怎么收拾，还有救吗？</p><p>陈春成：不知道怎么回答，就这样吧。</p><p>李诞：最后一个问题，知道你不喝酒，不喜欢社交，如果我非要去植物园找你玩，我们可以做什么？或者，你会怎么拒绝我？</p><p>陈春成：我挺喜欢喝酒的，不过经常都是在家独酌。我感觉自己有一个年度社交额度，超过额度的话就会觉得很消耗。看处于什么阶段吧，不过我们的植物园确实没什么可玩的，不如去别处喝酒。</p></blockquote><p><a href="https://baijiahao.baidu.com/s?id=1720386077378580537">年度作家陈春成回答李诞：作家的名气意味着什么</a></p><blockquote><p>傅适野：陈春成是一位比较有挑战性的嘉宾，会把很多问题解构掉，或者会认为一些问题不重要。一方面，我很能理解这种作为创作者的感受——面对外界纷繁的声音，创作者没有义务去解释为什么要这么写，也没有义务去一定要回应这些批评家的理论和术语。但另外一方面，作为你的读者，我也确实很好奇你是怎么想的、为什么能创作出这样的一些作品。在做这期节目的时候，我自己也会在这两个立场之间摇摆。所以在刚刚的聊天里，我会觉得可能我们的一些问题会让你觉得不那么舒服，或者不是那么想回答的时候，我也会觉得有一点抱歉。</p><p>陈春成：不是不是，主要是这些问题或者说类似的话说过一些，我就觉得有点厌倦，一直聊自己、不断剖析自己或者看别人剖析自己、回应这些问题，我觉得应该会折损自己的精力。</p><p>一方面我觉得对写作好像帮助不太大，对阅读帮助也不太大，对于书、对于风格比较独特或者小众的一些东西，我们不用那么细致地去剖析它的味道，有些人看了就是不喜欢，或者有些人看了不需深究就喜欢，这可能是我现阶段对于理论的一种抗拒吧。</p></blockquote><p><a href="https://new.qq.com/omn/20211027/20211027A05ERQ00.html">陈春成：让我躲在书的后面，忘掉张大千的胡子</a></p><blockquote><p>中华读书报：《裁云记》也是有很多隐喻的作品，特别是关于云彩管理局的描写。</p><p>陈春成： 那就是一种控制欲吧，是对整齐的癖好。我写这篇的时候，没有想这么多，觉得我的想法在作品中藏得挺隐秘的。有些网上的短评说我的小说没有现实气息，但是现实气息要是写得太现实了，也就没意义了。这样的隐喻，我用过一次就不再想用了。对抗这个世界的方式，不用那么单一。</p></blockquote><p><a href="http://www.chinawriter.com.cn/n1/2020/1111/c405057-31927362.html">陈春成：对抗世界的方式不必太单一</a></p><h2 id="4后记"><a class="markdownIt-Anchor" href="#4后记"></a> 4.后记</h2><p>这本书是最近看的最爽的小说集了，好久没有这种读小说的感觉了。不过也可能是因为在书店读的比较投入吧，但是他的小说风格和文笔确实很对我胃口。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>记录读感</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>book</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>引用块样式美化</title>
+    <link href="/p/9520.html"/>
+    <url>/p/9520.html</url>
+    
+    <content type="html"><![CDATA[<p>早就想对默认的引用块的样式美化一下了，中间过程却是出人意料的折磨，不过最终得到了不错的结果。特此记录。</p><a id="more"></a><p>markdown默认的引用块非常简陋，如图：</p><p><img src="https://urlshare.img.ink/2022/b157ee4ab1a55.jpeg" alt="qoute-default" /></p><p>于是我在网上找了找教程，想要对其优化。不过很尴尬的是网上大多数都是代码块的美化，想想大多写blog的都是程序员，对代码块需求显然更多一些。</p><p>不过我终于还是找到了一个日本的网站：<a href="https://saruwakakun.com/html-css/reference/blockquote">CSSで作る！魅力的な引用デザインのサンプル30（blockquote）</a></p><p>里面详尽地给出了很多种引用块的css样式（似乎要挂梯子才能正常浏览css），我挑了一个自己看着顺眼的使用，如下图所示：</p><p><img src="https://urlshare.img.ink/2022/350eed7522059.jpeg" alt="qoute-view" /></p><p>然后将其给出的css代码复制下来，如下：</p><pre><code class="hljs css"><span class="hljs-selector-tag">blockquote</span> &#123;    <span class="hljs-attribute">position</span>: relative;    <span class="hljs-attribute">padding</span>: <span class="hljs-number">7px</span> <span class="hljs-number">16px</span>;    <span class="hljs-attribute">box-sizing</span>: border-box;    <span class="hljs-attribute">font-style</span>: italic;    <span class="hljs-attribute">color</span>: <span class="hljs-number">#585858</span>;    <span class="hljs-attribute">border</span>: solid <span class="hljs-number">3px</span> <span class="hljs-number">#585858</span>;&#125;<span class="hljs-selector-tag">blockquote</span><span class="hljs-selector-pseudo">:before</span>&#123;    <span class="hljs-attribute">display</span>: inline-block;    <span class="hljs-attribute">position</span>: absolute;    <span class="hljs-attribute">top</span>: -<span class="hljs-number">20px</span>;    <span class="hljs-attribute">left</span>: -<span class="hljs-number">20px</span>;    <span class="hljs-attribute">width</span>: <span class="hljs-number">40px</span>;    <span class="hljs-attribute">height</span>: <span class="hljs-number">40px</span>;    <span class="hljs-attribute">line-height</span>: <span class="hljs-number">40px</span>;    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">50%</span>;    <span class="hljs-attribute">text-align</span>: center;    <span class="hljs-attribute">content</span>: <span class="hljs-string">&quot;\f10d&quot;</span>;    <span class="hljs-attribute">font-family</span>: FontAwesome;    <span class="hljs-attribute">background</span>: <span class="hljs-number">#585858</span>;    <span class="hljs-attribute">color</span>: <span class="hljs-number">#FFF</span>;    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">22px</span>;&#125;<span class="hljs-selector-tag">blockquote</span><span class="hljs-selector-pseudo">:after</span>&#123;    <span class="hljs-attribute">display</span>: inline-block;    <span class="hljs-attribute">position</span>: absolute;    <span class="hljs-attribute">bottom</span>: -<span class="hljs-number">20px</span>;    <span class="hljs-attribute">right</span>: -<span class="hljs-number">20px</span>;    <span class="hljs-attribute">width</span>: <span class="hljs-number">40px</span>;    <span class="hljs-attribute">height</span>: <span class="hljs-number">40px</span>;    <span class="hljs-attribute">line-height</span>: <span class="hljs-number">40px</span>;    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">50%</span>;    <span class="hljs-attribute">text-align</span>: center;    <span class="hljs-attribute">content</span>: <span class="hljs-string">&quot;\f10e&quot;</span>;    <span class="hljs-attribute">font-family</span>: FontAwesome;    <span class="hljs-attribute">background</span>: <span class="hljs-number">#585858</span>;    <span class="hljs-attribute">color</span>: <span class="hljs-number">#FFF</span>;    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">22px</span>;    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">900</span>;&#125;<span class="hljs-selector-tag">blockquote</span> <span class="hljs-selector-tag">p</span> &#123;    <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;    <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span> <span class="hljs-number">0</span>;    <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.7</span>;&#125;<span class="hljs-selector-tag">blockquote</span> <span class="hljs-selector-tag">cite</span> &#123;    <span class="hljs-attribute">display</span>: block;    <span class="hljs-attribute">text-align</span>: right;    <span class="hljs-attribute">color</span>: <span class="hljs-number">#888888</span>;    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">0.9em</span>;&#125;</code></pre><p>然后可以通过自定义css的方法引入blog，或者也可以通过直接修改main.css的方法。前者更加灵活，而且我使用的Fluid主题并不支持main.css的修改，所以选用自定义css。</p><p>在主题配置文件里修改引入的自定义css（不同主题修改方式可能不同，请以自己使用主题为准）:</p><pre><code class="hljs yml"><span class="hljs-comment"># _config.fluid.yml</span><span class="hljs-attr">custom_css:</span> <span class="hljs-string">/css/custom.css</span></code></pre><p>之后对应位置新建 <em>custom.css</em> ，填入刚刚的css。但是并不能直接生效，因为原网站引用了 <em>FontAwesome</em> 字体资源，用来显示引用块前后的两个引号图标，我的blog并没有，所以需要更改。</p><p>这里我选择了阿里的iconfont图标库，首先注册账号，可以直接用Github账号登录。然后挑选合适的图标，选好后 <em>添加入库</em> ，然后把图标 <em>添加至项目</em> 。</p><p><img src="https://urlshare.img.ink/2022/3eef02be877fe.jpeg" alt="iconfont-cart" /></p><p>在项目中，可以 <em>查看在线链接</em> ，获取到css引用的字体文件的链接，这些文件储存在阿里的cdn上，速度很快。之前因为cdn问题，在线链接取消过一段时间，如果想要稳定可以考虑本地存放，不过阿里的cdn应该还是比较靠谱的。</p><p><img src="https://urlshare.img.ink/2022/422e9c9383f35.jpeg" alt="iconfont-project" /></p><p>然后 <em>下载至本地</em> ，在压缩包里可以发现一个 <em>iconfont.css</em> ，把里面内容复制到刚刚的 <em>custom.css</em> ，之后再把获取的链接替换 <em>@font-face</em> 部分，并修改原css中的 <em>font-family</em> 为 <em>iconfont</em> ；<em>content</em> 修改为对应的代码。</p><p>之后理论上就可以显示了，如下图：</p><p><img src="https://urlshare.img.ink/2022/0c798ff39251e.jpeg" alt="quote-bug" /></p><p>emm…有点不对劲？可以看到引用块最左侧一条是灰色的，但是正常情况下应该是一个黑色的框完全包围。</p><p>其实把hexo默认的样式取消掉就行了，不同主题设置可能不同，但是Fluid主题的css是引用的外部文件，我改不了。</p><p>这个问题困扰了我很久很久，直到我听说了 <em>css权重</em> 的概念，通过使用 <em>!important</em> 关键字让我们的css以更高权重覆盖默认的css即可。</p><p>最终修改后代码如下：</p><pre><code class="hljs css"><span class="hljs-keyword">@font-face</span> &#123;    <span class="hljs-attribute">font-family</span>: <span class="hljs-string">&#x27;iconfont&#x27;</span>;  <span class="hljs-comment">/* Project id 3536603 */</span>    <span class="hljs-attribute">src</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">&#x27;//at.alicdn.com/t/c/font_3536603_x2bmwypdoxm.woff2?t=1659431597857&#x27;</span>) <span class="hljs-built_in">format</span>(<span class="hljs-string">&#x27;woff2&#x27;</span>),         <span class="hljs-built_in">url</span>(<span class="hljs-string">&#x27;//at.alicdn.com/t/c/font_3536603_x2bmwypdoxm.woff?t=1659431597857&#x27;</span>) <span class="hljs-built_in">format</span>(<span class="hljs-string">&#x27;woff&#x27;</span>),         <span class="hljs-built_in">url</span>(<span class="hljs-string">&#x27;//at.alicdn.com/t/c/font_3536603_x2bmwypdoxm.ttf?t=1659431597857&#x27;</span>) <span class="hljs-built_in">format</span>(<span class="hljs-string">&#x27;truetype&#x27;</span>);&#125;<span class="hljs-selector-class">.iconfont</span> &#123;        <span class="hljs-attribute">font-family</span>: <span class="hljs-string">&quot;iconfont&quot;</span> <span class="hljs-meta">!important</span>;        <span class="hljs-attribute">font-size</span>: <span class="hljs-number">16px</span>;        <span class="hljs-attribute">font-style</span>: normal;        <span class="hljs-attribute">-webkit-font-smoothing</span>: antialiased;        <span class="hljs-attribute">-moz-osx-font-smoothing</span>: grayscale;&#125;  <span class="hljs-selector-class">.icon-quoteleft</span><span class="hljs-selector-pseudo">:before</span> &#123;        <span class="hljs-attribute">content</span>: <span class="hljs-string">&quot;\e7d1&quot;</span>;&#125;  <span class="hljs-selector-class">.icon-quote-right</span><span class="hljs-selector-pseudo">:before</span> &#123;        <span class="hljs-attribute">content</span>: <span class="hljs-string">&quot;\e909&quot;</span>;&#125;<span class="hljs-selector-tag">blockquote</span> &#123;    <span class="hljs-attribute">position</span>: relative;    <span class="hljs-attribute">padding</span>: <span class="hljs-number">7px</span> <span class="hljs-number">16px</span> <span class="hljs-meta">!important</span>;    <span class="hljs-attribute">box-sizing</span>: border-box;    <span class="hljs-attribute">color</span>: <span class="hljs-number">#585858</span>;    <span class="hljs-attribute">border</span>: solid <span class="hljs-number">3px</span> <span class="hljs-number">#585858</span> <span class="hljs-meta">!important</span>;&#125;<span class="hljs-selector-tag">blockquote</span><span class="hljs-selector-pseudo">:before</span>&#123;    <span class="hljs-attribute">display</span>: inline-block;    <span class="hljs-attribute">position</span>: absolute;    <span class="hljs-attribute">top</span>: -<span class="hljs-number">20px</span>;    <span class="hljs-attribute">left</span>: -<span class="hljs-number">20px</span>;    <span class="hljs-attribute">width</span>: <span class="hljs-number">40px</span>;    <span class="hljs-attribute">height</span>: <span class="hljs-number">40px</span>;    <span class="hljs-attribute">line-height</span>: <span class="hljs-number">40px</span>;    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">50%</span>;    <span class="hljs-attribute">text-align</span>: center;    <span class="hljs-attribute">content</span>: <span class="hljs-string">&quot;\e7d1&quot;</span>;    <span class="hljs-attribute">font-family</span>: iconfont;    <span class="hljs-attribute">background</span>: <span class="hljs-number">#585858</span>;    <span class="hljs-attribute">color</span>: <span class="hljs-number">#FFF</span>;    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">19px</span>;&#125;<span class="hljs-selector-tag">blockquote</span><span class="hljs-selector-pseudo">:after</span>&#123;    <span class="hljs-attribute">display</span>: inline-block;    <span class="hljs-attribute">position</span>: absolute;    <span class="hljs-attribute">bottom</span>: -<span class="hljs-number">20px</span>;    <span class="hljs-attribute">right</span>: -<span class="hljs-number">20px</span>;    <span class="hljs-attribute">width</span>: <span class="hljs-number">40px</span>;    <span class="hljs-attribute">height</span>: <span class="hljs-number">40px</span>;    <span class="hljs-attribute">line-height</span>: <span class="hljs-number">40px</span>;    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">50%</span>;    <span class="hljs-attribute">text-align</span>: center;    <span class="hljs-attribute">content</span>: <span class="hljs-string">&quot;\e909&quot;</span>;    <span class="hljs-attribute">font-family</span>: iconfont;    <span class="hljs-attribute">background</span>: <span class="hljs-number">#585858</span>;    <span class="hljs-attribute">color</span>: <span class="hljs-number">#FFF</span>;    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">19px</span>;    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">900</span>;&#125;<span class="hljs-selector-tag">blockquote</span> <span class="hljs-selector-tag">p</span> &#123;    <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;    <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span> <span class="hljs-number">0</span>;    <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.7</span>;    <span class="hljs-attribute">color</span>: <span class="hljs-number">#76828e</span>;&#125;<span class="hljs-selector-tag">blockquote</span> <span class="hljs-selector-tag">cite</span> &#123;    <span class="hljs-attribute">display</span>: block;    <span class="hljs-attribute">text-align</span>: right;    <span class="hljs-attribute">color</span>: <span class="hljs-number">#888888</span>;    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">0.9em</span>;&#125;</code></pre><p>这是我个人blog的设置，仅供参考。然后成果如下：</p><p><img src="https://urlshare.img.ink/2022/7a1f2324da9e8.jpeg" alt="qoute-success" /></p><p>总算解决了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>网络技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>将Blog部署到Vercel</title>
+    <link href="/p/59846.html"/>
+    <url>/p/59846.html</url>
+    
+    <content type="html"><![CDATA[<p>最近还是在想办法优化网站的访问速度，然后发现了一个不错的静态托管平台：<strong>Vercel</strong>。</p><p>能将blog托管在上面，且速度比gitpage更快。</p><a id="more"></a><p>大概理解，Vercel提供静态资源的托管服务，所以我们可以把托管在Github上的blog转移到Vercel上。Vercel在中国也有服务器，所以可以获得更快的访问速度。Vercel也支持自定义域名，而且完全免费。</p><p>第一步要有一个Github仓库，也就是blog的仓库。</p><p>第二步注册一个Vercel账号。注册时可以直接选用Github登录，很方便。</p><p>第三步将Github仓库导入Vercel。首先在主页（Hobby）选择 <em>New Project</em> 。然后会看到如图界面。</p><p><img src="https://urlshare.img.ink/2022/6a5ae5fdda785.jpeg" alt="Vercel-import" /></p><p>我这里已经导入了仓库，如果是第一次使用，应该先选择左侧的下拉栏，选择 <em>Add Github Account</em> 增加一个账户，然后按照提示给需要部署的仓库安装Vercel，然后将其导入即可。</p><p><img src="https://urlshare.img.ink/2022/0e1f758b3bab8.jpeg" alt="Vercel-project" /></p><p><em>PROJECT NAME</em> 一栏填入项目名，与默认提供的系统域名有关。</p><p>这里要注意 <em>FRAMEWORK PRESET</em> 一栏，它提供了多种框架供你选择。我这里默认的是 <em>Other</em> ，我之前试过使用 <em>Hexo</em> 的框架，发现blog无法正常加载，而使用默认的 <em>Other</em> 就好了(。总之系统会自动识别你的仓库内容，然后选择框架，如果默认的框架没有生效，可以再自己选择对应的框架。</p><p>然后部署，成功后应该是这个界面:</p><p><img src="https://urlshare.img.ink/2022/14d406729ea1d.jpeg" alt="Vercel-success" /></p><p>系统会提供一个 <em>xxx.vercel.app</em> 的自动域名，前面的部分就是你的 <em>PROJECT NAME</em> 。然后你可以点击 <em>View Domains</em> 自定义域名。</p><p>然后去你购买域名的地方设置DNS记录，系统提供的是默认的DNS记录。</p><pre><code class="hljs css"><span class="hljs-selector-tag">A</span>: 76<span class="hljs-selector-class">.76</span><span class="hljs-selector-class">.21</span><span class="hljs-selector-class">.21</span><span class="hljs-selector-tag">CNAME</span>: <span class="hljs-selector-tag">cname</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span></code></pre><p>在21年5月，Vercel的IP曾经被墙过，不过后来修复了，官方也新增了针对中国优化的DNS，也可以使用这个：</p><pre><code class="hljs css"><span class="hljs-selector-tag">A</span>: 76<span class="hljs-selector-class">.223</span><span class="hljs-selector-class">.126</span><span class="hljs-selector-class">.88</span><span class="hljs-selector-tag">CNAME</span>: <span class="hljs-selector-tag">cname-china</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span></code></pre><p>然后修改DNS服务器为：</p><pre><code class="hljs css"><span class="hljs-selector-tag">ns1</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span><span class="hljs-selector-tag">ns2</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span></code></pre><p>配置可能要十分钟到几小时才会生效，配置完成后可以在Vercel的域名管理处看到下图所示情况：</p><p><img src="https://urlshare.img.ink/2022/97aa9186c7928.jpeg" alt="Vercel-domains" /></p><p>然后就完成了，而且完全免费，这不白嫖一波XD</p><p>速度也是很可观的。</p><p><img src="https://urlshare.img.ink/2022/c4f9c06971477.jpeg" alt="Vercel-speed" /></p><p><img src="https://urlshare.img.ink/2022/923e915c28408.jpeg" alt="Github-speed" /></p><p>多次平均后，Github的全部节点访问速度为1.787s，Vercel的全部节点访问速度为0.934s</p><p>平均下来Vercel速度更快，不过在华东地区反而GitHub会更快一些。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>网络技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>《黄金时代》读后感</title>
+    <link href="/p/30198.html"/>
+    <url>/p/30198.html</url>
+    
+    <content type="html"><![CDATA[<p>王小波的《黄金时代》，假期的第二本书，读起来有点上头，却不是那么好懂。<br />书里包括《黄金时代》、《三十而立》、《似水流年》三篇，暂时仅对《黄金时代》记录读后感。其余二篇之后再说了。</p><a id="more"></a><p><strong>剧透警告</strong></p><h2 id="1关于故事"><a class="markdownIt-Anchor" href="#1关于故事"></a> 1.关于故事</h2><p>小说讲述了下乡知青王二与下放的医生陈清扬的“风流”往事，小说早期由香港繁荣出版社出版时名字就叫《王二风流史》，也由此可见一斑。</p><p>最令人印象深刻的莫过于王小波书中充斥着大量的性描写和粗俗的方言俚语，这也是一些人因此厌恶或者读不下去的原因。</p><p>人们指斥王小波描写太多的性内容有媚俗之嫌，同时也引发道德问题。而实际上，书中的性爱描写并不是为了刻画性爱的细节，而是为了服务情节，书中王二和陈清扬的关系、感情、思想变化便随着性爱经历而不断转化。</p><p>性是《黄金时代》的主题之一，王小波在《黄金时代》的附录中写道：</p><blockquote><p>对于我们成年人来说，性爱是已发生或即将发生的事。我认为对此既不须渲染，也无须掩饰，因为它本是生活的一部分。假如要说明过去的事，没有它，绝不会完全。<br />在坦荡善良的人之间，性和其他事一样，都可以讨论；其中的痛苦、快乐，也可以得到共鸣。<br />我很怕别人说我蓄意渲染，以示大胆不同流俗等等。当然，也怕另一些人说我是大流氓。但是如果考虑到一切人的看法，写作就成了一件叫人害臊的事了。</p></blockquote><p>他力求正确完全的叙述过去发生的种种，即使以现在的价值评判可能颇有微词。但对于个人来说，生命中已发生的事总是值得珍视的。</p><p>爱情是《黄金时代》的另一个重要主题，全篇正是围绕王二和陈清扬的“伟大友谊”展开。对王二来说，二十一岁生日前他只是个下乡知青，是个浑子，是个“童男子”，如同《黄金时代》中最脍炙人口的那句话一样：</p><blockquote><p>那一天我二十一岁，在我一生的黄金时代，我有好多奢望。我想爱，想吃，还想在一瞬间变成天上半明半暗的云。</p></blockquote><p>而陈清扬则是身处混乱中仍保持清醒的女子，同时是北医大毕业的医生，年轻又漂亮，却在为别人说她是破鞋而烦恼。</p><p>他们两个的共同之处是，都是异类，都与周围环境格格不入。王二叛逆的与军代表不对付，自由散漫的像个流氓；陈清扬则是年轻漂亮，还有高学历，却来到这种山村。周围男人经常以看病为借口实际上是去看破鞋，只有王二找她确实是为了看病。因此陈清扬才会去找王二，请他证明自己不是破鞋。</p><p>陈清扬以为王二能理解自己，但是王二只是馋她身子罢了（</p><p>于是王二以“伟大友谊”为借口来和陈清扬“交了朋友”，代价是要进行做爱。陈清扬尽管意识到这是骗局，却着魔于王二关于友谊的承诺，选择相信他，虽然他们上了床，但陈清扬认为那只是朋友间的“互帮互助”，而非爱情。</p><p>直到王二吻了她的肚脐，她才第一次心动，“好危险，差一点爱上你”。因为那一刻陈清扬第一次感受到了爱，来自于王二超出正常朋友的举动，与“馋她身子”而与她做爱有本质的区别。然而王二在吻肚脐之后并没做其他事，陈清扬的心动也就没有持续下去。</p><p>第二次是王二重重的打了一下陈清扬的屁股，同样这种行为让陈清扬意识到王二把她当成自己的女人，所以才会做这种行为，打的很重是因为很关心，是深刻的爱。原文写道：</p><blockquote><p>那时她被架在我的肩上，穿着紧裹住双腿的筒裙，头发低垂下去，直到我的腰际。天上白云匆匆，深山里只有我们两个人。我刚在她屁股上打了两下，打得非常之重，火烧火燎的感觉正在飘散。打过之后我就不管别的事，继续往山上攀登。<br />陈清扬说，那一刻她感到浑身无力，就瘫软下来，挂在我肩上。那一刻她觉得如春藤绕树，小鸟依人。她再也不想理会别的事，而且在那一瞬间把一切都遗忘。在那一瞬间她爱上了我，而且这件事永远不能改变。</p></blockquote><p>陈清扬在文革中始终保持清醒与纯洁，她始终反对无爱的性，虽然跟王二“敦伟大友谊”，也被人叫做破鞋，却始终没有真正爱过王二，也就始终保持了她的纯洁。直到那两巴掌，陈清扬才感受到王二的爱，感受到王二的真诚，于是她爱上了他，也印证了她偷汉的破鞋行径，这成为了她真正的罪孽。</p><p>在下放期间，也正是陈清扬的黄金时代。在她穿着白大褂去找王二时，她也有很多奢望，想到了性欲，想到了伟大友谊，却没想到王二的小和尚，那一瞬间她欲哭无泪，然后下定了接受摧残的决心。走上前来，把丑恶深深埋葬，心里快乐异常。</p><p>故事听起来无比魔幻，却又无比真实，因为那是个无比魔幻的年代。而在那个年代，王二和陈清扬终于确立了终身的伟大友谊，这便是他们比其他人更幸运的一点。</p><h2 id="2关于人物"><a class="markdownIt-Anchor" href="#2关于人物"></a> 2.关于人物</h2><p><strong>王二</strong></p><p>他是下乡知青，是混蛋，是流氓，是个思想敏锐、敢于反抗的年轻人，是刚刚二十一岁处在黄金时代的童男子。</p><p>他贪恋陈清扬的美丽，于是假借“伟大友谊”来引诱陈清扬，但是他并非欺骗，而是愿意拿出真心与诚意。原文写道：</p><blockquote><p>其实伟大友谊不真也不假，就如世上一切东西一样，你信它是真，它就真下去。你疑它是假，它就是假的。我的话也半真不假。但是我随时准备兑现我的话，哪怕天崩地裂也不退却。</p></blockquote><p>王二身上具有着异于时代的抗争精神和叛逆态度，同时又有着对爱的向往和坚守。当他与陈清扬以“伟大友谊”为名在一起之后，王二实际上已经潜移默化中改变了之前流氓一般轻浮的举止，会关心在乎陈清扬，会因为批斗时别人揪陈清扬的头发而生气，会在军代表说陈清扬是“臭婊子”时暴怒。</p><p>他最终又因为自卑而选择了离开，在陈清扬兴奋地打算给他生一窝小崽子时，他以“生完之后乳头耷拉不好看”为由，拒绝了她。他们在被揭发，被批斗，交代完问题之后，领导让他们结婚，他们两个不愿意，但是迫于压力与影响，只好上午结婚，下午离婚。于是王二对陈清扬的恋情到此为止。</p><p><strong>陈清扬</strong></p><p>她是北医大的医生，是年轻漂亮，身材标致的女人，是人们口中的破鞋，是思想纯洁、性格独立却倍感孤独的人。</p><p>她因人们叫她破鞋而困扰，想要让王二为她证明她不是破鞋，却又阴差阳错的真的与王二搞起了破鞋。但是她在这时却又完全释然，因为她不是反感被人叫成破鞋，这件事比被人叫破鞋却又不是破鞋好得多，她讨厌的是使她成为破鞋这件事本身。</p><p>陈清扬始终是清醒的，她可以说是尚处于浑浑噩噩状态的王二的领路人，让王二追求真实与反叛。</p><p>但是陈清扬又始终是糊涂的，她始终处于一个虚幻又纯洁的梦中，因此她不知道为什么梦幻中会出现王二的小和尚，不知道为什么她会被叫做破鞋，不知道为什么“因为女孩子身上有这么个口子，男人就要使用她”。正因她的纯洁与理想主义，所以她才是孤独的，直到她爱上了王二，却又无疾而终。</p><h2 id="3关于作者"><a class="markdownIt-Anchor" href="#3关于作者"></a> 3.关于作者</h2><p>我还真是很喜欢王小波。</p><p>黑色幽默，直率，有趣，特立独行，反叛精神，文思敏捷…也许我正是缺少并羡慕这些，所以才敬重他XD</p><p>我读王小波第一本书是《沉默的大多数》，这也是我非常喜欢的一本杂文集，语言讽刺幽默，文字方寸之间尽显哲思。大概我自己也有点向往特立独行，所以才会喜欢王小波和鲁迅之类如匕首投枪一般的杂文。</p><p>《黄金时代》是王小波自己最喜欢的小说作品，他将其称为他的“宠儿”。但这部作品发行出版时可谓历尽艰辛，这也与他直率不讳的描写风格有关，导致他并不为文学圈的人所接受。</p><p>但是作品的价值终究无法隐藏，读者们慢慢发现了他荒诞不经文字下的真正才华，也有越来越多的人成为小波的“门下走狗”。</p><p>王小波是个有趣的人，他散漫，不着调，他的文字富于黑色幽默和荒诞，乍读无厘头的背后是难以言说的时代伤痕。同时他只是记录真实的事，把小说写的足够好看，而不夹杂自己的刻意说教。从这一点看，他就值得我尊敬。《黄金时代》后记里写道：</p><blockquote><p>我的写作态度是写一些作品给读小说的人看，而不是去教诲不良的青年。</p></blockquote><p>然而这样一个才华横溢，特立独行，灵魂足够有趣的人，却早早地失去了生命，他在家中死于心脏病，年仅45岁。</p><p>王小波的《黄金时代》中那句最广为人知的话还有下句：</p><blockquote><p>后来我才知道，生活就是个缓慢受锤的过程，人一天天老下去，奢望也一天天消失，最后变得像挨了锤的牛一样。可是我过二十一岁生日时没有预见到这一点。</p></blockquote><p>他估计也没预见到，死亡会这么早的捶了他，突如其来，不可抵挡。</p><h2 id="4后记"><a class="markdownIt-Anchor" href="#4后记"></a> 4.后记</h2><p>《黄金时代》不是那么好读的，其实很难理解，我查了不少资料零零散散的理解，不过还是聊胜于无罢了。</p><p>书是常读常新的，不知道我二十一岁时是否还会再读到它。</p><p>还有一点我很想分析一下，但是实在有心无力：《黄金时代》的叙事艺术。</p><p>王小波在《沉默的大多数》里写道：</p><blockquote><p>我对现代小说的看法，就是被《情人》固定下来的。现代小说的名篇总是包含了极多的信息，而且极端精美，让读小说的人狂喜，让打算写小说的人害怕。</p></blockquote><p>《黄金时代》是王小波最为得意的作品，其叙事结构错综复杂，但有逻辑暗线贯穿其中，使得其结构精密无比，以至于我看得懵懵懂懂（</p><p>仅给出几篇其他人的评论，我就不班门弄斧了。</p><p><a href="https://www.zhihu.com/question/30594460/answer/1358112804">王小波小说《黄金时代》里陈清扬为什么认为爱上王二是她的罪孽？ - 阿布拉克萨斯的回答 - 知乎</a></p><p><a href="https://www.zhihu.com/question/20394570/answer/37369585">怎样欣赏王小波的《黄金时代》？ - derful wang的回答 - 知乎</a></p><p><a href="https://book.douban.com/review/9148035/">黄金时代的叙事 - 照夜白 - 豆瓣</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>记录读感</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>book</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>盛夏·随想</title>
+    <link href="/p/51412.html"/>
+    <url>/p/51412.html</url>
+    
+    <content type="html"><![CDATA[<p>今天是大暑，这个节气意味着夏天最热的一段时间将会随着热浪翻涌袭来。尽管夏天往往与燥热联系在一起，可能会给人带来不太好的体感，但我依然认为把夏天看作最美好的一个季节应该会有很多人同意。毕竟夏天是热烈的，浪漫的，自由的，洒脱的，色调鲜明的，生机迸发的，轰轰烈烈的，烘托着氛围的，承载着回忆的，连接着情感的。</p><p>夏天是美好的。</p><a id="more"></a><h2 id="center壹蝉鸣-center"><a class="markdownIt-Anchor" href="#center壹蝉鸣-center"></a> <code>&lt;center&gt;</code>壹·蝉鸣 <code>&lt;/center&gt;</code></h2><p>如果要找一个词来形容蝉的鸣叫，我可能会选：聒噪。</p><p>蝉的鸣叫确实没给我带来好印象，因为它的叫声单调，尖锐，呆板，缺乏变化与韵律，频率之高令人难以忍耐，既不如鸟鸣悦耳，又不如蛙鸣有趣。而且它常常成群结队，像是对唱山歌一样，许多只在邻近的树上神气地高歌，实在吵闹。</p><p>但那些都是幼时的记忆了，我现在越来越少地感知到蝉鸣。</p><p>一天，我忽然想起往昔夏日的蝉鸣，不禁感慨：现在蝉已经这么少了啊。仔细侧耳听听，却蝉鸣依旧。</p><p>这让我十足的惊讶。</p><p>本来喧闹以至嘈杂的蝉鸣，现在却充耳不闻，让我产生蝉消失了的错觉。当然，并非是蝉数量减少或音量下降了，而是周围干扰我们注意力的东西太多了。</p><p>现代社会的电子设备足够吸引人，以精心设计的算法让人沉迷，豪掷大把大把的时间，也无形中衰减了专注的能力。蝉鸣依旧，太多的人却把它忽略，再聒噪的鸣叫声也被隔离在注意力的厚障壁之外。</p><p>换句话说，现代人早已心浮气躁，几乎失去了慢下脚步去倾听自然的态度。不过也是，人们拥有前所未有的多样化的娱乐手段，浸淫着娱乐至死的萎靡风气，毫无意识地困在低级享乐的陷阱里无法自拔，又怎能体会到“柴门入幽梦，落日乱蝉嘒”的心境？</p><p>孩子们从小与电子设备打交道，与夏天的联系越来越少，不知道以后的孩子们描述夏天时，是否会想起蝉鸣？</p><p>雄蝉利用腹部的发音器鸣叫以吸引雌蝉交配，完成繁衍使命，并非为我们而鸣，向来如此。</p><h2 id="center贰光影-center"><a class="markdownIt-Anchor" href="#center贰光影-center"></a> <code>&lt;center&gt;</code>贰·光影 <code>&lt;/center&gt;</code></h2><p>光与影，相对，相伴，相生，相长。</p><p>阳光在树丛中倾泻而下，从枝桠间穿过，在空中发生丁达尔效应，于是出现了“光的形体”。</p><p>那束光柱总是令人着迷，联想到神圣、高洁、纯净等等形容词，不知人类是否也有趋光性，才会对它萌生如此神往。</p><p>光之不至则为影。如果没有树荫的衬托，恐怕那光柱也不会如此动人。何况在夏天的炎热下，人们还是更喜欢阴影带来的清凉。</p><p>天晴时往往阳光普照，任性地倾泻下大量的光热，在一些物体背后投下锐利的阴影。而当暴雨来袭，阴云密布，足以削减太阳光线，让天地灰蒙蒙一片，直到雨霁天晴，光线破云而出，我才又体会到阳光的弥足珍贵。</p><p>光与影的配合如此紧密而自然，人们不禁想要把它们记录下来，于是发展为一门艺术。</p><p>从绘画到摄影，光影二者的结合无穷无尽，变幻莫测，那个我们耳熟能详的达芬奇画鸡蛋的故事便是最好例证。也正因此，人们始终保持无限的好奇与热情，不断投身探索。</p><p>人们在长期的探索实践中总结出了一套光影关系的范式，并且将其应用到许多方面。人们赋予了光影以人的情感，让这个看似对立的概念在哲学意义之外又有了新的解读。</p><p>不过我们暂且抛开复杂的理论，只要在树荫下平心静气地坐着，凝视着渗漏的阳光在地上打出斑驳的光斑，便足以自然地感受到光影的艺术。</p><h2 id="center叁行云-center"><a class="markdownIt-Anchor" href="#center叁行云-center"></a> <code>&lt;center&gt;</code>叁·行云 <code>&lt;/center&gt;</code></h2><p>夏天的天空往往还是万里无云的状态更多，偶然会飘过几朵碎絮状的云，也会有大朵大朵浓密厚实的云像堡垒一样移动阵地，之后不断随风变形以至飘散。</p><p>云看似在天上静止不动，但它其实在随风飞奔。我在学校的时候非常喜欢用学习平板对云用延时摄影记录下来，回看时发现云如白驹，倏忽而过，这才体会到行云流水的飘逸。</p><p>云可以为抽象的时间流逝作一个合适的具象参考，因为它流逝地足够慢，但又足够快，恰似时间行云般不动声色地掠过。</p><p>如果你曾平躺着盯着天上的云流动，你会暂时地放空大脑，忘记烦扰你的一切事务，只剩行云飘过天空，也飘过你的眼眸。这也许解释了为什么人们有时会抬头看着云彩发呆，为什么人们有时会出神地盯着阳光下飞舞的灰尘。人们需要这样一个时刻，能彻底放空自己，停止对意义的追寻。</p><p>说白了，我们感知到的“时间流逝”速度可以随我们的心境而变化，所谓“时间过得真慢”的想法则是心境的外化。这想法大概有些唯心主义，但正是这样的感受令人着迷。</p><p>行云常会给人带来这样的感受，无论是在悠闲的下午，还是繁忙工作的间隙，抬头看看云彩，总会有熟悉的惬意涌上心头。</p><h2 id="center肆孩童-center"><a class="markdownIt-Anchor" href="#center肆孩童-center"></a> <code>&lt;center&gt;</code>肆·孩童 <code>&lt;/center&gt;</code></h2><p>也许应该对我所指的孩童下个定义：4-6岁的孩子。因为更大一些的孩子现在选择玩耍方式时不会再去在外面公园里互相追逐做游戏了。信息时代的原住民逐渐与夏日的游戏缺少交集。</p><p>对小孩子们来说，一年四季都是游戏的季节，尽管夏日暴晒，热浪逼人，也不能消退他们玩耍的乐趣和兴味。</p><p>玩耍的方式也许多种多样，但总以奔跑和追逐为核心，这种最原始的方法总能激发无限的乐趣，让孩子们爆发出一阵阵的叫喊和笑闹，随风飘散。</p><p>在这个时期，他们并没有男女的概念，经常会看到女孩子混入一群男孩子嘻嘻哈哈，或者男孩子混入一群女生中翩翩起舞。无论如何，孩子们总是专注于游戏本身，即使因为胜负输赢而发生争执，也不会影响娱乐的气氛。孩子们的胜负欲是纯洁的。</p><p>何况还有家长在一旁看护，时不时加以关心和叮嘱。大多数时候，家长们通常在聊孩子们的种种故事，事无巨细的交流育儿经验。从他们脸上的笑容不难看出此时他们正静享天伦之乐。</p><p>欢乐的游戏时光往往截止到某家的饭做好，这时候家长们往往苦口婆心的劝告孩子们回家吃饭，但孩子们常常意犹未尽，婉求多玩一会。欢快的公园玩乐终有结束之时，不过孩子们往往并不感伤，而是欢快的挥手告别，因为他们知道明日有再会之期。</p><p>是啊，孩子们的夏天足够长，足够尽兴的挥洒时光。他们在不知不觉中构建着自己的童年夏日。</p><h2 id="center伍老人-center"><a class="markdownIt-Anchor" href="#center伍老人-center"></a> <code>&lt;center&gt;</code>伍·老人 <code>&lt;/center&gt;</code></h2><p>炎热的夏天往往使得老人们难以静心坐在家中。</p><p>相比于开空调吹风扇，一些老人似乎更喜欢三五成群的搬着小板凳围坐在风口处、阴影下，摇着蒲扇或者只是静静地坐着，享受清凉。</p><p>有的老人喜欢聊天，大概是老太太居多，她们往往会叽叽喳喳地闲话家常。也许这种看起来像是在“嚼舌根”的行为令一些人感到反感，不过我更愿意相信这只是无可厚非的饭后消遣。</p><p>有的老人沉默寡言，独自一人待着，或许再点一根烟。他们有时会出神似地望向前方，他们在想什么？也许什么也没想。这冥想一般的状态平静而柔和，但当事者并不能意识到自己已身处其中。</p><p>或许他们并非是不善言辞，只是没有合适的机会与话头，如果你愿意和他们闲聊，也许他们会乐意吐露自己的思绪。</p><p>很多上了年岁的老人常有这样的特征：他们可能很少提起往事，但他们并不会忘记，如果记忆一旦被激活，话语往往会不断流淌而出。尽管他们的思维可能很难保持长期的连贯性，话语断断续续，正像从他们手上渺渺飘散的烟。</p><h2 id="center陆夏夜-center"><a class="markdownIt-Anchor" href="#center陆夏夜-center"></a> <code>&lt;center&gt;</code>陆·夏夜 <code>&lt;/center&gt;</code></h2><p>夏夜往往不是万籁俱寂的境界，潜神细听，有蝉鸣，有狗吠，有蛙声。当然并不是每晚都能听见，但是夏夜确实比其他季节的晚上要热闹一些，这种热闹反映出一种生机勃勃的气象。</p><p>夏天天黑的是最晚的，大概要到6，7点才会慢慢黑下来。天黑之后，没有了太阳的炙烤，人们愿意出来乘黑纳凉，孩子们也会出来玩耍，这便在自然生机上又添一份人气。</p><p>外面各种烧烤或者餐饮店会摆出室外的桌面，让客人们在屋外用餐。这种设计很得人们青睐，生意好的店铺往往是外场桌子先客满，对于客人的选择来说，偶然吹过的凉风就是最大的回报。</p><p>这种夜市也已成为夏天的标配，常能看到几人在桌边聊天说地，兴致高昂，情到深处还要立起敬酒或是高歌，以显兄弟手足。</p><p>我并不感兴趣，却也不那么反感，无可厚非的热闹，掌握好方寸会给参与者带来不错的回忆。</p><p>夜市有时可以持续到真正意义上的深夜，尤其是一些大城市的繁华地段，夜市以及其代表着的夜经济已经成为很多地方的特色风景，烟火气常是它们的代名词。</p><p>当然天下无不散之宴席，夜深终究人静，整个城市正逐渐睡去，坠入日常而琐碎的梦中。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>essay</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>iframe的响应式处理</title>
+    <link href="/p/4501.html"/>
+    <url>/p/4501.html</url>
+    
+    <content type="html"><![CDATA[<p>由于要展示一个其他网站的页面，所以用到了iframe，虽然网上看到iframe有种种的问题和缺点，但是其实对我来说倒无所谓。</p><p>但是遇到了一些问题：iframe并不能自动适应不同设备的分辨率大小，导致在电脑上看大小正常，但是手机浏览就过大了，所以尝试解决这个问题。</p><a id="more"></a><div class="note note-info">            <p>问题：<br />使用的iframe窗口不能自动适应不同设备的不同分辨率，导致在部分设备上体验不好。</p>          </div><div class="note note-success">            <p>解决方法：<br />对&quot;iframe&quot;标签作处理。</p><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">iframe</span></span><span class="hljs-tag"> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://tabbycats.club/cat/16o880&quot;</span></span><span class="hljs-tag"> <span class="hljs-attr">height</span>=<span class="hljs-string">445</span></span><span class="hljs-tag"> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;100%&quot;</span></span><span class="hljs-tag"> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;frame_full&quot;</span></span><span class="hljs-tag"> <span class="hljs-attr">frameborder</span>=<span class="hljs-string">&quot;0&quot;</span></span><span class="hljs-tag"> <span class="hljs-attr">scrolling</span>=<span class="hljs-string">&quot;no&quot;</span></span><span class="hljs-tag"> <span class="hljs-attr">onload</span>=<span class="hljs-string">&quot;this.style.height=document.body.clientHeight-50&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;SpaceBug&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span></code></pre><p><strong>width</strong>设置为100%，同时配合<strong>onload</strong>获得body的宽度，就能实现iframe窗口随不同分辨率来变化，至于<strong>height</strong>直接设置高度，虽然不是按照比例缩放，但效果也还不错</p>          </div><p>解决思路来自：<a href="https://www.cnblogs.com/colinliu/p/4817723.html">iframe框架嵌套技巧（全屏，去双滚动条）</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>网络技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>可爱的chrome扩展</title>
+    <link href="/p/50082.html"/>
+    <url>/p/50082.html</url>
+    
+    <content type="html"><![CDATA[<p>在网上偶然发现了一个很可爱的新标签页扩展：<strong>Tabby Cat</strong>，该扩展可以让你每次打开新标签页都出现一只可爱的小猫。</p><a id="more"></a><p>新标签页的扩展真是不少了，也有很多品质很高的相关扩展，他们大多可以给你带来一个焕然一新的标签页，并且拥有许多实用功能。但是Tabby Cat走的是不一样的路线，当你打开一个新标签页，就会随机出现一只可爱的小猫，除此之外就没了，但也不再需要别的了</p><p>毕竟谁能拒绝可爱的小猫呢？</p><p><img src="https://urlshare.img.ink/2022/e12b3616dbc64.jpeg" alt="Tabby Cat" /></p><p>如图，每次的猫猫具有随机颜色，随机体格，随机的名字，背景也会随机变化。图片里看不出来，猫猫会有一些动作，包括左右摇头，眨眼，睡觉等。</p><p>你还可以rua猫，不同的猫的反应也不完全相同，有的会高兴地摇脑袋，有的则会缩脖子警惕地看着你。</p><p>不仅如此，在打开/刷新标签页的同时，有一定几率会获得随机的饰品，例如汉堡，足球或是帽子之类。</p><p><img src="https://urlshare.img.ink/2022/df60fc099d103.jpeg" alt="Tabby Cat - Goodies" /></p><p>据官方说共有65件收集物品，不过获得物品的概率感觉很低很低，如果正常新开标签页估计得很久很久，但是一直暴力刷新的话会快很多（</p><p>有时还会遇到一些“隐藏款”猫猫，扩展虽然没有提供截图功能，不过可以使用右上角相机图标保存猫猫的链接，只要获得链接就能看猫猫。我也保存了一些可爱的猫猫放在下面XD</p><iframe src="https://tabbycats.club/cat/16o880" height=445 width="100%" id="frame_full" frameborder="0" scrolling="no"  onload="this.style.height=document.body.clientHeight-50" name="SpaceBug"></iframe><p><a href="https://tabbycats.club/cat/16o880">SpaceBug</a></p><iframe src="https://tabbycats.club/cat/5dva5x" height=445 width="100%" id="frame_full" frameborder="0" scrolling="no"  onload="this.style.height=document.body.clientHeight-50" name="EvilCreeper"></iframe><p><a href="https://tabbycats.club/cat/5dva5x">EvilCreeper</a></p><iframe src="https://tabbycats.club/cat/e6x814" height=445 width="100%" id="frame_full" frameborder="0" scrolling="no"  onload="this.style.height=document.body.clientHeight-50" name="NightPeaches"></iframe><p><a href="https://tabbycats.club/cat/e6x814">NightPeaches</a></p><iframe src="https://tabbycats.club/cat/yb6hwn" height=445 width="100%" id="frame_full" frameborder="0" scrolling="no"  onload="this.style.height=document.body.clientHeight-50" name="TinyCrab"></iframe><p><a href="https://tabbycats.club/cat/yb6hwn">TinyCrab</a></p><iframe src="https://tabbycats.club/cat/kahry1" height=445 width="100%" id="frame_full" frameborder="0" scrolling="no"  onload="this.style.height=document.body.clientHeight-50" name="PetitRainbow"></iframe><p><a href="https://tabbycats.club/cat/kahry1">PetitRainbow</a></p><p>你别说收集这个还挺上头的，真是把集卡要素玩明白了XD，但是谁能拒绝可爱的猫猫呢？</p><p>除了猫猫之外，扩展还有小狗，企鹅，乌龟，海豹，熊猫，小鸡，兔子等宠物，都蛮可爱的。</p><p>扩展适用于Chrome和fireFox，Edge和其他的Chrome内核浏览器应该也能用。</p><p>另外就是扩展的官网也做得很可爱XD：<a href="https://tabbycats.club/">Tabby Cat</a>。总之就是很可爱XD</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>网络技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>trifle</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>化学漫谈003</title>
+    <link href="/p/38635.html"/>
+    <url>/p/38635.html</url>
+    
+    <content type="html"><![CDATA[<p>前段时间身上皮肤偶然出了点小问题，发现买的药中成分很有趣，试做分析。</p><a id="more"></a><p><img src="https://urlshare.img.ink/2022/840020239b10d.png" alt="化学漫谈003" /></p><h2 id="概述"><a class="markdownIt-Anchor" href="#概述"></a> 概述</h2><p>今天讨论的药物是<strong>醋酸氟轻松</strong>(真的就叫这名字XD),相关数据<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://www.chemsrc.com/cas/67-73-2_242969.html#heChenDiv">[1]</span></a></sup>如下:</p><div class="note note-info">            <p>中文名：醋酸氟轻松 / 11b-羟基-16a,17-[(1-甲基亚乙基)-双(氧)]-21-(乙酰氧基)-6a,9-二氟孕甾-1,4-二烯-3,20-二酮<br />英文名：fluocinolone acetonide<br />分子结构：<br /><img src="https://urlshare.img.ink/2022/e93634eca17c9.png" alt="" /><br />分子量：452.488<br />物理化学性质：白色或近白色结晶性粉末，无味。熔点267-269℃。不溶于水，易溶于丙酮，在乙醇、氯仿中溶解，在乙醚中微溶。<br />医学应用：外用适用于对糖皮质激素有效的皮肤病，如接触性皮炎、特应性皮炎、脂溢性皮炎、湿疹、皮肤瘙痒症、银屑病、神经性皮炎等瘙痒性及非感染性炎症性皮肤病。</p>          </div><p>另外还有一点比较奇怪，就是这东西和它的酯化产物<strong>氟环素</strong>经常混为一谈，例如百度百科上醋酸氟轻松词条对应的CAS号在另一个化工网站上查得实际上为氟环素。我又用英文名google了一下，查得维基百科上与百度不同，但也有一些医药网站和文献和百度是一样的。总之众说纷纭，我就不去纠结了。</p><h2 id="合成"><a class="markdownIt-Anchor" href="#合成"></a> 合成</h2><p><img src="https://urlshare.img.ink/2022/c60010dfc2596.jpg" alt="合成方案" /></p><p>该方案<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://pubs.acs.org/doi/abs/10.1021/ja01498a041">[2]</span></a></sup>是国外较早之前的一种合成方法，第一步使用<strong>氯化亚铬</strong>来将环氧还原为双键，以前确实见得少，有点陌生的。得到产物Ⅱ</p><p>然后第二步为氧化双键并保护双羟基结构成缩酮。得到产物Ⅲ</p><p>第三步过氧化物氧化双键成环氧，得到产物Ⅳ。文中所给的<strong>单过氧邻苯二甲酸</strong>在实际使用的试剂形态通常是单过氧邻苯二甲酸镁的六水合物，除了氧化剂外还可用作消毒剂。</p><p>第四步使用<strong>三氟化硼</strong>来氟化,得到产物Ⅴ。说实话这个氟化我见的也比较少，我印象中基本三氟化硼都是拿来当LA的（。</p><p>第五步使用<strong>Jones试剂</strong>，选择性氧化一级醇到羧酸,二级醇到醛/酮，丙酮是其常用溶剂。得到产物Ⅵ。</p><p>第六步酸性条件下消除，脱保护。得到产物Ⅷ。</p><p>第七步在微生物作用下羟基化。得到产物Ⅸ。</p><p>第八步开始为上氟做准备，先使用<strong>甲磺酰氯</strong>氯化，然后碱性条件下消除得双键。得到产物Ⅹ。</p><p><img src="https://urlshare.img.ink/2022/bae1edf13326b.jpg" alt="可能机理" /></p><p>先加成消除的机理，构造磺酰基集团作为离去性更好的LG，然后氯离子亲核取代，再碱性条件下消除。</p><p>第九步在<strong>N-溴代乙酰胺</strong>和<strong>高氯酸</strong>条件下使用<strong>次溴酸</strong>对双键加成，再分子内亲核取代。得到产物Ⅺ。反应比较怪（看不懂，不知道是不是我理解的问题，就不写机理了。</p><p>原文中是这么写的：</p><blockquote><p>Addition of hypobromous acid by N-bromoacetamide in dioxane-perchloric acid gave the 9α-bromo-11β-hydroxy compound</p></blockquote><p>第十步先用醋酸钾处理，文献说使构型转化，我不懂（，然后是在THF-二氯甲烷条件下用<strong>氟化氢</strong>上氟。得到产物Ⅻ。</p><p>最后一步使用<strong>二氧化硒</strong>，氧化构造双键，得到最终产物，流程结束。</p><p><em>最后吐个槽：查资料的时候发现搜索引擎(bing)把三氟化硼，氢氟酸之类的内容屏蔽了，搜索相关内容得到的全是生产事故的新闻报道，让我找资料都很难受。安全工作实在是用力用错方向了，应当提高试剂获取的门槛，不是提高知识获取的门槛，为了安全教育宣传连百科网站都屏蔽了是不是矫枉过正？</em></p><h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2><ul><li>氯化亚铬，作为还原剂常使卤化物脱卤，氨氧化物脱氧，环氧化合物脱氧成烯，醌还原为氢醌。</li><li><a href="https://www.sohu.com/a/446222303_120133631">Jones氧化反应</a></li><li>甲磺酰氯，氯化剂；酯化、聚合反应的催化剂。</li><li>氟化氢，氟化剂。</li><li>二氧化硒，烯丙位/苄位氧化剂。</li></ul><hr /><p>查文献真的折磨，靠着机翻来理解合成路线。</p><h2 id="参考"><a class="markdownIt-Anchor" href="#参考"></a> 参考</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://www.chemsrc.com/cas/67-73-2_242969.html#heChenDiv">https://www.chemsrc.com/cas/67-73-2_242969.html#heChenDiv</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://pubs.acs.org/doi/abs/10.1021/ja01498a041">https://pubs.acs.org/doi/abs/10.1021/ja01498a041</a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>学学化学</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>chem</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>《人生海海》读后感</title>
+    <link href="/p/24168.html"/>
+    <url>/p/24168.html</url>
+    
+    <content type="html"><![CDATA[<p>假期的第一本书，记录读后感。</p><a id="more"></a><p><strong>剧透警告</strong></p><hr /><h2 id="1关于故事"><a class="markdownIt-Anchor" href="#1关于故事"></a> 1.关于故事</h2><p>《人生海海》以“我”的第一人称视角，讲述了传奇人物上校错综复杂却充满传奇，在时代中穿行缠斗的一生，离奇的故事里藏着让人叹息的人生况味，既有日常滋生的残酷，也有时间带来的仁慈。</p><p>全书分为三个部分，第一部分引出了几个重要人物和人物间关系线索，围绕着上校身上的种种谜团所生发的故事；第二部分则着重刻画“我”的爷爷应对种种流言的所作所为，细致描写了人生百态，同时借另外一个重要人物老保长之口补充上校的身世之谜；第三部分则是在“我”长大还乡后，得知上校已经在批斗会中疯掉，后通过上校的妻子林阿姨解开所有疑团的故事。</p><p>小说情节设置扣人心弦，引人入胜，围绕上校身上“古怪”的特点引出一个又一个谜团，层层分析，抽丝剥茧，让人读的欲罢不能。这种谜团的设计足够吊人胃口，令我在读时能足够投入，迫切地想揭开真相。</p><p>语言上，文章的前大部分都是以“我”一个小孩子的视角来写，所以语言平白易懂，剧情的推进也主要是靠“我”的亲身见闻和他人口述，富于地方风格和时代特色。书中人物语言描写很多，而且能很好反映出人物的特点，例如爷爷外号叫做“老巫头”，即指爱讲大道理的人，就常满口俗语谚语；再如老保长性格放荡，语言对话中就少不了性器官；父亲外号叫“雌老虎”，是指他话少却脾气暴躁，因此他说话很少且断断续续不成句。</p><p>小说的叙述语言多短句，同时常夹杂着“我”的心理活动和其他人的一些描写，虽然有些时候显得错杂，但显得很真实，尤其在讲故事的时候能很好吸引读者兴趣。</p><p>叙述视角多而零散，关于上校身世的故事也是断断续续，并非线性而是跳跃的，残缺不全的，需要读者自己捋顺和连贯。尽管如此，故事线仍不散乱，上校的人物形象也逐渐清晰鲜活，连带着也刻画出其他性格特征鲜明的人物形象。</p><p>曾经风光威武的上校却因为一个看似微不足道的秘密而发疯，曾经聪明睿智的爷爷却因畏惧人言而上吊自杀，曾经沉默有力的父亲却因虚无的恐惧而变得麻木畏缩，特定时代环境下的每个人都难逃悲剧命运，而直面残酷的生活需要勇气，需要一种“人生海海”的英雄主义。</p><p>小说试图通过上校这个传奇人物的经历作为小切入点来探讨命运，人性等宏大话题，以上校，父亲，爷爷，林阿姨等人的悲剧与磨难为原本呈现中国传统的抗争“天命”却又无可奈何的宿命论悲剧，让人掩卷唏嘘同时不禁深思悲剧根源以及其背后的对于生活的真正热爱和勇气。</p><p><img src="https://urlshare.img.ink/2022/5d717881d30c4.jpg" alt="人生海海" /></p><h2 id="2关于人物"><a class="markdownIt-Anchor" href="#2关于人物"></a> 2.关于人物</h2><p>小说中的人物还是比较多的，且不少人物都有个外号，一方面符合乡里乡村的称呼人的方法，另一方面也很好概括了人物性格。</p><p><strong>上校蒋正南</strong></p><p>他是故事的中心，是一个传奇英雄，也是一个悲剧命运的普通人。他勇敢豁达，机智果断，幽默风趣，他当过国民党军医，医术高超，使用一套金子打的手术器具，被誉为“金一刀”。他为抗击日寇，作为特务前往上海，潜伏多年赤诚不改。他后来又救了解放军一位大首长的命，投诚加入解放军，走南闯北，军功赫赫。但他也受尽折磨，因为被日本鬼子俘虏而被耻辱地在肚皮上刻字，烙下一块心病；因为爱猫错过了投诚解放军良机，差点被判刑；因为被人算计，被诬陷，从英雄模范变成普通人被遣返，荣耀，地位，名誉全部归零，还被人说成是太监；在文革时期又因为曾任国民党军官而被批斗，吃尽苦头，最终因为肚皮上被刻字的心病而彻底发疯。</p><p>双家村的人们对上校很敬重，因为他乐于助人，遇事又总是有主意，虽然人们嘴上不说，甚至有人背地里还叫他太监，但是上校的人缘在村里其实非常好，这正是其人格魅力的体现。也反映了为什么爷爷把上校出卖后，人们对“我”一家的态度变得比之前传“鸡奸犯”谣言的时候还要恶劣和狠毒。</p><p>但他不是一个完人，他风流成性，心高气傲，但这使上校的形象更“接地气”，增添了一些人性，让传奇叙事增添了几分可信度。虽然最后也未能跨过自己的心理防线，但上校无疑是作者想要塑造的具有英雄主义的人物，是反抗命运的英雄。</p><p><strong>老保长</strong></p><p>外号叫老流氓XD，成天三句话不离女人。年轻是鬼子的伪保长，但是他只吃汉奸饭，不做汉奸事，算有良心。后来与上校发生过一些过节，因此记恨上校，并编造了上校变成太监的谣言。</p><p>几年之后，上校回乡与他结清旧账。老保长阴差阳错间跟随着上校去上海吃喝嫖赌（笑，染上赌瘾败光家业，被上校托人偿还欠款，于是成为上校的忠实拥护，虽然嘴上一口一个太监的叫，但心里实际上是很敬重的。</p><p>同时，老保长作为几乎唯一一个了解上校上海特务工作的几乎全部过程的人，起到了很大的推动剧情的作用。同时，作为一个“喝醉酒能把肠子吐出来的人”，把上校身世的这些秘密能守口如瓶几十年，也体现了这“老不正经”的难得正经的一面。冒着得罪红卫兵的风险在批斗大会上保护上校，也体现他身上（藏得很深）的正义感和责任感。</p><p><strong>父亲</strong></p><p>外号叫雌老虎，话少，脾气暴躁，和上校关系很好，从小一块长大的<s>（青梅竹马</s>，用村里的人的话说：“谁不知道他俩好的像一对鸳鸯。”正是因为父亲和上校的关系，才会有父亲为上校报仇捉弄小瞎子的事，才会有之后被小瞎子诬陷的剧情。父亲在得知爷爷出卖上校后，愤怒至极，不惜与爷爷翻脸绝交。</p><p>后来的几十年，家里的人一个个死去，父亲因此变得疑神疑鬼，担心家里有鬼，更担心鬼来追杀我。在我历尽千辛万苦回到故土之后，父亲反而阴沉的催促我不要在家里久留，直到第二天在上校家里才告诉了我在我离开之后的事情。父亲是个勇敢的人，但此刻他已经被严酷的现实吓怕。</p><p><strong>爷爷</strong></p><p>外号叫老巫头，即指爱说教，满嘴大道理的人。和老保长是一对舌头冤家，嘴上虽然互相挤兑，但实际上是一辈子的好友。爷爷是一个很传统，很保守的人，对上校的态度表面上恶劣，叫他太监，暗地里也是敬佩他的。但是小瞎子污蔑上校和父亲是鸡奸犯，让爷爷无力去面对乡亲的猜忌和怀疑，最终把上校向公安揭发以求内心宁静，却没想到反而更被乡亲们唾弃。事事精明的爷爷这一次却糊涂地栽了跟头，愧对乡亲的他最终选择在猪圈里上吊结束了自己的生命。</p><p>也许并不能完全怪他，人们的猜忌像把尖刀，那些若有若无的传言时不时的从耳畔吹过，让爷爷一阵阵羞愧难当。他选择了揭发上校，他认为这是摆脱流言的最好方式，是对全家人的保护。世上没有不通风的墙，爷爷的行为被发觉之后招致了全村人包括父亲的诘难，尽管他已是年近百岁的老寿星，但是一个心惊胆战的人无论如何是享不到这福寿的。</p><p><strong>小瞎子</strong></p><p>他本人并不瞎，只是因为他父亲是个瞎子，所以村里人这样叫他，是本书中为数不多的反面形象。在文革时期，他当上红卫兵审问上校，因为发现了上校腹部刻字的秘密而被愤怒的上校隔断舌头，挑断手筋，不能说不能写，几乎成了残废。但也正是他因为被父亲报复，才想出污蔑的方法来抹黑父亲和爷爷，导致了最后的悲剧。</p><p>在他身上，既有文革时期红卫兵的盲目狂热，又有污蔑他人的用心险恶，直到最后也不曾悔改，仍在故意欺骗“我”，抹黑我的父亲，小瞎子是本书中人性恶的一个缩影。</p><p><strong>林阿姨</strong></p><p>她是上校曾经的战友，后来在上校疯掉之后成为了他的妻子，负责照顾他的衣食起居。她从未向其他人提及她的身世，因为她对上校尽心尽力的负责实际上是她的赎罪。</p><p>她小时候在逃难途中遇到日本飞机轰炸，其他家人不幸遇难，只剩她和大哥相依为命。后来她大哥加入国民党抗击日寇不幸去世，于是就只剩她一人。她也在几年之后加入了国民党当上了护士，阴差阳错的成为了上校的战友，也萌生了对上校的爱恋之心。她对上校有着深情的，甚至狂热的爱，她早已成为举目无亲的孤儿，太需要一个人能够爱她。但林阿姨却被医院外科主任设计欺骗，不仅让她误把上校举报，也耽误了她一生的幸福。</p><p>虽然是她的举报信才让上校身份尽失，但她也是受害者，被内科主任当枪使的可怜人。上校发疯之后智力仅相当于六七岁的儿童，林阿姨为了照顾他煞费苦心，心力交瘁地顽强又麻木的活着。</p><h2 id="3关于作者"><a class="markdownIt-Anchor" href="#3关于作者"></a> 3.关于作者</h2><p>麦家无疑是一位开创者。</p><p>凭借着《解密》《暗算》《风声》等作品开创了谍战类小说的新篇类，也收获了各种奖项荣誉，在十余年的冷板凳之后，麦家终于迎来了他自己的成功。</p><p>而他不止满足于此，他仍在开创与破格，于是才有了这部《人生海海》。用他自己的话来说：</p><blockquote><p>我想写的是在绝望中诞生的幸运，在艰苦中卓绝的道德。我要另立山头，回到童年，回去故乡，去破译人心和人性的密码。</p></blockquote><p>因为他辛酸不幸的童年给他带来的阴影，麦家的写作某种程度上来说是在逃避童年。而当他终于以年龄和成功想要与故乡，与童年，与父亲和解时，却再也没有机会了。于是他写了《人生海海》这本书，以“补上内心破碎的一角”。</p><p>而这本书中所反复提到的“英雄主义”，正是麦家想要探讨的精神内核：敢死不叫勇气，活着才叫勇气。想要与过去和解，唯一的办法就是回到过去，探究过去，面对归去，才能更好重新出发。</p><p>毕竟人生海海，失败可以重来。</p><h2 id="4后记"><a class="markdownIt-Anchor" href="#4后记"></a> 4.后记</h2><p>大概6月二十几号就看完了，然后就一直摸，想起来就写一点，然后就不断遗忘。一直到7.8才全部补完。</p><p>挺痛苦的，忘了之后就不得不再去熟悉一下文，写读后感还是应该一口气全倒出来会比较好。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>记录读感</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>book</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>化学漫谈002</title>
+    <link href="/p/22058.html"/>
+    <url>/p/22058.html</url>
+    
+    <content type="html"><![CDATA[<p>重 操 旧 业（bushi</p><p>在家待着太闲了也不太好，于是决定看看今年各卷的高考有机题的合成路线。不过很遗憾的是，没有找到山东化学的题，有点不太爽。</p><p>只截取了题干合成路线，题也不难，就不看了。</p><a id="more"></a><h2 id="概述"><a class="markdownIt-Anchor" href="#概述"></a> 概述</h2><p><img src="https://urlshare.img.ink/2022/840020239b10d.png" alt="化学漫谈002" /></p><h3 id="全国甲卷"><a class="markdownIt-Anchor" href="#全国甲卷"></a> 全国甲卷</h3><p><img src="https://urlshare.img.ink/2022/d6dbcc53b4b0d.png" alt="2022全国甲" /></p><p>提到了NHC作为催化剂合成多环化合物，好吧，我并不知道。</p><p>路线不难分析，先看上面一条，A很容易得出为苯甲醇。然后羟醛缩合，接着是一个先加成溴，再取代，再消除得到的物质D。</p><p>下面一条，物质B和E得到物质F，依然是羟醛缩合，反推可得E即为F的右半部分，多步反应得到G，这里就不深究了。</p><p><img src="https://pic.imgdb.cn/item/62bbf36d1d64b070661c3a6c.png" alt="2022全国甲" /></p><p>然后是较有难度的一个缩合，成键关系上，能够看出硝基α碳连到苄位，另外一边则是下了个溴成环成酯。说实话我乍一看没想出什么很合理的机理，然后上网搜了搜资料<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://www.sohu.com/a/327108446_610519">[1]</span></a></sup>，发现NHC通常作为配体结合过渡金属来催化偶联反应，而且常见周环机理。</p><p>金属有机我不太懂，摘了一段文章内容：</p><blockquote><p>近年来，N-杂环卡宾(NHC)配位的过渡金属催化剂已经成为各种交叉偶联反应研究的热点。氮杂环卡宾可以和过渡金属形成稳定的C-M键，与传统的膦配体相比更加稳定，富电子、 对金属的配位能力强，并具有更好的立体效应和电子效应。传统的钯，铜等过渡金属配位的催化剂参与的反应必须在无氧条件下进行，而金属氮杂环卡宾催化剂以其稳定性高的原因，甚至可以在有氧条件下进行Suzuki 偶联反应、Heck 偶联反应和Sonogashira偶联反应等交叉偶联反应。早期在有机合成中比较知名的金属氮杂环卡宾催化剂是用于烯烃复分解反应的Grubbs催化剂(第II代)。但用于交叉偶联反应的金属氮杂环卡宾催化剂，主要以Pd，Cu，Ag和Au等金属为主。氮杂环卡宾钯和铜类催化剂用于偶联反应较多。氮杂环卡宾银和金类催化剂较少用于偶联反应，常用用于催化环加成反应，水解反应，还原反应，氧化反应，重排反应等等。</p></blockquote><p>所以该题成酯部分的偶联的一种可能机理是：溴消去后在过渡金属催化剂作用下进行[2+2]。</p><h3 id="全国乙卷"><a class="markdownIt-Anchor" href="#全国乙卷"></a> 全国乙卷</h3><p><img src="https://urlshare.img.ink/2022/04318bd25c536.png" alt="2022全国乙" /></p><p>是一种抑郁症药物的合成。</p><p>单路线合成，首先双键氧化为环氧，Ag催化剂就可以。然后根据D和C的分子式不难得出C为苯乙腈，这一步是碱性条件下亲核开环再取代成环。接着氰基水解。接着酯化成环，得到物质F，然后酯的氨解，从E到G之间多一步是因为酯活性更高一些，反应易于进行。然后氯代，再用物质I取代氯原子，反推易知I的结构。最后是熟悉的Gabriel合成，得一级胺的盐酸盐。</p><p><img src="https://urlshare.img.ink/2022/ead99b697469f.png" alt="2022全国乙" /></p><p>Gabriel合成除了直接水解之外通常也用联胺处理。</p><p><img src="https://urlshare.img.ink/2022/22a56d8d14ee1.png" alt="Gabriel合成" /></p><p>图直接从网上找的，现在电脑上没有装绘制工具…</p><p>平心而论，题都不难，而且路线里已知物质给的真是慷慨（笑。山东卷通常只有最后的物质，基本都要靠倒推。今年的山东卷的有机其实也不是很难，还是酯缩合的经典反应，但是倒推确实更费劲一些。</p><p>现在网上找不到山东卷的题，以后会补上的…8</p><h3 id="药物"><a class="markdownIt-Anchor" href="#药物"></a> 药物</h3><p>不妨看看乙卷里的产物药物</p><p><strong>左旋米那普伦</strong>，相关数据<sup id="fnref:3" class="footnote-ref"><a href="#fn:3" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://zhuanlan.zhihu.com/p/405029856">[3]</span></a></sup>如下：</p><div class="note note-info">            <p>中文名：左旋米那普仑 / (1R,2S)-2-(氨基甲基)-N,N-二乙基-1-苯基环丙烷甲酰胺<br />英文名：(1R,2S)-2-(Aminomethyl)-N,N-diethyl-1-phenylcyclopropanecarboxamide<br />分子结构：<br /><img src="https://urlshare.img.ink/2022/163fd53ec2fc4.png" alt="" /><br />分子量：246.35<br />物理化学性质：熔点228-228.5℃。<br />医学应用：左旋米那普伦可减少抗抑郁药物常见的不良反应，如注意力下降、疲乏和懒散等，具有更好的临床疗效，在当前主流抗抑郁药无效或者不能耐受SNRIs类药物治疗时具有明显的临床优势。</p>          </div><h2 id="合成"><a class="markdownIt-Anchor" href="#合成"></a> 合成</h2><p>主要的合成路线就是题中路线，在网上随便搜搜就可以看到有关介绍<sup id="fnref:4" class="footnote-ref"><a href="#fn:4" rel="footnote"><span class="hint--top hint--rounded" aria-label="http://www.yyjjb.com.cn/05/10/201905101158545854_99.shtml">[4]</span></a></sup>：</p><p><img src="https://urlshare.img.ink/2022/d0757568efa8d.png" alt="合成方案" /></p><p>不能说是毫无关系，只能说是一模一样了（笑</p><h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2><ul><li>N-杂环卡宾（NHC）配合过渡金属催化的偶联反应，例如Suzuki和Heck反应。</li><li><a href="https://www.jkchemical.com/post/980">Gabriel合成</a></li></ul><h2 id="参考"><a class="markdownIt-Anchor" href="#参考"></a> 参考</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://www.sohu.com/a/327108446_610519">https://www.sohu.com/a/327108446_610519</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://baike.baidu.com/item/%E5%B7%A6%E6%97%8B%E7%B1%B3%E9%82%A3%E6%99%AE%E4%BB%91/18756474">https://baike.baidu.com/item/左旋米那普仑/18756474</a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:3" class="footnote-text"><span><a href="https://zhuanlan.zhihu.com/p/405029856">https://zhuanlan.zhihu.com/p/405029856</a><a href="#fnref:3" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:4" class="footnote-text"><span><a href="http://www.yyjjb.com.cn/05/10/201905101158545854_99.shtml">http://www.yyjjb.com.cn/05/10/201905101158545854_99.shtml</a><a href="#fnref:4" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>学学化学</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>chem</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>假期计划</title>
+    <link href="/p/64570.html"/>
+    <url>/p/64570.html</url>
+    
+    <content type="html"><![CDATA[<p>回家没几天感觉摸鱼就摸累了（笑，感觉还是不能颓一整个假期，得找点事做。</p><p>之前考试的时候其实已经计划了不少了XD，记录一下，以勉励自己。</p><p>希望不会一事无成。</p><a id="more"></a><div>            <input type="checkbox" disabled >练练魔方，背一下CFOP，希望sub20          </div><div>            <input type="checkbox" disabled >学习编曲，创作一首完整的音乐作品并发布          </div><div>            <input type="checkbox" disabled ><s>学吉他，能弹出曲</s>          </div><div>            <input type="checkbox" disabled >学习编程，python          </div><div>            <input type="checkbox" disabled >看几本书，之前好几本小说想看都补上          </div><div>            <input type="checkbox" disabled >化学学习，把以前的东西拾起来一些，把Art刷完          </div><div>            <input type="checkbox" disabled >学习一些大学数理的内容，最近先准备一下强基面试8          </div><p>好吧，写完之后发现任务非常艰巨XD</p><p>一点一点去做吧，反正不能太闲，看看最后能完成多少。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>trifle</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>折腾BLOG以及后续的一大堆破事</title>
+    <link href="/p/29115.html"/>
+    <url>/p/29115.html</url>
+    
+    <content type="html"><![CDATA[<p>高考结束了，所以想要继续拾起我的BLOG，继续写点什么。结果一看吓一大跳，图片全都爆炸了:(，而且gitee又增加了诸多限制，思来想去，还是又换回了github。</p><p>又要开始折腾了…</p><a id="more"></a><p><em><strong>为什么图片爆炸了？</strong></em></p><p>我的图床使用的是gitee的仓库，本来一直好好的，但是前段时间gitee突然加强了监管，公开仓库全变成了私有仓库，图片外链直接无法访问了。</p><p>而且这还是我仓库里图片数量比较少的情况下，仓库仅仅是改成了私有。网上看到有人仓库里存了几百张照片，结果直接仓库被封了，图片全变成了gitee的图标。</p><p>所以我blog上大概二十张左右的照片全部黑掉了，只好找替代方案。</p><p><em><strong>替代方案是什么？</strong></em></p><p>还在想。不过gitee这波操作又一次印证了一个道理：免费的就是最贵的。</p><p>其他倒是有很多免费图床可选，不过免费图床要么速度不够，要么图片一年半载后又爆炸。其实我这个体量的blog可以考虑氪金用大厂的OSS储存，毕竟流量费也没几个钱。或者是自己买个服务器建个图床，比如兰空图床之类，这得看资金和后续折腾的动力了XD</p><p>还有一个不错的方案是github+jsdelivr，毕竟github还是比较稳定的，应该会采用这个方案或者至少应急一段时间。</p><p><em><strong>为什么从gitee改为github？</strong></em></p><p>一个原因就是因为gitee突然把图床封掉了，我印象不是很好。</p><p>另一个更重要的原因是gitee加强了审查，现在blog在部署时会经过关键词审查。但是我的文章里也没什么敏感词，但是仍然不通过，也没有给出敏感词的内容，导致我的部署无法实现，让我很不爽。</p><p>最后一个原因是gitee page的免费版是没有自定义域名的功能的，只有升级至pro才有，而github则直接可以自定义域名。</p><p>所以还是改成了github，迁移过程并不复杂，加载速度也基本没有什么变化，不得不说主题优化还是很给力的XD</p><hr /><p>6.13</p><p>好了，现在咱的blog也有自定义顶级域名了：<a href="http://argon-gas.top">argon-gas.top</a></p><p>域名商选了国外的<a href="https://www.namesilo.com/">Nameslio</a>，选了最便宜的.top域名，原本其实是比较喜欢.xyz的，不过比这个略贵一点点。第一年还算比较便宜，折后仅需6元，之后就是一年30多块了，不过与其他后缀相比真的是很便宜了。</p><p>国内域名因为要备案，太麻烦，就没搞。</p><hr /><p>6.14</p><p>结果域名刚配置完，然后重新部署了一次之后就打不开了。</p><p>研究了一下发现是因为重新部署后缺少了CNAME文件，所以DNS解析出了问题。</p><p>所以只要在本地的source文件夹里加入CNAME文件，里面写上自己的自定义域名即可。</p><p>没想到我刚准备部署又出问题。我的git bash里用不了hexo命令了，甚至连npm也用不了了。</p><p><em>（可能是我最近安装了一些破解软件，然后使用注册机时影响到了nodejs的环境配置的原因）</em></p><p>然后只好把nodejs重装了一遍，然后又照着网上教程配置了环境变量：</p><p><a href="https://blog.csdn.net/web18224617243/article/details/123191441">Nodejs环境变量配置</a></p><p>Hexo的命令还是不能用，又配置Hexo的环境：</p><p><a href="https://blog.csdn.net/qq_36759224/article/details/100411949">完美解决 bash: hexo: command not found</a></p><p>然后才解决。真是挺折磨的 😦</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>网络技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>毕业啦</title>
+    <link href="/p/44810.html"/>
+    <url>/p/44810.html</url>
+    
+    <content type="html"><![CDATA[<p>高考生物考完走出考场的那一刻，其实我表现得比我预想的要冷静的多。直到我走出学校大门，看到学生们喜气洋洋的笑脸，看到学生们和父母相拥而笑，我才长舒出一口气，自言自语道：结束了啊，我的高中。</p><a id="more"></a><p>从头说起吧。</p><hr /><p>高考前肯定是每天数着倒计时的，从300到200再到100，然后变成两位数，然后个位数。越往后感觉时间过的越快，复习任务变得很紧，越来越感觉自己什么都不会了，老师们调侃说这是“高原反应”。</p><p>虽然这么说吧，但是我还是一如既往，时间虽然不够用，但还是一到点就吃饭，完全没有所谓“高三学生”的样子。难免有时会焦虑，但是还是一切如常。</p><p>一切如常，其实挺好。</p><p>三模考完之后，基本就全是自习课了，老师上课讲的内容很少，大部分都是自己看做过的题。明明题更本就看不完，不过我还是经常走神:(，经常不知不觉中一节课就过去了。</p><p>总之就是一天一天过，其实没什么变化，题还是做不完，笔记还是看不进去。好多同学临近高考都很紧张，而我是属于“阵痛”，想起来就会焦虑一会，想不起来就还是开摆。</p><p>高三刚开始的时候，我尝试开始写一些日记来记录每一天，不过其实没时间写，百分之九十的内容都是流水账（笑。原本写的目的就是为了在高考前回顾一下自己这一年，结果现在看的时候全是牢骚和流水账，就挺好笑的。不过当然也有很多收获，每翻过的一页就是我过去的一天，确实历历在目。</p><p>然后高考那天早晨，还是日常肚子疼，不过无伤大雅。当班主任带着走出教学楼，走向考场的时候，老师们全都穿着红色衣服夹道加油，于是我心里升起一种肃穆的感觉，同时和同考场顺路的同学对视一笑。</p><hr /><p>在进考场之前我一直表现得从容自信（笑，进了考场坐下才开始紧张，于是我在发卷前的十几分钟里一直在深呼吸，尽量保持冷静清醒。</p><p>考语文的时候，一开始的论述类文本有点读不进去，略感浮躁，耗时略长。第二篇文学类文本又格外的抽象，导致节奏有些乱，所幸状态调整的还可以，另外今年新高考Ⅰ的作文和其他卷的一比感觉还是比较好写了XD，比较熟悉的风格。</p><p>至于数学，用个成语来说的话：当头一棒。</p><p>或许不止一棒（笑，从单选开始，第六题考了个互质，我完全不知道是啥；第七题熟悉的比较大小（我考前刚立FLAG说不会考比较大小），但是我又不会做；多选十一解析几何仍然做得吃力；多选十二考查导数，仍然是新题型，我直接懵掉，看了半天蒙了个选项走了（蒙错了:( )填空十五，十六都很吃力。但我没想到有趣的部分才刚刚开始。</p><p>大题第一道数列我就卡住了，然后心态就有点不正常。最后做出来之后第二道三角又卡住了，（2）问跳了之后下一道立体几何证明垂直又卡住了（泣。然后随便写了写就直接建系了。后面的题更是乱做一通，概率一开始看不懂题，后来才搞明白；解析几何连（1）问都不想给我分，导数也做不动，整个人是个傻掉的状态。考完走出考场一片哀号，而我已经麻木了。</p><p>英语还算OK，物理主要是题型较新，选择一些小题计算量比较大，不过考虑到我的物理水平，还是啥都不会做；化学从多选开始相当抽象，结构题出的很新，有点水平。再就是我高三一年的化学考试第一次没写完合成路线，有些遗憾；生物也不好做，感觉多选都不太确定，大题中题型也有变化，之前神经体液免疫相关的实验设计没了，改成了三个小填空，有点出乎意料。</p><p>作为物化生考生，高考的战线还是挺长的，从6月7日开始到6月10日中午考完生物结束，感觉对体力也是一个很大的消耗。另外就是后面几场考试心态上感觉有点麻木了hhhh，复习的时候感觉有点看不进去，尤其是在考试的时候想到放假真的考验心态XD</p><p>四天的考试，说长不长，说短不短，却浓缩着高中三年所有的生活。</p><hr /><p>考完之后我表现的比我想象的要平静。</p><p>高兴当然是高兴的，终于实现了自己在之前无数次幻想过的真正自由，但总是有些迷茫。</p><p>也许是无所适从吧，感觉自己毕业之后变成无业游民了XD。忽然就失去了学校时间和纪律的规范和限制，于是我在家摸了一天，啥也没干。</p><p>在家放纵固然很爽，可是很快就会空虚，还是应当做做计划，充实提升自己才是最重要的。</p><p>这几天天气不是很好，一直有点阴天。不过这个假期想必是十分灿烂的，趁这机会，要把我所有想去做的事一件件全部实现。</p><p>去成为我自己。</p><hr /><p>7.1</p><p>出分之前在家玩的很爽XD，不过知道自己的成绩之后就没什么心思了。</p><p>自知也就那水平，但是数学还是低于预期一大截，600分的小小愿望也没能实现。后来查大学的时候更是失落，本来我还以为上个985没什么大问题的，结果还是实力有限。</p><p>总之还是差的很远，这也是因为预期太高的原因8，和其他大佬一起待着，总觉得自己也还不差，其实是很明显的比上不足。</p><p>然后就有点失落，在家里打了好几天游戏，其余只剩吃饭，睡觉。原本还想复习一下竞赛知识应付一下强基的校考，但是因为没达到入围分数所以理所当然的啥也没学。</p><p>度过了很颓废的几天（<em>虽然但是，Hades真的好玩</em></p><p>后来慢慢想开了，毕竟人外有人，适当的降低期待，接受自己就会感觉好很多。不妨就坦然接受自己终究势不可当地要成为一个普通人。</p><p>与其在985学奇奇怪怪的自己不喜欢的专业，倒不如追寻自己心之所向，去一所好的211学自己想学的专业。不必被学校的头衔桎梏了眼光。</p><blockquote><p>如果你因为错过太阳而哭泣，那么你也将错过漫天繁星。</p></blockquote><p>事已至此，无需再悔，珍惜当下，把握未来。</p><hr /><p>虽然已经放了快一个月假了，但是还什么都没做，不过剩下的时间如果好好把握，还可以有很大的改变和提升。之前的假期就当是摸鱼啦，也算摸得开心，后半部分总要做点事。</p><p>提升自己永远是最根本的生活方向，毕竟你自己永远不会背叛你自己，这话听起来有点自私自利，但却很真实。</p><p>想到希腊神话中的西西弗斯，他被众神降罚，必须不断把一块巨石推上山顶，但在快到山顶时巨石又会落下。西西弗斯就在不断的推上又掉下的过程中重复着人们眼中无意义的工作。</p><p>即使巨石永远无法被推至顶端，推动巨石、挣扎向上的过程却更弥足珍贵。</p><p>人们应该认识到西西弗斯是幸福的，因为迈向高处的挣扎足以充实一个人的心灵。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>essay</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>一年一度高考季（2）</title>
+    <link href="/p/44341.html"/>
+    <url>/p/44341.html</url>
+    
+    <content type="html"><![CDATA[<p>一年一度，高考又来。</p><p>去年六月七号，我在家里上网课，有感而发，随笔而记。结果一年过去，到了我要走进考场的时候了。我在那时所推测的我的心情，现在终于一言难尽。</p><a id="more"></a><p>总而言之，无论刻骨铭心，亦或昏昏碌碌，高三生活算是要结束了。我还是没什么变化，但又仍不甘心。</p><p>留恋吗？是的，时光飞逝，往事依稀难追忆，这是一段有特殊纪念意义的时光，但也许又只是人生路上的一站，现在看来极其重要的关口，走过后大概云淡风轻。</p><p>满意吗？也许，从头细数，草莹有耀终非火，这段路走的并不稳健，虽然已至此时此处，或有小成，但来路莫辨，去处不定，大抵事难顺心。</p><p>后悔吗？难言，欲说还休，有时得意有时愁，想想终究是懦弱，不合时宜的悲观，长期盲目的乐观，积累下现在的结果，是好是坏又如何？</p><p>我曾经可以自信的说：“我不会对我的任何决定感到后悔”。现在却要踌躇低徊了，并非出于错误的抉择，而是因为眼高手低，因为懦弱，因为缺乏掘心自食的勇气，因为总是冷眼审视他人，忘了审视自己。</p><p>但是，似乎也没那么不堪，人事古难全，也许应该与自己和解，而不是在自责中内耗殆尽。</p><p>我还是不愿就此妥协于现实。</p><p>人总是要有些事，令其魂梦系之，总是不能放松对希望的追逐和信仰。</p><p>可是希望真切的存在吗，还是虚无缥缈的奇迹，信仰还是迷信？盖棺论定的时刻会是何时？</p><p>完美永远不可企及，但趋近完美的努力便是信仰的恒途。固然应该冷静地看待事情，但是不能让悲观击垮乐观的天性。或许此时，正是需要保持天性乐观的时刻。无妨只这一次，以吾书生意气，纵千万人而往，无念无悔。</p><p>不到最后一刻，臆断输赢尚早，正如运动，正如竞赛，正如博弈，坚持便是“player”的气质。</p><blockquote><p>何须苦虑成败事，即是逆途勇自识。<br />高歌前路纵有憾，共瞰繁花似锦时。</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>essay</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>白嫖可用梯子</title>
+    <link href="/p/40326.html"/>
+    <url>/p/40326.html</url>
+    
+    <content type="html"><![CDATA[<p>找到了一个可白嫖的高速可用梯子，懂的都懂XD</p><a id="more"></a><p>他就是<strong>西部世界</strong>(West World)，好像名气还挺大的，应该很多人知道。</p><p><img src="https://urlshare.img.ink/2022/f6fde450ff29c.png" alt="WestWorld" /></p><p>这个梯子实际上是付费的，不过有可以薅羊毛的方法。</p><p>注册的每个新用户都有6h，5G的流量，如果验证了邮箱则加长到3天。</p><p><img src="https://urlshare.img.ink/2022/f41a320854f5d.png" alt="login" /></p><p>速度还不错，即使YouTube视频也没问题，浏览网页更不在话下。</p><p>6h的限制实际上对我来说完全够用，反正只是消遣用途，什么时候需要去申请一个就行了。</p><p>邮箱的注册十分简单，且不需要邮箱验证，随便填也是可以的，具体操作步骤其官网上说的蛮详细，照着操作即可。</p><p><a href="https://xbww6889.xyz/?index=1">West World</a></p><p>官网说是永不跑路，不过反正我只是薅羊毛图一乐啦。</p><hr /><p>6.12</p><p>不是很稳定，偶尔能用，很多时候是服务器错误，反正基本坏掉了（<br />而且经常会有时候注册账号显示已经体验过了，应该不太可能是别人注册过，应该是IP检测吧</p><hr /><p>7.7</p><p>偶然发现了另一个梯子，<strong>白鲸加速器</strong></p><p><img src="https://urlshare.img.ink/2022/e4f88b5f2d954.jpeg" alt="whale" /></p><p>同样是有免费套餐，仅仅需要邮箱注册即可， 无须验证。</p><p>速度相当快的，体感估计比westworld还要快一些，看YouTube用720P60FPS可以很流畅的看完。</p><p>线路是自动设定的，似乎是台湾的服务器，但是速度确实很快。</p><p>天下没有免费的午餐，免费套餐有一个月的时长限制，不过其实已经很长了。虽然加速器上没写明其他的限制，不过应该是有流量限制的，具体怎么限制还不清楚。</p><p>有Win，Android和Mac三个版本，Win和Android我个人测试均可用。</p><p>看网上有网友的反馈说：同一个设备注册多个账号后会限制使用，想想也是合理，毕竟不可能让你一直白嫖。不过一个账号能用一个月，一次性消耗品也算能接受。</p><p><a href="https://www.bjchuhai.com/">Whale</a></p><p>另外网上还有一个火箭加速器，应该就是白鲸加速器的前身，如果在火箭加速器官网下载，会发现下载到的实际是白鲸加速器（</p><hr /><p>7.29</p><p>在网上找图床的时候发现了另一个梯子：<strong>加速猫VPN</strong>。</p><p><img src="https://urlshare.img.ink/2022/d0bfac67c352b.jpeg" alt="加速猫" /></p><p>邮箱注册，无需验证，新用户有5天试用期，限速10M/s，流量30G。相当于Youtube视频1080P能看10h左右。</p><p><img src="https://urlshare.img.ink/2022/90377720bae84.jpeg" alt="加速猫" /></p><p>另外有自己的各平台客户端，比较方便萌新使用。也提供了节点配合其他工具使用，目前有27个节点，涵盖21个国家。</p><p>我自己随便找了两个香港节点使用了一会，速度很快，1080P视频很流畅，又比上面的白鲸加速器更快一点XD</p><p>不过免费的才是最贵的，羊毛不知道能薅到什么时候。这个也有可能会限制账号注册，能用一次算一次吧。</p><hr /><p>8.8</p><p>白鲸加速器账号体验时长到期了，然后就不能注册新账号了。也就是说一台设备只能注册使用一个账号，只能白嫖30天。</p><p>还算可以接受吧，速度也还可以，稳定性不错。</p><p>加速猫的梯子个人使用体验是不错的，速度和稳定性都挺好。而且已经蹭了3个账号了，依然还可以白嫖。</p><p>但是我之前用v2rayN的时候经常用一段时间之后就连不上了，猜测可能是节点更新不及时。</p><p>后来下载了加速猫的客户端，Win和Android我都试过了，比较简洁明了，体验不错。</p><p><img src="https://urlshare.img.ink/2022/e1fe87805961e.png" alt="加速猫" /></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>网络技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>trifle</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>时逢清明闲记</title>
+    <link href="/p/11788.html"/>
+    <url>/p/11788.html</url>
+    
+    <content type="html"><![CDATA[<p>这段时间经历了很多事啊，清明放假在家得以摸一下电脑，记录一下自己的碎碎念。</p><a id="more"></a><p>首先就是由于疫情封在学校带了一个月，不过反正我是高贵的全住宿生（笑），这于我其实影响不大。反而我觉得封校这一段时间待的还挺爽，唯一不足就是换洗衣物和文具有点捉襟见肘。</p><p>不过放假时我还是很兴奋的，毕竟终于得以自由，我坐车回家时开着窗吹着风，那时候真是这半年来少有的惬意心情。</p><p>再就是时间过得真快啊，一转眼已经四月了，到了高三才有时不我待之感，不过身体上还是依然惫怠，也许会这样一直摇摆到高考吧。</p><p>让我心神不宁之事依然存在，也许应该再决绝一点全部抛开会更好一些吧，我还是懦弱。</p><hr /><p>家里的电脑之前下软件中病毒坏掉了（，病毒好像侵染系统文件，然后我用杀毒软件清除后重启就直接打不开系统了，连安全模式都进不去。后来我就回学校，暂时忘掉了这事，这次回来才知道我爸把电脑拿去重装系统，重置了C盘，常用的软件基本上都没了，不过能用已是万幸，我也没心思打游戏了。</p><p>唯一令我不爽的就是系统改回Win7了，不过也不影响我冲浪XD</p><p>为了能重新写和提交Blog，我费了好一番工夫。先是安装Nodejs，结果发现新版本已经不支持Win7了，费劲才找到旧版本下载下来，然后又安装git和Hexo，然后去下回来VSC当编辑器。这期间折腾了好久，还安装了一大堆相关组件，属实有点心力交瘁。</p><p>结果写文章的时候又有意外，gitee封禁了picgo上传图片，不让白嫖图床了，搞得我措手不及。</p><p>我这Blog图片确实没几张，但是要一张一张换还是很费劲，这下gitee也没法白嫖了，好像也没什么好用的免费图床了，果然免费的才是最贵的，想着要好好弄的话还是等高考完后老实买大厂的对象储存吧。</p><p>在网上看到有些人的图床仓库直接被封禁了，我的仓库倒是没事，应该是图片外链比较少，没有管我。手动地上传图片仍然可以，图片也还能正常显示，现在只能凑合凑合了，到时候还是要换的，gitee已经不太行了。</p><hr /><p>部署时又有问题，提示我之前的一篇文章有敏感词让我修改。</p><p>上网查了一下发现应该不是我的问题，可能pages又维护之后抽风了（</p><p>本来我弄这个Blog就是为了能自由的写点什么东西，看来还是不太自由的，终究还是要改github嘛？</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>essay</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>化学漫谈001</title>
+    <link href="/p/22378.html"/>
+    <url>/p/22378.html</url>
+    
+    <content type="html"><![CDATA[<p>竞赛结束之后就再没碰过化学书了（，之前的有机析题也是写了两篇就再无动力去写。不过终究还是想写点什么聊以自慰，就以平常做题遇到的药物合成研究研究，也比较贴近生活XD</p><a id="more"></a><p><img src="https://urlshare.img.ink/2022/840020239b10d.png" alt="化学漫谈001" /></p><h2 id="概述"><a class="markdownIt-Anchor" href="#概述"></a> 概述</h2><p>今天讨论的药物是<strong>氯苯噻乙酸</strong>,相关数据<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="http://www.ichemistry.cn/chemistry/18046-21-4.htm">[1]</span></a></sup>如下：</p><div class="note note-info">            <p>中文名：氯苯噻乙酸 / 4-对氯苯基-2-苯基噻唑-5-乙酸<br />英文名：4-(p-chlorophenyl)-2-phenyl-5-thiazoleacetic acid<br />分子结构：<br /><img src="https://urlshare.img.ink/2022/40dd67a952ff1.png" alt="" /><br />分子量：329.810<br />物理化学性质：无色针状结晶。熔点161-162℃（157-158℃）。易溶于丙酮，稍溶于甲醇；乙醇，难溶于氯仿；苯，几乎不溶于水。遇光渐变色，无臭。<br />医学应用：氯苯噻乙酸为一种新的甾体消炎镇压痛药，可用于慢性关节炎；变形性关节症；肩周炎；腰痛；呼吸道炎症的消炎镇痛，也用于外伤及术后，拔牙的消炎镇痛。</p>          </div><h2 id="合成"><a class="markdownIt-Anchor" href="#合成"></a> 合成</h2><p>常见的一种合成路线如下：</p><p><img src="https://urlshare.img.ink/2022/5f42e7815b2b3.png" alt="合成方案" /></p><p>找到的文献<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://www.sciencedirect.com/science/article/abs/pii/S0960894X0901720X">[2]</span></a></sup>给出的制备方案描述较为简易，仅仅是说 <em>微波辅助加热</em> (by microwave assisted heating in DMF)，另外也给出了一种生物合成法。我尝试写了一下该反应的机理：<br /><img src="https://urlshare.img.ink/2022/ea2b6ab3d8721.png" alt="可能机理" /></p><p>没什么好说的，根据产物不难推得机理。</p><p>同时文献还给出了一种衍生物的制备方法，我同样尝试给出可能机理：</p><p><img src="https://urlshare.img.ink/2022/5d4964ed85fb5.png" alt="衍生物" /></p><p><img src="https://urlshare.img.ink/2022/9d7273ab6f71c.png" alt="可能机理" /></p><p>第一步反应构建噻唑环与方案一有所不同，通过氰基来构建碳氮双键；第二步首先用<strong>三氟甲磺酸酐</strong>与酚羟基反应，得到磺酸酯，磺酸基负离子为很好的离去基团，可以大大增加反应活性。s接着利用<strong>Suzuki-Miyaura反应</strong>把芳基偶联上去。</p><h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2><p>总结一下涉及的知识点：</p><ul><li><p>三氟甲磺酸酐，有机常用的试剂，三氟甲基磺酸根是非常好的离去基团，可大大增加反应活性。</p></li><li><p><a href="https://baike.baidu.com/item/%E9%93%83%E6%9C%A8%E5%8F%8D%E5%BA%94/1112494">Suzuki-Miyaura反应</a>，超棒的过渡金属催化偶联，非常常用。</p></li></ul><h2 id="参考"><a class="markdownIt-Anchor" href="#参考"></a> 参考</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="http://www.ichemistry.cn/chemistry/18046-21-4.htm">http://www.ichemistry.cn/chemistry/18046-21-4.htm</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://www.sciencedirect.com/science/article/abs/pii/S0960894X0901720X">https://www.sciencedirect.com/science/article/abs/pii/S0960894X0901720X</a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>学学化学</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>chem</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>过年请客</title>
+    <link href="/p/61042.html"/>
+    <url>/p/61042.html</url>
+    
+    <content type="html"><![CDATA[<p>过年了，今年由于禁放烟花爆竹，除夕夜倒是清净的多。不过也还是有热闹的时候，那就是请亲戚朋友聚桌而餐了，这事之于我，今年突然有了些不一样的感受。</p><a id="more"></a><p>客人出发动身的时间值得细细考量，既不能去太早，以免耽误主人备办事项；更不能到太晚，否则显得一心为了吃席，缺了礼貌。所以要恰到好处，要不令人措手不及，也不让人望眼欲穿。</p><p>照例是一进门先互道新年，同时扫视一下四周环境和人物，以便勾起一些似乎渺远的印象。少不了的是给小孩子发红包，尤其是好几家人的时候需细细关注，切不能忘了给。</p><p>孩子们自然合聚而欢，毕竟 <em>王者荣耀</em> 和 <em>和平精英</em> 等是喜闻乐见的社交方式。长辈们大抵谈天说地，话南道北，从体重体型到工作事业，从晚辈婚事到长辈身体，无所不可谈。</p><p>其中尤为津津乐道的便是后二者。我目前自然无催婚之扰，但在老家看到表哥被介绍对象时，其虽面不改色，但揣度心情该是不太畅意，令我也暗生怜悯。</p><p>孩子学习也不可缺席，这其中以我的关注度最高，通常是先问询年岁，求得年级，然后恍然大声曰：“这不今年就高考啦”。然后以资鼓励，贺以高中，金榜题名之类尔尔。我这时不便有过多表示，只好连声道谢，耸耸肩作鹭鸶笑，以示敬允。</p><p>等到菜次第就位，主人便招呼客人们落座拾箸。如果是圆桌当然无座次之别，但若长桌就得加以考量，不过现在似乎也不太讲究这些了，毕竟亲朋之间现在似乎是好得不分你我啦。</p><p>吃菜前先是举杯相碰，这时节即使是不喝酒的人也要举起装着饮料或白水的杯子做以回应，一碰言欢。更有健谈者当临场发挥宣讲一番，往往会把气氛托到高潮，环顾则人人带笑的。接着便下箸开饭，以现在的生活条件来说，大鱼大肉平常也可随时上桌，过年这几天大概又格外的多，所以面对一桌吃食反而咽下了了。孩子们通常会被格外提醒多吃，而父母则常会婉言不必操心。</p><p>饭桌上少不了酒，而且往往喝酒多于食菜。有不胜酒力者，面色通红，声调激昂。有千杯不醉者，神色不变，倒酒不止。酒喝下去，话吐出来，有些人喝完酒后便常善言乐谈，说话间语调和音量不经意便逐渐提高，若是有其他人相应和，那场面有时堪比吵架，令人疑心他们下一秒会不会跳至桌上。</p><p>考虑到桌子大小和菜品制作，往往是一边做着，一边吃着，做好了再往上上菜。当菜上齐后，主厨和助手才能得一时空闲，客人们招呼她们（我想绝大多数时候下厨的还是女性，例如母亲和母亲的母亲）吃饭以表慰劳，她们摆摆手笑笑。</p><p>席终，客人们往往是雅兴不浅的，聊天有时会持续很长时间，直到谈无可谈，觉出疲倦来才先言告退。然而席终人散，恭送出门之后还未功德圆满，干果皮壳，糖纸烟灰往往遍布，桌上杯盘狼藉，剩菜剩饭，甚至于偶然洒出的啤酒饮料，都等着收拾呢！</p><p>梁实秋先生的《雅舍小品》中也有《请客》一节， <em>（此篇多有借鉴，其文风深得我意XD）</em> ，开头如下：</p><blockquote><p>常听人说：“若要一天不得安，请客；若要一年不得安，盖房；若要一辈子不得安，娶姨太太。”请客只有一天不得安，为害不算太大，所以人人都觉得不妨偶一为之。</p></blockquote><p>过年这时节一年一次，请客不妨偶一为之，此言得矣。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>essay</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>《文城》读后感</title>
+    <link href="/p/58313.html"/>
+    <url>/p/58313.html</url>
+    
+    <content type="html"><![CDATA[<p>由于考试，在复习的时候学不进去干脆开始看书，借了本同学的小说，便是余华的新作《文城》。一中午加傍晚火速看完了，现在回过头来想再咀嚼一些内容。</p><a id="more"></a><p><strong>剧透警告</strong></p><hr /><h2 id="1关于故事"><a class="markdownIt-Anchor" href="#1关于故事"></a> 1.关于故事</h2><p>《文城》整书分为两部分，包括《文城》和《文城 补》，我猜想可能是余华写着写着发现写飞了，然后又写了一个“前传”来补完故事背景。（run</p><p>《文城》的故事在内容上又可以分为两个部分，首先是林祥福为了寻找两次离他而去的妻子小美而南下寻找所谓“文城”，寻找无果后在溪镇定居的故事；之后则是林祥福在溪镇发展，并和居民一起与土匪“斗智斗勇”的故事。《文城 补》则是以小美的视角交待了她和丈夫阿强在故乡溪镇的故事。</p><p>我初读时看到林祥福死了之后书还有三分之一，我以为要讲下一代的故事，结果戛然而止。后面是《文城 补》。这不免让我感觉故事有些撕裂：为了寻妻定居溪镇，结果没想到小美在他第一天定居溪镇的时候就已冻死在祭祀典礼上。于是林祥福的感情线在民匪相抗的故事中完全是缺席的，有一种两个故事似乎毫无关联的感觉。</p><p>而且故事情节乍一听很老套对吧，不过余华讲故事的能力还是值得信任。他以其冷峻的口吻缓缓讲述悲剧，这种“零度叙事”的风格令人感到无比压抑而沉重，余华以这种方式筛选他的读者：必须要能接受残酷和悲剧，绝望与死亡。</p><p>在25章之前，故事还进行的异常舒缓与温柔，除了小美离去之外几乎没有情感起伏。而从定居溪镇开始，随着主要人物一个个出场，余华的风格也逐渐显现。</p><p>对于器官和性的奇幻想象：</p><blockquote><p>这个混世小魔王几年下来练就了撑杆跳的本领，学校与戏院隔着一条小河，戏院门前是妓女招客的地方，顾同年找来一根粗壮的竹竿，在夜色降临之后撑杆跳过小河，拖着长长的竹竿进入戏院看戏。顾同年十二岁以后没有看戏的兴趣了，这个还没有完全发育的男孩拖着竹竿在戏院门前晃来晃去，无师自通的学会了与妓女搭讪，又学会了与妓女讨价还价。顾同年十二岁开始在附近旅社开房间，与妓女同床共枕到旭日高升。</p></blockquote><blockquote><p>那些在寒风里站了一天的士兵个个手脚发麻，有些人眼看着挨到妓院门口，摸摸自己冻成冰棍似的身体，说这时候进去也干不了啦，还是回去睡觉吧。一些不死心的坚持到最后，当他们进了妓女的格间，看到赤身裸体的妓女躺在那里死去似的没有动静。</p></blockquote><p>鲜血与死亡，暴力与冷酷：</p><blockquote><p>小五子和那个土匪一左一右，挥起鞭子在李掌柜的前胸后背抽打起来，鞭子一声声抽上去，李掌柜身上立刻隆起一天天伤痕，伤痕破裂后又冒出一道道血水。<br />…  …<br />水上漂说是听烦了他的叫声，抓起一把灶灰，在李掌柜张嘴喊叫事洒进他的嘴里，李掌柜的惨叫立刻消失了，呼吸也没有了，脸色惨白像是刷了石灰，他睁圆眼睛，全身抖动了好一会儿才缓过气来，当他再次惨叫时，嘴和鼻子喷出了血水，喷到了挨墙而坐的人票身上。</p></blockquote><blockquote><p>一个女人抱着孩子跑来，张一斧上去砍下孩子的头，孩子的鲜血喷射而出，女人满脸是血，她浑然不觉，抱着无头的孩子仍在奔跑，她以为孩子安然无恙，跑出了村庄。<br />…  …<br />土匪挥舞长刀，砍下一个个老少人头，还有土匪扔出梭镖，穿透一个个男女的胸背。尚未出生的孩子，被土匪戳死在母亲肚子里。梭镖拔不出来的，土匪抬脚蹬向尚有气息的身体，拔出梭镖。两百多人的鲜血在空中飞溅，溅满晒谷场四周的树叶，又从风中摇晃的树叶滴落下来。</p></blockquote><p>余华一向擅长这种叙事，这种特别的审美风格已然成为他的标签。文风是一个方面，另一方面是带有浓厚“命运感”的悲剧故事。</p><p>仔细想想林祥福的寻妻之旅其实有点无厘头，被两次抛下的他为了孩子还是毅然决定要南下寻找小美，即使这意味着要放弃一切。借用<strong>知乎@言寺宝于</strong>的话来说： <em>“余华开篇的这一系列安排，多少显得有些刻意，且不合情理；但若我们用“傻子”论去解释人物，无论出现什么怪事，倒也都没有合理或不合理之别，这只是一段因为愚蠢，而显得既窝心又温暖的爱情故事。”</em></p><p>林祥福就是这样一位“傻子”的形象，而在余华的笔下，每当悲剧降临，将其包裹，也同样包裹着书外的读者，让我们在“傻子的诗篇”中一把鼻涕一把泪的感叹人生之苦，世事之艰。</p><p>《文城》的后半部分则是将个体融入到时代大背景中，着力描写溪镇民团和土匪的缠斗，同时兼顾人物形象的塑造，那些有血有肉，有情有义的人物，他们身上所体现的略显套路化却又真挚的性情营造一定程度上冲淡了整体的悲剧基调，让故事变得温暖起来。</p><h2 id="2关于人物"><a class="markdownIt-Anchor" href="#2关于人物"></a> 2.关于人物</h2><p>《文城》中有名有姓的人物不是很多，其中有几个尤为让我印象深刻。</p><p><strong>林祥福&amp;小美&amp;阿强</strong></p><p>emmm，三角恋（，而且是一个女人爱上两个男人。</p><p>故事一开始的时候发展的也太顺了，于是我就开始怀疑小美有问题，果不其然，先是卷了金条跑了，不过又回来了，林祥福倒是也非常宽容的接受了她。但小美生下孩子后又跑了，林祥福便开始了不离不弃的寻找之旅。</p><p>看完《文城 补》之后，有一点感动，但是我还是觉得说到底是一个“一对小情侣霍霍了一个老实人”的故事，有点为林祥福鸣不平。“如果没有小美”，那么林祥福可能会在自己北方的故乡娶一个老实本分的姑娘，和田氏五兄弟一起过完平静的一生。但是就像林祥福自己多次提到的一样，“或许这就是命”，这种充满“命运感”的故事也正是其让人难以释怀的原因。</p><p>小美和阿强之间是青梅竹马的恋情。<em>我刚开始看到这名字的时候就觉出一股烂俗童话故事的感觉（</em>，小美是作为童养媳嫁入阿强家里的，他们的婚姻虽然是被父母预定的，但是至少阿强和小美之间确实有真的感情。《文城 补》是以小美的视角展开叙述，所以基本上还是偏重于小美对阿强的忠心，对阿强对小美的爱描写较少，但阿强能选择抛下他的家庭带小美出走，也算是真爱了。</p><p>小美和林祥福之间则是成熟伴侣安稳的陪伴。故事一开始的描写十分的美好和谐，虽然小美动机不纯，但是她和林祥福在一起的时光还是有很多真正美好的回忆的。尤其是有了孩子之后，孩子的联系使得小美更加无法割舍，虽然她还是离开，但是在之后的日子里，她一直没有停止对于孩子的思念。最后死在冬日祭祀的时候，我相信她心里还是在想着林祥福和孩子。《文城 补》的最后，林祥福的尸身被田氏兄弟运回家乡，他的棺材短暂地和小美的坟墓放在一起，“仅有一墙之隔”，这无疑增强了故事的传奇色彩。</p><p><strong>陈永良一家&amp;林百家</strong></p><p>林祥福刚到溪镇遇见的第一个人便是陈永良，在冰雪漫天，无处可去之时，林祥福投靠到陈永良家里，从此开始了一生的友谊。他们两个都是南下迁徙之人，又都有一手木工手艺，于是便合作开设了个木器社，生意出人意料的红火，颇有点网络爽文的意思。当然这也是为了照应土匪为害一方，人们都想让自己的女儿及早出嫁免遭毒手，所以忙着置办嫁妆，也自然引出下文土匪劫走林百家的情节。</p><p>林百家从小便失去母亲，李美莲对她无微不至的关爱让她感受到了母亲的温暖。不过尤其令我动容的还是李美莲让陈耀武去替林百家的情节，在那个重男轻女的年代，即使“儿子有两个，小姐只有一个”，能做出这样一个决定仍然需要很大勇气。</p><p>而陈耀武也是毅然答应，没有丝毫犹豫，这大概也是陈耀武成长和懵懂爱情的开始。文章花了不少笔墨来述写土匪折磨人票的场面，陈耀武也被土匪割去一只耳朵，但是也阴差阳错结识了心善的土匪“和尚”，最终能活着回到家中，也为后文剿匪埋下伏笔。</p><p>陈耀武和林百家之间的恋情虽然最后未能如愿，但至少两人在那个兵荒马乱的乱世都还平安。林百家被送去了上海的女子学校，基本上没了下文，而她的订婚的丈夫，游手好闲的公子哥顾同年被卖到澳洲当劳力，可谓相当戏谑的结局；陈耀武跟着陈永良抗击土匪，也逐渐的成长成熟。还有个小插曲则是北洋军的副官李元成，不知这位求爱不成的英俊副官离开时留下潇洒的一句话是否林百家心上留下了什么。文章在此也仅是一笔带过，下文再无音讯。</p><p><strong>商会会长顾益民</strong></p><p>这是“溪镇最有尊严的人”，在被土匪捉去后却被折磨的几乎不成人样，这种强烈的反差与对比能有效地冲击读者。昔日风光无限，运筹帷幄，掌控大局的溪镇商会会长竟落得如此地步，令人不胜唏嘘。余华成功的塑造了一个有责任感和正义感的乡绅领袖的形象，但也止步于此，没有更多细节的描述，人物终究不太鲜活。</p><p><strong>土匪头子张一斧</strong></p><p>行恶多端的土匪，成分很纯，完全的坏（<br />人物形象还是很单一的，虽然余华花了不少笔墨去描写他怎么怎么祸害百姓，描写土匪的各种酷刑，但形象终究不够立体。<br />关于他有件有趣的事：</p><blockquote><p>小说中悍匪张一斧被杀的情节是余华的妻子要求的，“必须把他写死，不死不行”，余华只得花了三天时间想怎么把张一斧写死</p></blockquote><p>这是余华在一次访谈中透露的花絮( <em><a href="https://www.163.com/dy/article/G8HG5GQV0514R9KQ.html">详情见</a></em> )，挺有意思。</p><h2 id="3关于作者"><a class="markdownIt-Anchor" href="#3关于作者"></a> 3.关于作者</h2><p>我在学校其实不太愿意读长篇小说，因为没有大段可以用来摸鱼的时间。</p><p>这次买了这本书其实有两个主要原因，一是因为已经读了不少了，不看完我心里不爽；二是因为 <em>“余华 著”</em> 这几个字。</p><p>这几个字很有分量。</p><p>尽管从《许三观卖血记》，《活着》之后，批评家们对余华小说的反馈一部不如一部，有媒体说：“《文城》代表着余华重回巅峰”。很明显不太现实，充其量也只能说：“比《第七天》好”。</p><p>即使如此，人们还是愿意支持和期待余华的新作，就好比春晚，烂是真烂，但还是会看。</p><p>《文城》这书的评价两极分化，认为好的卖力的夸；认为烂的也不吝指责。平心而论，确实不是余华的巅峰水平，客观来看也再难回到他的巅峰。</p><p>一位作家不可能一直产出经典，很多作家终其一生能够留在文学史的作品，也只有耳熟能详的几部而已。余华今天能坚持写作，即使水平并不能完全令人满意（<em>我读的倒是挺爽</em>），但也好比老师傅对自己熟练手艺的展示，其实无可厚非。</p><p>还是引<strong>知乎答主@言寺宝于</strong>的话: <em>“从书迷的角度，余华早在二十年前就已经著作等身，他今天仍然愿意创作，仍然愿意和读者分享自己的情感、想法，这对于热爱他的，希望继续看到他文字的读者来说，是很幸福的事。瑕不掩瑜还是瑜不掩瑕都不适合于评价这种“情感”。最后的最后，'文城’是地图上不存在的地方，'完美的余华’也是文学史上不存在的作家。”</em></p><h2 id="4后记"><a class="markdownIt-Anchor" href="#4后记"></a> 4.后记</h2><p>写了很久，第一部分是看完之后立刻写的，后面则是咕了大概半个月才写完的，我的书还落在学校宿舍了，没有参考写起来全凭记忆，还挺费劲的。 😦</p><p>续：补充修改部分内容。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>记录读感</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>book</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>赋诗自嘲</title>
+    <link href="/p/31528.html"/>
+    <url>/p/31528.html</url>
+    
+    <content type="html"><![CDATA[<p>水平拙劣，自娱自乐自嘲而已。</p><a id="more"></a><blockquote><p>自嘲<br />生平无历偏言苦，逆折未几强说愁。<br />今朝暗期凌云志，明日烟销付东流。<br />冬风料峭亦可赏，春意翩然更当收。<br />自觉不应秋气盛，抬首翕唇说还休。</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>essay</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>折腾图床</title>
+    <link href="/p/55817.html"/>
+    <url>/p/55817.html</url>
+    
+    <content type="html"><![CDATA[<p>虽然说没太多传图片的需求，但是偶尔也是有几张的。</p><p>图床本身我不愿意常换，倾向于一直用一个，但是可能是我运气不太好，用的图床依次爆炸，只好不停更换，折腾半天，相当麻烦。</p><a id="more"></a><p><a href="http://xn--sm-3f5c647e23a.ms">最初是sm.ms</a>，老牌的图床了，但是有时不太稳定，图片经常爆炸。于是去找替代。</p><p>然后找到了如优图床，本来相当称心，用了一段时间后也爆炸了，不得已只好再换。</p><p>然后就是今天要重点夸夸的主角：picgo。</p><p>之前是用过的，但我对它一开始比较无感，因为我第一次用的时候就卡死了XD，不知道是我的问题还是怎么回事。</p><p>而且之前好像也不支持我用的那个如优图床，捣鼓半天没成功，我便不去再试，因为本身图片上传工作量确实不大，即使手动开网页上传图片也能应付过来，管理起来也不麻烦，我就得过且过。</p><p>等到如优图床没了，我又试了其他一些图床，速度皆不尽人意。于是我又把目光放到了picgo上。</p><p>picgo+gitee，确实没让我失望，速度相当不错，同时也确实是方便得很。</p><p>我吹爆picgo！</p><p>gitee的仓库本身有1G的限制，同时单张图片大小不能超过50M，不过基本上是够用的。</p><p>github的仓库容量会更大一些，但是速度就略逊一筹。</p><p>至于相关教程网上有很多，我不多赘述，给出链接以供参考：</p><p><a href="https://cloud.tencent.com/developer/article/1622395">使用PicGo+Gitee(码云)搭建免费图床</a></p><p><a href="https://zhuanlan.zhihu.com/p/355919389">图床方案之（Gitee+PicGo）</a></p><p><a href="https://picgo.github.io/PicGo-Doc/zh/guide/#%E5%BA%94%E7%94%A8%E6%A6%82%E8%BF%B0">PicGo</a></p><hr /><p>6.12</p><p>gitee白嫖图床爆炸了，改成github+jsDeliver了，不过还是可以继续用picgo。</p><hr /><p>6.28</p><p>因为有了自定义域名，所以准备用七牛的云储存。折腾了一会，放弃了，没有备案域名实在没法整 😦</p><p>选择了一个看起来比较稳定，速度也很快的图床，<a href="https://www.superbed.cn/"><strong>聚合图床</strong></a>，但是免费版本不能支持API确实不是很爽。</p><p>7.29</p><p>又又又改了，本来聚合图床的速度是不错的，但是不支持使用API，虽然说我基本不会用到多少，但是不折腾就感觉亏了XD。</p><p>所以换了图床，选择了<a href="https://img.ink/"><strong>水墨图床</strong></a>，这是一个使用兰空图床的大佬自建的图床，速度和聚合图床相差无几，但是支持picgo的API，再一次用上picgo确实很爽。</p><p>所以现在的图片储存方案是：图片通过picgo上传到水墨图床和github的仓库，水墨图床就是用作主力图床，github主要是起备份储存的作用。有了picgo是比较方便的。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>网络技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>你好，2022</title>
+    <link href="/p/6475.html"/>
+    <url>/p/6475.html</url>
+    
+    <content type="html"><![CDATA[<p>一年又去。空叹白云苍狗。</p><p>我记得小学生作文时，挺爱写一句话“白驹过隙，岁月如梭”。当时没有切身感受，但现在我体会到时间之矢流转之疾。</p><p>已然站在2022的门口，抬手敲门前，不妨回头看看我这一年走过的足迹。</p><p>没有宏大叙事，只有微小个体。记录下或得意或失落，或拼搏或倦怠，或充满希望，斗志昂扬，或心灰意冷，无力振作的生活瞬间。</p><a id="more"></a><p>年初，还是高二，我课内一般，同时兼顾竞赛，往往是得一而舍一，不可得兼。</p><p>课内成绩时好时坏，波动起伏，我不以为意。竞赛时断时续，用力不均，而基础不牢，好高骛远，外有金玉，内为败絮，我亦未可料知。就以这样的状态，我行之辍之，走完高二，升到高三。</p><p>记得高二下期末考试我考的尤其的好，我以为这会开一个好头。</p><p>从6月开始，送走18级学长，我从高二学生变为高三考生，压力不可谓不大。单调重复乏味复习日子里难见一抹亮色，纷忙冗多繁复学习课业里难寻一阵轻松。从班主任到学科老师，从校领导到家长，无不紧逼急催。老师们常说高三的学生缺乏活力，恰映照出无数学子最真实的日常。</p><p>同学们都在奋力争先，看看自己呢，我终沉默而难言。</p><p>我原以为我到了高三就会像看过的励志视频一样，埋头苦学，破釜沉舟，走上人们所期待，我所愿望的道路。</p><p>非也，我还是我。身份转变，心态依然，我固然知道高考的重要性，我也实实在在的看见路上的荆棘坎坷，崎岖回环。所以我畏惧，所以我停下，所以我躺平。</p><p>阅千帆竞渡，看百舸争流，有时我想起我的不甘和倔强，想起我尘封和雪藏的愿望，我会突然燃起一股志气，激励着我奋力向前。但终是不能久矣，经历过考试次第的冲击，经历过复习时一头雾水的失落，经历过同辈竞争的压力，我逐渐泄气，我逐渐疲倦，我告诉自己要“居易以俟命”，消解自己的斗志。</p><p>人生不会一帆风顺，即使是如正弦函数一般，波峰波谷有定，亦难成全。潮落后再潮落，受挫后再受挫，大概才是平凡个体的人生常态。我常有失眠的毛病，即使10：30上床，仍要等到11：30左右方可入睡。这段时间里我曾浮想联翩，幻想未来种种；我曾扪心自问，剖析自己内心；我曾怅然若失，暗自定下期许。但明天一起床，如南柯一梦，似过眼云烟，终不能躬行。想想也是，连脱离被窝的考验都难以应对，又何以披荆斩棘？</p><p>但是，我想相比于社会百态，学习的确是相对公平的事，年轻的头脑是肥沃的土地，勤于耕耘就会有好收成。即使“苦尽甘来”已经成为赞美苦难之流的万金油，“天道酬勤”也沦为贩卖焦虑之伦的万能药，但想起罗曼·罗兰所言：“世界上只有一种真正的英雄主义，那就是在认清生活的本质后，依然能够热爱生活。”拼搏本身是不符合人类本性——趋利避害——的抉择，但落子无悔，做下这个抉择本身便是向前。</p><p>纵使苦尽未必甘来，纵使苦劳未必有成，纵使苦读未必遂愿。</p><p>“虽千万人，吾往矣。”</p><p>引两句微博年终提问的话：</p><blockquote><p>人生在必经的寒冬里，也带着必然的希望。 ——张桂梅<br />在每一个看似普通的选择面前保持不放弃，我们终究也能成为这个伟大时代的一部分。 ——张文宏</p></blockquote><p>2021已经过去，成为序章，2022迎面而来，充满希望。推开大门，崭新世界就在眼前。</p><p>我胸中虽无宗悫之鸿鹄志，心系家国，但也期待能乘风破浪，披荆斩棘。新的一年，愿以梦作的卢飞快，投鞭即此启程，不负青春韶华，书写锦绣篇章。</p><p>笑一个吧，2022，新年快乐。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>essay</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>谈谈「摆烂」</title>
+    <link href="/p/25360.html"/>
+    <url>/p/25360.html</url>
+    
+    <content type="html"><![CDATA[<p>没有简介，我要摆烂（误</p><a id="more"></a><p>「摆烂」也算一个流行词了XD，我去百度查了查，好像还真有正经出处：</p><blockquote><p>摆烂，指事情已经无法向好的方向发展，于是就干脆不再采取措施加以控制而是任由其往坏的方向继续发展下去。常被用于形容NBA篮球联赛中为了获得更好的选秀权故意输球的行为。</p></blockquote><p>从释义来看，它其实反映了一种战术或者说是策略，颇有点田忌赛马的意思。</p><p>但是我们平常常听常说的摆烂其实与其还是相差甚远的，或者说只有“不再采取措施，任由往坏的方向发展”的部分，倒是和之前出现的“佛系”可比。</p><p>不过也很容易理解，在内卷逐渐加剧的今天，我们常常“摆烂”，实际上是玩笑般地消解竞争压力，给自己一点喘息空间。时代在变化，只要努力就能成功的理想化目标实际上越来越遥不可及。</p><p>某些公知之所以被群嘲，就是因为内卷式的无效竞争和时代规则早已铲除了说教式的正能量鸡汤的生长土壤。他们用过去自己略显落后的奋斗经验指点年轻人，但在当下来说，是在把人推进奋斗主义的粪坑。</p><p>当然，作为新时代的有志青年XD，一味的颓下去更非一个好选择，可以用摆烂的借口逃避一时，但自己的生活和命运终究要自己去面对。关键是要“张弛有度”，即使当自己的步伐慢下来甚至停下来的时候，也能不急不乱。说到底，摆烂其实是一种无可奈何的反抗的方式，虽然结果大抵不遂人意，但是至少自己很爽，某种程度上倒算不错的排解方式。（笑</p><p>摆烂是一种“有目的的降低生活目标”，高远的目标一时无法实现，那不如先躺一小会，漫看天上云卷云舒，不失为一种雅趣闲情。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>essay</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>关于我的竞赛生涯</title>
+    <link href="/p/63865.html"/>
+    <url>/p/63865.html</url>
+    
+    <content type="html"><![CDATA[<p>2021.9.20</p><p>第35届中国化学奥林匹克竞赛在这一天中午12时落下帷幕，同时也意味着我竞赛生涯的结束。</p><p>在回到家和同学聊了聊天，然后看完了R&amp;M第五季的10集之后，在22：36，我决定写点东西，回顾一下我这简单的竞赛生涯。</p><a id="more"></a><p>两年之前，刚升入高中的我了解到学科竞赛。当时我是想去参加物理竞赛的，但是错过了报名，然后去参加化学竞赛。</p><p>我记得当时我一点高中化学知识还没有，做选拔考试的卷子时完全是蒙的。最后当然也理所应当的没有选中我，我记得当时有人来叫其他人去开会的时候我内心还是很沮丧的，不过机缘巧合的是，wty教练看我中考分数还行，破格将我录入，这也就是一切故事的开始。</p><hr /><p>一开始队里人还是有很多的，后来就逐渐的走的走退的退，第一年后来就是稳定的8人化竞小组，一起度过了很多的周末学竞赛的时光。</p><p>第一年我自己的感觉就是在混，当时对竞赛还没什么概念，就只是觉得学很多高深知识很有趣，我还是有对知识的渴求之心的，无功利目的的学习其实本身是一件令人愉悦的事。</p><p>第一年有过一次外出培训，我记得当时主要是无机，物化的课程。一开始我还想认真听讲，但是一方面课程内容根本听不懂，其次同学也大多在水课，我也就无心再去学习。</p><p>白天上课一头雾水，中午回去看R&amp;M（我好像就是那个时候入的坑，这也算是首尾呼应了hhh），晚上自习有时候就直接玩手机，这就是我8天培训的状态。</p><p>平时在学校只有周末才能上竞赛课，平时在教室是不允许看竞赛书的，因为我班主任本身并不支持竞赛（当时还没意识到清北走强基的重要性），除非是文化课成绩优异。但这恰好是我所苦恼之处。</p><p>后来，兜兜转转，一年过去，基本上也就是周末学一天，其他便再无时间。后来在初赛前两个周，停课冲刺竞赛。</p><p>如果说有没有学到什么，那肯定学到了。但是更多的时候，我只是在水课摸鱼，聊天，打游戏，刷B站，凡此种种。站在现在的角度来想，快乐是真的快乐，但是摸鱼一时爽，欠的债早晚要还的（笑</p><p>不出所料，初赛结束，在高铁上对答案的时候，20几分实在让我高兴不起来，最后也只是一个省三而已。</p><p>其余几位同学也大多省三，另有一人省二，一人省一，考完试当天便有3人退出，但我不想屈服。</p><p>我告诉自己：这次就当来涨涨见识，明年再战。</p><p>当然了，我的决心没有保持多久。</p><hr /><p>第二年，新冠疫情，打乱了很多计划，产生了很多变数。</p><p>原定的开学延期，原定的培训取消，所有课程全部改为线上，无论课内还是竞赛，我都快乐的摸鱼，没有自律，没有内疚，完全竖直的堕落。</p><p>第一年的时候，我们没系统的学习有机内容。所以第二年一开始就看有机网课，刷大本/巨本，做各种习题，当时其实有一段很纯粹的，非功利性的学习时光，现在回想起来很美好。</p><p>不过由于学业压力的原因，化竞同学一个一个的走，最后只剩我和jjc。</p><p>写到这里不禁感叹：这一年的事情实在太过魔幻，可我回想往事却什么都记不起，感觉明明有一整年，却眨眼间度过。</p><p>白云苍狗，时光飞逝。</p><p>再之后其实就到了初赛前的那个暑假，中间全忽略是因为我其实真的没有印象了，大概我也没怎么学吧。</p><p>假期之前是有很多计划的，不过当然啦，我是没有自控力的（，原想趁假期补补有机，把ART刷一遍，结果看了20几页就弃了，书签也就永远存放在里面。（不该逞强去看英文原著的XD）</p><p>想趁假期查漏补缺，结果网课该睡觉睡觉，该打游戏打游戏，一整个假期连竞赛书都没怎么翻过。虚度光阴。</p><p>再后来，开学，停课，三个周冲刺初赛，结果变相延长假期，在机房各种水课，一如既往。</p><p>当然第二年考试肯定有压力，我也在做题时有好多不会做的，好多做不对的，越做越烦躁，越烦躁越不想做题。恶性循环作用下又是一天过去，而我的练习本寥寥数笔。</p><p>考前我想过今年的题的难度设置，大概是无机较为简单，有机难度很大，从这几年的题来看，并非没有道理。所以我考前其实是在有机上下了很大功夫的，考前刷题班的有机试题难度不小，但我每一道都仔细思考过（虽然说没对几个），我其实是想去和有机题碰一碰的。</p><p>果然我还是太天真 😦</p><p>后来？三个周很快过去，考试出发的那一天，我无机一知半解，元素看了不到四分之一，有机做了一些题却少有成效，我心里其实没底。</p><p>和同学们说说笑笑到了济南，熟悉的旅店，熟悉的记忆，但我不想要熟悉的结果。</p><p>事与愿违。</p><p>当天晚上，我睡得挺早，10点就已经躺在床上，但是翻来覆去睡不着，然后jjc说：“和去年的考试感觉一模一样”。</p><p>我心里一惊，然后难眠。</p><p>早起，仿佛是大考前的惯例，吃不下饭而且肚子不舒服，还发生了误退房的囧事，不过最终有惊无险，无事发生，打车到了考点。</p><p>入考场前十分钟，我和高二一个学妹（嗯，gjh）待在一起，我其实还是很紧张的，不过小朋友看起来更紧张，只好和她随便闲扯，倒也缓解了我紧张的情绪。</p><p>进考场前，抱了抱小朋友，真是这辈子第一次抱女孩子（</p><p>铃响开考，我一开始有点紧张，信息都没填完，不过开始做题之后就冷静下来了。前面的题做起来其实还算舒服，中间有些小问略卡住，有个碳单质制备的题没想出也没有干扰到我的节奏。直到我做到那道晶体。</p><p>“看不懂题。”</p><p>于是我的心态发生了一些微妙的变化XD，我原以为晶体题不会太难，能给我稳定得几分，没想到给我整这么个活，实在意料之外。</p><p>然后心态就慌了，大概后面算错数也跟这个有关系。</p><p>离考试结束还有1h，我在做第7题，当时已经有点吃力了，一顿计算算出了一个Cd，我感觉不妙，怎么说这个Cd的d电子都满了还配那么多配体，但是时间不允许我细想了。</p><p>离考试结束还有30min，我还剩最后两道有机，这个时候已经完全慌了，周环反应恰好命中了我的盲点，第10题给的条件反应更是一头雾水，原来的和有机拼一拼的想法已经烟消云散，我剩下的只有无力和挫败。</p><p>败局已定。</p><p>出考场的时候，我努力安慰自己：万一配合物那道题真的就是Cd呢，万一大家晶体都做不动呢，万一大家有机都一头雾水呢？</p><p>“万一我真的就是那么菜呢？”</p><p>我走出考点的教学楼，站在楼前，看电子显示屏上“35届初赛”的字样，看着学生从楼里走出。</p><p>“和去年考试的感觉一模一样。”</p><p>去年我是没留什么纪念的，唯有准考证我还一直收藏着。今年小朋友建议我拍张照片，我便用手机拍了一张，也宣告我的竞赛生涯正式结束。</p><p><img src="https://urlshare.img.ink/2022/2b405bcdea8a8.png" alt="35th，藏了一个小朋友" /></p><p>( <em>这图片压缩的有点过了XD</em> )<br />可惜平平无奇。</p><hr /><p>当时济南小雨刚结束，雨过天晴日出，我的心情却没好转。</p><p>回家的高铁上，教小朋友转魔方，但是后面的公式忘了（，最后也没继续，也是个遗憾。</p><p>然后对了机构的答案，大概40左右，这时我确实已经很沮丧了，去年省一线50左右，今年估计差不了多少，终究还是无缘。</p><p>更令我难受的是，高二有个同学（嗯，lkt）考得比我还高，更加印证了我是个废物的事实。 <em>（当然对lkt来说是好事，但是他第二年不学化竞，我无语）</em></p><p>gjh考的也不太好，属于和我是同贫问病，只是她还有一年，我已经结束。</p><p>然后就到站，熟悉的站点，熟悉的出口，熟悉的下午斜斜照在身上的日光。</p><p>熟悉的不甘，多一份伤感。</p><hr /><p>续：后来成绩出了，jjc稳定省一，意料之中。我省二144名，菜，lkt也确实踞我之前，拿到省二。</p><p>zhy省三前列，可惜。gjh也是省三，zhc我忘了（</p><p>另二人无基础，属于是体验生活。</p><p>gjh小朋友接着学的，lkt转去物理，zhy也继续坚持，zhc担心文化课，摇摆不定。</p><p>另二人大概也继续学吧，我不清楚。<br />(2022/1/25补 2020化竞仅剩一人)</p><p>回去补课确实和坐牢一样（笑</p><p>我在机房每一次摸鱼都给我做对题增加了一些阻力，欠的债果然迟早要还的。补课的内容一方面大抵重复无趣，另一方面文不对题，我就按下不表。</p><hr /><p>我记得，2020年微博有个话题：重启2020。</p><blockquote><p>如果2020可以只是一场梦，一切在醒来之后都没发生，你愿意重启2020吗？</p></blockquote><p>就如同这样的愿望，我有时候会想：“如果能回到一年以前…?”</p><p>是啊，太多太多的事我还没完成，太多太多的愿望我还没实现。</p><p>我要把ART看一遍，我要好好捋一遍周环反应和氧化还原反应，我要去做很多习题训练，我要掌握更多元素反应，我要记更多人名反应，我要去看策控，我要去刷福山题，我要去看看裴sir的有机进阶，我要去看高无结的晶体…</p><p>但生命没有如果，只有既然。</p><p>就算真的有一个机会让我重启这一年，我也不会去接受。</p><p>一是因为我大概又会咕咕（笑</p><p>二是因为我确实收获了很多宝贵的经历和记忆，结识了很多同学（gjh小朋友可爱），这些也是我学到知识以外的珍视之物。</p><p>而且站在这样一个时间节点，我不免和一年以前的自己做个对比。</p><p>一年之前的我，踌躇满志想要考好第二年国初，而今正是“过去的未来”，我却失败。</p><p>现在的我，国初失利，将要面对高考，相对于一年后的我，正是“未来的过去”，那时的我再次回头时，将会是什么样的心境？</p><p>我不想再失败一次。</p><p>所以这次国初倒也是一次宝贵的经历，它永远警示着我，让我坚定奋斗的力量。</p><p>待明年花开时，所有梦想终将盛放。</p><hr /><p>再续：这篇文章我拖了很久很久，基本上每2个周放假写一点吧。文字本身传情达意会囿于时间的限制，过了这么久我早无当时的心境，所以前后文内容就不太衔接。</p><p>这次简单连贯了一下上下文，删去了部分内容。</p><hr /><p>再再续：又补充了一些内容，改了改句子表达。进行排版。</p><p>不再动了，否则就像是一篇精神病人的体检报告了。（笑</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>essay</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>有机析题002</title>
+    <link href="/p/23256.html"/>
+    <url>/p/23256.html</url>
+    
+    <content type="html"><![CDATA[<p>果然根本就不能两周一更嘛，这都快摸了两个月了，完全没有动力 😦<br />趁着高考期间的网课来水一篇简单的题。</p><a id="more"></a><p><img src="https://urlshare.img.ink/2022/c315766461a27.jpeg" alt="有机析题002" /></p><h2 id="题面"><a class="markdownIt-Anchor" href="#题面"></a> 题面</h2><p><img src="https://urlshare.img.ink/2022/c17b75e4a04bc.png" alt="002-题面" /><br />具有抗肿瘤活性的物质合成路线如下，给出A，B，C，D结构。</p><h2 id="答案"><a class="markdownIt-Anchor" href="#答案"></a> 答案</h2><p><img src="https://urlshare.img.ink/2022/e567278dae31e.png" alt="002-答案" /></p><h2 id="分析"><a class="markdownIt-Anchor" href="#分析"></a> 分析</h2><p>题目不是很难，可能的难点在于第三步，但是如果见过题目反应就很容易。</p><p>第一步酯的氨解，得到的产物就是<strong>Gabriel合成</strong>的底物。</p><p>第二步酰胺碱性条件水解，根据产物逆推不难。</p><p>第三步是<strong>Hofmann降解</strong>，酰胺在氯或溴以及氢氧化钠条件下降解为胺，参加反应的物种实际上是次溴（氯）酸盐，机理涉及氮宾的重排以及活性中间体异氰酸酯。</p><p>第四步酸性处理后对环氧乙烷亲和取代，可从最后产物推断出来，这里的碳酸钠的作用是中和产生的质子。</p><p>第五步先酸性条件酯化成环，然后二氯亚砜取代羟基为氯，反推不难。</p><h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2><p>相关的知识点：</p><ul><li>酯的氨解</li><li><a href="https://baike.baidu.com/item/%E9%9C%8D%E5%A4%AB%E6%9B%BC%E9%85%B0%E8%83%BA%E9%99%8D%E8%A7%A3/22160484">Hofmann降解</a></li><li>分子内酯化成环</li><li>二氯亚砜作氯代试剂</li></ul><p>第二期结束。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学学化学</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>chem</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>一年一度高考季</title>
+    <link href="/p/5005.html"/>
+    <url>/p/5005.html</url>
+    
+    <content type="html"><![CDATA[<p>一年一度，高考又来。</p><p>之前都是以局外人的身份来看, <em>当然现在也是:D</em> ，所以大多没什么感觉，也偶尔会因为高考励志而热血沸腾，不过终觉与那一刻的到来还太远。</p><p>但恍惚间，我也升入高三，高考似乎近在眼前了。</p><a id="more"></a><p>高一时，由于竞赛的缘故，和高三学生一起在食堂吃了高考前一晚的“送别饭”<em>（误</em>,也算是亲身体验了高三临考前的最真实状态吧，我记得当时食堂的气氛还很欢乐。</p><p>而光阴转瞬而逝，一年过去，又到高考日，我却有着截然不同心境了。</p><p>原计划要出去竞赛培训的，终于因为一轮复习的压力退却，留在家里根据学校安排上网课，却也难保课上摸鱼，大概这网课效果也不会很好吧。</p><p>就我个人而言，我对中考倒是没什么别的感受,<em>当然也是很重要的</em>,因为我上学要分区划片，所以只要不是考的太差就能比较稳妥的上区内的重点（二中），除此之外的更好的学校我也够不着，所以倒是心态祥和。<em>不过有趣的是，最后中考成绩竟然达到了一中的线，不过没去</em></p><p>而高考才是有如临大敌之感了，主要是因为认识到了自己和其他人的差距，而眼高手低的我终究是逃不了心理落差带来的失落，深感能力有限的同时又不甘沉沦，却惰于改变，在矛盾中挣扎和循环。</p><p>所以看着其他高三学子步入考场，我不免想到一年后的今天我会是如何的心态来应对高考，又将如何为我三年高中生活画上一个句号。</p><p>现在我还猜不出。</p><p>写到这里的时候是7：46，考生9：00开始考语文，想着为高三考生加油，也为未来的自己加油，以我拙劣的水平凑诗一首：</p><blockquote><p>三载苦读历寒暑，一朝执笔才尽出。<br />愿乘长风扶摇上，金榜题名必有吾！</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>essay</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>有机析题001</title>
+    <link href="/p/23448.html"/>
+    <url>/p/23448.html</url>
+    
+    <content type="html"><![CDATA[<p>一点废话：本来我是想着单独开个页面记点常见反应机理的，但是太懒了，基本上没更新过。于是我决定转换策略，改成分析题目，然后一道题发一个post，这样的话还能有点动力。</p><p><em>其实就是懒啦，我也不知道能不能坚持下去，但我的竞赛生涯已时日无多了。</em></p><a id="more"></a><p><img src="https://urlshare.img.ink/2022/c315766461a27.jpeg" alt="有机析题001" /></p><h2 id="题面"><a class="markdownIt-Anchor" href="#题面"></a> 题面</h2><p><img src="https://urlshare.img.ink/2022/435c94a720682.png" alt="001-题面" /><br />要求给出B，C，E，F，G，H的结构及C到D的反应条件。</p><h2 id="答案"><a class="markdownIt-Anchor" href="#答案"></a> 答案</h2><p><img src="https://urlshare.img.ink/2022/694a3bcd46485.png" alt="001-答案" /></p><h2 id="分析"><a class="markdownIt-Anchor" href="#分析"></a> 分析</h2><p><em>第一步这反应很奇怪:(  我觉得答案有问题</em></p><p>第一步，<strong>硫酸二甲酯（DMS）</strong>，甲基化试剂，类似于碘甲烷，是亲核的机理。但是甲基换成甲氧基我是没太看明白，可能是答案有问题，下面应该直接是个甲氧基的吧。</p><p>顺便一提，这东西剧毒，曾在一战中被用作军用毒气，但是后来发现威力太大会误伤自己人就不用了。在合成工作中也逐渐被毒性更小的**碳酸二甲酯（DMC）**替代</p><p>然后DMF+三氯氧磷，发生<strong>Vilsmeier - Haack反应</strong>,在对位引入甲酰基。<em>这反应对我来说挺陌生的:(</em></p><p>第二步加入丙二酸，在碱性环境下α-H被拔去，然后发生亲核反应，接着消去顺便脱羧，然后加入甲醇酯化。发生的反应可以从给出的物质D中大概推断得到。</p><p>第三步要求推断反应条件，能够看出是引入了一个异丙基，再看到底物是一个插烯的酯，能够想到<strong>Michael加成</strong>，因而可以想到格氏试剂。格氏试剂的使用要求无水无空气，所以要溶于醚或THF。</p><p>第四步<strong>多聚磷酸</strong>，常用作脱水剂，同时能催化分子内环化反应，如催化羧酸、酯、酮、醛、醇、烯和腙等类型化合物的分子内环化反应。</p><p>第五步，首先甲基锂亲核加成，然后氰根再SN2，水解得羧酸，最后甲醇酯化。至于另一侧的酚甲醚脱甲基需要从产物反推，题中条件给的不明显，非常抽象:(</p><p>第六步还原再氧化，同时酯基要水解。这一步的甲氧基变甲基我也感觉很迷惑，不过从产物反推可得。</p><p>第七步首先是羟胺对酮的加成消去，得到酮肟。然后加入二氯亚砜，把羧酸变为酰氯，提高反应性，然后加入醇钠拔酮肟的α-H，加成消去得到H，同时从最终产物也能看出碳骨架的链接。<em>大概</em></p><p>第八步，首先是<strong>黄鸣龙还原</strong>,酮被还原为亚甲基，接着酸性条件将酮肟水解得肟，全流程结束。</p><h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2><p>相关的知识点：</p><ul><li>硫酸二甲酯（DMS）作为甲基化试剂，亲核机理</li><li>DMF+三氯氧磷，<a href="https://baike.baidu.com/item/Vilsmeier-Haack%E5%8F%8D%E5%BA%94/22662938">Vilsmeier - Haack反应</a>，在芳环发生甲酰化</li><li>丙二酸脱羧</li><li>多聚磷酸能催化分子内环化，也可以做脱水剂和lewis酸催化FC酰化</li><li>酚甲基脱甲基化，详见：<a href="https://www.sohu.com/a/444156168_610519">甲基醚的脱甲基反应汇总</a></li><li><a href="https://baike.baidu.com/item/%E5%9F%BA%E6%96%AF%E5%86%85%E5%B0%94-%E6%B2%83%E5%B0%94%E5%A4%AB-%E9%BB%84%E9%B8%A3%E9%BE%99%E8%BF%98%E5%8E%9F%E5%8F%8D%E5%BA%94/9904226">黄鸣龙还原</a></li></ul><p>好，那么有机析题第一期就结束乐。</p><p><em>写这么个东西累死了，我感觉可能坚持不下去了sad</em></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学学化学</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>chem</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>努力就会成功嘛？</title>
+    <link href="/p/32763.html"/>
+    <url>/p/32763.html</url>
+    
+    <content type="html"><![CDATA[<p>最近有部口碑不错的大女主题材的美剧《后翼弃兵》，讲述了具有惊人国际象棋天赋的主人公贝丝·哈蒙，决心打破男性主导的国际象棋界的传统界限的故事。</p><p>不过终究是爽文，回望生活，一个不幸的事实是：有决心，有实力，却在所在领域内无法突围的人可能才是大多数。</p><p>但是即使如此，我还是愿意相信功不唐捐。也算是对自己所期盼的成功的一点小小期待。</p><a id="more"></a><p>出于对成功的定义的不同，很难说想实现成功需要什么样的条件，也不能一概而论说努力就能成功。</p><p>但对我而言，在学习这方面，努力无疑是重要的因素，有效的长期努力终会为成功铺好路。</p><p>有时可能一时的努力没有成效，即使你很努力的去学也还是和别人有很大差距，那种努力白费的感觉确实不是很好受的。</p><p>尤其是在外界的压力下，功利性的去学习，出成绩，有时候真的不能一蹴而就。真正重要的还是要找准自己的状态，一步一个脚印的前行。</p><blockquote><p>无论人生上到哪一层台阶， 阶下有人在仰望你， 阶上亦有人在俯视你， 你抬头自卑，低头自得， 唯有平视，才能看见真实的自己。—杨绛</p></blockquote><p>其实这就很好的诠释了一种正确的努力的心态，我们总是通过对比来获取反馈，但太过注重与他人的比较反而会干扰自己的步伐。</p><p>而且从另一个方面来想，其他人能有今天的成绩也是从一点一滴积累起来的，只看到人前光鲜，却忽视了背后的努力未免太过片面。</p><p>每一个优秀的人背后都有一段沉默的岁月，我们把它叫做扎根。</p><p>于人于己，这都是一个慢慢积淀的过程，那就只管努力，厚积薄发，剩下的事交给时间去检验。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>essay</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>自嘲与吹捧</title>
+    <link href="/p/39073.html"/>
+    <url>/p/39073.html</url>
+    
+    <content type="html"><![CDATA[<p>一个人不会因为自己的愚蠢而感到羞愧，他只会因为自己比同伴更愚蠢而羞愧。所以他会尽可能去弱化，消解这一差距。</p><p>例如通过自嘲的方式表示自己的谦虚，但如果程度过了头，则会适得其反。</p><a id="more"></a><p>身边有一同学，暂且称之为Z。</p><p>喜欢把自己和他人做比较，这倒无可厚非。问题在于：他总是喜欢吹捧他人，弱化自己，即使是在自己明显做的更好的方面。</p><p>例如在作业完成和考试成绩等方面，即使自己更出色，也会条件反射般的吹捧他人，再搭配上他那几乎有点夸张的语气和动作，很难不让人感觉难受。</p><p>这种装弱的现象令人反感，几乎起到和反讽一样的效果。</p><p>更进一步的问题在于：这种方法是一层极有效的保护壳。在你做的不好的时候保护你免遭伤害，在你做的好的时候便向他人施以”关怀“。</p><p>有意思的是，竞争越激烈的团体越是如此，背后原因同样不言而喻。</p><p>夸张点讲，这种盲目吹捧和自嘲的行为几乎成为了一种“集体的无意识状态”。除了一小部分真正优秀和自信的人,这种行为几乎存在于剩下的所有人。</p><p>正如古斯塔夫•勒庞在《乌合之众》当中所提到的：</p><blockquote><p>人一到群体中，智商就严重降低，为了获得认同，个体愿意抛弃是非，用智商去换取那份让人备感安全的归属感。<br />孤立的个体具有控制自身反应行为的能力，而群体则不具备。</p></blockquote><p>在一个群体中有时很难决定自己的行为，也许只有真正的强者才能有任性的自由。</p><p>可惜我还不太行，至少在目前。</p><p>如果说要找一种健康的心态，那就是与自己相比。同时要努力提升自己，这样才能心平气和，不骄不躁。</p><p>但最重要的应该是“跳脱”集体之外，“独善其身”。当然人类是群居动物，个体不可能完全独处。所侧重的是在群体中独立思考的能力，对于他们的吹捧，能风平浪静。</p><p>我只是希望下一次，我能稍微察觉到我是乌合之众中的一员，即使一点点也好。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>写点什么</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>essay</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>你好,Hexo</title>
+    <link href="/p/7416.html"/>
+    <url>/p/7416.html</url>
+    
+    <content type="html"><![CDATA[<p>折腾许久，我终于是建起来了。<br />这不是我第一次倒腾Hexo了，但是这次的过程却及其艰难，本来很容易能弄好的事情，由于一些奇怪的BUG，变得非常费劲。<br />我对这东西一无所知，遇到问题全靠百度，绕了一大圈终于找到一个靠谱点的教程。<br />凭着我的简陋无比的理解，我尝试叙述一下遇到的问题，以供参考：</p><a id="more"></a><div class="note note-info">            <p>问题：<br />本地server预览完全没有问题，本地文件也能够传到远程库，但是主题<strong>完全</strong>不显示（并非是css缺失）。</p>          </div><div class="note note-success">            <p>解决方法：<br />新增一个branch（分支），然后对新的branch启用page服务，master用来储存代码。<br />我不知道什么原因，但是一波操作后就好了。</p>          </div><p>总之，这个站点之后就用来吐槽了，我觉得还挺好的。<br /><strong>你好，Hexo</strong></p><hr /><p>续：<br />就当我写完了上面那些东西之后，发现又上传不上去了=.=<br />于是我又捣鼓了半天，心态几近爆炸。<br />最后发现原来是gitee不能自动部署（，需要手动更新page服务。之前是部署在github上，再转到gitee上的，没遇到这个问题。<br />估计第一次的问题其实也是这个，真够蠢的 😦<br />不过经过这一番研究，应该是再没什么问题了。<br />所以就再来一遍吧：<br /><strong>你好，Hexo</strong></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>网络技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
