@@ -16,15 +16,15 @@
   <meta name="author" content="Sun">
   <meta name="keywords" content="">
   
-    <meta name="description" content="本页面用以记录读书进度，自我激励以促读书。 😃 以下各书籍，精读完成的内容用蓝色标识，泛读&#x2F;部分选读的内容用青色标识。             &#x2F;&#x2F; 基于准备好的dom，初始化echarts实例         var myChart &#x3D; echarts.init(document.getElementById(&#39;echarts6952&#39;), &#39;walden&#39;);         &#x2F;&#x2F; 指定图表">
+    <meta name="description" content="本页面用以记录读书进度，自我激励以促读书。 😃 以下各书籍，精读完成的内容用蓝色标识，泛读&#x2F;部分选读的内容用青色标识。             &#x2F;&#x2F; 基于准备好的dom，初始化echarts实例         var myChart &#x3D; echarts.init(document.getElementById(&#39;echarts7780&#39;), &#39;walden&#39;);         &#x2F;&#x2F; 指定图表">
 <meta property="og:type" content="website">
 <meta property="og:title" content="计划">
 <meta property="og:url" content="http://argon-gas.top/schdule/index.html">
 <meta property="og:site_name" content="Sun&#39;s BLOG">
-<meta property="og:description" content="本页面用以记录读书进度，自我激励以促读书。 😃 以下各书籍，精读完成的内容用蓝色标识，泛读&#x2F;部分选读的内容用青色标识。             &#x2F;&#x2F; 基于准备好的dom，初始化echarts实例         var myChart &#x3D; echarts.init(document.getElementById(&#39;echarts6952&#39;), &#39;walden&#39;);         &#x2F;&#x2F; 指定图表">
+<meta property="og:description" content="本页面用以记录读书进度，自我激励以促读书。 😃 以下各书籍，精读完成的内容用蓝色标识，泛读&#x2F;部分选读的内容用青色标识。             &#x2F;&#x2F; 基于准备好的dom，初始化echarts实例         var myChart &#x3D; echarts.init(document.getElementById(&#39;echarts7780&#39;), &#39;walden&#39;);         &#x2F;&#x2F; 指定图表">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-12-19T15:22:20.000Z">
-<meta property="article:modified_time" content="2023-01-02T12:20:47.807Z">
+<meta property="article:modified_time" content="2023-01-03T05:37:01.087Z">
 <meta property="article:author" content="Sun">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -235,12 +235,12 @@
 <article class="page-content">
   <p>本页面用以记录读书进度，自我激励以促读书。 😃</p>
 <p>以下各书籍，精读完成的内容用蓝色标识，泛读/部分选读的内容用青色标识。</p>
-<div id="echarts6952" style="width: 100%;height: 260px;margin: 0 auto"></div>
+<div id="echarts7780" style="width: 100%;height: 260px;margin: 0 auto"></div>
 <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.1/echarts.min.js"></script>
 <script type="text/javascript" src="../js/walden.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts6952'), 'walden');
+        var myChart = echarts.init(document.getElementById('echarts7780'), 'walden');
         // 指定图表的配置项和数据
         var option = option={
   title: {
@@ -262,6 +262,7 @@
     itemGap: 10,
     textGap: 4,
     itemWidth: 14,
+    textStyle: {color: '#666666', fontWeight: 'bold'},
     orient: 'horizontal',
     left: 'center',
     top: 65
@@ -275,7 +276,8 @@
     itemStyle: {
       borderWidth: 0.5
     },
-    yearLabel: { show: true, position: 'left'},
+    yearLabel: { show: true, position: 'left', color: '#bbbbbb'},
+    monthLabel: { nameMap: 'EN', color: '#bbbbbb', fontSize: 11},
     dayLabel: { show: false }
   },
   series: {
@@ -694,12 +696,12 @@ var data=[{
  ]
 }];
 </script>
-<div id="echarts2481" style="width: 90%;height: 900px;margin: 0 auto"></div>
+<div id="echarts8505" style="width: 90%;height: 900px;margin: 0 auto"></div>
 <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.1/echarts.min.js"></script>
 <script type="text/javascript" src="../js/walden.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts2481'), 'walden');
+        var myChart = echarts.init(document.getElementById('echarts8505'), 'walden');
         // 指定图表的配置项和数据
         var option = option = {
       tooltip: {
@@ -744,15 +746,243 @@ var data=[{
 <p>预计完成时间：2023.3</p>
 <script type="text/javascript">
   var data=[{
-    "name": "Book"
+    "name": "Book",
+    "children": [
+      {
+        "name":"第1章 原子结构\n和元素周期表",
+        collapsed:true,
+        "lineStyle": {"color": "#2a99c9"},
+        "children": [
+          {"lineStyle": {"color": "#2a99c9"},"name": "1.1 亚原子粒子"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "1.2 波粒二象性\n-赖以建立现代原子模型\n的量子力学概念"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "1.3 氢原子结构\n的量子力学模型;\n玻尔模型"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "1.4 原子结构\n的波动力学模型"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "1.5 多电子原子轨道的能级"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "1.6 基态原子\n的核外电子排布"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "1.7 元素周期表"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "1.8 原子参数"}
+        ]
+      },
+      {
+        "name": "第2章 化学键\n与分子结构",
+        collapsed:true,
+        "lineStyle": {"color": "#2a99c9"},
+        "children": [
+          {"lineStyle": {"color": "#2a99c9"},"name": "2.1 化学键的定义"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "2.2 离子键理论"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "2.3 共价键的概念\n与路易斯结构式"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "2.4 价层电子对互斥理论"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "2.5 价键理论;\n原子轨道的重叠"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "2.6 分子轨道理论"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "2.7 金属键理论"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "2.8 分子间作用力和氢键"}
+        ]
+      },
+      {
+        "name": "第3章 化学热力学的\n初步概念与化学平衡",
+        collapsed:true,
+        "lineStyle": {"color": "#2a99c9"},
+        "children": [
+          {"lineStyle": {"color": "#2a99c9"},"name": "3.1 热化学"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "3.2 化学反应的自发性"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "3.3 平衡状态\n和标准平衡常数"}
+        ]
+      },
+      {
+        "name": "第4章 化学反应速率\n与化学动力学的初步概念",
+        collapsed:true,
+        "lineStyle": {"color": "#2a99c9"},
+        "children": [
+          {"lineStyle": {"color": "#2a99c9"},"name": "4.1 化学反应的\n平均速率和瞬时速率"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "4.2 反应速率理论简介"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "4.3 影响化学反应速率的因素"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "4.4 化学反应机理\n及其研究方法"}
+        ]
+      },
+      {
+        "name": "第5章 酸、碱和酸碱反应",
+        collapsed:true,
+        "lineStyle": {"color": "#2a99c9"},
+        "children": [
+          {"lineStyle": {"color": "#2a99c9"},"name": "5.1 布朗斯特酸碱"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "5.2 路易斯酸碱"}
+        ]
+      },
+      {
+        "name": "第6章 氧化还原反应\n与电化学",
+        collapsed:true,
+        "lineStyle": {"color": "#2a99c9"},
+        "children": [
+          {"lineStyle": {"color": "#2a99c9"},"name": "6.1 基本概念"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "6.2 氧化还原\n反应方程式的配平"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "6.3 电极电势"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "6.4 影响氧化还原反应\n的动力学因素"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "6.5 应用电化学简介"}
+        ]
+      },
+      {
+        "name": "第7章 金属配位化合物",
+        collapsed:true,
+        "lineStyle": {"color": "#2a99c9"},
+        "children": [
+          {"lineStyle": {"color": "#2a99c9"},"name": "7.1 相关的定义和命名"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "7.2 配合物的化学键理论"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "7.3 配位化合物\n的异构现象"}
+        ]
+      },
+      {
+        "name": "第8章 溶液的物理性质",
+        collapsed:true,
+        "lineStyle": {"color": "#2a99c9"},
+        "children": [
+          {"lineStyle": {"color": "#2a99c9"},"name": "8.1 溶液的类型"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "8.2 溶液的浓度"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "8.3 溶液的依数性"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "8.4 电解质溶液\n及其活度"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "8.5 胶态分散体系"}
+        ]
+      },
+      {
+        "name": "第9章 酸碱平衡\n和酸碱滴定",
+        collapsed:true,
+        "lineStyle": {"color": "#2a99c9"},
+        "children": [
+          {"lineStyle": {"color": "#2a99c9"},"name": "9.1 弱酸、弱碱水溶液中\n的质子转移平衡"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "9.2 计算溶液氢离子浓度\n的精确式、近似式\n和最简式"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "9.3 水解"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "9.4 缓冲溶液"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "9.5 酸碱滴定方程"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "9.6 滴定方式\n和应用实例"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "9.7 误差初步知识"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "9.8 有效数字"}
+        ]
+      },
+      {
+        "name": "第10章 沉淀-溶解平衡\n和沉淀滴定",
+        collapsed:true,
+        "lineStyle": {"color": "#2a99c9"},
+        "children": [
+          {"lineStyle": {"color": "#2a99c9"},"name": "10.1 沉淀-溶解平衡"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "10.2 沉淀滴定法"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "10.3 重量分析中的沉淀"}
+        ]
+      },
+      {
+        "name": "第11章 络合平衡\n和络合滴定",
+        collapsed:false,
+        "lineStyle": {"color": "#2a99c9"},
+        "children": [
+          {"lineStyle": {"color": "#2a99c9"},"name": "11.1 水溶液中\n配位实体的稳定性"},
+          {"lineStyle": {"color": "#2a99c9"},"name": "11.2 络合滴定"}
+        ]
+      },
+      {
+        "name": "第12章 条件电势\n和氧化还原滴定",
+        collapsed:false,
+        "lineStyle": {"color": ""},
+        "children": [
+          {"name": "12.1 氧化还原反应\n的条件电势"},
+          {"name": "12.2 滴定曲线\n和指示剂"},
+          {"name": "12.3 重要的氧化还原滴定法"},
+          {"name": "12.4 测定结果计算\n和滴定前的预处理"}
+        ]
+      },
+      {
+        "name": "第13章 s区元素",
+        collapsed:true,
+        "lineStyle": {"color": ""},
+        "children": [
+          {"name": "13.1 单质"},
+          {"name": "13.2 化合物"}
+        ]
+      },
+      {
+        "name": "第14章 p区元素（一）",
+        collapsed:true,
+        "lineStyle": {"color": ""},
+        "children": [
+          {"name": "14.1 第13族、第14族\n和第15族元素概述"},
+          {"name": "14.2 硼"},
+          {"name": "14.3 铝"},
+          {"name": "14.4 碳"},
+          {"name": "14.5 硅"},
+          {"name": "14.6 氮"},
+          {"name": "14.7 磷"},
+          {"name": "14.8 长周期元素的\n重要化学现象和重要反应"}
+        ]
+      },
+      {
+        "name": "第15章 p区元素（二）",
+        collapsed:true,
+        "lineStyle": {"color": ""},
+        "children": [
+          {"name": "15.1 第16族、第17族\n和第18族元素概述"},
+          {"name": "15.2 氧"},
+          {"name": "15.3 硫"},
+          {"name": "15.4 卤素"},
+          {"name": "15.5 稀有气体"}
+        ]
+      },
+      {
+        "name": "第16章 d区元素",
+        collapsed:true,
+        "lineStyle": {"color": ""},
+        "children": [
+          {"name": "16.1 通性"},
+          {"name": "16.2 钛"},
+          {"name": "16.3 铬"},
+          {"name": "16.4 钼和钨"},
+          {"name": "16.5 锰"},
+          {"name": "16.6 铁、钴、镍"},
+          {"name": "16.7 铜"},
+          {"name": "16.8 贵金属元素\n的不活泼性和催化性能"},
+          {"name": "16.9 锌、镉、汞"},
+          {"name": "16.10 过渡元素\n与CO形成的化合物"}
+        ]
+      },
+      {
+        "name": "第17章 f区元素",
+        collapsed:true,
+        "lineStyle": {"color": ""},
+        "children": [
+          {"name": "17.1 镧系元素"},
+          {"name": "17.2 锕系元素简介"}
+        ]
+      },
+      {
+        "name": "第18章 氢",
+        collapsed:true,
+        "lineStyle": {"color": ""},
+        "children": [
+          {"name": "18.1 三种同位素"},
+          {"name": "18.2 天然资源\n和工业制备方法"},
+          {"name": "18.3 性质"},
+          {"name": "18.4 用途"},
+          {"name": "18.5 二元氢化合物"}
+        ]
+      },
+      {
+        "name": "第19章 核化学简介",
+        collapsed:true,
+        "lineStyle": {"color": ""},
+        "children": [
+          {"name": "19.1 放射性核素\n和放射性衰变"},
+          {"name": "19.2 核能和核能利用"},
+          {"name": "19.3 人工核反应\n和超铀元素的合成"}
+        ]
+      },
+      {
+        "name": "副篇"
+      }
+    ]
   }]
 </script>
-<div id="echarts6885" style="width: 90%;height: 900px;margin: 0 auto"></div>
+<div id="echarts8962" style="width: 90%;height: 900px;margin: 0 auto"></div>
 <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.1/echarts.min.js"></script>
 <script type="text/javascript" src="../js/walden.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts6885'), 'walden');
+        var myChart = echarts.init(document.getElementById('echarts8962'), 'walden');
         // 指定图表的配置项和数据
         var option = option = {
       tooltip: {
@@ -802,12 +1032,12 @@ var data=[{
     "children": []
   }]
 </script>
-<div id="echarts4693" style="width: 90%;height: 900px;margin: 0 auto"></div>
+<div id="echarts1395" style="width: 90%;height: 900px;margin: 0 auto"></div>
 <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.1/echarts.min.js"></script>
 <script type="text/javascript" src="../js/walden.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts4693'), 'walden');
+        var myChart = echarts.init(document.getElementById('echarts1395'), 'walden');
         // 指定图表的配置项和数据
         var option = option = {
       tooltip: {
@@ -884,12 +1114,12 @@ var data=[{
     ]
   }]
 </script>
-<div id="echarts297" style="width: 90%;height: 900px;margin: 0 auto"></div>
+<div id="echarts7703" style="width: 90%;height: 900px;margin: 0 auto"></div>
 <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.1/echarts.min.js"></script>
 <script type="text/javascript" src="../js/walden.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts297'), 'walden');
+        var myChart = echarts.init(document.getElementById('echarts7703'), 'walden');
         // 指定图表的配置项和数据
         var option = option = {
       tooltip: {
@@ -1143,12 +1373,12 @@ var data=[{
     ]
   }]
 </script>
-<div id="echarts4280" style="width: 90%;height: 900px;margin: 0 auto"></div>
+<div id="echarts3504" style="width: 90%;height: 900px;margin: 0 auto"></div>
 <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.1/echarts.min.js"></script>
 <script type="text/javascript" src="../js/walden.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts4280'), 'walden');
+        var myChart = echarts.init(document.getElementById('echarts3504'), 'walden');
         // 指定图表的配置项和数据
         var option = option = {
       tooltip: {
