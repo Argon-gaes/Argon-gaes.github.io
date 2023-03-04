@@ -303,13 +303,13 @@
 <p>第一步要有一个Github仓库，也就是blog的仓库。</p>
 <p>第二步注册一个Vercel账号。注册时可以直接选用Github登录，很方便。</p>
 <p>第三步将Github仓库导入Vercel。首先在主页（Hobby）选择 <em>New Project</em> 。然后会看到如图界面。</p>
-<p><img src="https://urlshare.img.ink/2022/6a5ae5fdda785.jpeg" srcset="/img/loading.gif" lazyload alt="Vercel-import" /></p>
+<p><img src="https://urlshare.img.ink/2022/6a5ae5fdda785.jpeg" srcset="/img/loading.gif" lazyload alt="Vercel-import"></p>
 <p>我这里已经导入了仓库，如果是第一次使用，应该先选择左侧的下拉栏，选择 <em>Add Github Account</em> 增加一个账户，然后按照提示给需要部署的仓库安装Vercel，然后将其导入即可。</p>
-<p><img src="https://urlshare.img.ink/2022/0e1f758b3bab8.jpeg" srcset="/img/loading.gif" lazyload alt="Vercel-project" /></p>
+<p><img src="https://urlshare.img.ink/2022/0e1f758b3bab8.jpeg" srcset="/img/loading.gif" lazyload alt="Vercel-project"></p>
 <p><em>PROJECT NAME</em> 一栏填入项目名，与默认提供的系统域名有关。</p>
 <p>这里要注意 <em>FRAMEWORK PRESET</em> 一栏，它提供了多种框架供你选择。我这里默认的是 <em>Other</em> ，我之前试过使用 <em>Hexo</em> 的框架，发现blog无法正常加载，而使用默认的 <em>Other</em> 就好了(。总之系统会自动识别你的仓库内容，然后选择框架，如果默认的框架没有生效，可以再自己选择对应的框架。</p>
 <p>然后部署，成功后应该是这个界面:</p>
-<p><img src="https://urlshare.img.ink/2022/14d406729ea1d.jpeg" srcset="/img/loading.gif" lazyload alt="Vercel-success" /></p>
+<p><img src="https://urlshare.img.ink/2022/14d406729ea1d.jpeg" srcset="/img/loading.gif" lazyload alt="Vercel-success"></p>
 <p>系统会提供一个 <em>xxx.vercel.app</em> 的自动域名，前面的部分就是你的 <em>PROJECT NAME</em> 。然后你可以点击 <em>View Domains</em> 自定义域名。</p>
 <p>然后去你购买域名的地方设置DNS记录，系统提供的是默认的DNS记录。</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-tag">A</span>: 76<span class="hljs-selector-class">.76</span><span class="hljs-selector-class">.21</span><span class="hljs-selector-class">.21</span><br><span class="hljs-selector-tag">CNAME</span>: <span class="hljs-selector-tag">cname</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span><br></code></pre></td></tr></table></figure>
@@ -318,11 +318,11 @@
 <p>然后修改DNS服务器为：</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-tag">ns1</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span><br><span class="hljs-selector-tag">ns2</span><span class="hljs-selector-class">.vercel-dns</span><span class="hljs-selector-class">.com</span><br></code></pre></td></tr></table></figure>
 <p>配置可能要十分钟到几小时才会生效，配置完成后可以在Vercel的域名管理处看到下图所示情况：</p>
-<p><img src="https://urlshare.img.ink/2022/97aa9186c7928.jpeg" srcset="/img/loading.gif" lazyload alt="Vercel-domains" /></p>
+<p><img src="https://urlshare.img.ink/2022/97aa9186c7928.jpeg" srcset="/img/loading.gif" lazyload alt="Vercel-domains"></p>
 <p>然后就完成了，而且完全免费，这不白嫖一波XD</p>
 <p>速度也是很可观的。</p>
-<p><img src="https://urlshare.img.ink/2022/c4f9c06971477.jpeg" srcset="/img/loading.gif" lazyload alt="Vercel-speed" /></p>
-<p><img src="https://urlshare.img.ink/2022/923e915c28408.jpeg" srcset="/img/loading.gif" lazyload alt="Github-speed" /></p>
+<p><img src="https://urlshare.img.ink/2022/c4f9c06971477.jpeg" srcset="/img/loading.gif" lazyload alt="Vercel-speed"></p>
+<p><img src="https://urlshare.img.ink/2022/923e915c28408.jpeg" srcset="/img/loading.gif" lazyload alt="Github-speed"></p>
 <p>多次平均后，Github的全部节点访问速度为1.787s，Vercel的全部节点访问速度为0.934s</p>
 <p>平均下来Vercel速度更快，不过在华东地区反而GitHub会更快一些。</p>
 
