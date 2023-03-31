@@ -24,7 +24,7 @@
 <meta property="og:description" content="第三章总结，这章有很多统计学相关的计算式。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-03-11T15:16:00.000Z">
-<meta property="article:modified_time" content="2023-03-20T15:47:14.579Z">
+<meta property="article:modified_time" content="2023-03-31T14:08:12.734Z">
 <meta property="article:author" content="Sun">
 <meta property="article:tag" content="chem">
 <meta property="article:tag" content="analytical">
@@ -239,7 +239,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          7.7k 字
+          43k 字
         
       </span>
     
@@ -250,7 +250,7 @@
         
         
         
-          49 分钟
+          269 分钟
         
       </span>
     
@@ -330,12 +330,12 @@
 <p>偏差也可用全距（range, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>R</mi></mrow><annotation encoding="application/x-tex">R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span></span>, 也称极差）表示，它是一组测量数据中最大值与最小值之差。</p>
 <p>评价一种分析方法首先要看准确度如何，准确度（accuracy）表示测量值与真值的接近程度，因此应该用误差来衡量。误差越小，分析结果的准确度越高。</p>
 <p>精密度表示几次平行测定结果之间的相互接近程度，用偏差来衡量。偏差越小，精密度越好。</p>
-<div id="echarts5888" style="width: 90%;height: 600px;margin: 0 auto"></div>
+<div id="echarts4114" style="width: 90%;height: 600px;margin: 0 auto"></div>
 <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.1/echarts.min.js"></script>
 <script type="text/javascript" src="../js/walden.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts5888'), 'walden');
+        var myChart = echarts.init(document.getElementById('echarts4114'), 'walden');
         // 指定图表的配置项和数据
         var option = option = {
         title: {
@@ -401,7 +401,7 @@
 <p>误差可分为系统误差（systematic error）和随机误差（random error）。</p>
 <p>理论上系统误差是可以测定的，可分为方法误差、仪器和试剂误差、操作误差、主观误差等。而随机误差亦称偶然误差，它是不能避免和加以校正的，但是测量次数足够多时误差服从统计规律，因而可以用数理统计方法来处理。</p>
 <p>公差是生产部门对分析结果误差允许的一种限量，由于各种实际情况要求和分析方法限制，公差范围各有不同。</p>
-<p>误差在运算过程中会传递，传递到分析结果中。</p>
+<p>误差在运算过程中会传递到分析结果中，所以需要做误差传递处理。</p>
 <p>对于系统误差，加减运算中的误差等于各测量值的绝对系统误差的代数和（系数有关）、乘除运算中的误差等于各测量值相对系统误差的代数和、指数运算中的误差等于测量值相对系统误差的指数倍、对数运算中的误差等于相对系统误差的0.434倍（系数有关）。</p>
 <p>对于随机误差，常用标准偏差<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi></mrow><annotation encoding="application/x-tex">s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span></span></span></span>来表示，加减运算中的偏差等于各测量值的标准偏差的平方和（系数平方有关）、乘除运算中的误差等于各测量值相对标准偏差的平方和、指数运算中的误差等于测量值相对标准偏差的指数倍、对数运算中的误差等于相对标准偏差的0.434倍（系数有关）。</p>
 <p>不需要严格定量计算，只需要通过简单方法估计一下整个过程可能出现的最大误差时，可用极值误差来表示。加减运算中，分析结果可能的极值误差是各测量值绝对值误差的绝对值之和、乘除运算中，分析结果的极值相对误差等于各测量值相对误差的绝对值之和。</p>
@@ -431,9 +431,874 @@
 <p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>δ</mi><mo>=</mo><mfrac><mrow><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mi mathvariant="normal">∣</mi><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><mi>μ</mi><mi mathvariant="normal">∣</mi></mrow><mi>n</mi></mfrac></mrow><annotation encoding="application/x-tex">\delta = \frac {\sum\limits^n_{i=1} |x_i - \mu|} {n}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03785em;">δ</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:3.4050659999999997em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.7190659999999998em;"><span style="top:-2.6653970000000005em;"><span class="pstrut" style="height:3.3513970000000004em;"></span><span class="mord"><span class="mord mathdefault">n</span></span></span><span style="top:-3.5813970000000004em;"><span class="pstrut" style="height:3.3513970000000004em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-4.719066em;"><span class="pstrut" style="height:3.3513970000000004em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3513970000000004em;"><span style="top:-2.122331em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.0000050000000003em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop op-symbol small-op">∑</span></span></span><span style="top:-3.950005em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9776689999999999em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">∣</span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">μ</span><span class="mord">∣</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
 <p>测量数据往往符合正态分布（normal distribution）规律，如：</p>
-<p><s>（ <em>这里将会有一个图</em> ）</s></p>
+<script type="text/javascript">
+var cityName = '';
+// 如你所见，都是从网上抄的XD，所以就别在意下面的名字了
+var baseData_0 = [
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/01","AQI":"42"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/01","AQI":"43"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/01","AQI":"39"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/01","AQI":"48"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/01","AQI":"39"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/01","AQI":"41"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/01","AQI":"53"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/01","AQI":"52"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/01","AQI":"37"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/01","AQI":"28"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/01","AQI":"38"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/01","AQI":"32"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/01","AQI":"32"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/01","AQI":"35"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/01","AQI":"38"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/01","AQI":"43"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/01","AQI":"36"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/01","AQI":"49"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/01","AQI":"30"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/01","AQI":"46"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/01","AQI":"46"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/02","AQI":"38"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/02","AQI":"26"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/02","AQI":"40"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/02","AQI":"53"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/02","AQI":"42"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/02","AQI":"36"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/02","AQI":"40"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/02","AQI":"52"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/02","AQI":"42"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/02","AQI":"22"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/02","AQI":"33"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/02","AQI":"29"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/02","AQI":"29"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/02","AQI":"25"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/02","AQI":"32"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/02","AQI":"29"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/02","AQI":"36"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/02","AQI":"47"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/02","AQI":"29"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/02","AQI":"46"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/02","AQI":"38"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/03","AQI":"50"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/03","AQI":"35"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/03","AQI":"44"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/03","AQI":"65"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/03","AQI":"36"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/03","AQI":"48"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/03","AQI":"60"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/03","AQI":"60"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/03","AQI":"54"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/03","AQI":"35"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/03","AQI":"34"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/03","AQI":"29"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/03","AQI":"30"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/03","AQI":"35"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/03","AQI":"42"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/03","AQI":"40"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/03","AQI":"47"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/03","AQI":"58"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/03","AQI":"30"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/03","AQI":"57"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/03","AQI":"46"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/04","AQI":"65"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/04","AQI":"39"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/04","AQI":"63"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/04","AQI":"95"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/04","AQI":"49"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/04","AQI":"69"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/04","AQI":"75"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/04","AQI":"77"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/04","AQI":"54"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/04","AQI":"59"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/04","AQI":"57"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/04","AQI":"57"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/04","AQI":"42"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/04","AQI":"43"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/04","AQI":"74"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/04","AQI":"57"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/04","AQI":"72"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/04","AQI":"45"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/04","AQI":"51"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/04","AQI":"73"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/04","AQI":"55"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/05","AQI":"52"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/05","AQI":"33"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/05","AQI":"97"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/05","AQI":"85"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/05","AQI":"72"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/05","AQI":"56"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/05","AQI":"61"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/05","AQI":"67"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/05","AQI":"62"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/05","AQI":"55"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/05","AQI":"55"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/05","AQI":"35"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/05","AQI":"54"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/05","AQI":"30"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/05","AQI":"77"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/05","AQI":"27"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/05","AQI":"62"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/05","AQI":"97"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/05","AQI":"84"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/05","AQI":"78"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/05","AQI":"55"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/06","AQI":"43"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/06","AQI":"30"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/06","AQI":"44"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/06","AQI":"59"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/06","AQI":"34"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/06","AQI":"42"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/06","AQI":"48"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/06","AQI":"52"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/06","AQI":"52"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/06","AQI":"38"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/06","AQI":"33"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/06","AQI":"30"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/06","AQI":"24"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/06","AQI":"35"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/06","AQI":"57"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/06","AQI":"30"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/06","AQI":"37"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/06","AQI":"52"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/06","AQI":"25"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/06","AQI":"37"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/06","AQI":"28"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/07","AQI":"65"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/07","AQI":"33"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/07","AQI":"63"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/07","AQI":"45"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/07","AQI":"41"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/07","AQI":"72"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/07","AQI":"83"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/07","AQI":"53"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/07","AQI":"53"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/07","AQI":"72"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/07","AQI":"59"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/07","AQI":"48"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/07","AQI":"49"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/07","AQI":"40"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/07","AQI":"89"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/07","AQI":"59"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/07","AQI":"75"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/07","AQI":"44"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/07","AQI":"72"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/07","AQI":"62"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/07","AQI":"54"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/08","AQI":"43"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/08","AQI":"35"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/08","AQI":"60"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/08","AQI":"78"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/08","AQI":"46"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/08","AQI":"42"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/08","AQI":"50"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/08","AQI":"72"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/08","AQI":"64"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/08","AQI":"39"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/08","AQI":"51"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/08","AQI":"28"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/08","AQI":"53"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/08","AQI":"28"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/08","AQI":"30"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/08","AQI":"46"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/08","AQI":"58"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/08","AQI":"68"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/08","AQI":"68"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/08","AQI":"28"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/09","AQI":"53"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/09","AQI":"33"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/09","AQI":"52"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/09","AQI":"62"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/09","AQI":"55"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/09","AQI":"53"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/09","AQI":"62"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/09","AQI":"50"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/09","AQI":"47"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/09","AQI":"46"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/09","AQI":"46"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/09","AQI":"42"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/09","AQI":"47"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/09","AQI":"30"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/09","AQI":"64"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/09","AQI":"38"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/09","AQI":"55"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/09","AQI":"74"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/09","AQI":"48"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/09","AQI":"54"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/09","AQI":"35"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/10","AQI":"80"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/10","AQI":"36"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/10","AQI":"55"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/10","AQI":"59"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/10","AQI":"75"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/10","AQI":"92"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/10","AQI":"60"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/10","AQI":"47"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/10","AQI":"77"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/10","AQI":"59"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/10","AQI":"62"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/10","AQI":"52"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/10","AQI":"46"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/10","AQI":"74"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/10","AQI":"84"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/10","AQI":"72"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/10","AQI":"77"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/10","AQI":"55"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/11","AQI":"35"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/11","AQI":"75"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/11","AQI":"53"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/11","AQI":"97"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/11","AQI":"69"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/11","AQI":"57"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/11","AQI":"70"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/11","AQI":"72"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/11","AQI":"52"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/11","AQI":"59"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/11","AQI":"58"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/11","AQI":"83"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/11","AQI":"67"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/11","AQI":"84"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/12","AQI":"70"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/12","AQI":"35"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/12","AQI":"99"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/12","AQI":"73"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/12","AQI":"64"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/12","AQI":"72"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/12","AQI":"69"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/12","AQI":"69"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/12","AQI":"63"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/12","AQI":"44"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/12","AQI":"69"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/12","AQI":"37"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/12","AQI":"40"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/12","AQI":"95"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/12","AQI":"75"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/12","AQI":"67"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/12","AQI":"62"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/13","AQI":"74"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/13","AQI":"43"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/13","AQI":"48"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/13","AQI":"78"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/13","AQI":"47"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/13","AQI":"78"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/13","AQI":"87"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/13","AQI":"77"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/13","AQI":"55"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/13","AQI":"52"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/13","AQI":"46"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/13","AQI":"33"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/13","AQI":"59"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/13","AQI":"85"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/13","AQI":"53"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/13","AQI":"50"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/13","AQI":"69"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/14","AQI":"80"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/14","AQI":"51"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/14","AQI":"51"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/14","AQI":"50"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/14","AQI":"50"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/14","AQI":"87"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/14","AQI":"85"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/14","AQI":"60"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/14","AQI":"54"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/14","AQI":"89"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/14","AQI":"60"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/14","AQI":"59"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/14","AQI":"50"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/14","AQI":"38"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/14","AQI":"69"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/14","AQI":"72"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/14","AQI":"89"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/14","AQI":"90"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/14","AQI":"59"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/14","AQI":"53"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/14","AQI":"79"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/15","AQI":"72"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/15","AQI":"36"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/15","AQI":"45"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/15","AQI":"78"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/15","AQI":"64"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/15","AQI":"70"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/15","AQI":"78"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/15","AQI":"87"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/15","AQI":"74"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/15","AQI":"72"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/15","AQI":"52"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/15","AQI":"57"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/15","AQI":"45"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/15","AQI":"33"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/15","AQI":"43"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/15","AQI":"90"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/15","AQI":"94"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/15","AQI":"60"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/15","AQI":"52"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/15","AQI":"64"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/16","AQI":"40"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/16","AQI":"30"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/16","AQI":"39"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/16","AQI":"51"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/16","AQI":"33"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/16","AQI":"40"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/16","AQI":"49"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/16","AQI":"49"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/16","AQI":"53"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/16","AQI":"28"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/16","AQI":"36"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/16","AQI":"30"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/16","AQI":"28"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/16","AQI":"32"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/16","AQI":"43"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/16","AQI":"35"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/16","AQI":"36"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/16","AQI":"48"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/16","AQI":"30"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/16","AQI":"36"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/16","AQI":"38"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/17","AQI":"60"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/17","AQI":"38"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/17","AQI":"49"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/17","AQI":"83"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/17","AQI":"68"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/17","AQI":"48"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/17","AQI":"56"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/17","AQI":"54"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/17","AQI":"48"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/17","AQI":"41"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/17","AQI":"41"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/17","AQI":"35"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/17","AQI":"57"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/17","AQI":"40"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/17","AQI":"42"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/17","AQI":"45"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/17","AQI":"52"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/17","AQI":"69"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/17","AQI":"44"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/17","AQI":"40"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/17","AQI":"42"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/18","AQI":"73"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/18","AQI":"49"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/18","AQI":"54"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/18","AQI":"65"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/18","AQI":"72"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/18","AQI":"75"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/18","AQI":"92"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/18","AQI":"85"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/18","AQI":"59"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/18","AQI":"59"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/18","AQI":"50"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/18","AQI":"48"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/18","AQI":"49"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/18","AQI":"39"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/18","AQI":"62"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/18","AQI":"54"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/18","AQI":"52"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/18","AQI":"75"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/18","AQI":"59"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/18","AQI":"58"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/18","AQI":"57"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/19","AQI":"74"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/19","AQI":"63"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/19","AQI":"72"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/19","AQI":"64"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/19","AQI":"65"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/19","AQI":"62"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/19","AQI":"62"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/19","AQI":"58"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/19","AQI":"54"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/19","AQI":"92"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/19","AQI":"90"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/19","AQI":"83"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/19","AQI":"99"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/19","AQI":"66"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/19","AQI":"80"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/19","AQI":"92"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/20","AQI":"90"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/20","AQI":"54"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/20","AQI":"60"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/20","AQI":"71"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/20","AQI":"68"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/20","AQI":"80"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/20","AQI":"72"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/20","AQI":"55"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/20","AQI":"56"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/20","AQI":"68"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/20","AQI":"52"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/20","AQI":"59"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/20","AQI":"44"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/20","AQI":"64"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/20","AQI":"58"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/20","AQI":"82"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/20","AQI":"88"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/20","AQI":"74"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/20","AQI":"77"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/20","AQI":"89"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/21","AQI":"48"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/21","AQI":"50"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/21","AQI":"51"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/21","AQI":"53"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/21","AQI":"46"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/21","AQI":"44"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/21","AQI":"45"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/21","AQI":"43"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/21","AQI":"44"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/21","AQI":"36"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/21","AQI":"50"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/21","AQI":"50"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/21","AQI":"35"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/21","AQI":"74"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/21","AQI":"39"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/21","AQI":"33"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/21","AQI":"43"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/21","AQI":"45"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/21","AQI":"30"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/21","AQI":"40"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/21","AQI":"33"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/22","AQI":"92"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/22","AQI":"83"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/22","AQI":"84"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/22","AQI":"61"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/22","AQI":"78"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/22","AQI":"85"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/22","AQI":"72"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/22","AQI":"63"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/22","AQI":"57"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/22","AQI":"88"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/22","AQI":"92"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/22","AQI":"64"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/22","AQI":"92"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/22","AQI":"65"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/22","AQI":"77"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/22","AQI":"79"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/22","AQI":"57"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/22","AQI":"75"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/22","AQI":"54"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/23","AQI":"84"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/23","AQI":"74"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/23","AQI":"72"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/23","AQI":"89"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/23","AQI":"87"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/23","AQI":"79"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/23","AQI":"88"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/23","AQI":"96"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/23","AQI":"69"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/23","AQI":"75"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/23","AQI":"64"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/23","AQI":"73"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/23","AQI":"65"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/23","AQI":"94"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/23","AQI":"73"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/01/23","AQI":"79"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/23","AQI":"95"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/23","AQI":"74"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/23","AQI":"79"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/23","AQI":"72"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/24","AQI":"78"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/24","AQI":"73"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/24","AQI":"79"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/24","AQI":"90"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/24","AQI":"87"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/24","AQI":"81"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/24","AQI":"69"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/24","AQI":"81"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/24","AQI":"63"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/01/24","AQI":"85"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/01/24","AQI":"90"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/01/24","AQI":"81"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/24","AQI":"84"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/01/24","AQI":"79"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/25","AQI":"74"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/25","AQI":"73"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/25","AQI":"72"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/25","AQI":"95"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/25","AQI":"99"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/01/25","AQI":"82"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/25","AQI":"80"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/25","AQI":"76"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/25","AQI":"79"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/25","AQI":"81"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/25","AQI":"65"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/25","AQI":"82"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/01/25","AQI":"95"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/01/26","AQI":"65"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/01/26","AQI":"72"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/01/26","AQI":"66"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/01/26","AQI":"89"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/01/26","AQI":"92"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/01/26","AQI":"67"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/01/26","AQI":"70"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/01/26","AQI":"94"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/01/26","AQI":"74"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/01/26","AQI":"68"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/01/26","AQI":"67"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/01/26","AQI":"80"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/01/26","AQI":"62"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/01/26","AQI":"88"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/12/01","AQI":"58"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/12/02","AQI":"42"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/12/02","AQI":"52"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/12/02","AQI":"51"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/12/02","AQI":"46"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/12/02","AQI":"47"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/12/02","AQI":"45"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/12/02","AQI":"44"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/12/02","AQI":"51"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/12/02","AQI":"55"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/12/02","AQI":"44"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/12/02","AQI":"48"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/12/02","AQI":"43"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/12/02","AQI":"43"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/12/02","AQI":"45"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/12/02","AQI":"48"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/12/02","AQI":"43"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/12/02","AQI":"42"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/12/02","AQI":"42"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/12/02","AQI":"48"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/12/02","AQI":"50"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/12/02","AQI":"41"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/12/03","AQI":"54"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/12/03","AQI":"55"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/12/03","AQI":"58"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/12/03","AQI":"59"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/12/03","AQI":"64"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/12/03","AQI":"56"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/12/03","AQI":"55"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/12/03","AQI":"69"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/12/03","AQI":"61"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/12/03","AQI":"52"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/12/03","AQI":"54"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/12/03","AQI":"54"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/12/03","AQI":"55"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/12/03","AQI":"55"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/12/03","AQI":"60"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/12/03","AQI":"52"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/12/03","AQI":"55"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/12/03","AQI":"63"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/12/03","AQI":"55"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/12/03","AQI":"62"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/12/03","AQI":"48"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/12/04","AQI":"55"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/12/04","AQI":"53"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/12/04","AQI":"58"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/12/04","AQI":"60"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/12/04","AQI":"62"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/12/04","AQI":"58"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/12/04","AQI":"57"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/12/04","AQI":"67"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/12/04","AQI":"66"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/12/04","AQI":"53"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/12/04","AQI":"57"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/12/04","AQI":"57"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/12/04","AQI":"56"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/12/04","AQI":"55"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/12/04","AQI":"58"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/12/04","AQI":"49"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/12/04","AQI":"57"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/12/04","AQI":"77"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/12/04","AQI":"58"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/12/04","AQI":"67"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/12/04","AQI":"57"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/12/05","AQI":"52"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/12/05","AQI":"52"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/12/05","AQI":"51"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/12/05","AQI":"53"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/12/05","AQI":"38"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/12/05","AQI":"54"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/12/05","AQI":"54"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/12/05","AQI":"58"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/12/05","AQI":"61"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/12/05","AQI":"46"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/12/05","AQI":"48"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/12/05","AQI":"48"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/12/05","AQI":"37"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/12/05","AQI":"48"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/12/05","AQI":"50"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/12/05","AQI":"46"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/12/05","AQI":"52"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/12/05","AQI":"68"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/12/05","AQI":"32"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/12/05","AQI":"38"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/12/05","AQI":"46"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/12/06","AQI":"59"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/12/06","AQI":"64"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/12/06","AQI":"58"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/12/06","AQI":"67"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/12/06","AQI":"35"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/12/06","AQI":"57"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/12/06","AQI":"62"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/12/06","AQI":"71"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/12/06","AQI":"61"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/12/06","AQI":"51"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/12/06","AQI":"55"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/12/06","AQI":"45"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/12/06","AQI":"46"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/12/06","AQI":"53"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/12/06","AQI":"64"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/12/06","AQI":"55"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/12/06","AQI":"61"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/12/06","AQI":"56"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/12/06","AQI":"39"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/12/06","AQI":"37"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/12/06","AQI":"55"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/12/07","AQI":"55"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/12/07","AQI":"60"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/12/07","AQI":"60"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/12/07","AQI":"64"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/12/07","AQI":"50"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/12/07","AQI":"57"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/12/07","AQI":"56"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/12/07","AQI":"70"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/12/07","AQI":"59"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/12/07","AQI":"51"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/12/07","AQI":"57"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/12/07","AQI":"53"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/12/07","AQI":"53"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/12/07","AQI":"52"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/12/07","AQI":"70"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/12/07","AQI":"51"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/12/07","AQI":"55"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/12/07","AQI":"72"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/12/07","AQI":"48"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/12/07","AQI":"51"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/12/07","AQI":"50"},
+{"SSXZQ":"广州市","JCKSRQ":"2019/12/08","AQI":"63"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/12/08","AQI":"59"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/12/08","AQI":"55"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/12/08","AQI":"64"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/12/08","AQI":"55"},
+{"SSXZQ":"佛山市","JCKSRQ":"2019/12/08","AQI":"67"},
+{"SSXZQ":"江门市","JCKSRQ":"2019/12/08","AQI":"64"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/12/08","AQI":"67"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/12/08","AQI":"63"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/12/08","AQI":"60"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/12/08","AQI":"61"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/12/08","AQI":"58"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/12/08","AQI":"52"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/12/08","AQI":"57"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/12/08","AQI":"62"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/12/08","AQI":"53"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/12/08","AQI":"59"},
+{"SSXZQ":"中山市","JCKSRQ":"2019/12/08","AQI":"82"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/12/08","AQI":"53"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/12/08","AQI":"61"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/12/08","AQI":"60"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/12/09","AQI":"67"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/12/09","AQI":"73"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/12/09","AQI":"79"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/12/09","AQI":"57"},
+{"SSXZQ":"湛江市","JCKSRQ":"2019/12/09","AQI":"73"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/12/09","AQI":"68"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/12/09","AQI":"79"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/12/09","AQI":"74"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/12/09","AQI":"63"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/12/09","AQI":"59"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/12/09","AQI":"60"},
+{"SSXZQ":"阳江市","JCKSRQ":"2019/12/09","AQI":"69"},
+{"SSXZQ":"清远市","JCKSRQ":"2019/12/09","AQI":"69"},
+{"SSXZQ":"东莞市","JCKSRQ":"2019/12/09","AQI":"89"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/12/09","AQI":"59"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/12/09","AQI":"72"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/12/09","AQI":"74"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/12/10","AQI":"64"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/12/10","AQI":"87"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/12/10","AQI":"70"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/12/10","AQI":"90"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/12/10","AQI":"78"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/12/10","AQI":"75"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/12/10","AQI":"64"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/12/10","AQI":"70"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/12/10","AQI":"63"},
+{"SSXZQ":"潮州市","JCKSRQ":"2019/12/10","AQI":"70"},
+{"SSXZQ":"揭阳市","JCKSRQ":"2019/12/10","AQI":"80"},
+{"SSXZQ":"云浮市","JCKSRQ":"2019/12/10","AQI":"79"},
+{"SSXZQ":"韶关市","JCKSRQ":"2019/12/11","AQI":"69"},
+{"SSXZQ":"深圳市","JCKSRQ":"2019/12/11","AQI":"89"},
+{"SSXZQ":"珠海市","JCKSRQ":"2019/12/11","AQI":"99"},
+{"SSXZQ":"汕头市","JCKSRQ":"2019/12/11","AQI":"76"},
+{"SSXZQ":"茂名市","JCKSRQ":"2019/12/11","AQI":"95"},
+{"SSXZQ":"肇庆市","JCKSRQ":"2019/12/11","AQI":"87"},
+{"SSXZQ":"惠州市","JCKSRQ":"2019/12/11","AQI":"78"},
+{"SSXZQ":"梅州市","JCKSRQ":"2019/12/11","AQI":"65"},
+{"SSXZQ":"汕尾市","JCKSRQ":"2019/12/11","AQI":"73"},
+{"SSXZQ":"河源市","JCKSRQ":"2019/12/11","AQI":"69"},
+
+];
+
+
+
+//处理图表数据
+function getChartData(baseData, cityName) {
+    var data = {
+        baseData: [],
+        xAxisData: [],//x轴
+        realData: [],//实际数值
+        stdplotData: []//正态分布数值
+    };
+    var sumObj = {};//保存每个aqi数值的出现次数
+    baseData.forEach(v=>{ 
+        if(!cityName ||  v.SSXZQ === cityName){
+            var aqi = Number(v.AQI); 
+            data.baseData.push(aqi);
+            if(!sumObj[aqi]){ 
+                sumObj[aqi] = 1;
+            }else{ 
+                sumObj[aqi]++; 
+            }
+        }
+      
+    });
+  
+  
+  
+    console.log(sumObj);
+    var stdObj = getBebeQ(data.baseData);
+  
+    var max = stdObj.max;
+    for(var i = 0; i <= max; i++){
+        //console.log(sumObj[i]);
+        data.xAxisData.push(i);
+        data.realData.push(sumObj[i] || 0);
+    }
+  
+    var yArr = [];
+  
+    console.log(stdObj);
+    var mean = Number(stdObj.avg);//均值
+    var stdev = stdObj.stdDev;//标准差
+    var x = data.xAxisData;
+    //var y = data.realData
+
+   // var low = mean - 3 * stdev;
+   // var up = mean + 3 * stdev;
+
+//debugger;
+   // x = addParam(x, low.toFixed(0).toString());
+  //  x = addParam(x, mean.toFixed(0).toString());
+  //  x = addParam(x, up.toFixed(0).toString());
+
+    //var top = getTop(y);
+   // var top = (1 / Math.sqrt(2 * Math.PI) * stdev);
+    //var mar = getParam(low.toFixed(0).toString(), mean.toFixed(0).toString(), up.toFixed(0).toString(), top);
+
+    for (var j = 0; j < x.length; j++) {
+        var res = fun(x[j], mean, stdev).toFixed(2);
+        yArr.push(res);
+
+    }
+  
+    data.stdplotData = yArr;
+                  
+    return data;
+}
+
+//求均值和标准差
+function getBebeQ(numbers, digit = 2) {
+        // 修复js浮点数精度误差问题
+        const formulaCalc = function formulaCalc(formula, digit) {
+          let pow = Math.pow(10, digit);
+          return parseInt(formula * pow, 10) / pow;
+        };
+        let len = numbers.length;
+        let sum = (a, b) => formulaCalc(a + b, digit);
+        let max = Math.max.apply(null, numbers);
+        let min = Math.min.apply(null, numbers);
+        // 平均值
+        let avg = numbers.reduce(sum) / len;
+        // 计算中位数
+        // 将数值从大到小顺序排列好，赋值给新数组用于计算中位数
+        let sequence = [].concat(numbers).sort((a,b) => b-a);
+        let mid = len & 1 === 0 ?
+          (sequence[len/2] + sequence[len/2+1]) / 2 :
+          sequence[(len+1)/2];
+        // 计算标准差
+        // 所有数减去其平均值的平方和，再除以数组个数（或个数减一，即变异数）再把所得值开根号
+        let stdDev = Math.sqrt(numbers.map(n=> (n-avg) * (n-avg)).reduce(sum) / len);
+        return {
+          max,
+          min,
+          avg: avg.toFixed(digit),
+          mid: parseFloat(mid).toFixed(digit),
+          stdDev : stdDev.toFixed(digit)
+        }
+}
+
+//正态分布值
+function fun(x, u, a) {
+    return (1 / Math.sqrt(2 * Math.PI) * a) * Math.exp(-1 * ((x - u) * (x - u)) / (2 * a * a));
+}
+
+function addParam(arr, target) {
+    //是否是等于
+    var flag = false;
+    var target = parseFloat(target);
+    //最小
+    if (target < parseFloat(arr[0])) {
+        arr.unshift(target.toString());
+        return arr;
+    }
+
+    //最大
+    if (target > parseFloat(arr[arr.length - 1])) {
+        arr.push(target.toString());
+        return arr;
+    }
+
+    //中间
+    for (var i = 0; i < arr.length; i++) {
+        if (parseFloat(arr[i]) > target) {
+            if (arr[i - 1] == target)
+                flag = true;
+            break;
+        }
+    }
+    if (flag) {
+        return arr;
+    } else {
+        arr.splice(i, 0, target.toString());
+        return arr;
+    }
+}
+
+var data = getChartData(baseData_0, cityName);
+</script>
+<div id="echarts6610" style="width: 90%;height: 600px;margin: 0 auto"></div>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.1/echarts.min.js"></script>
+<script type="text/javascript" src="../js/walden.js"></script>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('echarts6610'), 'walden');
+        // 指定图表的配置项和数据
+        var option = option = {
+    "xAxis": {
+        "data": data.xAxisData
+    },
+    "yAxis": [{
+    },{
+    }],
+    "series": [
+        {
+            "data": data.realData,
+            "type": "bar",
+            "smooth": true
+        },
+        {
+            yAxisIndex: 1,
+            "data": data.stdplotData,
+            "type": "line",
+            "smooth": true
+        }
+    ]
+}
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+</script>
+<p>正态分布曲线数学表达式如下：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mfrac><mn>1</mn><mrow><mi>σ</mi><msqrt><mrow><mn>2</mn><mi>π</mi></mrow></msqrt></mrow></mfrac><msup><mi>e</mi><mrow><mo>−</mo><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>μ</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mi mathvariant="normal">/</mi><mn>2</mn><msup><mi>σ</mi><mn>2</mn></msup></mrow></msup></mrow><annotation encoding="application/x-tex">y = f(x) = \frac {1} {\sigma \sqrt {2\pi}} e^{-(x-\mu)^2/2\sigma^2}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.25144em;vertical-align:-0.93em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.2027799999999997em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">σ</span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.90722em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord">2</span><span class="mord mathdefault" style="margin-right:0.03588em;">π</span></span></span><span style="top:-2.86722em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.13278em;"><span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.93em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathdefault">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.0369199999999998em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mopen mtight">(</span><span class="mord mathdefault mtight">x</span><span class="mbin mtight">−</span><span class="mord mathdefault mtight">μ</span><span class="mclose mtight"><span class="mclose mtight">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8913142857142857em;"><span style="top:-2.931em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mord mtight">/</span><span class="mord mtight">2</span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">σ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8913142857142857em;"><span style="top:-2.931em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>y</mi></mrow><annotation encoding="application/x-tex">y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span></span>表示概率密度（probability density），<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span></span></span></span>表示测量值，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>μ</mi></mrow><annotation encoding="application/x-tex">\mu</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">μ</span></span></span></span>是总体平均值，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>σ</mi></mrow><annotation encoding="application/x-tex">\sigma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">σ</span></span></span></span>是总体标准偏差。<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>σ</mi></mrow><annotation encoding="application/x-tex">\sigma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">σ</span></span></span></span>小，数据精密度好，曲线瘦高；<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>σ</mi></mrow><annotation encoding="application/x-tex">\sigma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">σ</span></span></span></span>大，数据分散，曲线较扁平。<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>−</mo><mi>μ</mi></mrow><annotation encoding="application/x-tex">x - \mu</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">μ</span></span></span></span>表示随机误差，若以<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>−</mo><mi>μ</mi></mrow><annotation encoding="application/x-tex">x - \mu</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">μ</span></span></span></span>作横坐标，则曲线称为随机误差的正态分布曲线。</p>
-<p>对其变形得到不含<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>μ</mi><mi mathvariant="normal">和</mi><mi>σ</mi></mrow><annotation encoding="application/x-tex">\mu和\sigma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">μ</span><span class="mord cjk_fallback">和</span><span class="mord mathdefault" style="margin-right:0.03588em;">σ</span></span></span></span>的标准正态分布曲线，仅与新引入的变量<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>u</mi></mrow><annotation encoding="application/x-tex">u</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">u</span></span></span></span>有关，因此更加便于使用。</p>
+<p>对其变形得到不含<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>μ</mi><mi mathvariant="normal">和</mi><mi>σ</mi></mrow><annotation encoding="application/x-tex">\mu和\sigma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">μ</span><span class="mord cjk_fallback">和</span><span class="mord mathdefault" style="margin-right:0.03588em;">σ</span></span></span></span>的标准正态分布曲线，仅与新引入的变量<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>u</mi></mrow><annotation encoding="application/x-tex">u</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">u</span></span></span></span>有关，因此更加便于使用，可直接查表获得相关概率。</p>
 <p>对于有限次的测量而言，多个样本分别多次计算所得的标准偏差<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>s</mi><mover accent="true"><mi>x</mi><mo stretchy="true">‾</mo></mover></msub></mrow><annotation encoding="application/x-tex">s_{\overline x}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">s</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32289200000000007em;"><span style="top:-2.85em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord overline mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6755600000000002em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault mtight">x</span></span><span style="top:-3.57756em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line mtight" style="border-bottom-width:0.049em;"></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>比单个样本多次计算所得标准偏差<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi></mrow><annotation encoding="application/x-tex">s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span></span></span></span>更小，且符合如下关系：</p>
 <p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>s</mi><mover accent="true"><mi>x</mi><mo stretchy="true">‾</mo></mover></msub><mo>=</mo><mfrac><mi>s</mi><msqrt><mi>n</mi></msqrt></mfrac></mrow><annotation encoding="application/x-tex">s_{\overline x} = \frac {s} {\sqrt n}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">s</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32289200000000007em;"><span style="top:-2.85em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord overline mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6755600000000002em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault mtight">x</span></span><span style="top:-3.57756em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line mtight" style="border-bottom-width:0.049em;"></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.03756em;vertical-align:-0.9300000000000002em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.30972em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8002800000000001em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault" style="padding-left:0.833em;">n</span></span><span style="top:-2.76028em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
@@ -504,7 +1369,7 @@ c3.3,-7.3,9.3,-11,18,-11H400000v40H1017.7s-90.5,478,-276.2,1466c-185.7,988,
 77,-151c0.7,0.7,35.7,202,105,604c67.3,400.7,102,602.7,104,606z
 M1001 80H400000v40H1017z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.268136em;"><span></span></span></span></span></span></span></span><span style="top:-4.001863999999999em;"><span class="pstrut" style="height:3.771864em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-5.139532999999999em;"><span class="pstrut" style="height:3.771864em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3513970000000004em;"><span style="top:-2.122331em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.0000050000000003em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop op-symbol small-op">∑</span></span></span><span style="top:-3.950005em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9776689999999999em;"><span></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.63056em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">x</span></span><span style="top:-3.55056em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span><span class="mclose">)</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord overline"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.63056em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span><span style="top:-3.55056em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:2.9299999999999997em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
 <p>r的取值范围在0至1之间，越趋近1说明数据的线性关系越好，反之则线性关系越差。</p>
-<p>以相关系数判断线性关系的好和不好时，还应考虑测量的次数以及置信度。</p>
+<p>以相关系数判断线性关系的好或不好时，还应考虑测量的次数以及置信度。</p>
 <h2 id="37-提高分析结果准确度的方法"><a class="markdownIt-Anchor" href="#37-提高分析结果准确度的方法"></a> 3.7 提高分析结果准确度的方法</h2>
 <p>要减少分析过程中的误差，可以从以下几个方面考虑：</p>
 <ul>
@@ -515,7 +1380,9 @@ M1001 80H400000v40H1017z'/></svg></span></span></span><span class="vlist-s">​<
 </ul>
 <h1 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h1>
 <p>太多了，写了一个周了。不过很多内容其实不很重要，基本上是会用就行的程度。</p>
-<p>需要进一步精简。</p>
+<hr />
+<p>2023.3.31</p>
+<p>增加一个图表，修改部分内容。</p>
 
                 
               </div>
