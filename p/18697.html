@@ -16,22 +16,24 @@
   <meta name="author" content="Sun">
   <meta name="keywords" content="">
   
-    <meta name="description" content="由于要展示一个其他网站的页面，所以用到了iframe，虽然网上看到iframe有种种的问题和缺点，但是其实对我来说倒无所谓。 但是遇到了一些问题：iframe并不能自动适应不同设备的分辨率大小，导致在电脑上看大小正常，但是手机浏览就过大了，所以尝试解决这个问题。">
+    <meta name="description" content="第七章是氧化还原滴定，也是很常用的滴定方法。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="iframe的响应式处理">
-<meta property="og:url" content="http://argon-gas.top/p/4501.html">
+<meta property="og:title" content="《分析化学》章末总结7">
+<meta property="og:url" content="http://argon-gas.top/p/18697.html">
 <meta property="og:site_name" content="Sun&#39;s BLOG">
-<meta property="og:description" content="由于要展示一个其他网站的页面，所以用到了iframe，虽然网上看到iframe有种种的问题和缺点，但是其实对我来说倒无所谓。 但是遇到了一些问题：iframe并不能自动适应不同设备的分辨率大小，导致在电脑上看大小正常，但是手机浏览就过大了，所以尝试解决这个问题。">
+<meta property="og:description" content="第七章是氧化还原滴定，也是很常用的滴定方法。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-07-20T04:38:44.000Z">
-<meta property="article:modified_time" content="2022-08-02T11:15:08.000Z">
+<meta property="article:published_time" content="2023-05-25T14:44:23.000Z">
+<meta property="article:modified_time" content="2023-05-30T16:25:04.728Z">
 <meta property="article:author" content="Sun">
-<meta property="article:tag" content="blog">
+<meta property="article:tag" content="chem">
+<meta property="article:tag" content="analytical">
+<meta property="article:tag" content="series-analy-1">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>iframe的响应式处理 - Sun&#39;s BLOG</title>
+  <title>《分析化学》章末总结7 - Sun&#39;s BLOG</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -42,6 +44,8 @@
   <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/KaTeX/0.16.2/katex.min.css" />
 
 
 
@@ -212,7 +216,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="iframe的响应式处理"></span>
+            <span id="subtitle" data-typed-text="《分析化学》章末总结7"></span>
           
         </div>
 
@@ -223,8 +227,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-07-20 12:38" pubdate>
-          2022年7月20日 下午
+        <time datetime="2023-05-25 22:44" pubdate>
+          2023年5月25日 晚上
         </time>
       </span>
     
@@ -235,7 +239,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          605 字
+          2k 字
         
       </span>
     
@@ -246,7 +250,7 @@
         
         
         
-          4 分钟
+          13 分钟
         
       </span>
     
@@ -284,21 +288,54 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">iframe的响应式处理</h1>
+            <h1 style="display: none">《分析化学》章末总结7</h1>
             
             
               <div class="markdown-body">
                 
-                <p>由于要展示一个其他网站的页面，所以用到了iframe，虽然网上看到iframe有种种的问题和缺点，但是其实对我来说倒无所谓。</p>
-<p>但是遇到了一些问题：iframe并不能自动适应不同设备的分辨率大小，导致在电脑上看大小正常，但是手机浏览就过大了，所以尝试解决这个问题。</p>
+                <p>第七章是氧化还原滴定，也是很常用的滴定方法。</p>
 <a id="more"></a>
-<div class="note note-info">
-            <p>问题：<br>使用的iframe窗口不能自动适应不同设备的不同分辨率，导致在部分设备上体验不好。</p>
-          </div>
-<div class="note note-success">
-            <p>解决方法：<br>对&quot;iframe&quot;标签作处理。</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">iframe</span></span><br><span class="hljs-tag"> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://tabbycats.club/cat/16o880&quot;</span></span><br><span class="hljs-tag"> <span class="hljs-attr">height</span>=<span class="hljs-string">445</span></span><br><span class="hljs-tag"> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;100%&quot;</span></span><br><span class="hljs-tag"> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;frame_full&quot;</span></span><br><span class="hljs-tag"> <span class="hljs-attr">frameborder</span>=<span class="hljs-string">&quot;0&quot;</span></span><br><span class="hljs-tag"> <span class="hljs-attr">scrolling</span>=<span class="hljs-string">&quot;no&quot;</span></span><br><span class="hljs-tag"> <span class="hljs-attr">onload</span>=<span class="hljs-string">&quot;this.style.height=document.body.clientHeight-50&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;SpaceBug&quot;</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span><br></code></pre></td></tr></table></figure><p><strong>width</strong>设置为100%，同时配合<strong>onload</strong>获得body的宽度，就能实现iframe窗口随不同分辨率来变化，至于<strong>height</strong>直接设置高度，虽然不是按照比例缩放，但效果也还不错</p>
-          </div>
-<p>解决思路来自：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/colinliu/p/4817723.html">iframe框架嵌套技巧（全屏，去双滚动条）</a></p>
+<h1>7 氧化还原滴定法</h1>
+<h2 id="7-1-氧化还原平衡">7.1 氧化还原平衡</h2>
+<p>氧化还原反应与氧化还原电对有关，氧化还原电对常粗略分为可逆电对和不可逆电对。在氧化还原反应的任一瞬间都能建立起氧化还原平衡的电对称为可逆电对，反之则为不可逆电对。可逆电对的电势基本符合能斯特公式计算结果，而不可逆电对的实际电势与理论电势相差较大。</p>
+<p>还可以将电对分为对称和不对称电对。电对半反应中，氧化态和还原态系数相同则是对称电对，不同则是不对称电对。电对的对称与否仅与反应系数是否相等有关，与半反应转移电子数无关。</p>
+<p>考虑离子强度和副反应的影响，可以得到修正的能斯特方程：</p>
+<p>$$<br>
+\phi = \phi^{\ominus} + 0.059V lg \cdot \frac {\gamma_{Ox}+\alpha_{Red}} {\gamma_{Red}+\alpha_{Ox}} = \phi^{\ominus '}<br>
+$$</p>
+<p>式中$\phi^{\ominus '}$称为条件电势（conditional potential），对应的电对氧化态和还原态的分析浓度均为$1mol \cdot L^{-1}$。条件电势反映了离子强度与各种副反应影响的总结果，可以通过实验方式测得。</p>
+<p>影响条件电势的因素，即影响电对物质活度系数和副反应系数的因素，主要有盐效应、酸效应、沉淀效应和配位效应。</p>
+<p>氧化还原反应进行的程度，可由氧化还原反应的平衡常数衡量：</p>
+<p>$$<br>
+lgK = lg \frac {\alpha^{z_2}<em>{Red_1} \alpha^{z_1}</em>{Ox_2}}{\alpha^{z_2}<em>{Ox_1} \alpha^{z_1}</em>{Red_2}} = \frac {(\phi_1^{\ominus} - \phi_2^{\ominus})z} {0.059V}<br>
+$$</p>
+<p>式中$K$为反应平衡常数，$z$为反应转移电子数$z_1$和$z_2$的最小公倍数。</p>
+<p>如果反应中存在相关副反应，则以相应的条件电极电势带入上式，所求即为条件平衡常数$K’$（conditional equilibrium constant）：</p>
+<p>$$<br>
+lgK’ = \frac {(\phi_1^{\ominus '} - \phi_2^{\ominus '})z} {0.059V}<br>
+$$</p>
+<p>条件平衡常数更能说明氧化还原反应实际进行的程度。</p>
+<p>类比酸碱滴定中的滴定度的概念，氧化还原反应的进行可以用氧化态浓度与还原态浓度的比值来表示，该比值可根据平衡常数求得。氧化还原反应的试剂较多，所以反应是否完全的问题不像酸碱滴定中那么突出。</p>
+<p>根据氧化还原电对的标准电势或条件电势可以判断反应进行的方向和程度。但这只能表明反应进行的可能性，并不能反映反应进行的速率。电极电势是热力学判据，反应能否发生还要考虑动力学因素。</p>
+<p>一般来说，反应物浓度越大，反应温度越高，反应速率越快。</p>
+<p>加入催化剂也可以改变反应速率，加快反应速率称为正催化剂，反之则为负催化剂。负催化剂有时可用于减少副反应的发生，如加入多元醇可以减慢$SnCl_2$与溶解氧的作用；加入$AsO_3^{3-}$可以防止$SO_3^{2-}$与溶解氧作用。</p>
+<p>一个反应的发生有时也可以促进另一个反应进行，这种现象称为诱导反应（induced reaction）。诱导反应和催化反应是不相同的，在催化反应中，催化剂参加反应后又变为原来的物质；而诱导反应的诱导体反应后变为其他物质。</p>
+<h2 id="7-2-氧化还原滴定原理">7.2 氧化还原滴定原理</h2>
+<p>在氧化还原滴定过程中，除了用电位法确定终点外，还可以利用氧化还原滴定剂。</p>
+<p>有些标准溶液或被滴定的物质本身有颜色，如果反应后变为无色或浅色物质，那么可用作自身指示剂（如$KMnO_4$）；有的物质可以与氧化剂或还原剂产生特殊颜色，也可用作指示剂（如淀粉）。</p>
+<p>氧化还原型指示剂的氧化态和还原态有不同的颜色，滴定过程中，指示剂的氧化态和还原态之间相互转化，颜色发生改变，以此指示终点。对于指示剂的半反应：</p>
+<p>$$<br>
+In(Ox) + ze^- = In(Red)<br>
+$$</p>
+<p>当$[In(Ox)/In(Red)]\ge 10$时，溶液呈现氧化态的颜色，此时：</p>
+<p>$$<br>
+\phi \ge \phi^{\ominus}<em>{In} + \frac {0.059V} {z}lg10 = \phi^{\ominus}</em>{In} + \frac {0.059V} {z}V<br>
+$$</p>
+<p>类似的，溶液呈还原态颜色时：</p>
+<p>$$<br>
+\phi \le \phi^{\ominus}<em>{In} + \frac {0.059V} {z}lg0.1 = \phi^{\ominus}</em>{In} - \frac {0.059V} {z}V<br>
+$$</p>
+<p>故指示剂变色电势范围为$\phi^{\ominus}<em>{In} \pm \frac {0.059} {z}V$，若采用条件电势则为$\phi^{\ominus '}</em>{In} \pm \frac {0.059} {z}V$。应使指示剂的条件电势尽量与滴定反应的化学计量电电势一致，以减小终点误差。</p>
 
                 
               </div>
@@ -317,7 +354,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/" class="category-chain-item">网络技术</a>
+  <a href="/categories/%E5%AD%A6%E5%AD%A6%E5%8C%96%E5%AD%A6/" class="category-chain-item">学学化学</a>
   
   
 
@@ -332,7 +369,11 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/blog/">#blog</a>
+        <a href="/tags/chem/">#chem</a>
+      
+        <a href="/tags/analytical/">#analytical</a>
+      
+        <a href="/tags/series-analy-1/">#series-analy-1</a>
       
     </div>
   
@@ -344,8 +385,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>iframe的响应式处理</div>
-      <div>http://argon-gas.top/p/4501.html</div>
+      <div>《分析化学》章末总结7</div>
+      <div>http://argon-gas.top/p/18697.html</div>
     </div>
     <div class="license-meta">
       
@@ -357,7 +398,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年7月20日</div>
+          <div>2023年5月25日</div>
         </div>
       
       
@@ -389,18 +430,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/p/51412.html" title="盛夏·随想">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">盛夏·随想</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/p/50082.html" title="可爱的chrome扩展">
-                        <span class="hidden-mobile">可爱的chrome扩展</span>
+                      <a href="/p/22808.html" title="有机析题007">
+                        <span class="hidden-mobile">有机析题007</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -482,6 +517,11 @@
 
 
   
+
+
+  
+  
+
 
 
 
