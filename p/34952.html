@@ -24,7 +24,7 @@
 <meta property="og:description" content="第五章开始正式进入滴定部分，首先当然是最常见的酸碱滴定。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-04-26T13:45:16.000Z">
-<meta property="article:modified_time" content="2023-05-02T15:25:14.145Z">
+<meta property="article:modified_time" content="2023-06-09T13:49:12.540Z">
 <meta property="article:author" content="Sun">
 <meta property="article:tag" content="chem">
 <meta property="article:tag" content="analytical">
@@ -239,7 +239,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          7.2k 字
+          8.8k 字
         
       </span>
     
@@ -250,7 +250,7 @@
         
         
         
-          45 分钟
+          56 分钟
         
       </span>
     
@@ -538,7 +538,153 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
 <li>化学计量点后。溶液的碱度取决于过量<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi><mi>a</mi><mi>O</mi><mi>H</mi></mrow><annotation encoding="application/x-tex">NaOH</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span></span></span></span>的浓度，根据过量<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi><mi>a</mi><mi>O</mi><mi>H</mi></mrow><annotation encoding="application/x-tex">NaOH</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span></span></span></span>来计算<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mi>H</mi></mrow><annotation encoding="application/x-tex">pH</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span></span></span></span>。</li>
 </ul>
 <p>以滴定过程进行的百分比，即滴定分数<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">a</span></span></span></span>（titration fraction）为横坐标，以<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mi>H</mi></mrow><annotation encoding="application/x-tex">pH</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span></span></span></span>为纵坐标绘图，可得滴定曲线：</p>
-<p>（ <em><s>这里将会有一个图</s></em>  ）</p>
+<div id="echarts6719" style="width: 90%;height: 400px;margin: 0 auto"></div>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.1/echarts.min.js"></script>
+<script type="text/javascript" src="../js/walden.js"></script>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('echarts6719'), 'walden');
+        // 指定图表的配置项和数据
+        var option = 
+option = {
+
+  title: {
+    text: '强酸强碱滴定曲线',
+    left: 'center'
+  },
+
+  dataZoom: [
+    {
+      id: 'dataZoomX',
+      type: 'slider',
+      xAxisIndex: 0,
+      filterMode: 'none'
+    }
+  ],
+
+  xAxis: {
+
+    type: 'value',
+
+    name: '滴定百分数'
+
+  },
+
+  yAxis: {
+
+    type: 'value',
+
+    min: 0.5,
+
+    max: 14.0,
+
+    splitNumber: 8,
+
+    name: 'pH'
+
+  },
+
+  visualMap: {
+
+    type: 'piecewise',
+
+    show: false,
+
+    dimension: 0,
+
+    seriesIndex: 0,
+
+    pieces: [
+
+    {
+
+    gt: 99.9,
+
+    lt: 100.1
+
+    }
+
+    ]
+
+  },
+
+  series: [
+
+    {
+
+    type: 'line',
+
+    smooth: 0.6,
+
+    symbol: 'none',
+
+    lineStyle: {
+
+    width: 3,
+
+    color: '#2a99c9'
+
+    },
+
+    markLine: {
+
+    symbol: ['none', 'none'],
+
+    label: { show: false },
+
+    data: [{ xAxis: 99.9 }, { xAxis: 100.1 }]
+
+    },
+
+    areaStyle: {},
+
+    data: [
+
+    [0, 1],
+
+    [10, 1.09],
+
+    [20, 1.18],
+
+    [50, 1.48],
+
+    [80, 1.95],
+
+    [90, 2.29],
+
+    [99, 3.3],
+
+    [99.8, 4],
+
+    [99.9, 4.3],
+
+    [100, 7],
+
+    [100.1, 9.70],
+
+    [100.2, 10],
+
+    [101, 10.7],
+
+    [110, 11.68],
+
+    [130, 12.12],
+
+    [150, 12.3],
+
+    [200, 12.52]
+
+    ]
+
+    }
+
+  ]
+
+};
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+</script>
 <p>在化学计量点前后，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mi>H</mi></mrow><annotation encoding="application/x-tex">pH</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span></span></span></span>急速发生变化，我们把这种变化称为滴定突跃（titration jump）。对应化学计量点前后<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>±</mo><mn>0.1</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">\pm 0.1\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.08333em;"></span><span class="mord">±</span><span class="mord">0</span><span class="mord">.</span><span class="mord">1</span><span class="mord">%</span></span></span></span>的<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mi>H</mi></mrow><annotation encoding="application/x-tex">pH</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span></span></span></span>变化范围称为突跃范围，这是选择合适指示剂的判断标准，只有在突跃范围内变色的指示剂才能保证其滴定终点误差在<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>±</mo><mn>0.1</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">\pm 0.1 \%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.08333em;"></span><span class="mord">±</span><span class="mord">0</span><span class="mord">.</span><span class="mord">1</span><span class="mord">%</span></span></span></span>以内。</p>
 <p>滴定突跃的大小与溶液的浓度有关，当酸碱浓度均增大10倍时，滴定突跃变化范围上下各扩展一个单位。</p>
 <p>滴定弱酸/弱碱溶液一般采用强酸/强碱，以<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0.1000</mn><mi>m</mi><mi>o</mi><mi>l</mi><mo>⋅</mo><msup><mi>L</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mi>N</mi><mi>a</mi><mi>O</mi><mi>H</mi></mrow><annotation encoding="application/x-tex">0.1000 mol \cdot L^{-1} NaOH</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord mathdefault">m</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault">L</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span></span></span></span>滴定20.00<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>m</mi><mi>l</mi></mrow><annotation encoding="application/x-tex">ml</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">m</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span></span></span></span>的<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0.1000</mn><mi>m</mi><mi>o</mi><mi>l</mi><mo>⋅</mo><msup><mi>L</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mi>H</mi><mi>A</mi><mi>c</mi></mrow><annotation encoding="application/x-tex">0.1000mol \cdot L^{-1} HAc</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord mathdefault">m</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault">L</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span><span class="mord mathdefault">A</span><span class="mord mathdefault">c</span></span></span></span>为例，可分为如下四个阶段：</p>
@@ -549,7 +695,149 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
 <li>化学计量点后。溶液中过量的<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi><mi>a</mi><mi>O</mi><mi>H</mi></mrow><annotation encoding="application/x-tex">NaOH</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span></span></span></span>限制了<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi><msup><mi>c</mi><mo>−</mo></msup></mrow><annotation encoding="application/x-tex">Ac^-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.771331em;vertical-align:0em;"></span><span class="mord mathdefault">A</span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.771331em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span></span></span></span>的水解，所以此时<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mi>H</mi></mrow><annotation encoding="application/x-tex">pH</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span></span></span></span>可近似根据过量<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi><mi>a</mi><mi>O</mi><mi>H</mi></mrow><annotation encoding="application/x-tex">NaOH</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span></span></span></span>浓度来计算。</li>
 </ul>
 <p>可得滴定曲线：</p>
-<p>（ <em><s>这里将会有一个图</s></em> ）</p>
+<div id="echarts2009" style="width: 90%;height: 400px;margin: 0 auto"></div>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.1/echarts.min.js"></script>
+<script type="text/javascript" src="../js/walden.js"></script>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('echarts2009'), 'walden');
+        // 指定图表的配置项和数据
+        var option = 
+option = {
+
+  title: {
+    text: '弱酸强碱滴定曲线',
+    left: 'center'
+  },
+
+  dataZoom: [
+    {
+      id: 'dataZoomX',
+      type: 'slider',
+      xAxisIndex: 0,
+      filterMode: 'none'
+    }
+  ],
+
+  xAxis: {
+
+    type: 'value',
+
+    name: '滴定百分数'
+
+  },
+
+  yAxis: {
+
+    type: 'value',
+
+    min: 0.5,
+
+    max: 14.0,
+
+    splitNumber: 8,
+
+    name: 'pH'
+
+  },
+
+  visualMap: {
+
+    type: 'piecewise',
+
+    show: false,
+
+    dimension: 0,
+
+    seriesIndex: 0,
+
+    pieces: [
+
+    {
+
+    gt: 99.9,
+
+    lt: 100.1
+
+    }
+
+    ]
+
+  },
+
+  series: [
+
+    {
+
+    type: 'line',
+
+    smooth: 0.6,
+
+    symbol: 'none',
+
+    lineStyle: {
+
+    width: 3,
+
+    color: '#2a99c9'
+
+    },
+
+    markLine: {
+
+    symbol: ['none', 'none'],
+
+    label: { show: false },
+
+    data: [{ xAxis: 99.9 }, { xAxis: 100.1 }]
+
+    },
+
+    areaStyle: {},
+
+    data: [
+
+    [0, 2.87],
+
+    [10, 3.79],
+
+    [20, 4.14],
+
+    [50, 4.74],
+
+    [90, 5.70],
+
+    [99, 6.73],
+
+    [99.9, 7.74],
+
+    [100, 8.72],
+
+    [100.1, 9.70],
+
+    [100.2, 10],
+
+    [101, 10.7],
+
+    [110, 11.70],
+
+    [130, 12.12],
+
+    [150, 12.3],
+
+    [200, 12.52]
+
+    ]
+
+    }
+
+  ]
+
+};
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+</script>
 <p>滴定突跃的大小还与酸强度有关，对于越弱的酸，它对应的滴定突跃会越小。当<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>K</mi><mi>a</mi></msub><mo>≤</mo><mn>1</mn><msup><mn>0</mn><mrow><mo>−</mo><mn>9</mn></mrow></msup></mrow><annotation encoding="application/x-tex">K_a \le 10^{-9}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span></span>时，几乎没有明显突跃。</p>
 <p>多元酸的滴定较为复杂，需要考虑第二/第三级电离是否能被准确滴定的问题，具体判断标准将在下一节讨论。</p>
 <p>用强碱滴定多元酸时，第一化学计量点附近的突跃与<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>K</mi><mrow><mi>a</mi><mn>1</mn></mrow></msub><mi mathvariant="normal">/</mi><msub><mi>K</mi><mrow><mi>a</mi><mn>2</mn></mrow></msub></mrow><annotation encoding="application/x-tex">K_{a1}/K_{a2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>有关，其他化学计量点附近的突跃也类似。当这一比值足够大（<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>K</mi><mrow><mi>a</mi><mn>1</mn></mrow></msub><mi mathvariant="normal">/</mi><msub><mi>K</mi><mrow><mi>a</mi><mn>2</mn></mrow></msub><mo>≥</mo><mn>1</mn><msup><mn>0</mn><mn>5</mn></msup></mrow><annotation encoding="application/x-tex">K_{a1}/K_{a2} \ge 10^{5}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≥</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span></span></span></span></span>）时，不同电离之间才不会有明显的互相干扰，因此才能准确滴定。</p>
@@ -613,6 +901,9 @@ s76,-59,76,-59s76,-60,76,-60z M1001 80H40000v40H1012z'/></svg></span></span></sp
 <p>（ <em>不过我还是不写了</em> ）</p>
 <h1 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h1>
 <p>本章终于有了点化学的意思，不过还是以计算式为主，许多公式和判别式要求记忆，还是挺烦人的。</p>
+<hr />
+<p>2023.6.9</p>
+<p>增补两个图表</p>
 
                 
               </div>
