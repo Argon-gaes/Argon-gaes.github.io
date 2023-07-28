@@ -85,5 +85,7 @@ details {
     border: solid 3px #585858;
 }
 
-
+.katex .base .mathdefault {
+    font-style: italic
+}
   
