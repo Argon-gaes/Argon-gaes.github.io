@@ -27,8 +27,11 @@
 <meta property="og:image" content="https://pic.ziyuan.wang/2023/08/09/87a4187e910ee.jpeg">
 <meta property="og:image" content="https://pic.ziyuan.wang/2023/08/09/117e2cfc91038.png">
 <meta property="og:image" content="https://pic.ziyuan.wang/2023/08/09/e218cc0f3da31.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/2023/08/10/1cf5318b36d25.jpeg">
+<meta property="og:image" content="https://pic.ziyuan.wang/2023/08/10/c33e674eab026.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/2023/08/10/4d37c990a9d24.png">
 <meta property="article:published_time" content="2023-08-09T13:10:41.000Z">
-<meta property="article:modified_time" content="2023-08-09T14:38:36.576Z">
+<meta property="article:modified_time" content="2023-08-10T12:30:00.750Z">
 <meta property="article:author" content="Sun">
 <meta property="article:tag" content="trifle">
 <meta name="twitter:card" content="summary_large_image">
@@ -240,7 +243,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          3k 字
+          4.9k 字
         
       </span>
     
@@ -251,7 +254,7 @@
         
         
         
-          19 分钟
+          31 分钟
         
       </span>
     
@@ -298,6 +301,43 @@
 <a id="more"></a>
 <p>本篇的内容基于已在本地部署好的Stable Diffusion模型，相关教程可以看：<a target="_blank" rel="noopener" href="https://openai.wiki/stable-diffusion.html">Stable Diffusion｜全方位教程指南 - openai.wiki</a>。我就是对照这篇教程操作的，讲得很详细。也可以使用其他人做好的整合包。</p>
 <p>下面是一些具体画图时的操作，或者说备忘吧。</p>
+<h2 id="0-用-tiled-diffusion-vae-生成大型图像"><a class="markdownIt-Anchor" href="#0-用-tiled-diffusion-vae-生成大型图像"></a> 0 用 Tiled Diffusion &amp; VAE 生成大型图像</h2>
+<p>Stable Diffusion模型还是很吃显存的，我的笔记本3060+6G显存第一遍出图只能跑512×512分辨率的，如果再高就会爆显存。而且超分辨率也开不了，所以会影响图的细节质量。</p>
+<p>所幸，有大佬开发了一个插件可以让小显存也能跑出很大的图，详细技术内容我也不懂，但是大概原理是把大型图像分割为多个小块分别生成，最后再拼起来，也就是用时间换显存，经测试无论是效果还是效率都很不错，特在此记录。</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111/blob/main/README_CN.md">用 Tiled Diffusion &amp; VAE 生成大型图像 - pkuliyi2015</a></p>
+<p>插件包括超大图像绘制，图生图放大等，上方链接中有中文文档记录了安装和使用方法。部分功能我其实还用不到，仅在此写一下常用的基础功能。</p>
+<ul>
+<li>text2img:
+<ul>
+<li>可以用Tiled VAE降低缓存占用，通常按照默认设置即可。</li>
+<li>如果爆显存了可以降低Tile大小。</li>
+<li>如果颜色错误或灰暗，启用编码器颜色修复Encoder Color Fix。</li>
+</ul>
+</li>
+<li>img2img:
+<ul>
+<li>可以用Tiled Diffusion+Tiled VAE。</li>
+<li>Tiled Diffusion参数（由原作者提供）：
+<ul>
+<li>降噪 = 0.4，步数 = 20，采样器 = Euler a，放大器 = RealESRGAN++，负面提示语=EasyNegative,</li>
+<li>方法(Method) = MultiDiffusion, 分块批处理规模(tile batch size) = 8, 分块高度(tile size height) = 96, 分块宽度(tile size width) = 96, 分块重叠(overlap) = 32</li>
+<li>如果爆显存可以调小分块高度/宽度，如64×64，但是速度也会降低。</li>
+<li>全局提示语 = masterpiece, best quality, highres, extremely detailed 8k wallpaper, very clear, 全局负面提示语 = EasyNegative.</li>
+<li>注意全局提示语中不能有明显的具体对象的提示语，因为插件的原理是分块生成，所以具体化的提示词会导致生成多个对象（比如提示语1girl就可能会在画面里出现好几个girl）。</li>
+<li>Tiled Noise Inversion可以用于高质量图片放大，通常denoise&lt;0.6，CFG敏感度不大。</li>
+</ul>
+</li>
+<li>Tiled VAE开启即可，设置同上。</li>
+</ul>
+</li>
+</ul>
+<p>所以我的基本工作流程如下：</p>
+<ul>
+<li>开启Tiled VAE，按照所需的比例先跑小图，找到合适的小图后固定种子开始高清修复。</li>
+<li>开启Tiled VAE，用Hires. fix修复图片，通常1.5或2倍。</li>
+<li>再发送到img2img放大，开启Tiled VAE+Tiled Diffusion(Tiled Noise Inversion)，出成品图。</li>
+</ul>
+<p>更高级的用法以后再探索吧…</p>
 <h2 id="1-flat-2d-animergeckpt"><a class="markdownIt-Anchor" href="#1-flat-2d-animergeckpt"></a> 1 Flat-2D Animerge(ckpt)</h2>
 <p>这是一个卡通画风的大模型，可以用于绘制一些动漫风格的人物或场景，正如名字所说，画风是比较“flat”的，大幅的色块较多而细节较少，效果不错。</p>
 <p>以下几张是用该模型跑的图，前两张是作者给出的样例，后两张是我自己跑的：</p>
@@ -307,7 +347,7 @@
 <figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">Prompt</span>: (best-quality:<span class="hljs-number">0</span>.<span class="hljs-number">8</span>), (best-quality:<span class="hljs-number">0</span>.<span class="hljs-number">8</span>), perfect anime illustration of a Enchanting Airy <span class="hljs-string">&quot;The Spring of Mythology&quot;</span>, Foggy conditions, equirectangular <span class="hljs-number">360</span>, Cel shading, Light, Nu Goth Art, loop lighting, telephoto lens, Film Washi, full of color, Crimson palette, Pixabay, octane engine<br><span class="hljs-attribute">Negative</span> prompt: (worst quality:<span class="hljs-number">0</span>.<span class="hljs-number">8</span>), verybadimagenegative_v<span class="hljs-number">1</span>.<span class="hljs-number">3</span> easynegative, (surreal:<span class="hljs-number">0</span>.<span class="hljs-number">8</span>), (modernism:<span class="hljs-number">0</span>.<span class="hljs-number">8</span>), (art deco:<span class="hljs-number">0</span>.<span class="hljs-number">8</span>), (art nouveau:<span class="hljs-number">0</span>.<span class="hljs-number">8</span>)<br><span class="hljs-attribute">Steps</span>: <span class="hljs-number">20</span><br><span class="hljs-attribute">Size</span>: <span class="hljs-number">512</span>x<span class="hljs-number">768</span><br><span class="hljs-attribute">Seed</span>: <span class="hljs-number">3939324577</span><br><span class="hljs-attribute">Model</span>: v<span class="hljs-number">3</span><br><span class="hljs-attribute">Sampler</span>: DPM++ <span class="hljs-number">2</span>M Karras<br><span class="hljs-attribute">CFG</span> scale: <span class="hljs-number">10</span><br><span class="hljs-attribute">Model</span> hash: d<span class="hljs-number">0</span>fca<span class="hljs-number">96112</span><br><span class="hljs-attribute">Mimic</span> scale: <span class="hljs-number">7</span><br><span class="hljs-attribute">Hires</span> upscale: <span class="hljs-number">2</span><br><span class="hljs-attribute">Hires</span> upscaler: R-ESRGAN <span class="hljs-number">4</span>x+ Anime<span class="hljs-number">6</span>B<br><span class="hljs-attribute">Denoising</span> strength: <span class="hljs-number">0</span>.<span class="hljs-number">4</span><br><span class="hljs-attribute">Threshold</span> percentile: <span class="hljs-number">100</span><br><span class="hljs-attribute">Dynamic</span> thresholding enabled: True<br></code></pre></td></tr></table></figure>
 <p><img src="https://pic.ziyuan.wang/2023/08/09/117e2cfc91038.png" srcset="/img/loading.gif" lazyload alt="pic 3" /></p>
 <p><img src="https://pic.ziyuan.wang/2023/08/09/e218cc0f3da31.png" srcset="/img/loading.gif" lazyload alt="pic 4" /></p>
-<p>（ <em>这一下就看出差距来了 😦 ，毕竟我的笔记本只能跑512×512的分辨率，也用不了超分辨率，画质稍微高一点显存就爆了，所以缺失很多细节。</em> ）</p>
+<p>（ <em><s>这一下就看出差距来了 😦 ，毕竟我的笔记本只能跑512×512的分辨率，也用不了超分辨率，画质稍微高一点显存就爆了，所以缺失很多细节。</s></em> ）</p>
 <p>作者给出的使用指导：</p>
 <ul>
 <li><strong>(highly recommended)</strong> Use the dynamic thresholding plugin (all example images do with cfg scale 10 mimic 7): <a target="_blank" rel="noopener" href="https://github.com/mcmonkeyprojects/sd-dynamic-thresholding">https://github.com/mcmonkeyprojects/sd-dynamic-thresholding</a>
@@ -352,7 +392,23 @@
 </li>
 <li>The model is capable of NSFW</li>
 </ul>
-<p>值得注意的主要是一些配置和Prompt/Negative。配置基本上按照作者的来就行，Negative也是基本固定的，Prompt可以用一句话描述场景即可，算是挺方便。</p>
+<p>值得注意的主要是一些配置和Prompt/Negative。配置基本上按照作者的来就行，Negative也是基本固定的，Prompt可以用一句话描述场景即可，算是挺方便。不使用VAE的画面和画风还挺对应的，也可以搭配其他VAE使用。</p>
+<h2 id="2-cetus-mixckpt"><a class="markdownIt-Anchor" href="#2-cetus-mixckpt"></a> 2 Cetus-Mix(ckpt)</h2>
+<p>一个比较主流的二次元大模型，画风比较亮丽，对提示词要求也不高。</p>
+<p>给出三张样例，第一张是作者的样例，后两张是我跑的：</p>
+<p><img src="https://pic.ziyuan.wang/2023/08/10/1cf5318b36d25.jpeg" srcset="/img/loading.gif" lazyload alt="pic 5" /></p>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">Prompt</span>: vela,cetus.orion,planet,<span class="hljs-number">1</span>girl<br><span class="hljs-attribute">Negative</span> prompt: (worst quality:<span class="hljs-number">1</span>.<span class="hljs-number">6</span>),(low quality:<span class="hljs-number">1</span>.<span class="hljs-number">6</span>),easynegative<br><span class="hljs-attribute">Steps</span>: <span class="hljs-number">20</span><br><span class="hljs-attribute">Size</span>: <span class="hljs-number">512</span>x<span class="hljs-number">768</span><br><span class="hljs-attribute">Seed</span>: <span class="hljs-number">3454628367</span><br><span class="hljs-attribute">Model</span>: CetusMix_WhaleFall<span class="hljs-number">2</span><br><span class="hljs-attribute">Version</span>: v<span class="hljs-number">1</span>.<span class="hljs-number">3</span>.<span class="hljs-number">1</span><br><span class="hljs-attribute">Sampler</span>: DPM++ <span class="hljs-number">2</span>M Karras<br><span class="hljs-attribute">CFG</span> scale: <span class="hljs-number">7</span><br><span class="hljs-attribute">Clip</span> skip: <span class="hljs-number">2</span><br><span class="hljs-attribute">Model</span> hash: <span class="hljs-number">876</span>b<span class="hljs-number">4</span>c<span class="hljs-number">7</span>ba<span class="hljs-number">5</span><br><span class="hljs-attribute">Hires</span> steps: <span class="hljs-number">10</span><br><span class="hljs-attribute">Hires</span> upscale: <span class="hljs-number">2</span><br><span class="hljs-attribute">Hires</span> upscaler: SwinIR_<span class="hljs-number">4</span>x<br><span class="hljs-attribute">Denoising</span> strength: <span class="hljs-number">0</span>.<span class="hljs-number">5</span><br></code></pre></td></tr></table></figure>
+<p><img src="https://pic.ziyuan.wang/2023/08/10/c33e674eab026.png" srcset="/img/loading.gif" lazyload alt="pic 6" /></p>
+<p><img src="https://pic.ziyuan.wang/2023/08/10/4d37c990a9d24.png" srcset="/img/loading.gif" lazyload alt="pic 7" /></p>
+<p>作者给出的指导：</p>
+<ul>
+<li>Hands-fix is still waiting to be improved.</li>
+<li>Highres-fix(upscaler) is strongly recommended(using the SwinIR_4x,R-ESRGAN 4x+anime6B by myself) in order to not make blurry images.</li>
+<li>Recommend: Clip skip 2, Sampler:DPM++2M, Karras Steps:20+</li>
+<li>CFG scale:4-8 Vae:Pastel-Waifu-Diffusion.vae.pt(The vae used by Pastel-mix si just good enough)</li>
+<li>Highres.fix:SwinIR_4x, Hires steps:10+, Denoising strength:0.4+, Upscale by: 1.5+</li>
+</ul>
+<p>实际测试中VAE使用vae-ft-mse-840000-ema-pruned也不错。</p>
 
                 
               </div>
