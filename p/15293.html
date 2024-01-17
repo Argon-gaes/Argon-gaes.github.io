@@ -1,0 +1,870 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://pic.ziyuan.wang/2022/d10570d139814.png">
+  <link rel="icon" href="https://pic.ziyuan.wang/2022/d10570d139814.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Sun">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="量子化学系列，使用的教材是Donald A. Mcquarrie的Quantum Chemistry 2nd，同时配套MIT公开课的5.61 Physical Chemistry一起学。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《Quantum Chemistry》章末总结1">
+<meta property="og:url" content="http://argon-gas.top/p/15293.html">
+<meta property="og:site_name" content="Sun&#39;s BLOG">
+<meta property="og:description" content="量子化学系列，使用的教材是Donald A. Mcquarrie的Quantum Chemistry 2nd，同时配套MIT公开课的5.61 Physical Chemistry一起学。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.1_62b41dc714375.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.2_0012f2fb7fc2b.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.3_9dde2bff3cf4d.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.4_c85789fb67c29.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.5_2423d0037b960.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.6_d3d4ea22bb8cc.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.7_551a8373fc0ab.png">
+<meta property="article:published_time" content="2024-01-15T05:46:31.000Z">
+<meta property="article:modified_time" content="2024-01-17T14:06:14.635Z">
+<meta property="article:author" content="Sun">
+<meta property="article:tag" content="chem">
+<meta property="article:tag" content="physicalchem">
+<meta property="article:tag" content="series-phys-2">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.1_62b41dc714375.png">
+  
+  
+  
+  <title>《Quantum Chemistry》章末总结1 - Sun&#39;s BLOG</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/KaTeX/0.16.2/katex.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"argon-gas.top","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Sun&#39;s BLOG</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/schdule/">
+                <i class="iconfont icon-plan"></i>
+                计划
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://pic.ziyuan.wang/2022/e099c52506fd7.jpg') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="《Quantum Chemistry》章末总结1"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-01-15 13:46" pubdate>
+          2024年1月15日 下午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          18k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          112 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">《Quantum Chemistry》章末总结1</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>量子化学系列，使用的教材是Donald A. Mcquarrie的Quantum Chemistry 2nd，同时配套MIT公开课的5.61 Physical Chemistry一起学。</p>
+<a id="more"></a>
+<p>正式开始前多说几句，国内本科阶段通常会设置一门课叫结构化学，而国外大学是没有这门课的。结构化学的授课内容基本上是量子化学基础+其他零碎的知识，比如晶体学，光谱，配合物，固体物理的一些初级部分，这种杂糅的内容安排使得这门课程内容覆盖比较广泛，但也造成了其系统性和整体性的缺乏。再考虑到北大那本结构教材写的实在是不尽人意，一学期的结构化学上下来，我也很难说自己学到了什么。所以在选择学习教材时，我选了这本更基础的教材，而没有用Levine的那本量子化学。</p>
+<h1>Chapter 1 The Dawn of the Quantum Chemistry</h1>
+<h2 id="1-1-Blackbody-Radiation-Could-Not-Be-Explained-by-Classical-Physics">1.1 Blackbody Radiation Could Not Be Explained by Classical Physics</h2>
+<p>The exact frequency spectrum emitted by the body depends on the particular body itself, but an ideal body , which absorbs and emits all frequencies, is called a <strong>blackbody</strong> and serves as an idealization for any radiating material. The radiation emitted by a blackbody is called <strong>blackbody radiation</strong>.</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.1_62b41dc714375.png" srcset="/img/loading.gif" lazyload alt="QC-fig1.1"></p>
+<p>A plot of the intensity of blackbody radiation versus frequency for several temperatures is given in Figure 1.1. Many theoretical physicists tried to derive expressions consistent with these experimental curves of intensity versus frequency, but they were all unsuccessful. In fact, the expression that is derived according to the laws of nineteenth century physics is:</p>
+<p>$$<br>
+d\rho(\nu,T)=\rho_{\nu}(T)d\nu=\frac {8\pi k_BT}{c^3}\nu^2d\nu<br>
+$$</p>
+<p>The equation came from the work of Lord Rayleigh and J. H. Jeans and is called the <strong>Rayleigh-Jeans law</strong>. The dashed line in Figure 1.1 shows the prediction of the Rayleigh-Jeans law. Note that the Rayleigh-Jeans law reproduces the experimental data at low frequencies. At high frequencies, however, the Rayleigh-Jeans law predicts that the radiant energy density diverges as $\nu^2$. Because the frequency increases as the radiation enters the ultraviolet region, this divergence was termed the <strong>ultraviolet catastrophe</strong>, a phenomenon that classical physics could not reconcile theoretically.</p>
+<p>（ <em>经典的紫外灾难，每次讲黑体辐射必定会有这个公式，它也确实反应了在那个时代经典物理学遇到的难题。</em> ）</p>
+<p>Many other people reproduced the equation of Rayleigh and Jeans, showing that this equation was correct according to the physics of the time. This result was very disconcerting, and many people struggled to find a theoretical explanation of blackbody radiation.</p>
+<h2 id="1-2-Planck-Used-a-Quantum-Hypothesis-to-Derive-the-Blackbody-Radiation-Law">1.2 Planck Used a Quantum Hypothesis to Derive the Blackbody Radiation Law</h2>
+<p>The first person to offer a successful explanation ofblackbody radiation was the German physicist Max Planck in 1900. Implicit in the derivation of Rayleigh and Jeans is the assumption that the energies of the electronic oscillators responsible for the emission of the radiation could have any value whatsoever. This assumption is one of the basic assumptions of classical physics. In classical physics, the variables that represent observables (such as position, momentum, and energy) can take on a continuum of values. Planck had the great insight to realize that he had to break away from this mode of thinking to derive an expression that would reproduce experimental data.</p>
+<p>He made the revolutionary assumption that the energies of the oscillators were discrete and had to be proportional to an integral multiple of thefrequency or, in equation form, that $E=nh\nu$. Using this quantization of energy and some statistical thermodynamic ideas, Planck derived the equation.</p>
+<p>$$<br>
+d\rho(\nu,T)=\rho_{\nu}(T)d\nu=\frac{8\pi h}{c^3} \frac {\nu^3d\nu}{e^{h\nu/k_BT}-1}<br>
+$$</p>
+<p>Planck showed that this equation gives excellent agreement with the experimental data for all frequencies and temperatures if $h$ has the value $6.626 \times 10^{-34}$ joule· seconds ($J\cdot s$). This constant is now one of the most famous and fundamental constants of physics and is called the <strong>Planck constant</strong>.</p>
+<p>（ <em>普朗克革命性的提出了量子化的概念，无疑是量子力学的开创人，不过他在最初提出黑体辐射公式的时候，也不是直接就提出了能量量子化的概念，而是先“凑”出符合实验的结论再回过头来分析才得出的。当然说是“凑”公式，实际上还是离不开普朗克良好的数学、物理尤其是热力学的掌握。</em> ）</p>
+<p>The theory of blackbody radiation is used regularly in astronomy to estimate the surface temperatures of stars. The star Sirius, which appears blue, has a surface temperature of about 11000$K$.</p>
+<p>Nevertheless, Planck’s derivation and, in particular, Planck’s assumption that the energies of the oscillators have to be an integral multiple of $h\nu$ was not accepted by most physicists at the time and was considered to be simply an ad hoc derivation. It was felt that in time a satisfactory classical derivation would be found.</p>
+<h2 id="1-3-Einstein-Explained-the-Photoelectric-Effect-with-a-Quantum-Hypothesis">1.3 Einstein Explained the Photoelectric Effect with a Quantum Hypothesis</h2>
+<p>In 1886 and 1887, while carrying out the experiments that supported Maxwell’s theory of the electromagnetic nature of light, the German physicist Heinrich Hertz discovered that ultraviolet light causes electrons to be emitted from a metallic surface. The ejection of electrons from the surface of a metal by radiation is called the <strong>photoelectric effect</strong>.</p>
+<p>Two experimental observations of the photoelectric effect are in stark contrast with the classical wave theory of light.</p>
+<p>According to classical physics, electromagnetic radiation is an electric field oscillating perpendicular to its direction of propagation, and the intensity of the radiation is proportional to the square of the amplitude of the electric field. As the intensity increases, so does the amplitude of the oscillating electric field. The electrons at the surface of the metal should oscillate along with the field and so, as the intensity (amplitude) increases, the electrons oscillate more violently and eventually break away from the surface with a kinetic energy that depends on the amplitude (intensity) of the field. This classical picture is in complete disagreement with the experimental observations. Experimentally, the kinetic energy of the ejected electrons is independent of the intensity of the incident radiation.</p>
+<p>Furthermore, the classical picture predicts that the photoelectric effect should occur for any frequency of light as long as the intensity is sufficiently high. The experimental fact, however, is that there is a <strong>threshold frequency</strong>, $\nu_0$, characteristic of the metallic surface, below which no electrons are ejected, regardless of the intensity of the radiation.</p>
+<p>（ <em>光电效应实验的两个现象从经典物理学的角度都无法解释，这非常困惑当时的物理学家们，直到爱因斯坦借用了普朗克量子化的观点才给出一个圆满的解释。</em> ）</p>
+<p>To explain these results, Albert Einstein used Planck’s hypothesis but extended it in an important way. Planck believed that once the light energy was emitted, it behaved like a classical wave. Einstein proposed instead that the radiation itself existed as small packets of energy, $E=h\nu$, now known as photons. Using a simple conservation-of-energy argument, Einstein showed that the kinetic energy (KE) of an ejected electron is equal to the energy of the incident photon ($h\nu$) minus the minimum energy required to remove an electron from the surface of the particular metal ($\phi$).</p>
+<p>$$<br>
+KE=\frac 12mv^2=h\nu -\phi<br>
+$$</p>
+<p>where $\phi$, called the <strong>work function</strong> of the metal, is analogous to an ionization energy of an isolated atom. The minimum frequency that will eject an electron is just the frequency required to overcome the work function of the metal. Thus, there is a threshold frequency, $\nu_0$, given by:</p>
+<p>$$<br>
+h\nu_0=\phi<br>
+$$</p>
+<p>（ <em>爱因斯坦的量子化假设给出的$h$值与普朗克得到的$h$值完全相等，这是一个有力的证据，许多当时的科学家们据此开始意识到这种量子化的假设是有其意义的。爱因斯坦也因为他在光电效应方面的工作于1921年获得诺贝尔物理学奖。</em> ）</p>
+<h2 id="1-4-The-Vibrations-of-Atoms-in-Crystals-Are-Quantized">1.4 The Vibrations of Atoms in Crystals Are Quantized</h2>
+<p>The law of Dulong and Petit says that the molar heat capacity at constant volume, $C_V$, is equal to $3R$. This is the standard classical result for the heat capacity of one mole of atoms vibrating about their equilibrium lattice positions. The experimental molar heat capacity, however, looks like that shown in Figure 1.2.</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.2_0012f2fb7fc2b.png" srcset="/img/loading.gif" lazyload alt="QC-fig1.2"></p>
+<p>The classical result is seen to occur at high temperatures, but $C_V$ decreases and goes to zero as the temperature is lowered.</p>
+<p>Einstein assumed that the oscillations of the atoms about their equilibrium lattice positions are quantized according to the formula $\epsilon=nh\nu$ or $\Delta \epsilon=h\nu$. With this assumption, Einstein was able to achieve excellent agreement with the data shown in Figure 1.2 by using only the vibrational frequency $\nu$ as an adjustable parameter.</p>
+<h2 id="1-5-The-Hydrogen-Atomic-Spectrum-Consists-of-Several-Series-of-Lines">1.5 The Hydrogen Atomic Spectrum Consists of Several Series of Lines</h2>
+<p>Each atom has a characteristic emission spectrum. Because the emission spectra of atoms consist of only certain discrete frequencies, they are called <strong>line spectra</strong>. Hydrogen, the lightest and simplest atom, has the simplest spectrum.</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.3_9dde2bff3cf4d.png" srcset="/img/loading.gif" lazyload alt="QC-fig1.3"></p>
+<p>Because atomic spectra are characteristic of the atoms involved, it is reasonable to suspect that the spectrum depends on the electron distribution in the atom. For many years, scientists had tried to find a pattern in the wavelengths or frequencies of the lines in the hydrogen atomic spectrum. Finally, in 1885, an amateur Swiss scientist, Johann Balmer, showed that a plot of the frequency of the lines versus $1/n^2(n=3,4,5,\cdots)$ is linear.</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.4_c85789fb67c29.png" srcset="/img/loading.gif" lazyload alt="QC-fig1.4"></p>
+<p>In particular, Balmer showed that the frequencies of the emission lines in the visible region of the spectrum could be described by the equation:</p>
+<p>$$<br>
+\widetilde\nu = \frac \nu c=\frac 1 \lambda=109680(\frac 1{2^2}-\frac 1{n^2})cm^{-1} \quad n=3,4,\cdots<br>
+$$</p>
+<p>This equation is called <strong>Balmer’s formula</strong>.</p>
+<p>（ <em>巴尔末作为一个中学教师，能只依靠氢原子光谱的几条谱线猜出公式，并且与实验结果符合的如此之好，也确实是“如有神助”。</em> ）</p>
+<p>Note that Balmer’s formula predicts a series oflines asn takes on the values 3, 4, 5, … This series of lines, the ones occurring in the visible and near ultraviolet regions of the hydrogen atomic spectrum and predicted by Balmer’s formula, is called the <strong>Balmer series</strong>. The Balmer series is shown in Figure 1.5.</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.5_2423d0037b960.png" srcset="/img/loading.gif" lazyload alt="QC-fig1.5"></p>
+<p>The Balmer series occurs in the visible and near ultraviolet regions. The hydrogen atomic spectrum has lines in other regions; in fact, series of lines similar to the Balmer series appear in the ultraviolet and infrared regions.</p>
+<h2 id="1-6-The-Rydberg-Formula-Accounts-for-All-the-Lines-in-the-Hydrogen-Atomic-Spectrum">1.6 The Rydberg Formula Accounts for All the Lines in the Hydrogen Atomic Spectrum</h2>
+<p>The Swiss spectroscopist Johannes Rydberg accounted for all the lines in the hydrogen atomic spectrum by generalizing the Balmer formula to:</p>
+<p>$$<br>
+\widetilde\nu=\frac 1{\lambda}=109680(\frac 1{n_1^2}-\frac 1{n_2^2})cm^{-1} \quad (n_2&gt;n_1)<br>
+$$</p>
+<p>where both $n_1$ and $n_2$ are integers but $n_2$ is always greater than $n_1$. This equation is called the <strong>Rydberg formula</strong>. The constant in Equation is called the <strong>Rydberg constant</strong> and Equation is commonly written as:</p>
+<p>$$<br>
+\widetilde\nu=R_H(\frac 1{n_1^2}-\frac 1{n_2^2})<br>
+$$</p>
+<p>The modern value of the Rydberg constant is $109677.57cm^{-1}$, one of the most accurately known physical constants.</p>
+<p>The spectra of other atoms were also observed to consist of series of lines, and in the 1890s Rydberg found approximate empirical laws for many of them. The really<br>
+interesting feature is that all the observed lines could be expressed as the difference between terms such as those in Equation. This feature was known as the <strong>Ritz combination rule</strong>.</p>
+<p>（ <em>里兹组合规则说明了光谱项与谱线的关系，同时暗示了光谱线对于原子结构的表示，不过在当时，这还是一条无法从理论上说明的经验定律。</em> ）</p>
+<h2 id="1-7-Angular-Momentum-Is-a-Fundamental-Property-of-Rotating-Systems">1.7 Angular Momentum Is a Fundamental Property of Rotating Systems</h2>
+<p>（ <em>这一节并没有讨论量子力学的部分，而是回顾了一下经典物理学中有关转动的知识，这部分可以用以下的表格概括。</em> ）</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Linear motion</th>
+<th style="text-align:center">Angular motion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Mass($m$)</td>
+<td style="text-align:center">Moment of inertia($I$)</td>
+</tr>
+<tr>
+<td style="text-align:center">speed($v$)</td>
+<td style="text-align:center">Angular speed($\omega$)</td>
+</tr>
+<tr>
+<td style="text-align:center">Momentum($p$)</td>
+<td style="text-align:center">Angular momentum($l=I\omega$)</td>
+</tr>
+<tr>
+<td style="text-align:center">Kinetic energy($T=\frac {mv^2}2=\frac {p^2}{2m}$)</td>
+<td style="text-align:center">Rotational kinetic energy($T=\frac {I\omega^2}2=\frac {l^2}{2I}$)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="1-8-Bohr-Assumed-That-the-Angular-Momentum-of-the-Electron-in-a-Hydrogen-Atom-Is-Quantized">1.8 Bohr Assumed That the Angular Momentum of the Electron in a Hydrogen Atom Is Quantized</h2>
+<p>Classical physics predicts that an electron revolving around a nucleus will lose energy and spiral into the nucleus, and so a stable orbit is classically forbidden. It was Bohr’s great contribution to make two nonclassical assumptions. The first of these was to assume the existence of stationary orbits, in denial of classical physics. He then specified these orbits by invoking a quantization condition, and in this case, he assumed that the angular momentum of the electron must be quantized according to:</p>
+<p>$$<br>
+l=m_evr=n\hbar \quad (n=1,2,\cdots)<br>
+$$</p>
+<p>Solving the equation, we obtain:</p>
+<p>$$<br>
+r=\frac {4\pi\epsilon_0\hbar^2n^2}{m_ee^2} \quad (n=1,2,\cdots)<br>
+$$</p>
+<p>Thus, we see thatthe radii of the allowed orbits, or <strong>Bohr orbits</strong>, are <strong>quantized</strong>. The orbit with the smallest radius is the orbit with $n=1$, $r=52.9pm=0.529\mathring A$. The radius of the first Bohr orbit is often denoted by $a_0$.</p>
+<p>The total energy of the electron is equal to the sum of its kinetic energy and potential energy. The potential energy of an electron and a proton separated by a distance $r$ is:</p>
+<p>$$<br>
+V®=-\frac {e^2}{4\pi\epsilon_0r}<br>
+$$</p>
+<p>The negative sign here indicates that the proton and electron attract each other; their energy is less than it is when they are infinitely separated $(V(\infin)=0)$. The total energy of the electron in a hydrogen atom is:</p>
+<p>$$<br>
+E= \frac 12m_ev^2-\frac {e^2}{4\pi\epsilon_0r} \ E_n=-\frac {m_ee^4}{8\epsilon_0^2h^2n^2} \quad (n=1,2,\cdots)<br>
+$$</p>
+<p>Note that $n=1$ in Equation corresponds to the state of lowest energy, called the <strong>ground-state energy</strong>. At ordinary temperatures, hydrogen atoms, as well as most other atoms and molecules, will be found almost exclusively in their ground electronic state. The states of higher energy are called <strong>excited slates</strong> and are generally unstable with respect to the ground state. An atom or molecule in an excited state will usually relax back to the ground state and give off the energy as electromagnetic radiation.</p>
+<p>（ <em>波尔的量子化假设说明了电子从高能级回到低能级时释放的电磁波能量为量子化的，很自然地解释了原子光谱线为什么是分立的。</em> ）</p>
+<h2 id="1-9-The-Electronic-Mass-Should-Be-Replaced-by-a-Reduced-Mass-in-the-Bohr-Theory">1.9 The Electronic Mass Should Be Replaced by a Reduced Mass in the Bohr Theory</h2>
+<p>（ <em>如本节小标题所说，对于电子绕核运动的二体系统，把二者的质量合在一起考虑会更为方便，这个总体的质量就称为Reduced mass，或者说折合质量。</em></p>
+<p><em>在引入折合质量后，Bohr的这一套理论就能够很好的在氢原子上应用了，不过很可惜，也只能用于氢原子（以及类氢体系）。因为多电子系统会有其他更复杂的相互作用，需要我们继续扩展理论。</em> ）</p>
+<h2 id="1-10-Louis-de-Broglie-Postulated-That-Matter-Has-Wavelike-Properties">1.10 Louis de Broglie Postulated That Matter Has Wavelike Properties</h2>
+<p>Scientists have always had trouble describing the nature of light. In many experiments light shows a definite wavelike character, but in many others light seems to behave as a stream of photons. Because light appears wavelike in some instances and particle-like in others, this disparity is referred to as the <strong>wave-particle duality of light</strong>.</p>
+<p>In 1924, a young French scientist, Louis de Broglie, reasoned that if light can display this wave-particle duality, then matter, which certainly appears particle-like, might also display wavelike properties under certain conditions. This proposal is rather strange at first, but it does suggest a nice symmetry in nature. Certainly, if light can be particle-like at times, why should matter not be wavelike at times?</p>
+<p>De Broglie was able to put his idea into a quantitative scheme.</p>
+<p>$$<br>
+\lambda=\frac hp<br>
+$$</p>
+<h2 id="1-11-The-de-Broglie-Formula-Gives-an-Alternative-Rationalization-of-Bohr’s-First-Postulate">1.11 The de Broglie Formula Gives an Alternative Rationalization of Bohr’s First Postulate</h2>
+<p>Not only has de Broglie’s hypothesis led to the practical application of electron microscopy, but it was also a key step in our understanding of atomic structure. It can be used to give a simple, physical argument for the quantized Bohr orbits. As the electron revolves around the proton, it has wavelength $\lambda$. associated with<br>
+it. This situation is shown in Figure 1.6. For the orbit to be stable, it is reasonable to assume that the wave must “match,” or be in phase, as the electron makes one complete revolution. Otherwise, there will be cancellation of some amplitude upon each revolution, and the wave will disappear.</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.6_d3d4ea22bb8cc.png" srcset="/img/loading.gif" lazyload alt="QC-fig1.6"></p>
+<p>For the wave pattern around an orbit to be stable, we are led to the condition that an integral number of complete wavelengths must fit around the circumference of the orbit. Because the circumference of a circle is $2\pi r$, we have the <strong>quantum condition</strong>:</p>
+<p>$$<br>
+2\pi r =n\lambda \quad n=1,2,3,\cdots<br>
+$$</p>
+<p>If we substitute de Broglie’s relation into Equation, we obtain the Bohr quantization condition.</p>
+<p>（ <em>之前我一直不太懂德布罗意波到底重要在哪里，为什么能被爱因斯坦誉为“揭开了巨大面罩的一角”。现在终于有所了解了，因为德布罗意物质波的提出，合理化了波尔的角动量量子化假设。在此之前，虽然波尔的理论可以应用，但是他给出的量子条件看起来莫名其妙，人们不能给出理论上的解释。物质波理论提出物质也具有波动性，那么就应当和光具有相同的表现，既然爱因斯坦已经指明了光量子化的合理性，那么波尔给出的量子条件就也理所应当了。</em> ）</p>
+<h2 id="1-12-De-Broglie-Waves-Are-Observed-Experimentally">1.12 De Broglie Waves Are Observed Experimentally</h2>
+<p>When a beam of X rays is directed at a crystalline substance, the beam is scattered in a definite manner characteristic of the atomic structure of the crystalline substance. This phenomenon is called <strong>X-ray diffraction</strong> and occurs because the interatomic spacings in the crystal are about the same as the wavelength of the X rays.</p>
+<p>An interesting aside in the concept of the wave-particle duality of matter is that it was J. J. Thomson who first showed in 1895 that the electron was a subatomic particle and it was G. P. Thomson who was one of the first to show experimentally in 1926 that the electron could act as a wave.</p>
+<h2 id="1-13-Certain-Two-Slit-Experiments-Exemplify-Wave-Particle-Duality">1.13 Certain Two-Slit Experiments Exemplify Wave-Particle Duality</h2>
+<p>One of the principal experiments that displays the wave properties of light is the interference of two beams of light. The first experiment showing interference of light was performed by the British scientist Thomas Young around 1800.</p>
+<p>it shouldn’t be surprising that a beam of electrons or any other atomic or subatomic particle will produce an interference pattern.</p>
+<p>It is possible to perform a two-slit experiment such that only one particle at a time passes through the slits and to record its arrival at a second screen coated with a fluorescent film, which emits a brief burst of light at the point where it is struck. Using a suitable position-dependent recording device, we can record the arrival of each particle and accumulate the results. At low exposures, these tiny bursts of light appear more or less randomly over the film; but for longer exposures, hints of a pattern begin to emerge.</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/01/QC-fig1.7_551a8373fc0ab.png" srcset="/img/loading.gif" lazyload alt="QC-fig1.7"></p>
+<p>The three panels on the left record the arrival of 100, 300, and 3000 particles. The three panels on the right show the arrival of the same number of particles as those on the left, but one of the slits is closed, yielding no interference pattern.</p>
+<p>Let’s now uncover both slits and try to detect which slit the particle passes through by setting up some sort of a detector behind one of the slits so that it can detect any particle that passes through that slit before it impinges on the fluorescent screen. We now know which slit the particle passes through on its way to the screen and don’t have to assume that it somehow passes through both slits simultaneously. We may know which slit the particle has gone through, but when we look at the fluorescent screen, we see that there is no interference pattern! The pattern is simply the one that would be obtained if one or the other slit had been covered. If we now turn off the detector, we obtain the interference pattern. It’s as if each particle behaves as a wave as it confronts the slits, unless we try to observe it, in which case it behaves as a particle.</p>
+<p>We shall see that quantum mechanics is able to describe these experiments to great precision, in the sense of being able to predict the positions and the widths of the interference ridges. The physical interpretation of the results, however, is quite another matter.</p>
+<h2 id="1-14-The-Heisenberg-Uncertainty-Principle-States-That-the-Position-and-the-Momentum-of-a-Particle-Cannot-Be-Specified-Simultaneously-with-Unlimited-Precision">1.14 The Heisenberg Uncertainty Principle States That the Position and the Momentum of a Particle Cannot Be Specified Simultaneously with Unlimited Precision</h2>
+<p>We now know that we must consider light and matter as having the characteristics of both waves and particles. Let’s consider a measurement of the position of an electron. If we wish to locate the electron within a distance $\Delta x$, then we must use a measuring device that has a spatial resolution less than $\Delta x$.</p>
+<p>One way to achieve this resolution is to use light with a wavelength on the order of $\lambda \approx \Delta x$. For the electron to be “seen,” a photon must interact or collide in some way wiilh the electron, for otherwise the photon will just pass right by and the electron will appear transparent. The photon has a momentum $p=h/\lambda$, and during the collision, some of this momentum will be transferred to the electron. The very act of locating the electron leads to a change in its momentum.</p>
+<p>If we wish to locate the electron more accurately, we must use light with a smaller wavelength. Consequently, the photons in the light beam will have greater momentum because of the relation $p=h/\lambda$. Because some of the photon’s momentum must be transferred to the electron in the process of locating it, the momentum change of the electron becomes greater.</p>
+<p>（ <em>也就是说我们在测量过程中不可避免的会将光子的动量传递给电子，而且测量精度越高，所传递的动量也越多。</em> ）</p>
+<p>German physicist Werner Heisenberg showed that it is not possible to determine exactly how much momentum is transferred to the electron. This difficulty<br>
+means that if we wish to locate an electron to within a region $\Delta x$, there will be an uncertainty in the momentum of the electron. Heisenberg was able to show that if $\Delta p$ is the uncertainty in the momentum of the electron, then</p>
+<p>$$<br>
+\Delta x\Delta p \ge h<br>
+$$</p>
+<p>The equation is called <strong>Heisenberg’s uncertainty principle</strong> and is a fundamental principle of nature. The uncertainty principle states that if we wish to locate any particle to within a distance $\Delta x$. then we automatically introduce an uncertainty in the momentum of the particle.</p>
+<p>（ <em>这种不确定性的引入不是因为实验手段的缺陷或者实验仪器精度不足，它是测量这种行为本身的性质。同时也不难看出，不确定性原理（或者叫测不准原理）在宏观世界中几乎可以忽略，但是在微观尺度下就不得不考虑。</em> ）</p>
+<h1>总结</h1>
+<p>每本量子力学/量子化学/结构化学等书，第一章一般都是量子力学的发展史，了解这些内容有助于串起量子力学的整个发展历程，同时也能对关键发现的重要性有基本的掌握。</p>
+<p>看了一章之后，我发现这本书的语言还是比较简单易读的，也许这会是一个好的预兆XD。</p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%AD%A6%E5%AD%A6%E5%8C%96%E5%AD%A6/" class="category-chain-item">学学化学</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/chem/">#chem</a>
+      
+        <a href="/tags/physicalchem/">#physicalchem</a>
+      
+        <a href="/tags/series-phys-2/">#series-phys-2</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>《Quantum Chemistry》章末总结1</div>
+      <div>http://argon-gas.top/p/15293.html</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Sun</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2024年1月15日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/p/51497.html" title="《中级有机化学》章末总结5">
+                        <span class="hidden-mobile">《中级有机化学》章末总结5</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
+    
+  <div id="twikoo"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#comments', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/twikoo/1.6.7/twikoo.all.min.js', function() {
+        var options = Object.assign(
+          {"envId":"https://comments.argon-gas.top","region":"ap-shanghai","path":"window.location.pathname"},
+          {
+            el: '#twikoo',
+            path: 'window.location.pathname',
+            onCommentLoaded: function() {
+              var imgSelector = '#twikoo .tk-content img:not(.tk-owo-emotion)';
+              Fluid.plugins.imageCaption(imgSelector);
+              Fluid.plugins.fancyBox(imgSelector);
+            }
+          }
+        )
+        twikoo.init(options)
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a><br /> <span>Sun Blog 2020 - 2023</span><br /> <span><a target="_blank" href="http://www.freecdn.pw/?zzwz" title="免费云加速（FreeCDN），为您免费提供网站加速和网站防御（DDOS、CC攻击）" alt="免费云加速（FreeCDN），为您免费提供网站加速和网站防御（DDOS、CC攻击）">本站由免费云加速（FreeCDN）提供网站加速和攻击防御服务</a></span> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+  
+<script src="/js/walden.js"></script>
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
