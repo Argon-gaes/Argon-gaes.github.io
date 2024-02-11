@@ -1,0 +1,1026 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://pic.ziyuan.wang/2022/d10570d139814.png">
+  <link rel="icon" href="https://pic.ziyuan.wang/2022/d10570d139814.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Sun">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="第五章讲谐振子，这是量子力学的核心模型之一，同时学习振动光谱。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《Quantum Chemistry》章末总结5">
+<meta property="og:url" content="http://argon-gas.top/p/63676.html">
+<meta property="og:site_name" content="Sun&#39;s BLOG">
+<meta property="og:description" content="第五章讲谐振子，这是量子力学的核心模型之一，同时学习振动光谱。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.1_8132e5d35a82e.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.2_27dc7a945c6cc.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.3_4db580107c7b4.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.4_3b8edabaf255d.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.5_6b98d47454282.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.6_d2ff0e0b9591f.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.7_23501c4095746.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.8_debd015444e90.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.9_7f32426b43878.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.10_ddeaa77cd7186.png">
+<meta property="og:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.11_2406b850d7b42.png">
+<meta property="article:published_time" content="2024-01-30T09:49:47.000Z">
+<meta property="article:modified_time" content="2024-02-02T06:51:03.502Z">
+<meta property="article:author" content="Sun">
+<meta property="article:tag" content="chem">
+<meta property="article:tag" content="physicalchem">
+<meta property="article:tag" content="series-phys-2">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.1_8132e5d35a82e.png">
+  
+  
+  
+  <title>《Quantum Chemistry》章末总结5 - Sun&#39;s BLOG</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/KaTeX/0.16.2/katex.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"argon-gas.top","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Sun&#39;s BLOG</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/schdule/">
+                <i class="iconfont icon-plan"></i>
+                计划
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://pic.ziyuan.wang/2022/e099c52506fd7.jpg') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="《Quantum Chemistry》章末总结5"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-01-30 17:49" pubdate>
+          2024年1月30日 下午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          19k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          119 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">《Quantum Chemistry》章末总结5</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>第五章讲谐振子，这是量子力学的核心模型之一，同时学习振动光谱。</p>
+<a id="more"></a>
+<h1>Chapter 5 The Harmonic Oscillator and Vibrational Spectroscopy</h1>
+<h2 id="5-1-A-Harmonic-Oscillator-Obeys-Hooke’s-Law">5.1 A Harmonic Oscillator Obeys Hooke’s Law</h2>
+<p>Consider a mass $m$ connected to a wall by a spring, as shown in Figure 5.1.</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.1_8132e5d35a82e.png" srcset="/img/loading.gif" lazyload alt="QC-fig5.1"></p>
+<p>Suppose further that no gravitational force is acting on $m$ so that the only force is due to the spring.</p>
+<p>If we let $l_0$ be the equilibrium, or undistorted, length of the spring, then the restoring force must be some function of the displacement of the spring from its equilibrium length. Let this displacement be denoted by $x=l-l_0$, where $l$ is the length of the spring. The simplest assumption we can make about the force on m as a function of the displacement is that the force is directly proportional to the displacement and to write:</p>
+<p>$$<br>
+f=-k(l-l_0)=-kx<br>
+$$</p>
+<p>The negative sign indicates that the force points to the right in Figure 5.1 if the spring is compressed ($l&lt;l_0$) and points to the left ifthe spring is stretched ($l&gt;l_0$). The equation is called <strong>Hooke’s law</strong> and the (positive) proportionality constant $k$ is called the <strong>force constant</strong> of the spring.</p>
+<p>Newton’s equation with a Hooke’s law force is:</p>
+<p>$$<br>
+m\frac {d^2l}{dt^2}=-k(l-l_0)<br>
+$$</p>
+<p>If we let $x=l-l_0$, then we have:</p>
+<p>$$<br>
+m\frac {d^2x}{dt^2}+kx=0<br>
+$$</p>
+<p>The general solution to this equation is:</p>
+<p>$$<br>
+x(t)=c_1sin\omega t+c_2cos\omega t<br>
+$$</p>
+<p>where:</p>
+<p>$$<br>
+\omega = \left(\frac km \right)^{1/2}<br>
+$$</p>
+<p>Suppose we stretch the spring so that its displacement is A and then let go. The initial velocity is zero and we have:</p>
+<p>$$<br>
+x(0)=c_2=A<br>
+$$</p>
+<p>$$<br>
+\left(\frac {dx}{dt} \right)_{t=0}=0=c_1\omega<br>
+$$</p>
+<p>And so:</p>
+<p>$$<br>
+x(t)=Acos\omega t<br>
+$$</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.2_27dc7a945c6cc.png" srcset="/img/loading.gif" lazyload alt="QC-fig5.2"></p>
+<p>The displacement versus time is plotted in Figure 5.2, which shows that the mass oscillates back and forth between $A$ and $-A$ with a frequency $\omega$ radians per second, or $\nu=\omega/2\pi$ cycles per second. The quantity $A$ is called the <strong>amplitude</strong> of the vibration.</p>
+<h2 id="5-2-The-Energy-of-a-Harmonic-Oscillator-Is-Conserved">5.2 The Energy of a Harmonic Oscillator Is Conserved</h2>
+<p>Let’s look at the total energy of a harmonic oscillator. The potential energy is:</p>
+<p>$$<br>
+V(x)=-\int f(x)dx+constant<br>
+$$</p>
+<p>We can see that:</p>
+<p>$$<br>
+V(x)=\frac {k}{2}x^2+constant<br>
+$$</p>
+<p>The constant term here is an arbitrary constant that can be used to fix the zero of energy. If we choose the potential energy of the system to be zero when the spring is undistorted $(x=0)$, then we have:</p>
+<p>$$<br>
+\begin{aligned} V(x) &amp;=\frac k2x^2 \[3mm] &amp;=\frac 12kA^2cos^2\omega t \end{aligned}<br>
+$$</p>
+<p>for the potential energy associated with a simple harmonic oscillator.</p>
+<p>The kinetic energy is:</p>
+<p>$$<br>
+\begin{aligned} T &amp;=\frac 12m \left(\frac {dl}{dt} \right)^2=\frac 12m \left(\frac {dx}{dt} \right)^2 \[3mm] &amp;=\frac 12m\omega^2A^2sin^2\omega t \end{aligned}<br>
+$$</p>
+<p>Both $T$ and $V$ are plotted in Figure 5.3. The total energy is:</p>
+<p>$$<br>
+\begin{aligned} E=T+V &amp;=\frac 12kA^2cos^2\omega t+\frac 12m\omega^2A^2sin^2\omega t \[3mm] &amp;=\frac 12kA^2 \end{aligned}<br>
+$$</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.3_4db580107c7b4.png" srcset="/img/loading.gif" lazyload alt="QC-fig5.3"></p>
+<p>Thus, we see that the total energy is a constant and, in particular, is equal to the potential energy at its largest displacement, where the kinetic energy is zero.</p>
+<p>Each oscillates between $+A$ and $-A$ but in such a way that their sum is always a constant. We say that the total energy is conserved and that the system is a <strong>conservative system</strong>.</p>
+<p>（ <em>谐振子系统是一个保守系统，因为所受的弹簧弹力为保守力，系统的机械能（动能+势能）守恒。</em> ）</p>
+<h2 id="5-3-The-Equation-for-a-Harmonic-Oscillator-Model-of-a-Diatomic-Molecule-Contains-the-Reduced-Mass-of-the-Molecule">5.3 The Equation for a Harmonic-Oscillator Model of a Diatomic Molecule Contains the Reduced Mass of the Molecule</h2>
+<p>The simple harmonic oscillator is a good model for a vibrating diatomic molecule. A diatomic molecule, however, does not look like the system pictured in Figure 5.1, but more like two masses connected by a spring, as in Figure 5.4.</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.4_3b8edabaf255d.png" srcset="/img/loading.gif" lazyload alt="QC-fig5.4"></p>
+<p>In this case we have two equations of motion, one for each mass:</p>
+<p>$$<br>
+m_1\frac {d^2x_1}{dt^2}=k(x_2-x_1-l_0)<br>
+$$</p>
+<p>$$<br>
+m_2\frac {d^2x_2}{dt^2}=-k(x_2-x_1-l_0)<br>
+$$</p>
+<p>If we add the two equations, we find that:</p>
+<p>$$<br>
+\frac {d^2}{dt^2}(m_1x_1+m_2x_2)=0<br>
+$$</p>
+<p>This form suggests that we introduce a <strong>center-of-mass coordinate</strong>:</p>
+<p>$$<br>
+X=\frac {m_1x_1+m_2x_2}{M} \quad (M=m_1+m_2)<br>
+$$</p>
+<p>So:</p>
+<p>$$<br>
+M\frac {d^2X}{dt^2}=0<br>
+$$</p>
+<p>There is no force term here, so the equation shows that the center of mass moves uniformly in time with a constant momentum.</p>
+<p>（ <em>从质心系角度出发的推导说明整个系统总体不受力的作用，系统总体的运动具有恒定的动量。</em> ）</p>
+<p>The vibrational motion of the two-mass or two-body system in Figure 5.4 must depend upon only the <strong>relative</strong> separation of the two masses, or upon the <strong>relative coordinate</strong>.</p>
+<p>$$<br>
+x=x_2-x_1-l_0<br>
+$$</p>
+<p>If we rewrite the two equations of motion and use one subtract another:</p>
+<p>$$<br>
+\begin{aligned} \frac {d^2x_2}{dt^2}-\frac {d^2x_1}{dt^2} &amp;= -\frac {k}{m_2}(x_2-x_1-l_0)-\frac {k}{m_1}(x_2-x_1-l_0) \[3mm] \frac {d^2}{dt^2}(x_2-x_1) &amp;= -k(\frac 1{m_1}+\frac 1{m_2})(x_2-x_1-l_0) \end{aligned}<br>
+$$</p>
+<p>If we let:</p>
+<p>$$<br>
+\frac 1{m_1}+\frac 1{m_2}=\frac {m_1+m_2}{m_1m_2}= \frac 1{\mu}<br>
+$$</p>
+<p>and introduce $x=x_2-x_1-l_0$, then we have:</p>
+<p>$$<br>
+\mu \frac {d^2x}{dt^2}+kx=0<br>
+$$</p>
+<p>The quantity $\mu$, that we have defined is called the <strong>reduced mass</strong>.</p>
+<p>Thus, the two-body system in Figure 5.4 can be treated as easily as the one-body problem in Figure 5. I by using the reduced mass of the two-body system.</p>
+<p>（ <em>通过引入相对坐标系，我们利用折合质量/约化质量可以把一个两体问题转化为一个单体问题，这样双原子分子的振动就简化为了谐振子模型。</em> ）</p>
+<h2 id="5-4-The-Harmonic-Oscillator-Approximation-Results-from-the-Expansion-of-an-Internuclear-Potential-Around-lts-Minimum">5.4 The Harmonic-Oscillator Approximation Results from the Expansion of an Internuclear Potential Around lts Minimum</h2>
+<p>The internuclear potential for a diatomic molecule is illustrated by the solid line in Figure 5.5. The dashed line shows the potential associated with Hooke’s law.</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.5_6b98d47454282.png" srcset="/img/loading.gif" lazyload alt="QC-fig5.5"></p>
+<p>Although the harmonic-oscillator potential may appear to be a terrible approximation to the experimental curve, note that it is, indeed, a good approximation in the region of the minimum.</p>
+<p>Although the harmonic oscillator unrealistically allows the displacement to vary from $-\infin$ to $+\infin$, these large displacements produce potential energies that are so large that they do not often occur in practice. The harmonic oscillator is a good approximation for vibrations with small amplitudes.</p>
+<p>We consider the Taylor expansion of the potential energy $V(l)$ about the equilibrium bond length $l=l_0$. The first few terms in this expansion are:</p>
+<p>$$<br>
+V(l)=V(l_0)+ \left(\frac {dV}{dl} \right)<em>{l=l_0}(l-l_0)+\frac {1}{2!} \left(\frac {d^2V}{dl^2} \right)</em>{l=l_0}(l-l_0)^2+\frac 1{3!} \left(\frac {d^3V}{dl^3} \right)_{l=l_0}(l-l_0)^3+\cdots<br>
+$$</p>
+<p>Note that $dV/dl$ is the force acting between the two nuclei, and the fact that $dV/dl$ vanishes at $l=l_0$ means that the force acting between the nuclei is zero at this point. This is why $l=l_0$ is called the <strong>equilibrium bond length</strong>.</p>
+<p>If we restrict ourselves to small displacements, then $l-l_0$ will be smal I and we can neglect the terms beyond the quadratic term in equation, showing that the general potential energy function $V(l)$ can be approximated by a harmonic-oscillator potential.</p>
+<p>（ <em>谐振子在双原子分子势能最小值处是一个良好的近似模型。</em> ）</p>
+<p>We can consider corrections or extensions of the harmonic-oscillator model by the higher-order terms. These are called <strong>anharmonic terms</strong> and will be considered in Section 5.7.</p>
+<h2 id="5-5-The-Energy-Levels-of-a-Quantum-Mechanical-Harmonic-Oscillator-Are-E-nu-h-nu-nu-frac-12-with-nu-0-1-2-cdots">5.5 The Energy Levels of a Quantum-Mechanical Harmonic Oscillator Are $E_{\nu}=h\nu(\nu+\frac 12)$ with $\nu=0,1,2,\cdots$</h2>
+<p>The Schrödinger equation for a one-dimensional harmonic oscillator is:</p>
+<p>$$<br>
+-\frac {\hbar^2}{2\mu}\frac {d^2\psi}{dx^2} + V(x)\psi(x)=E\psi(x)<br>
+$$</p>
+<p>with $V(x)=\frac 12kx^2$. Thus, we must solve the second-order differential equation:</p>
+<p>$$<br>
+\frac {d^2\psi}{dx^2}+\frac {2\mu}{\hbar^2}(E-\frac 12kx^2)\psi(x)=0 \quad -\infin &lt; x &lt;\infin<br>
+$$</p>
+<p>When a differential equation does not have constant coefficients, there is no simple, general technique for solving it. One method that often works, however laborious it is, is to substitute a power series into the differential equation and then determine each coefficient in the series sequentially.</p>
+<p>（ <em>幂级数展开法对于这种层次的化学教材来说还是太难了点XD</em> ）</p>
+<p>When the equation is solved, well-behaved, finite solutions can be  obtained only if the energy is restricted to the quantized values:</p>
+<p>$$<br>
+E_{v}=h\nu(v+\frac 12) \quad v=0,1,2,\cdots<br>
+$$</p>
+<p>where:</p>
+<p>$$<br>
+\nu=\frac 1{2\pi} \left(\frac {k}{\mu} \right)^{1/2}<br>
+$$</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.6_d2ff0e0b9591f.png" srcset="/img/loading.gif" lazyload alt="QC-fig5.6"></p>
+<p>The energies are plotted in Figure 5.6. Note that the energy levels are equally spaced, with a separation $h\nu$.</p>
+<p>Note also that the energy of the ground state, the state with $\nu=0$, is $\frac 12h\nu$ and is not zero as the lowest classical energy is. This energy is called the <strong>zero-point energy</strong> of the harmonic oscillator and is a direct result of the uncertainty principle.</p>
+<p>The energy of a harmonic oscillator can be written in the form $(p^2/2\mu)+(kx^2/2)$, and so we see that a zero value for the energy would require that both $p$ and $x$ or, more precisely, the expectation values of $\hat P^2$ and $\hat X^2$ be simultaneously zero, in violation of the uncertainty principle.</p>
+<p>（ <em>零点能来自于不确定原理，因为动量和位置无法同时确定，所以动能和势能无法同时为零。</em> ）</p>
+<h2 id="5-6-The-Harmonic-Oscillator-Accounts-for-the-Infrared-Spectrum-of-a-Diatomic-Molecule">5.6 The Harmonic Oscillator Accounts for the Infrared Spectrum of a Diatomic Molecule</h2>
+<p>The vibrational energy levels of the diatomic molecule are given by:</p>
+<p>$$<br>
+E_v=h\nu(v+\frac 12)\quad v=0,1,2,\cdots<br>
+$$</p>
+<p>A diatomic molecule can make a transition from one vibrational energy state to another by absorbing or emitting electromagnetic radiation whose observed frequency satisfies the Bohr frequency condition:</p>
+<p>$$<br>
+\Delta E=h\nu_{obs}<br>
+$$</p>
+<p>We will prove in Chapter 8 that the harmonic-oscillator model allows transitions only between adjacent energy states, so that we have the condition that $\Delta v=\pm1$. Such a condition is called a <strong>selection rule</strong>.</p>
+<p>Thus, the observed frequency of the radiation absorbed is:</p>
+<p>$$<br>
+\nu_{obs}=\frac 1{2\pi} \left(\frac {k}{\mu} \right)^{1/2}\ \ (Hz)<br>
+$$</p>
+<p>So this model predicts that the spectrum consists of just one line. This<br>
+prediction is in good accord with experiment, and this line is called the <strong>fundamental vibrational frequency</strong>. For diatomic molecules, these lines occur at around $10^{14}$ Hz, which is in the infrared region.</p>
+<p>It is customary in discussions of vibrational spectroscopy to write the vibrational energy level in the form:</p>
+<p>$$<br>
+G(v)=\frac {E_v}{hc}=\tilde \omega(v+\frac 12)<br>
+$$</p>
+<p>$$<br>
+\tilde \omega=\frac 1{2\pi c} \left(\frac k{\mu} \right)^{1/2}\ \ (cm^{-1})<br>
+$$</p>
+<p>$G(v)$ is called the <strong>vibrational term</strong>, and $\tilde \omega$ have units of $cm^{-1}$, called <strong>wave number</strong>.</p>
+<h2 id="5-7-Overtones-Are-Observed-in-Vibrational-Spectra">5.7 Overtones Are Observed in Vibrational Spectra</h2>
+<p>The harmonic-oscillator approximation predicts that there will be only one line in the vibrational spectrum of a diatomic molecule. Expermental data show there is, indeed, one dominant line (the <strong>fundamental</strong>), but there are also lines of weaker intensity at almost integral multiples of the fundamental. These lines are called <strong>overtones</strong>.</p>
+<p>Recall that the potential energy $V(l)$ may be expanded in a Taylor series about $l_0$, the value of $l$ at the minimum of $V(l)$, to give:</p>
+<p>$$<br>
+\begin{aligned} V(l)-V(l_0) &amp;=\frac 1{2!} \left(\frac {d^2V}{dl^2} \right)<em>{l=l_0}(l-l_0)^2 +\frac 1{3!} \left(\frac {d^3V}{dl^3} \right)</em>{l=l_0}(l-l_0)^3 + \cdots \[3mm] &amp;= \frac k2x^2+\frac {\gamma_3}6x^3 + \frac {\gamma_4}{24}x^4+\cdots \end{aligned}<br>
+$$</p>
+<p>lf the anharmonic terms in equation are included in the Hamiltonian operator for the vibrational motion of a diatomic molecule, the Schrödinger equation can be solved by a technique called perturbation theory to give:</p>
+<p>$$<br>
+G(v)=\tilde \omega_e \left(v+\frac 12 \right)-\tilde x_e\tilde \omega_e \left(v+\frac 12 \right)^2+\cdots \quad v=0,1,2,\cdots<br>
+$$</p>
+<p>where $\tilde x_e$ is called the <strong>anhannonicity constant</strong>. The anharmonic correction is much smaller than the harmonic term because $\tilde x_e \ll1$.</p>
+<p>Figures 5.7 and 5.8 show the levels given by the equation. Notice that the levels are not equally spaced as they are for a harmonic oscillator and, in fact, that their separation decreases with increasing $\nu$.</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.7_23501c4095746.png" srcset="/img/loading.gif" lazyload alt="QC-fig5.7"></p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.8_debd015444e90.png" srcset="/img/loading.gif" lazyload alt="QC-fig5.8"></p>
+<p>Figure 5.7 also shows two quantities $D_e$ and $D_0$. The energy difference between the minimum of the potential well at the dissociation limit is $D_e$; the energy difference between the zero-point vibrational energy and the dissociation limit is $D_0$. They are related by:</p>
+<p>$$<br>
+D_0=D_e-\frac 12h\nu<br>
+$$</p>
+<p>It’s $D_0$ that is measured experimentally.</p>
+<p>The selection rule for an anharmonic oscillator is that $\Delta \nu$ can have any integral value, although the intensities of the $\Delta\nu=\pm2,\pm3,\cdots$ transitions are much less than for the $\Delta\nu=\pm1$ transitions.</p>
+<h2 id="5-8-The-Harmonic-Oscillator-Wave-Functions-Involve-Hermile-Polynomials">5.8 The Harmonic-Oscillator Wave Functions Involve Hermile Polynomials</h2>
+<p>The wave functions corresponding to the $E_v$ for a harmonic oscillator are nondegenerate and are given by:</p>
+<p>$$<br>
+|v\rangle=N_vH_v(\alpha^{1/2}x)e^{-\alpha x^2/2}<br>
+$$</p>
+<p>where:</p>
+<p>$$<br>
+\alpha= \left(\frac {k\mu}{\hbar^2} \right)^{1/2}<br>
+$$</p>
+<p>$$<br>
+N_v=\frac 1{(2^v)v!} \left(\frac {\alpha}{\pi} \right)^{1/4}<br>
+$$</p>
+<p>and the $H_v(\alpha^{1/2}x)$ are polynomials called <strong>Hermite polynomials</strong>. Note that $H_v(\xi)$ is a $v$th-degree polynomial in $\xi$.</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.9_7f32426b43878.png" srcset="/img/loading.gif" lazyload alt="QC-fig5.9"></p>
+<p>We can show explicitly that the $\psi_v(x)$ are normalized, or that $N_v$ is the normalization constant. And we say that the Hermite polynomials are orthogonal with respect to the weighting function $e^{-\xi^2}$.</p>
+<h2 id="5-9-Hermite-Polynomials-Are-Either-Even-or-Odd-Functions">5.9 Hermite Polynomials Are Either Even or Odd Functions</h2>
+<p>The harmonic-oscillator wave functions are:</p>
+<p>$$<br>
+|v\rangle=N_vh_v(\alpha^{1/2}x)e^{-\alpha x^2/2}<br>
+$$</p>
+<p>The $\psi_v(x)$ are even when $v$ is an even integer and odd when $v$ is an odd integer. So $\psi_v^2(x)$ is an even function for any value of $v$. Then:</p>
+<p>$$<br>
+\langle x \rangle = \langle v|x|v \rangle =0<br>
+$$</p>
+<p>Beceuse the integrand is an odd function for any value of $v$. Thus, the average displacement of a harmonic oscillator is zero for all the quantum states of a harmonic oscillator, or the average internuclear separation is the equilibrium bond length $l_0$.</p>
+<p>The average momentum is given by:</p>
+<p>$$<br>
+\langle p \rangle=\langle v|\hat P_x|v \rangle = \int_{-\infin}^{\infin}\psi_v(x)(-i\hbar\frac {d}{dx})\psi_v(x)dx=0<br>
+$$</p>
+<p>The derivative of an odd (even) function is even (odd), so this integral vanishes because the integrand is the product of an odd and even function and hence is overall odd. Thus, $\langle p \rangle =0$ for a harmonic operator.</p>
+<p>（ <em>厄米多项式的奇偶性从推导过程中更易于发现，这里只给出结论。这种对称性通常运用在运算过程中以简化计算。</em> ）</p>
+<h2 id="5-10-There-Are-Many-Useful-Relations-Among-Hermite-Polynomials">5.10 There Are Many Useful Relations Among  Hermite Polynomials</h2>
+<p>There are a number of relations involving the Hermite polynomials that can be used to evaluate integrals. A particularly useful one is:</p>
+<p>$$<br>
+H_{v+1}(\xi) - 2\xi H_v(\xi) + 2vH_{v-1}(\xi)=0<br>
+$$</p>
+<p>This is a <strong>recursion formula</strong> for the $H_v(\xi)$.</p>
+<p>Recursion formulas can be used to evaluate integrals involving Hermite polynomials. For example:</p>
+<p>$$<br>
+\langle \xi^2 \rangle =N_v^2\int_{-\infin}^{\infin}d\xi H_v(\xi)\xi^2H_v(\xi)e^{-\xi^2}<br>
+$$</p>
+<p>Apply the recursion formula and rewrite the expression:</p>
+<p>$$<br>
+\begin{aligned} \xi^2H_v(\xi) &amp;=v \left[(v-1)H_{v-2}(\xi)+\frac 12H_v(\xi)\right]+\frac 12 \left[(v+1)H_v(\xi)+\frac 12H_{v+2}(\xi)\right] \[3mm] &amp;=v(v-1)H_{v-2}(\xi)+(v+\frac 12)H_v(\xi)+\frac 14H_{v+2}(\xi) \end{aligned}<br>
+$$</p>
+<p>When we substitute this into the equation, we obtain:</p>
+<p>$$<br>
+\begin{aligned} \langle \xi^2 \rangle &amp;=\langle v|\xi^2|v \rangle \[3mm] &amp;= N_v^2\int_{-\infin}^{\infin}d\xi H_v(\xi) \left[v(v-1)H_{v-2}(\xi)+(v+\frac 12)H_v(\xi)+\frac 14H_{v+2}(\xi)\right] \[3mm] &amp;=(v+\frac 12)N_v^2\int_{-\infin}^{\infin}d\xi H_v(\xi)H_v(\xi)e^{-\xi^2} \[3mm] &amp;=v + \frac 12 \end{aligned}<br>
+$$</p>
+<p>Because $\xi=\alpha^{1/2}x$, we have:</p>
+<p>$$<br>
+\langle x^2 \rangle = \frac 1{\alpha}\langle \xi^2 \rangle=\frac 1{\alpha}(v+\frac 12)=\frac {\hbar}{(\mu k)^{1/2}}(v+\frac 12)<br>
+$$</p>
+<h2 id="5-11-The-Vibrations-of-Polyatomic-Molecules-Are-Represented-by-Normal-Coordinates">5.11 The Vibrations of Polyatomic Molecules Are Represented by Normal Coordinates</h2>
+<p>The vibrational spectra of polyatomic molecules turn out to be easily understood in the harmonic-oscillator approximation. The key point is the introduction of normal coordinates, which we discuss in this section.</p>
+<p>Consider a molecule containing N nuclei. A complete specification of this molecule in space requires 3N coordinates, three cartesian coordinates for each nucleus. We say that the N-atomic molecule has a total of 3N <strong>degrees of freedom</strong>.</p>
+<p>Of these 3N coordinates, three can be used to specify the center of mass of the molecule. Motion along these three coordinates corresponds to translational motion of the center of mass of the molecule, and so we call these three coordinates <strong>translational degrees of freedom</strong>.</p>
+<p>（ <em>平动自由度是由质心的运动决定的。</em> ）</p>
+<p>It requires two coordinates to specify the orientation of a linear molecule about its center of mass and three coordinates to specify the orientation of a nonlinear molecule about its center of mass. Because motion along these coordinates corresponds to rotational motion, we say that a linear molecule has two <strong>degrees of rotational freedom</strong> and that a nonlinear molecule has three degrees of rotational freedom.</p>
+<p>（ <em>空间中的转动可以用欧拉角来描述，用Pitch-Yaw-Roll三个角度就可以描述任何转动。对于线性双原子分子来说，由于分子键轴是$C_{\infin}$轴，所以不需要Roll角，只需要其他两个角度就可以描述其转动，因此是两个转动自由度。</em> ）</p>
+<p>The remaining coordinates (3N-5 for a linear molecule and 3N-6 for a nonlinear molecule) specify the relative positions of the N nuclei. Because motion along these coordinates corresponds to vibrational motion, we say that a linear molecule has 3N-5 <strong>vibrational degrees of freedom</strong> and that a nonlinear molecule has 3N-6 vibrational degrees of freedom.</p>
+<p>（ <em>总自由度减去平动和转动，剩下的就是振动自由度了。</em> ）</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.10_ddeaa77cd7186.png" srcset="/img/loading.gif" lazyload alt="QC-fig5.10"></p>
+<p>In the absence of external fields, the energy of a molecule does not depend upon the position of its center of mass or its orientation. The potential energy of a polyatomic molecule is therefore a function of only the 3N-5 or 3N-6 vibrational coordinates.</p>
+<p>If we let the displacements about the equilibrium values of these coordinates be denoted by $x_1,x_2,\cdots,x_{N_{vib}}$ where $N_{vib}$ is the number of vibrational degrees of freedom, then the potential energy is given by:</p>
+<p>$$<br>
+\begin{aligned} \Delta V &amp;=V(x_1,x_2,\cdots,x_{N_{vib}})-V(0,0,\cdots,0) \[3mm] &amp;=\frac 12\sum_{i=1}^{N_{vib}}\sum_{j=1}^{N_{vib}}(\frac {\partial^2V}{\partial x_i\partial x_j})x_ix_j+\cdots \[3mm] &amp;=\frac 12\sum_{i=1}^{N_{vib}}\sum_{j=1}^{N_{vib}}f_{ij}x_ix_j+\cdots \end{aligned}<br>
+$$</p>
+<p>In general, there are other terms that contain higher powers of $x_i$, but these anharmonic terms are neglected here.</p>
+<p>The presence of the cross terms in the equation makes the solution of the corresponding Schrödinger equation very difficult to obtain. A theorem of classical mechanics, however, allows us to eliminate all the cross terms. A straightforward procedure using matrix algebra can be used to find a new set of coordinates {$Q_j$}, such that:</p>
+<p>$$<br>
+\Delta V=\frac 12\sum_{j=1}^{N_{vib}}F_jQ_j^2<br>
+$$</p>
+<p>These new coordinates are called <strong>normal coordinates</strong> or <strong>normal modes</strong>. In terms of normal coordinates, the vibrational Hamiltonian operator is:</p>
+<p>$$<br>
+\hat H_{vib}=-\sum_{j=1}^{N_{vib}}\frac {\hbar^2}{2\mu_j}\frac {d^2}{dQ_j^2}+\frac 12\sum_{j=1}^{N_{vib}}F_jQ_j^2<br>
+$$</p>
+<p>Recall from Section 3.9 that if a Hamiltonian operator can be written as a sum of independent terms, the total wave function is a product of individual wave functions and the energy is a sum of independent energies:</p>
+<p>$$<br>
+\hat H_{vib}=\sum_{j=1}^{N_{vib}}\hat H_{vib,j}=\sum_{j=1}^{N_{vib}}(-\frac {\hbar^2}{2\mu_j}\frac {d^2}{dQ_j^2}+\frac 12F_jQ_j^2) \[3mm] \psi_{vib}(Q_1,Q_2,\cdots,Q_{vib})=\psi_{vib,1}(Q_1)\psi_{vib,2}(Q_2)\cdots\psi_{vib,N_{vib}}(Q_{N_{vib}})<br>
+$$</p>
+<p>and:</p>
+<p>$$<br>
+E_{vib}=\sum_{j=1}^{N_{vib}}h\nu_j(\nu_j+\frac 12) \quad each\ \nu_j=0,1,2,\cdots<br>
+$$</p>
+<p>（ <em>哈密顿量可以写成几个独立组分的哈密顿量的加和，而总波函数可以写成几个独立组分波函数的乘积。结果是，总能量为各独立部分的能量之和，见3.9节。</em></p>
+<p><em>一般形式下的哈密顿量的势能项是耦合的，这使得求解薛定谔方程变得非常困难。引入简正坐标的目的就是为了消去交叉项，即“解耦”。分离变量后，方程就变成了多个谐振子方程，分子总的振动可以看作多个简正模的叠加。</em> ）</p>
+<h2 id="5-12-The-Harmonic-Oscillator-Selection-Rule-Is-Delta-v-pm1">5.12 The Harmonic-Oscillator Selection Rule Is $\Delta v=\pm1$</h2>
+<p>In this section, we shall discuss a <strong>selection rule</strong>. We shall show in Section 8.6 that if a harmonic oscillator is irradiated with electromagnetic radiation propagating in the z direction, then the probability that the oscillator makes a transition from state $v$ to state $v’$ is proportional to the square of the integral:</p>
+<p>$$<br>
+\langle v|\mu_z|v’ \rangle =\int_{-\infin}^{\infin}dx \psi_v(x)\mu_z(x)\psi_{v’}(x)<br>
+$$</p>
+<p>where $\mu_z$ is the z component of the dipole moment. This type of integral, which occurs frequently in spectroscopy, is called a <strong>dipole transition moment</strong>.</p>
+<p>We now expand $\mu_z(x)$ about the equilibrium nuclear separation:</p>
+<p>$$<br>
+\mu_z(x)=\mu_0+ \left(\frac {d\mu}{dx}\right)_0x+\cdots<br>
+$$</p>
+<p>where $\mu_0$ is the dipole moment at the equilibrium bond length and $x$ is the displacement from that equilibrium value. Thus, when $x=0,\mu_z=\mu_0$. We substitute the equation into the expression of dipole transition moment:</p>
+<p>$$<br>
+\langle v|\mu_z|v’ \rangle = \mu_0\langle v|v’ \rangle + \left(\frac {d\mu}{dx}\right)_0 \langle v|x|v’ \rangle<br>
+$$</p>
+<p>The first integral here vanishes if $v\ne v’$ due to the orthogonality of the harmonic-oscillator wave functions. The second integral can be evaluated in general by using:</p>
+<p>$$<br>
+\xi H_v(\xi)=vH_{v-1}(\xi)+\frac 12H_{v+1}(\xi) \quad (\xi=\alpha^{1/2}x)<br>
+$$</p>
+<p>so we obtain:</p>
+<p>$$<br>
+\langle v|\mu_z|v’ \rangle = \frac {N_vN_{v’}}{\alpha} \left(\frac {d\mu}{d\xi}\right)<em>0 \int</em>{-\infin}^{\infin}H_{v’}(\xi) [vH_{v-1}(\xi)+\frac 12H_{v+1}(\xi)]e^{-\xi^2}d\xi<br>
+$$</p>
+<p>Using now the orthogonality property of the Hermite polynomials, we see that $\langle v|\mu_z|v’ \rangle$ vanishes unless $v’=v\pm1$. Thus, the selection rule for vibrational transitions under the harmonic-oscillator approximation is that $\Delta v=\pm1$.</p>
+<p>（ <em>我们可以发现选律的产生实际上是因为厄米多项式的递推公式的限制。</em> ）</p>
+<p>In addition, the factor $(d\mu/d\xi)_0$ in front of the transition moment integral reminds us that the dipole moment of the molecule must vary during a vibration, or the transition will not take place.</p>
+<p>A selection rule for vibrational absorption spectroscopy is that the dipole moment of the molecule must vary during the normal mode motion. When this is so, the normal mode is said to be <strong>infrared active</strong>. Otherwise, it is <strong>infrared inactive</strong>.</p>
+<p>The normal modes of $H_2O$ are as follows:</p>
+<p><img src="https://pic.ziyuan.wang/user/Argon_gas/2024/02/QC-fig5.11_2406b850d7b42.png" srcset="/img/loading.gif" lazyload alt="QC-fig5.11"></p>
+<p>Note that the dipole moment changes during the motion of all three normal modes, so all three normal modes of $H_2O$ are infrared active. Therefore, $H_2O$ has three bands in its infrared spectrum.</p>
+<p>（ <em>简正模的偶极矩发生变化才会产生跃迁偶极矩，即具有红外活性，才会在红外光谱上显示谱线。</em> ）</p>
+<h1>总结</h1>
+<p>本章最后的附录中介绍了代数法解决谐振子的薛定谔方程，构造升/降阶算符来求解波函数。在此处略去。</p>
+<p>从这章开始，随着量子力学基本模型和光谱的引入，内容难度也比之前高了不少，具体的数理计算过程可以暂时放下，不过如果能结合计算过程来思考，很多东西的来龙去脉就会更清晰可见。</p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%AD%A6%E5%AD%A6%E5%8C%96%E5%AD%A6/" class="category-chain-item">学学化学</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/chem/">#chem</a>
+      
+        <a href="/tags/physicalchem/">#physicalchem</a>
+      
+        <a href="/tags/series-phys-2/">#series-phys-2</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>《Quantum Chemistry》章末总结5</div>
+      <div>http://argon-gas.top/p/63676.html</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Sun</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2024年1月30日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/p/63996.html" title="《Quantum Chemistry》章末总结6">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">《Quantum Chemistry》章末总结6</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/p/14461.html" title="《Quantum Chemistry》章末总结4">
+                        <span class="hidden-mobile">《Quantum Chemistry》章末总结4</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
+    
+  <div id="twikoo"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#comments', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/twikoo/1.6.7/twikoo.all.min.js', function() {
+        var options = Object.assign(
+          {"envId":"https://comments.argon-gas.top","region":"ap-shanghai","path":"window.location.pathname"},
+          {
+            el: '#twikoo',
+            path: 'window.location.pathname',
+            onCommentLoaded: function() {
+              var imgSelector = '#twikoo .tk-content img:not(.tk-owo-emotion)';
+              Fluid.plugins.imageCaption(imgSelector);
+              Fluid.plugins.fancyBox(imgSelector);
+            }
+          }
+        )
+        twikoo.init(options)
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a><br /> <span>Sun Blog 2020 - 2023</span><br /> <span><a target="_blank" href="http://www.freecdn.pw/?zzwz" title="免费云加速（FreeCDN），为您免费提供网站加速和网站防御（DDOS、CC攻击）" alt="免费云加速（FreeCDN），为您免费提供网站加速和网站防御（DDOS、CC攻击）">本站由免费云加速（FreeCDN）提供网站加速和攻击防御服务</a></span> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+  
+<script src="/js/walden.js"></script>
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
