@@ -16,24 +16,24 @@
   <meta name="author" content="Sun">
   <meta name="keywords" content="">
   
-    <meta name="description" content="隔了有半年了才接着写下一章XD，本章是多电子原子，算是量子化学正式开场了。">
+    <meta name="description" content="第十二章为氧化反应。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="《Quantum Chemistry》章末总结9">
-<meta property="og:url" content="http://argon-gas.top/p/17003.html">
+<meta property="og:title" content="《中级有机化学》章末总结12">
+<meta property="og:url" content="http://argon-gas.top/p/52107.html">
 <meta property="og:site_name" content="Sun&#39;s BLOG">
-<meta property="og:description" content="隔了有半年了才接着写下一章XD，本章是多电子原子，算是量子化学正式开场了。">
+<meta property="og:description" content="第十二章为氧化反应。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-08-12T11:28:07.000Z">
-<meta property="article:modified_time" content="2024-09-04T15:52:55.955Z">
+<meta property="article:published_time" content="2024-09-03T14:26:37.000Z">
+<meta property="article:modified_time" content="2024-09-04T13:41:46.446Z">
 <meta property="article:author" content="Sun">
 <meta property="article:tag" content="chem">
-<meta property="article:tag" content="physicalchem">
-<meta property="article:tag" content="series-phys-2">
+<meta property="article:tag" content="organic">
+<meta property="article:tag" content="series-org-2">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>《Quantum Chemistry》章末总结9 - Sun&#39;s BLOG</title>
+  <title>《中级有机化学》章末总结12 - Sun&#39;s BLOG</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -216,7 +216,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="《Quantum Chemistry》章末总结9"></span>
+            <span id="subtitle" data-typed-text="《中级有机化学》章末总结12"></span>
           
         </div>
 
@@ -227,8 +227,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-08-12 19:28" pubdate>
-          2024年8月12日 晚上
+        <time datetime="2024-09-03 22:26" pubdate>
+          2024年9月3日 晚上
         </time>
       </span>
     
@@ -239,7 +239,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          4.5k 字
+          3k 字
         
       </span>
     
@@ -250,7 +250,7 @@
         
         
         
-          29 分钟
+          19 分钟
         
       </span>
     
@@ -288,103 +288,106 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">《Quantum Chemistry》章末总结9</h1>
+            <h1 style="display: none">《中级有机化学》章末总结12</h1>
             
             
               <div class="markdown-body">
                 
-                <p>隔了有半年了才接着写下一章XD，本章是多电子原子，算是量子化学正式开场了。</p>
+                <p>第十二章为氧化反应。</p>
 <a id="more"></a>
-<h1>Chapter 9 Many-Electron Atoms</h1>
-<p>Helium is our first multielectron system, and although the helium atom may seem to be of minimal interest to chemists, we will discuss it in detail in this chapter because the solution of the helium atom illustrates the techniques used for more complex atoms.</p>
-<p>Then, after discussing electron spin and the Pauli exclusion principle, we will discuss the Hartree-Fock theory of many-electron atoms.</p>
-<p>Finally, we will discuss the term symbols of atoms and ions and how they are used to label electronic states.</p>
-<h2 id="9-1-Atomic-and-Molecular-Calculations-Are-Expressed-in-Atomic-Units">9.1 Atomic and Molecular Calculations Are Expressed in Atomic Units</h2>
-<p>We will apply both perturbation theory and the variational method to a helium atom, but before doing so, we will introduce a system of units, called <strong>atomic units</strong>, that is widely used in atomic and molecular calculations to simplify the equations.</p>
-<table>
-<thead>
-<tr>
-<th>Property</th>
-<th>Atomic unit</th>
-<th>SI equivalent</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Mass</td>
-<td>Mass of an electron,$m_e$</td>
-<td>$9.1094\times10^{-31}\ \rm kg$</td>
-</tr>
-<tr>
-<td>Charge</td>
-<td>Charge on a proton,$e$</td>
-<td>$1.6022\times10^{-19}\ \rm C$</td>
-</tr>
-<tr>
-<td>Angular momentum</td>
-<td>Planck constant divided by 2π,$\hbar$</td>
-<td>$1.0546\times 10^{-34}\ \rm J\cdot s$</td>
-</tr>
-<tr>
-<td>Length</td>
-<td>Bohr radius,$a_0=\frac {4\pi\epsilon_0\hbar^2}{m_ee^2}$</td>
-<td>$5.2918\times 10^{-11}\ \rm m$</td>
-</tr>
-<tr>
-<td>Energy</td>
-<td>$\frac {m_ee^4}{14\pi^2\epsilon_0^2\hbar^2} = \frac {e^2}{4\pi\epsilon_0a_0} = E_h$</td>
-<td>$4.3597\times 10^{-18}\ \rm J$</td>
-</tr>
-<tr>
-<td>Permittivity</td>
-<td>$\kappa_0 = 4\pi\epsilon_0$</td>
-<td>$1.1127\times 10^{-10}\ \rm C^2\cdot J^{-1}\cdot m^{-1}$</td>
-</tr>
-</tbody>
-</table>
-<p>（ <em>第一节就是讲原子单位，通过约定一些常量来简化算式。</em> ）</p>
-<h2 id="9-2-Both-Perturbation-Theory-and-the-Variational-Method-Can-Yield-Good-Results-for-a-Helium-Atom">9.2 Both Perturbation Theory and the Variational Method Can Yield Good Results for a Helium Atom</h2>
-<p>We applied first-order perturbation theory to a helium atom in Section 8.5 and found<br>
-that the first-order correction to the energy is $5Z/8E_h$.The first-order perturbation theory gives a result that is approximately 5% in error.</p>
-<p>Scheer and Knight calculated the energy through many orders of perturbation theory and found that $E=-2.9037E_h$, in good agreement with the experimental value of $-2.9033E_h$.</p>
-<p>We also used the variational method to calculate the ground-state energy of a helium<br>
-atom in Section 8. 1, and $E_{min}=-2.84766E_h$.</p>
-<p>The agreement we have found between first-order perturbation theory or our simple<br>
-variational approximation and the experimental value of the energy may appear to be<br>
-quite good, but let’s examine this agreement more closely. The ionization energy (IE)<br>
-of a helium atom is given by:</p>
-<p>$$<br>
-IE = E_{He^{+}} - E_{He}<br>
-$$</p>
-<p>The energy of $He^{+}$ is $-2E_h$, so we have:</p>
-<p>$$<br>
-\begin{aligned}<br>
-IE &amp;= -2 + \frac {11}{4} = 0.75E_h \quad (\rm first-order\ perturbation\ theory)\[3mm]<br>
-or \[3mm]<br>
-&amp;= -2 + \left(\frac {27}{16} \right) = 0.8477E_h \quad (\rm our\ variational\ result)<br>
-\end{aligned}<br>
-$$</p>
-<p>whereas the experimental value of the ionization energy is $0.9033E_h$. Even our variational result, with its 6% discrepancy with the experimental total energy, is not too satisfactory.</p>
-<p>One approach is the following. The trial function assumes that both electrons have the same effective nuclear charge. This may be so in some average sense, but it will not be true at all times because there will be instants of time where one electron is far from the nucleus and the other close to it, and so the effective nuclear charges will not be the same.</p>
-<p>We can account for this by using two variational parameters, $\zeta_1$ and $\zeta_2$. In order to treat the two electrons on an equal footing, we write $\psi(\bold {r_1}, \bold {r_2})$ as</p>
-<p>$$<br>
-\psi(\bold {r_1}, \bold {r_2}) = N(e^{-\zeta_1r_1} e^{-\zeta_2r_2} + e^{-\zeta_2r_1} e^{-\zeta_1r_2})<br>
-$$</p>
-<p>When $E(\zeta_1, \zeta_2)$ is minimized with respect to $\zeta_1$ and $\zeta_2$, we find that $E=-2.87566E_h$, which is a significant improvement over our simple variational treatment. The ionization energy comes out to be $0.8757E_h$.</p>
-<p>we can do better yet. Because a suitable trial function may be almost any convenient function (that satisfies the boundary conditions), we are not restricted to using 1s hydrogen-like orbitals as we have done up to now. For example, we could use a linear combination of a 1s orbital and a 2s orbital and write:</p>
-<p>$$<br>
-\psi(\bold {r_1}, \bold {r_2}) = \phi(\bold {r_1})\phi(\bold {r_2})<br>
-$$</p>
-<p>where $\phi® = N[c_1e^{\zeta r}+c_2(2-r)e^{-\zeta r/2}]$ and $N$ is a normalization constant.</p>
-<p>However, rather than using hydrogen-like orbitals, it’s customary to use a set of functions that were introduced by the American physicist John Slater in the 1930s. These functions, which are called <strong>Slaler orbitals</strong>, are of the form</p>
-<p>$$<br>
-S_{nlm_l}(r, \theta, \phi) = N_{nl} r^{n-1} e^{-\zeta r} Y_l^{m_l}(\theta, \phi)<br>
-$$</p>
-<p>where $N_{nl}$ is a normalization constant and the $Y_m^{m_l}(\theta, \phi)$ are the spherical harmonics. Note that the radial parts of Slater orbitals do not have nodes like hydrogen atomic orbitals do.</p>
-<p>As we include more and more Slater orbitals, we reach a limit that is both practical<br>
-and theoretical. In this limit, $E = -2.8617E_h$ and the ionization energy is $0.8617E_h$. This limiting value is the best value of the energy that can be obtained using a trial function of the form of a product of one-electron wave functions. This limit is called the <strong>Hartree-Fock limit</strong>.</p>
-<p>（ <em>由于试验函数可以任选，因此选择合适的试验函数是取得更高精度结果的一个重要因素，Hartree-Fock法的优点在于其不仅计算相对简单，而且与物理情景有着很好的对应。</em> ）</p>
-<h2 id="9-3-Hartree-Fock-Equations-Are-Solved-by-a-Self-Consistent-Procedure">9.3 Hartree-Fock Equations Are Solved by a Self-Consistent Procedure</h2>
+<h1>第12章</h1>
+<h2 id="12-1-氧化反应的机理类型">12.1 氧化反应的机理类型</h2>
+<p>氧化反应和还原反应一样，由于其机理复杂，因此迄今为止人们对大多数有机氧化反应的机理了解还很少。</p>
+<p>从基本反应类型来看，有机氧化反应可以粗略分为消除类型、加成类型和单电子转移类型等。</p>
+<p>烷烃在催化剂存在下的脱氢、醇被铬酸类试剂、Swern氧化等过程都可分类为消除反应，即一分子的$H_2/H_2O$的消除。</p>
+<p>烯烃的环氧化、双羟化等反应可以分类为加成反应，即环氧/羟基的加成。</p>
+<p>一些高价金属作氧化剂的反应往往涉及到单电子转移机理，例如$Ag_2O$将酚氧化为醌的反应。</p>
+<h2 id="12-2-脱氢反应">12.2 脱氢反应</h2>
+<p>脱氢有热脱氢和催化脱氢两种，工业上主要以催化脱氢为主，</p>
+<p>在脱氢剂存在下，$C-H$和$O-H$发生直接的脱氢反应，生成不饱和化合物。常用的有机脱氢剂有五价碘试剂如2-碘酰基苯甲酸（IBX）和2,3-二氯-5,6-二氰基-1,4-苯醌（DDQ）等。</p>
+<p>![中有12-1]</p>
+<p>IBX和DDQ能使不饱和化合物发生脱氢，容易使其芳构化，也容易将酮转化为α,β-不饱和酮，将酮转变为醛或酮，举两个例子。</p>
+<p>![中有12-2]</p>
+<p>DDQ夺氢的过程是比较复杂的，可能有负氢转移、单电子转移、氢原子转移等多种途径，此处略去。</p>
+<p>醇可以直接脱氢得到醛或酮，酚则得到醌类化合物。</p>
+<p>![中有12-3]</p>
+<p>催化脱氢是催化氢化反应的逆过程，理论上，氢化反应的催化剂也能够用于脱氢反应。催化脱氢的反应机理随催化剂种类和底物类型而改变，但是其基本模式如下。</p>
+<p>![中有12-4]</p>
+<p>金属氢化物脱氢过程是可逆的，加热回流能够使产生的氢气从溶剂中驱逐出去，从而使反应平衡向产物方向进行。也可以使用合适的氢受体，如3,3-二甲基丁-1-烯（TBE）。</p>
+<p>![中有12-5]</p>
+<p>DDQ也是常用的氢受体，例如在$Cu(Ⅰ)$配合物/DDQ催化脱氢体系中进行的脱氢/D-A串联反应。</p>
+<p>![中有12-6]</p>
+<p>醇的催化脱氢生成相应的醛和酮。</p>
+<p>![中有12-7]</p>
+<p>若反应在伯胺或仲胺存在下，则醛与胺反应形成亚胺/烯胺中间体，后者可作为氢受体，将催化剂再生，而自身被催化加氢，转化为相应的胺。</p>
+<p>![中有12-8]</p>
+<p>上述转化把取代反应变为氧化-加成-还原三步，看似舍近求远，实际上把相对困难的反应降低了难度，最后仍能得到很好的收率，比如下面的例子。</p>
+<p>![中有12-9]</p>
+<p>含部分双键的氮杂环化合物很容易发生催化脱氢芳构化反应，生成芳杂环化合物。</p>
+<p>![中有12-10]</p>
+<p>催化氧化脱氢需要在过渡金属催化剂催化下进行，常用氧气作为氢受体，可将醇氧化为醛酮、将醛酮转化为α,β-不饱和醛酮。</p>
+<p>醇发生脱氢反应生成醛或酮，常用的催化剂包括铜、钯和钌的配合物，纳米金也可作为催化剂使用，常用四甲基哌啶氮氧自由基（TEMPO）作为共氧化剂。</p>
+<p>![中有12-11]</p>
+<p>该反应的机理与催化脱氢的机理很相似，只是氧气作为氢受体，被还原为水，同时再生催化剂，这个催化氧化反应的最终氧化剂为氧气。</p>
+<p>![中有12-12]</p>
+<p>$Cu(Ⅰ)/TEMPO$体系也能催化醇的氧化。</p>
+<p>![中有12-13]</p>
+<p>在钯催化下，醛和酮衍生的烯醇硅醚可被氧气氧化脱氢，生成α,β-不饱和羰基化合物，此反应称为Saegusa氧化。</p>
+<p>![中有12-14]</p>
+<p>该方法需要先把醛或酮转化为烯醇硅醚后再氧化，不过也可通过原位形成的烯胺发生类似反应。</p>
+<p>![中有12-15]</p>
+<p>其机理如下：</p>
+<p>![中有12-16]</p>
+<p>也可以直接发生氧化脱氢生成α,β-不饱和羰基化合物。</p>
+<p>![中有12-17]</p>
+<h2 id="12-3-用氧气氧化">12.3 用氧气氧化</h2>
+<p>从机理来看，氧气参与的催化氧化过程大体上分为两类，一是以氧气作为直接氧化剂，一般需要单电子转移或能力转移过程来活化；二是氧气作为终端氧化剂，其作用是使催化剂再生，上文提到的催化氧化脱氢就是第二类反应。</p>
+<p>乙烯和水在钯催化下被氧气氧化为乙醛，称为Wacker反应。反应具有区域选择性，末端炔烃的氧化生成甲基酮。</p>
+<p>![中有12-18]</p>
+<p>同位素表记实验表明，产物中酮羰基的氧来自水，而非氧气。</p>
+<p>![中有12-19]</p>
+<p>氧气的作用是在二甲胺（DMA）促进下将$Pd(0)$氧化为$Pd(Ⅱ）$。</p>
+<p>醇和酚的氧气或空气氧化分别得到醛酮和醌，但随催化体系不同反应机理也相差较大。过渡金属催化的有氧氧化可将醇转化为醛和酮。</p>
+<p>![中有12-20]</p>
+<p>烷烃芳烃的苄基$C-H$键容易被氧气（或空气）氧化。异丙苯氧化重排制备苯酚的关键中间体过氧化异丙苯就是通过直接的空气氧化异丙苯得到的。</p>
+<p>![中有12-21]</p>
+<p>当苄基碳上连有$O,N$等杂原子或不饱和基团时，苄基$C-H$键的氧化更为容易发生。</p>
+<p>![中有12-22]</p>
+<h2 id="12-4-用无机氧化剂氧化">12.4 用无机氧化剂氧化</h2>
+<p>烯烃经臭氧氧化，然后用还原剂还原，生成碳碳双键断裂产物醛或酮，反应称为臭氧化-还原水解反应，常用的还原剂包括锌粉、二甲硫醚和三苯基膦等。</p>
+<p>![中有12-23]</p>
+<p>一般认为该反应分为两个阶段，首先是烯烃与臭氧发生1,3-偶极环加成，生成一级臭氧化物，然后迅速分解转变为更稳定的二级臭氧化物。然后该产物水解得到醛或酮，生成的过氧化氢被还原。</p>
+<p>![中有12-24]</p>
+<p>炔烃的臭氧化得到两分子羧酸。当烯烃和炔烃同时存在时，炔烃的反应性低于烯烃，因此双键优先被还原。</p>
+<p>![中有12-25]</p>
+<p>含六价铬的氧化剂是一类高效的无机氧化剂，下面依次介绍几类常见的铬氧化剂。</p>
+<p>铬酸能将伯醇氧化为羧酸，仲醇氧化为酮，其氧化性较强，也即选择性较差。</p>
+<p>![中有12-26]</p>
+<p>目前普遍接受的机理是Westheimer提出的铬酸酯机理。</p>
+<p>![中有12-27]</p>
+<p>三氧化铬与吡啶在二氯甲烷中生成的配合物，称为Collins试剂。Collins试剂可以将醇选择性氧化为醛酮，且反应在中性条件下进行，故可用于氧化对酸敏感的醇。</p>
+<p>![中有12-28]</p>
+<p>类似的选择性氧化试剂还有氯铬酸吡啶盐（PCC），重铬酸吡啶盐（PDC）等。</p>
+<p>![中有12-29]</p>
+<p>$MnO_2$能够选择性的将烯丙基醇和苄醇氧化为相应的醛或酮，通常这类反应在温和的中性条件下进行。</p>
+<p>![中有12-30]</p>
+<p>碱性的、稀的高锰酸钾水溶液可将烯烃氧化，立体专一性地生成顺式邻二醇。</p>
+<p>![中有12-31]</p>
+<p>一般认为这个氧化过程经历了一个五元环状的锰酸酯中间体，同位素标记证明邻二醇的两个氧均来自于高锰酸钾。</p>
+<p>![中有12-32]</p>
+<p>当使用较强的氧化条件时，如酸性的高锰酸钾水溶液，烯烃会被直接氧化断裂生成羧酸。</p>
+<p>含$\alpha-H$的烷基苯可被高锰酸钾氧化为苯甲酸，无$\alpha-H$的叔丁苯不能被氧化。</p>
+<p>![中有12-33]</p>
+<p>四氧化锇常被用于将烯烃氧化为顺式邻二醇，但是考虑到$OsO_4$的价格及毒性，常常只使用催化量的$OsO_4$，并加入氯酸盐、过氧化氢等共氧化剂使$Os(Ⅵ)$再生为$Os(Ⅷ)$。</p>
+<p>![中有12-34]</p>
+<p>其反应机理与高锰酸钾类似，经历一个五元环状锇酸酯中间体。</p>
+<p>四氧化钌可将烯烃氧化为α-羟基酮，将醇氧化为醛或酮，也可氧化相对惰性的$C-H$键。</p>
+<p>![中有12-35]</p>
+<p>和四氧化锇类似，通常反应时采用催化量的$RuO_4$或其前体（如$RuCl_3, RuO_2$等）和适当氧化剂组成的催化氧化体系。</p>
+<p>当$RuO_4/CeCl_3/NaIO_4$催化氧化体系用于氧化烯烃时，主要得到双羟化产物；但当使用$RuO_4/NaIO_4$催化氧化体系则主要发生双键断裂反应。推测可能的原因是Lewis酸$CeCl_3$的存在抑制了$RuO_4$的氧化能力。</p>
+<p>![中有12-36]</p>
+<p>此类催化氧化体系可将醚和胺的$\alpha-C-H$键氧化，生成酯和酰胺。</p>
+<p>![中有12-37]</p>
 
                 
               </div>
@@ -420,9 +423,9 @@ and theoretical. In this limit, $E = -2.8617E_h$ and the ionization energy is $0
       
         <a href="/tags/chem/">#chem</a>
       
-        <a href="/tags/physicalchem/">#physicalchem</a>
+        <a href="/tags/organic/">#organic</a>
       
-        <a href="/tags/series-phys-2/">#series-phys-2</a>
+        <a href="/tags/series-org-2/">#series-org-2</a>
       
     </div>
   
@@ -434,8 +437,8 @@ and theoretical. In this limit, $E = -2.8617E_h$ and the ionization energy is $0
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>《Quantum Chemistry》章末总结9</div>
-      <div>http://argon-gas.top/p/17003.html</div>
+      <div>《中级有机化学》章末总结12</div>
+      <div>http://argon-gas.top/p/52107.html</div>
     </div>
     <div class="license-meta">
       
@@ -447,7 +450,7 @@ and theoretical. In this limit, $E = -2.8617E_h$ and the ionization energy is $0
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年8月12日</div>
+          <div>2024年9月3日</div>
         </div>
       
       
@@ -479,9 +482,9 @@ and theoretical. In this limit, $E = -2.8617E_h$ and the ionization energy is $0
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/p/51915.html" title="《中级有机化学》章末总结11">
+                      <a href="/p/47826.html" title="炼丹与化学-聊聊38届化竞国初第一题">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">《中级有机化学》章末总结11</span>
+                        <span class="hidden-mobile">炼丹与化学-聊聊38届化竞国初第一题</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -489,8 +492,8 @@ and theoretical. In this limit, $E = -2.8617E_h$ and the ionization energy is $0
                   <article class="post-next col-6">
                     
                     
-                      <a href="/p/65117.html" title="《物理化学》章末总结14">
-                        <span class="hidden-mobile">《物理化学》章末总结14</span>
+                      <a href="/p/51915.html" title="《中级有机化学》章末总结11">
+                        <span class="hidden-mobile">《中级有机化学》章末总结11</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
