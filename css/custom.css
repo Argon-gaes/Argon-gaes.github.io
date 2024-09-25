@@ -1,4 +1,4 @@
-@font-face {
+<link rel="stylesheet" type="text/css" href="./src/hint.min.css">@font-face {
     font-family: 'iconfont';  /* Project id 3536603 */
     src: url('//at.alicdn.com/t/c/font_3536603_x2bmwypdoxm.woff2?t=1659431597857') format('woff2'),
          url('//at.alicdn.com/t/c/font_3536603_x2bmwypdoxm.woff?t=1659431597857') format('woff'),
@@ -86,5 +86,5 @@ details {
 }
 
 .katex .base .mathdefault {
-    font-style: italic
+    font-style: normal
 }
