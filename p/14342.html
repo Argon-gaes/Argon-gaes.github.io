@@ -1,0 +1,837 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://pic.ziyuan.wang/2022/d10570d139814.png">
+  <link rel="icon" href="https://pic.ziyuan.wang/2022/d10570d139814.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Sun">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="本章着重讨论过渡金属催化（以 Pd 为例）的偶联反应中最常见的几个反应。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《Organometallic-Chemistry》章末总结3">
+<meta property="og:url" content="http://argon-gas.top/p/14342.html">
+<meta property="og:site_name" content="Sun&#39;s BLOG">
+<meta property="og:description" content="本章着重讨论过渡金属催化（以 Pd 为例）的偶联反应中最常见的几个反应。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic2.ziyuan.wang/user/Argon_gas/2026/01/series-org-5_1c44ff34f39e3.png">
+<meta property="article:published_time" content="2026-02-21T15:08:34.000Z">
+<meta property="article:modified_time" content="2026-03-07T16:39:13.113Z">
+<meta property="article:author" content="Sun">
+<meta property="article:tag" content="chem">
+<meta property="article:tag" content="series-org-5">
+<meta property="article:tag" content="org">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://pic2.ziyuan.wang/user/Argon_gas/2026/01/series-org-5_1c44ff34f39e3.png">
+  
+  
+  
+  <title>《Organometallic-Chemistry》章末总结3 - Sun&#39;s BLOG</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/KaTeX/0.16.2/katex.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"argon-gas.top","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Sun&#39;s BLOG</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/schdule/">
+                <i class="iconfont icon-plan"></i>
+                计划
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://pic2.ziyuan.wang/user/Argon_gas/2026/01/series-org-5_1c44ff34f39e3.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="《Organometallic-Chemistry》章末总结3"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2026-02-21 23:08" pubdate>
+          2026年2月21日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          7.2k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          45 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+<script src="/js/westeros.js"></script>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">《Organometallic-Chemistry》章末总结3</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <link rel="stylesheet" type="text/css" href="./src/hint.min.css"><p>本章着重讨论过渡金属催化（以 Pd 为例）的偶联反应中最常见的几个反应。</p>
+<a id="more"></a>
+<h2 id="3-1-Overview">3.1 Overview</h2>
+<p>我们下面将要讨论的几个反应的总体反应模式大同小异，主要区别是使用的主族金属不同，不同的金属导致了不同的反应性，但是机理不会有大的改变。</p>
+<p>反应的一般机理见下图，主要包括 1) 催化物种的生成、2) 氧化加成、3) 转金属、4) 还原消除。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-1_a32fdfdb0c790.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-1"></p>
+<p>根据在转金属一步中使用的主族金属的不同，我们可以列举下面几个典型反应。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-2_026a898737b2d.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-2"></p>
+<h2 id="3-2-Kumada-coupling">3.2 Kumada coupling</h2>
+<p>1972年，Kumada 等人报道了 Ni 催化的偶联反应，使用格氏试剂作为转金属试剂。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-3_5bd91deac325a.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-3"></p>
+<p>反应使用 Ni(II) 盐作为催化剂，但是真正的催化物种是 Ni(0) 物种，因此第一步需要先生成 $L_nNi(0)$ 。Ni(II) 盐通过两次转金属过程、再还原消除，脱去一个烷基偶联产物，得到 Ni(0)。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-4_81d12b92bf093.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-4"></p>
+<p>Yamamoto 等人指出，在催化物种生成过程中，芳基卤化物可能作为 π-acid 促进催化剂的还原消除过程，并随后发生氧化加成<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Uchino, M.; Asagi, K.; Yamamoto, A.; Ikeda, S. Preparation and Properties of Aryl(Dipyridyl)Nickel Halide Complexes. *Journal of Organometallic Chemistry* **1975**, *84* (1), 93–103.">[1]</span></a></sup>。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-5_dcb90e3de0116.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-5"></p>
+<p>Kumada 反应催化剂的配体常用双齿膦配体（如 <strong>dppe</strong>/bis(diphenylphosphino)ethane、<strong>dmpe</strong>/bis(dimethylphosphino)ethane、<strong>dmpf</strong>/bis(dimethylphosphino)ferrocene 等），其往往表现出比单齿膦配体更好的催化活性。</p>
+<p>Kumada coupling 在反应性上有独特之处，对于芳基卤化物，其活性表现为 $Cl &gt; Br &gt; I$ ,且对于芳基氟化物也能进行反应<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Yoshikai, N.; Mashima, H.; Nakamura, E. Nickel-Catalyzed Cross-Coupling Reaction of Aryl Fluorides and Chlorides with Grignard Reagents under Nickel/Magnesium Bimetallic Cooperation. *J. Am. Chem. Soc.* **2005**, *127* (51), 17978–17979.">[2]</span></a></sup>。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-6_4afd2ba09b2f3.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-6"></p>
+<p>Ni 催化的 Kumada coupling 对于烯基卤化物的偶联具有立体专一性，然而对于烯基格氏试剂则无立体选择性。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-7_8c084d863020d.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-7"></p>
+<p>Pd 也可以用于催化 Kumada coupling，且对于烯基卤化物和烯基格氏试剂都具有立体专一性。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-8_407905a238bf7.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-8"></p>
+<p>最后看几个应用上的例子。</p>
+<p>Ni 催化的 Kumada 反应由于催化剂价格低廉，因此被用于工业上大量生产对位取代的苯乙烯衍生物。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-9_e0ac5d8e192bf.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-9"></p>
+<p>Herrmann 等人报道过使用 Ni 催化剂和 NHC 配体催化的二芳基偶联反应，其对于大位阻的芳基格氏试剂也有很好的产率。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-10_98eb580ad7ba5.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-10"></p>
+<h2 id="3-3-Negishi-Coupling">3.3 Negishi Coupling</h2>
+<p>1980年，Negishi 等人报道了使用 Pd(0) 催化，使用 alkylzinc 作为转金属试剂的偶联反应。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-11_15f607970e15a.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-11"></p>
+<p>在上面的例子中，使用烷基锌作为转金属试剂得到了更多的还原消除产物，这可能是因为烷基锌作为一个相较格氏试剂更强的 Lewis acid，和 Pd(II) 中间体有更强的 π-acid 效应，使得中心金属更缺电子，因而更容易发生还原消除。</p>
+<p>Smith 等人在合成 (+)-Discodermolide 的过程中使用了 Negishi coupling 连接两个片段。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-12_cd1486e5f5853.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-12"></p>
+<h2 id="3-4-Stille-Coupling">3.4 Stille Coupling</h2>
+<p>Stille 等人在1979年报道了利用 Sn 试剂作为转金属试剂的偶联反应。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-13_4c7037e285929.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-13"></p>
+<p>Stille 偶联反应的决速步为转金属，锡试剂的转移速率为炔基 &gt; 烯基 &gt; 芳基 &gt; 苄基 &gt; 烯丙基 &gt; 烷基，常用甲基或者正丁基作为惰性基团，例如使用 $RSnBu_3$ 来转移 R 基团。</p>
+<p>对于氧化加成一步，其插入 C-X 键的速率为 $I &gt; Br &gt; OTf &gt;&gt; Cl$ 。</p>
+<p>Stille 偶联的优点在于对各种官能团的耐受性非常好，且反应条件非常温和。这使得其被应用于各种合成反应中<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Selig, R.; Schollmeyer, D.; Albrecht, W.; Laufer, S. The Application of Stille Cross-Coupling Reactions with Multiple Nitrogen Containing Heterocycles. *Tetrahedron* **2011**, *67* (47), 9204–9213.">[3]</span></a></sup>。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-14_25d6e80bc6746.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-14"></p>
+<p>Espinet 等人的机理实验指出<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="(1) Casado, A. L.; Espinet, P. Mechanism of the Stille Reaction. 1. The Transmetalation Step. Coupling of R1 I and R2 SnBu3 Catalyzed by *Trans* -[PdR1 IL2 ] (R1 = C6 Cl2 F3 ; R2 = Vinyl, 4-Methoxyphenyl; L = AsPh3 ). *J. Am. Chem. Soc.* **1998**, *120* (35), 8978–8985. (2) Casado, A. L.; Espinet, P.; Gallego, A. M. Mechanism of the Stille Reaction. 2. Couplings of Aryl Triflates with Vinyltributyltin. Observation of Intermediates. A More Comprehensive Scheme. *J. Am. Chem. Soc.* **2000**, *122* (48), 11771–11782.">[4]</span></a></sup>：stille 偶联中转金属作为决速步，使用更弱的 donor ligand 更容易在进行转金属时配体更快的离去，从而加速反应。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-15_097c113ad06f0.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-15"></p>
+<p>1994年，Farina 和 Liebeskind 等人对 Stille 偶联中存在的 “copper effect”，即在 Stille 偶联反应中加入 CuI 会大大加速反应的现象展开了研究<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Farina, V.; Kapadia, S.; Krishnan, B.; Wang, C.; Liebeskind, L. S. On the Nature of the “Copper Effect” in the Stille Cross-Coupling. *J. Org. Chem.* **1994**, *59* (20), 5905–5911.">[5]</span></a></sup>。</p>
+<p>他们的实验指出 “copper effect” 的存在原因是 1）CuI 会与游离的膦配体结合，因此有利于在转金属一步中配体的解离，CuI 起到一个 “ligand scavenger” 的作用；2）在大极性溶剂中（如 NMP）CuI 会与锡试剂先发生转金属，生成更活泼的烷基铜化合物，随后再与 Pd 催化剂发生转金属。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-16_c6ba829922c0b.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-16"></p>
+<p>Corey 等人在1999年进一步研究发现，对于大位阻的烯基锡底物，使用 CuCl 比 CuI 得到了更高的产率<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Han, X.; Stoltz, B. M.; Corey, E. J. Cuprous Chloride Accelerated Stille Reactions. A General and Effective Coupling System for Sterically Congested Substrates and for Enantioselective Synthesis. *J. Am. Chem. Soc.* **1999**, *121* (33), 7600–7605.">[6]</span></a></sup>，推测可能是因为 CuCl 具有更强的亲电性（Cl 的电负性比 I 更强）。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-17_ff0d3eb149a8a.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-17"></p>
+<p>除了在转金属步骤中把转金属试剂转化为更活泼的烷基铜试剂以外，也可以直接提升锡试剂的活性，例如 Lampert 等人在1974年报道了使用 TBAF 作为氟离子源来让单烷基取代的锡试剂更具反应性<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Harris, D. H.; Lappert, M. F. Monomeric, Volatile Bivalent Amides of Group IVB Elements, M(NR12)2 and M(NR1R2)2(MGe, Sn, or Pb; R1Me3Si, R2Me3C). *J. Chem. Soc., Chem. Commun.* **1974**, No. 21, 895–896.">[7]</span></a></sup>。原因是 $F^-$ 可以配位到 Sn 上从而增强其负电性，易于转移。</p>
+<p>Stille 偶联的一个重要特性是反应条件温和，这使得它具有非常好的官能团耐受，被应用于各类复杂合成当中，以下是几个例子。</p>
+<p>Williams 等人对 (+)-Amphidinolide 的全合成。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-18_fb5b9919a9f84.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-18"></p>
+<p>Overman 等人对 Quadrigemine 的全合成。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-19_714a2b2b7ab98.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-19"></p>
+<p>Suffert 等人对大环化合物的合成。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-20_0dee94576d696.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-20"></p>
+<h2 id="3-5-Hiyama-Coupling">3.5 Hiyama Coupling</h2>
+<p>1988年，Hiyama 等人报道了利用有机硅试剂作为转金属试剂的偶联反应，该反应的显著特点是需要提供 $F^-$ 源才能顺利进行，体系中的 $F^-$ 可以与硅试剂结合，形成五配位的硅化合物，增强其亲核性，有利于发生转金属反应。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-21_3fa0ef6315236.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-21"></p>
+<p>Hiyama 等人还发现烯丙基氟硅烷具有独特的 γ 位反应性，可以高选择性的得到 γ-位取代产物。Ushio 等人通过计算指出其选择性来自于 $F^-$ 配位后 γ-位亲核性的增强，推测是因为 C-Si 键与双键的 σ-π conjugation 导致的<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Kira, M.; Sato, K.; Sakurai, H.; Hada, M.; Et., A. Ab Initio MO Study of the Reaction of Pentacoordinate Allylsilicates with Aldehydes. *Chemistry Letters* **1991**.">[8]</span></a></sup>。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-22_0459baa833141.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-22"></p>
+<h2 id="3-6-Suzuki-Coupling">3.6 Suzuki Coupling</h2>
+<p>1979年，Suzuki 等人报道了利用硼试剂作为转金属试剂的偶联反应<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Miyaura, N.; Yamada, K.; Suzuki, A. A New Stereospecific Cross-Coupling by the Palladium-Catalyzed Reaction of 1-Alkenylboranes with 1-Alkenyl or 1-Alkynyl Halides. *Tetrahedron Letters* **1979**, *20* (36), 3437–3440.">[9]</span></a></sup>。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-23_bfd76f48dd89b.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-23"></p>
+<p>硼试剂相比锡试剂的一个显著优点是无毒且对空气/水汽稳定，这使得 Suzuki 偶联比 Stille 偶联更安全易行。常用的硼试剂包括 $R-B(O\textit{i}Pr)_2$ 、pinacolborane、9-BBN 等等。</p>
+<p>硼试剂对水不敏感的原因是 C-B 键本身具有高度的共价性，但是这样的特性也使得 C-B 键在转金属过程中不易断裂。因此在反应中，我们往往需要外加入碱使得有机硼化合物形成 “<em>ate</em>-complex” 增强 C-B 键的亲核性。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-24_02223309ab5cc.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-24"></p>
+<p>在 Suzuki 偶联的各种偶联底物中，芳基氯是活性最低的物种，其原因来自于 C-Cl 键较高的键能（例如 PhCl B.E.=96 kcal/mol; PhBr B.E.=81 kcal/mol; PhI B.E.=65 kcal/mol）。但是考虑到芳基氯化物便宜易得的特点，对芳基氯化物的直接偶联（即不需要 EWG 的活化）是非常具有吸引力的。</p>
+<p>1998年，Fu 等人发现使用大位阻且富电子的膦配体能够克服不利的反应性，实现无活化的芳基氯化物偶联。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-25_bf1f9ae95b232.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-25"></p>
+<p>大位阻富电子的配体能够促进氧化加成的可能原因是配体使金属中心更富电子，且大位阻配体会使得金属的配位不饱和，因此易于发生氧化加成增加配位数和降低电子密度。</p>
+<p>Fu 等人还发现，利用大位阻富电子配体能够进行一般条件下难以发生的烷基-烷基偶联。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-26_dce10af693186.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-26"></p>
+<p>烷基-烷基偶联除了氧化加成难以进行外，另一个不利因素是会发生 β-elimination 的竞争反应，非常好的是，大位阻富电子配体也能够抑制 β-elimination 的发生，因为大位阻配体会让 β-H 难以接近金属，同时给电子能力使得金属中心富电子，因而削弱了 β-H 的 agostic interaction。</p>
+<p>还有一种比较特殊的配体是氮杂环卡宾（N-heterocyclic carbenes, NHC），其特点是与金属结合后不会解离，因此不需要加入过量的配体。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-27_cfe3ce0a072b4.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-27"></p>
+<p>1987年，Kishi 等人发现使用 TlOH 代替常见的 KOH 作为碱会让 Suzuki 偶联反应速率大大增加<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Uenishi, J.; Beau, J. M.; Armstrong, R. W.; Kishi, Y. Dramatic Rate Enhancement of Suzuki Diene Synthesis. Its Application to Palytoxin Synthesis. *J. Am. Chem. Soc.* **1987**, *109* (15), 4756–4758.">[10]</span></a></sup>，其反应速率约增加1000倍，反应在0°C下几乎瞬间完成，因此可以适用于大分子量片段的连接，以及含敏感官能团分子片段的连接。Kishi 使用该方法实现了 palytoxin 部分片段的合成。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-28_2b3f8c9483630.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-28"></p>
+<p>Suzuki 偶联也能够被用于分子的晚期大环关环。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-29_938d0e08ea90b.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-29"></p>
+<h2 id="3-7-Sonogashira-Coupling">3.7 Sonogashira Coupling</h2>
+<p>1975年，Sonogashira 等人报道了 CuI 催化的端炔原位去质子化，随后与烯基溴发生偶联反应。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-30_13c43f4989de8.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-30"></p>
+<p>该反应中 $C(sp^2)$ 底物的反应性是烯基碘/烯基溴 &gt; 芳基碘 &gt; 烯基氯 &gt;&gt; 芳基溴，从这个顺序可以看出，总体上烯基卤化物的反应性要大于芳基卤化物。</p>
+<p>Buchwald 和 Fu 等人报道了使用 $P(\textit {t}Bu)_3$ 作为配体实现的芳基溴化合物和炔基的偶联，此处大位阻的 $P(\textit {t}Bu)_3$ 表现出独特的反应性，其他的膦配体都无法顺利催化该反应进行。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-31_32ac6bf0af2ff.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-31"></p>
+<p>Sonogashira 偶联对酯基、羟基、烯丙基醚等基团都有很好的耐受性，因此是完成 $C(sp^2)-C(sp)$ 偶联的很好的选择。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-32_e0dab89365609.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-32"></p>
+<p>把 Sonogashira 偶联和 Suzuki 偶联串联起来使用，可以快速构建多个共轭烯烃的复杂产物<sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Synthesis of 2-Dienylindole, SB 242784, by a Three-Component Palladium-Catalyzed Coupling Reaction. *Tetrahedron Letters* **1998**, *39* (51), 9347–9350.
+">[11]</span></a></sup>，其反应的关键是烯基上同时连有溴和硼烷的底物，可以分别发生不同的偶联，在两端连接两个片段。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-33_dab761471aee5.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-33"></p>
+<h2 id="3-8-Buchwald-Hartwig-Amination">3.8 Buchwald-Hartwig Amination</h2>
+<p>1983年，Migita 报道了通过 Stille 偶联完成的胺化反应，他借助 Sn-N 的转金属化把芳基溴和胺连接起来。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-34_51dab695af947.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-34"></p>
+<p>但是他的反应存在显著问题，仅有电中性的芳基溴底物能够得到很好的收率，且胺基锡试剂不稳定，这些都限制了反应的实际应用。</p>
+<p>1995年，Buchwald 和 Hartwig 分别独立发现在大位阻碱存在下，芳基溴和游离胺可以直接发生偶联反应，无需使用有机锡试剂。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-35_18b2cc98ec490.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-35"></p>
+<p>大位阻碱的作用是拔去游离胺的氢，同时脱去卤素。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-36_ac4a9b443fd69.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-36"></p>
+<p>如果胺具有 α-H，那么可能存在 β-H elimination 的副反应，生成亚胺后再发生还原消除得到芳烃。</p>
+<p>反应对于不同的配体表现出细微的差异，对于单齿膦配体来说，反应经历一个三配位 Pd complex 中间体，这就导致其可能发生 β-H elimination 或者是催化剂的二聚，降低反应速率。</p>
+<p>而对于双齿膦配体，反应经历一个四配位的 Pd complex 中间体，尽管发生 reductive elimination 的速率比三配位中间体稍慢，但是双齿配体占据了 Pd 的配位空位，因此极大的减少了 β-H elimination 和催化剂二聚的副反应。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-37_1b86bfc9f5582.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-37"></p>
+<p>类似的，把亲核物种从胺换成烯醇负离子或者酚氧负离子可以实现 C-C/C-O 偶联。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-38_02766c307e0c0.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-38"></p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-39_ac99c3d0d065b.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-39"></p>
+<h2 id="3-9-Heck-Reaction">3.9 Heck Reaction</h2>
+<p>在进入反应之前先快速介绍一下从 Pd(II) 生成 Pd(0) 催化物种的几种路径。</p>
+<p>首先是通过转金属+还原消除生成 Pd(0)，例如常见的催化剂 $Pd(PPh_3)_2Cl_2$ 会通过两次转金属生成 $Pd(PPh_3)_2R_2$ ，随后发生还原消除生成 Pd(0) 以及 R-R 烷烃。</p>
+<p>其次是通过三级脂肪胺的 β-H elimination，常见例子如三乙胺；最后是利用富电子的膦配体或碱还原金属。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-40_291a9ca766787.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-40"></p>
+<p>1982年，Heck 等人发现可以将烯基/芳基卤化物和烯烃直接连接，无需转金属试剂。反应选择性的得到 E 型烯烃。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-41_9d89d3406a099.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-41"></p>
+<p>对于烯烃底物，位阻增大会显著影响反应速率；反应的碱的作用包括在一开始将 Pd(II) 转化为 Pd(0)，同时将还原消除后的 $PLdHX$ 物种转化为 Pd(0)。</p>
+<p>Heck 反应的反应机理可以分为两种情况，其基本模式相同，不同之处是烯烃配位的 Pd complex 具有不同的电性。</p>
+<p>当底物为烯基（芳基）氯/溴/碘时，由于 $Cl^-, Br^-, I^-$ 为 strong σ-donor，Pd-X 键不易断裂，因此催化剂会解离中性配体 L 后与烯烃配位，这种情况称为 neutral mechanism。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-42_12a3f5a6bddff.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-42"></p>
+<p>当 X=OTf, OAc 或存在 Ag/Tl 盐时，此时 Pd-X 将会断裂，催化剂解离负离子 $X^-$ 后与烯烃配位，此时的 Pd complex 带正电，因此称为 cationic mechanism。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-43_b55b4e9091a5d.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-43"></p>
+<p>这两种不同的反应机理差异体现在反应的区域选择性上。对于中性机理，缺电子烯烃和中性烯烃的区域选择性由位阻控制，富电子烯烃的区域选择性由电性控制。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-44_9b1dc14600e95.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-44"></p>
+<p>对于阳离子机理，几乎所有情况都由电性控制。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-45_db1fa893cd335.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-45"></p>
+<p>对于分子内反应还需要考虑环构象的影响，反应倾向于发生 exo-trig 形成5，6，7元的小环；而对于大环化合物则从位阻更小的一侧进攻，发生 endo-trig 反应。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-46_25c58d0c91051.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-46"></p>
+<p>最后是两个例子：</p>
+<p>Overman 使用连续的 Heck 反应构建季碳中心。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-47_42c4d0d16996a.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-47"></p>
+<p>Quan 使用串联的 Heck-Hiyama 反应在双键两侧引入两个基团。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2026/03/omc3-48_2d15c14ee73e4.jpeg" srcset="/img/loading.gif" lazyload alt="omc3-48"></p>
+<h2 id="3-10-Summary">3.10 Summary</h2>
+<p>本节介绍了几个最为常见的人名反应，其在有机合成中几乎随处可见，这些反应为复杂分子的合成提供了强有力的工具。</p>
+<h2 id="3-11-Reference">3.11 Reference</h2>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Uchino, M.; Asagi, K.; Yamamoto, A.; Ikeda, S. Preparation and Properties of Aryl(Dipyridyl)Nickel Halide Complexes. <em>Journal of Organometallic Chemistry</em> <strong>1975</strong>, <em>84</em> (1), 93–103.<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Yoshikai, N.; Mashima, H.; Nakamura, E. Nickel-Catalyzed Cross-Coupling Reaction of Aryl Fluorides and Chlorides with Grignard Reagents under Nickel/Magnesium Bimetallic Cooperation. <em>J. Am. Chem. Soc.</em> <strong>2005</strong>, <em>127</em> (51), 17978–17979.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Selig, R.; Schollmeyer, D.; Albrecht, W.; Laufer, S. The Application of Stille Cross-Coupling Reactions with Multiple Nitrogen Containing Heterocycles. <em>Tetrahedron</em> <strong>2011</strong>, <em>67</em> (47), 9204–9213.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">(1) Casado, A. L.; Espinet, P. Mechanism of the Stille Reaction. 1. The Transmetalation Step. Coupling of R1 I and R2 SnBu3 Catalyzed by <em>Trans</em> -[PdR1 IL2 ] (R1 = C6 Cl2 F3 ; R2 = Vinyl, 4-Methoxyphenyl; L = AsPh3 ). <em>J. Am. Chem. Soc.</em> <strong>1998</strong>, <em>120</em> (35), 8978–8985. (2) Casado, A. L.; Espinet, P.; Gallego, A. M. Mechanism of the Stille Reaction. 2. Couplings of Aryl Triflates with Vinyltributyltin. Observation of Intermediates. A More Comprehensive Scheme. <em>J. Am. Chem. Soc.</em> <strong>2000</strong>, <em>122</em> (48), 11771–11782.<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Farina, V.; Kapadia, S.; Krishnan, B.; Wang, C.; Liebeskind, L. S. On the Nature of the “Copper Effect” in the Stille Cross-Coupling. <em>J. Org. Chem.</em> <strong>1994</strong>, <em>59</em> (20), 5905–5911.<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Han, X.; Stoltz, B. M.; Corey, E. J. Cuprous Chloride Accelerated Stille Reactions. A General and Effective Coupling System for Sterically Congested Substrates and for Enantioselective Synthesis. <em>J. Am. Chem. Soc.</em> <strong>1999</strong>, <em>121</em> (33), 7600–7605.<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Harris, D. H.; Lappert, M. F. Monomeric, Volatile Bivalent Amides of Group IVB Elements, M(NR12)2 and M(NR1R2)2(MGe, Sn, or Pb; R1Me3Si, R2Me3C). <em>J. Chem. Soc., Chem. Commun.</em> <strong>1974</strong>, No. 21, 895–896.<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Kira, M.; Sato, K.; Sakurai, H.; Hada, M.; Et., A. Ab Initio MO Study of the Reaction of Pentacoordinate Allylsilicates with Aldehydes. <em>Chemistry Letters</em> <strong>1991</strong>.<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Miyaura, N.; Yamada, K.; Suzuki, A. A New Stereospecific Cross-Coupling by the Palladium-Catalyzed Reaction of 1-Alkenylboranes with 1-Alkenyl or 1-Alkynyl Halides. <em>Tetrahedron Letters</em> <strong>1979</strong>, <em>20</em> (36), 3437–3440.<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Uenishi, J.; Beau, J. M.; Armstrong, R. W.; Kishi, Y. Dramatic Rate Enhancement of Suzuki Diene Synthesis. Its Application to Palytoxin Synthesis. <em>J. Am. Chem. Soc.</em> <strong>1987</strong>, <em>109</em> (15), 4756–4758.<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Synthesis of 2-Dienylindole, SB 242784, by a Three-Component Palladium-Catalyzed Coupling Reaction. <em>Tetrahedron Letters</em> <strong>1998</strong>, <em>39</em> (51), 9347–9350.<a href="#fnref:11" rev="footnote"> ↩</a></span></li></ol></div></div>
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%AD%A6%E5%AD%A6%E5%8C%96%E5%AD%A6/" class="category-chain-item">学学化学</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/chem/">#chem</a>
+      
+        <a href="/tags/series-org-5/">#series-org-5</a>
+      
+        <a href="/tags/org/">#org</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>《Organometallic-Chemistry》章末总结3</div>
+      <div>http://argon-gas.top/p/14342.html</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Sun</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2026年2月21日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/p/54404.html" title="《有机化合物波谱解析》章末总结1">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">《有机化合物波谱解析》章末总结1</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/p/18192.html" title="《Organometallic Chemistry》章末总结2">
+                        <span class="hidden-mobile">《Organometallic Chemistry》章末总结2</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
+    
+  <div id="twikoo"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#comments', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/twikoo/1.6.7/twikoo.all.min.js', function() {
+        var options = Object.assign(
+          {"envId":"https://comments.argon-gas.top","region":"ap-shanghai","path":"window.location.pathname"},
+          {
+            el: '#twikoo',
+            path: 'window.location.pathname',
+            onCommentLoaded: function() {
+              var imgSelector = '#twikoo .tk-content img:not(.tk-owo-emotion)';
+              Fluid.plugins.imageCaption(imgSelector);
+              Fluid.plugins.fancyBox(imgSelector);
+            }
+          }
+        )
+        twikoo.init(options)
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a><br /> <span>Sun Blog 2020 - 2026</span><br /> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+  
+<script src="/js/westeros.js"></script>
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
