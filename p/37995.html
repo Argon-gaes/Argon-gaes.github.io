@@ -308,14 +308,14 @@
                 
                 <link rel="stylesheet" type="text/css" href="./src/hint.min.css"><p>本篇 post 把前段时间参加土库曼斯坦化学竞赛的题目做一个解答和分析。</p>
 <a id="more"></a>
-<h2 id="题解">题解</h2>
+<h2 id="题解"><a class="markdownIt-Anchor" href="#题解"></a> 题解</h2>
 <p>首先来看原题，该题为全卷的第五道题（共六道），标题为 <strong>Daphniphyllum alkaloids</strong>。</p>
 <iframe src="/js/pdfjs/web/viewer.html?file=/pdf_file/Problem5.pdf" style='width:100%;height:800px'></iframe>
 <details><summary>图片版题目</summary>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-1_6f4378d155171.png" srcset="/img/loading.gif" lazyload alt="ctalk05-1"></p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-2_6c7b7c6533dce.png" srcset="/img/loading.gif" lazyload alt="ctalk05-2"></p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-3_d971d2bf0ac7a.png" srcset="/img/loading.gif" lazyload alt="ctalk05-3"></p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-4_328cf172f8656.png" srcset="/img/loading.gif" lazyload alt="ctalk05-4"></p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-1_6f4378d155171.png" srcset="/img/loading.gif" lazyload alt="ctalk05-1" /></p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-2_6c7b7c6533dce.png" srcset="/img/loading.gif" lazyload alt="ctalk05-2" /></p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-3_d971d2bf0ac7a.png" srcset="/img/loading.gif" lazyload alt="ctalk05-3" /></p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-4_328cf172f8656.png" srcset="/img/loading.gif" lazyload alt="ctalk05-4" /></p>
 </details><br />
 <p>首先看 <strong>5.1</strong>，要求写出 <strong>A</strong> - <strong>E</strong> 的结构。第一步反应条件非常眼熟，PPh3 加 DIAD 的组合，很容易就能想到 <strong>Mitsunobu</strong> 反应，反应中使用的 DIAD 和最常见的 DEAD 试剂用途相当，不过更稳定，且毒性更低<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Croll, E. A.; Kwon, O. Mechanism of the Mitsunobu Reaction: An Ongoing Mystery. Synthesis 2024, 56 (12), 1843–1850.">[1]</span></a></sup>，注意 Mitsunobu 反应经典的构型翻转，然后则是烯醇硅醚的形成，得到化合物 <strong>A</strong>。</p>
 <p>从 <strong>A</strong> 到 <strong>B</strong> 不太容易立刻想到，不过我们可以参考给出的提示，这一步反应生成了双环化合物 <strong>B</strong> 和 <strong>B’</strong> ，说明发生了环化反应，根据最终产物结构，可以排除掉 D-A 反应的可能。再结合分子式提示，发现硅基在这一步中也脱去了，因此推出这一步环化应当是端基炔的环化，那么生成的异构体 <strong>B’</strong> 就是缺少环外甲基的副产物。实际上这一步反应为 <strong>Conia-Ene</strong> 反应，用 Au 做催化剂的例子也非常常见。</p>
@@ -323,8 +323,8 @@
 <p>生成 <strong>D</strong> 的这一步条件比较明显，多聚甲醛可以在底物上一个碳，对照 <strong>C</strong> 和最终产物的结构发现，右侧7元环仍然少一个碳，所以就是这一步了。当然不饱和酮没办法直接在 α 位直接上，所以要先在 DBU 作用下把下面五元环酰胺构建起来。</p>
 <p>从 <strong>D</strong> 到 <strong>E</strong> 也比较明显，首先脱保护，然后利用 <strong>Appel</strong> 反应上碘为下一步关环做准备。</p>
 <p>最后一步则是关环同时选择性还原环外双键得到立体选择性甲基，完成全部的合成。答案见下图。</p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-5_f7aba1625eeca.png" srcset="/img/loading.gif" lazyload alt="ctalk05-5"></p>
-<hr>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-5_f7aba1625eeca.png" srcset="/img/loading.gif" lazyload alt="ctalk05-5" /></p>
+<hr />
 <p>接着看 <strong>5.2</strong>，用 <strong>5.1</strong> 的产物继续合成，第一步是 β-羰基酯的脱羧（<strong>Krapcho</strong> <strong>decarboxylation</strong>），氯化锂的作用是提供卤素进攻酯的烷基，反应经历一个碳负离子中间体，注意产物的立体化学保持不变。</p>
 <p>接下来 PhSeCl + mCPBA，可以想到是硒氧化物的消除，得到双键，显然酮的 α-H 酸性更强，因此生成 α,β-不饱和酮 <strong>G</strong>。</p>
 <p>后面的两步反应条件和提示明显说明是 <strong>Claisen</strong> 重排，先形成烯醇醚 <strong>H</strong>，然后加热条件下重排到 α 位，得到化合物 <strong>I</strong>。而根据提示，化合物 <strong>I’</strong> 比 <strong>I</strong> 少一个季碳中心，说明重排排到了 γ 位。重排后烯丙基倾向处在位阻更小的环上方。</p>
@@ -333,40 +333,40 @@
 <p>从 <strong>K</strong> 到 <strong>L</strong> 有提示，这是一个 <strong>Pauson-Khand</strong> 反应，它是一个 [2+2+1] 的环加成，反应条件中的 Co2(CO)8 是非常经典的催化剂，同时还提供一分子的 CO 参与反应。在这一步通过一步环加成反应构建起两个五元环。</p>
 <p>最后一步也有提示，这是一个在碱性条件下的异构化反应，反应的驱动力是形成了更稳定的异构体，观察 <strong>L</strong> 的结构，会发现其实反应位点已经所剩无几，因此也只能是 α, β-不饱和酮双键的位移了，形成更多取代的双键。</p>
 <p>答案见下图。</p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-6_ad14ace94f751.png" srcset="/img/loading.gif" lazyload alt="ctalk05-6"></p>
-<hr>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-6_ad14ace94f751.png" srcset="/img/loading.gif" lazyload alt="ctalk05-6" /></p>
+<hr />
 <p>前面都是有机合成，<strong>5.3</strong> 题换了换口味，要求根据红外数据，18电子规则（EAN）绘制 Co2(CO)8 的结构。根据18电子规则不难算出该化合物中存在一条 Co-Co 金属键。但是注意 IR 数据中明显有两个峰位移偏小，因此推测有两个羰基实际上作为桥连配体存在。答案见下图。</p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-7_820de59f2734b.png" srcset="/img/loading.gif" lazyload alt="ctalk05-7"></p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-7_820de59f2734b.png" srcset="/img/loading.gif" lazyload alt="ctalk05-7" /></p>
 <p>（ <em>在溶液中，Co2(CO)8 存在无羰基桥连的结构，即每个 Co 原子连接四个配体，同时存在一根 Co-Co 金属键，两种结构存在平衡。无桥连配体的结构毫无疑问满足 EAN，但是有桥连配体的结构在数电子上仍存在一定争议，一些研究指出该化合物（以及类似的 Fe2(CO)9 等化合物）中并不存在直接的 M-M 金属键<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Green, J. C.; Green, M. L. H.; Parkin, G. The Occurrence and Representation of Three-Centre Two-Electron Bonds in Covalent Inorganic Compounds. Chem. Commun. 2012, 48 (94), 11481.">[4]</span></a></sup>，其结构可表示如下：</em></p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-8_9c44113c0bc97.png" srcset="/img/loading.gif" lazyload alt="ctalk05-8"></p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-8_9c44113c0bc97.png" srcset="/img/loading.gif" lazyload alt="ctalk05-8" /></p>
 <p><em>更进一步的讨论暂且不在这篇文章中展开了。</em> ）</p>
-<hr>
+<hr />
 <p><strong>5.4</strong> 题继续开始有机合成，使用前面合成的化合物 <strong>M</strong> 作为反应物，首先使用 <strong>Luche</strong> 还原选择性还原 α, β-不饱和酮的羰基。提示说明新生成的手性中心具有 R-configuration，据此可以检查其立体构型，不过说实话，前面几步反应的立体构型并不显然，不太好判断的。</p>
 <p>下一步的条件则是把 <strong>N</strong> 中的羟基转化为 OMs，接着发生消除反应。题干中提到 <strong>O</strong>:<strong>P</strong> = 1:16，且化合物 <strong>P</strong> 有7个手性中心，一部分 <strong>P</strong> 还会慢慢转化为 <strong>O</strong>，综合这些信息，我们就能得到化合物 <strong>O</strong> 对应 E’ 消除产物，化合物 <strong>P</strong> 对应 E2 消除产物，<strong>O</strong> 为热力学产物，<strong>P</strong> 为动力学产物。</p>
 <p>后面又把 <strong>O</strong> 和 <strong>P</strong> 的混合物加热，发现混合物转化为 <strong>O</strong>:<strong>Q</strong> = 2.6:1，推测可能是通过 [1,5]-H 迁移之类的步骤实现双键的位移，且 <strong>Q</strong> 比 <strong>P</strong> 在热力学上要更加稳定，因此 <strong>Q</strong> 应当是尽可能多取代的烯烃，进而确定 <strong>Q</strong> 的结构。答案见下图。</p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-9_74fa69c49b9f7.png" srcset="/img/loading.gif" lazyload alt="ctalk05-9"></p>
-<hr>
-<p>然后看 <strong>5.5</strong> 题，开始合成另一个片段，依然是写产物。生成 <strong>R</strong> 的反应包括三步，第一步为 DMAP 催化的乙酰化反应，分子中有两个羟基，考虑位阻因素，一级醇是更容易与乙酰基接触并反应的。后面的两步分别是硅基化和脱硅基，但是注意脱硅基的选择性，会选择脱除位阻更小的硅基（否则这两步就没意义了对吧 :D）。</p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-9_74fa69c49b9f7.png" srcset="/img/loading.gif" lazyload alt="ctalk05-9" /></p>
+<hr />
+<p>然后看 <strong>5.5</strong> 题，开始合成另一个片段，依然是写产物。生成 <strong>R</strong> 的反应包括三步，第一步为 DMAP 催化的乙酰化反应，分子中有两个羟基，考虑位阻因素，一级醇是更容易与乙酰基接触并反应的。后面的两步分别是硅基化和脱硅基，但是注意脱硅基的选择性，会选择脱除位阻更小的硅基（否则这两步就没意义了对吧 😄）。</p>
 <p>下一步加入的 compound <strong>4</strong> 是典型的糖基化试剂，将化合物 <strong>R</strong> 中未保护的羟基糖基化，随后用 TBAF 脱硅基保护，得到化合物 <strong>S</strong>。</p>
 <p>下一步可能不容易看出来，Me3SnOH 在此是作为弱酸发挥作用的，目的是实现分子内的酯化。该试剂通常被用来实现复杂化合物的温和条件酯水解<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Nicolaou, K. C.; Estrada, A. A.; Zak, M.; Lee, S. H.; Safina, B. S. A Mild and Selective Method for the Hydrolysis of Esters with Trimethyltin Hydroxide. Angew Chem Int Ed 2005, 44 (9), 1378–1382.">[5]</span></a></sup>，水解后会迅速生成 γ-环内酯。接下来是乙酰化，目的是为了把糖基的羟基乙酰化，最后得到片段 <strong>T</strong>。</p>
 <p>答案见下图。</p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-10_507d3177421e9.png" srcset="/img/loading.gif" lazyload alt="ctalk05-10"></p>
-<hr>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-10_507d3177421e9.png" srcset="/img/loading.gif" lazyload alt="ctalk05-10" /></p>
+<hr />
 <p>在上述的一系列合成之后，终于可以将两个片段通过 [4+2] 反应连接到一起，然后看 <strong>5.6</strong> 题，要求写出从 <strong>U</strong> 到 <strong>V</strong> 的两步转化试剂。观察化合物 <strong>U</strong> 和 <strong>V</strong> 的结构差异，发现不同之处在于 1）糖基上羟基脱除酰基；2）最下方的硫代酰胺（从 <strong>J</strong> 到 <strong>K</strong> 那一步转化的）被还原。因此这两个试剂分别对应这两个转化，可以使用 <strong>Raney Ni</strong> 来还原硫酮，使用 <strong>Et3N, MeOH, water</strong> 来脱除乙酰基<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Mangion, I. K.; MacMillan, D. W. C. Total Synthesis of Brasoside and Littoralisone. J. Am. Chem. Soc. 2005, 127 (11), 3696–3697.">[6]</span></a></sup>。本题答案不唯一，作用相同的类似试剂均可。</p>
-<hr>
+<hr />
 <p><strong>5.7</strong> 题就非常简单了，计算获得 100mg (0.162 mmol) 的 <strong>V</strong> 需要多少起始反应物，这就是一个非常直接的产率计算问题，直接看答案吧。</p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-11_83e9f25158799.png" srcset="/img/loading.gif" lazyload alt="ctalk05-11"></p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-11_83e9f25158799.png" srcset="/img/loading.gif" lazyload alt="ctalk05-11" /></p>
 <p>最后总结，我觉得这一整道题还是比较有难度的，尤其是考场上也没法查资料，比较考验知识面，关键步骤推不出来的话，后面的结构也很难猜。另外本题的立体化学也是一个难点，许多反应的立体选择性并不直观。</p>
-<h2 id="寻踪">寻踪</h2>
+<h2 id="寻踪"><a class="markdownIt-Anchor" href="#寻踪"></a> 寻踪</h2>
 <p>看完了题目本身，我们来看一下这条合成路线背后的工作。<strong>Daphniphyllum alkaloid</strong> 即为<strong>交让木生物碱</strong>，交让木属（Daphniphyllum）是交让木科的唯一一属，一个听起来更耳熟的名字是<strong>虎皮楠属</strong>，该属共有30种，分布于亚洲热带和亚热带地区，其中中国有10种，且3种为中国特有，分布在长江以南地区。</p>
 <p>Daphniphyllum 生物碱家族包含超320个分子，其具有复杂的分子结构和良好的生物活性，是合成化学家们追逐和挑战的一大目标，包括 Heathcock, Carreira, Smith, Fukuyama, Zhai, Dixon 等课题组都完成了多个优雅简洁的 Daphniphyllum alkaloids 合成设计。</p>
 <p>本题中合成的分子为 <strong>Hybridaphniphylline B</strong>,该分子的首次合成由上海有机所的李昂课题组在2018年完成<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Zhang, W.; Ding, M.; Li, J.; Guo, Z.; Lu, M.; Chen, Y.; Liu, L.; Shen, Y.-H.; Li, A. Total Synthesis of Hybridaphniphylline B. J. Am. Chem. Soc. 2018, 140 (12), 4227–4231.">[7]</span></a></sup>。其逆合成分析思路和本题的方法一致，将复杂分子通过 Diels-Alder 反应拆分为两个片段分别合成，其中亲双烯体可以通过商用分子 (+)-genipin 容易的合成得到，而双烯体分子通过可能的 [1,5]-H 迁移和还原步骤从 <strong>4</strong>(daphnilongeranin B) 和 <strong>5</strong>(daphniyunnine C) 得到。进一步的，分子中的双环 [3.3.0] 骨架可通过已有的 <strong>Pauson-Khand</strong> + <strong>C=C bond migration</strong> 策略合成<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Sisido, K.; Kurozumi, S.; Utimoto, K. Synthesis of Methyl Dl-Jasmonate. J. Org. Chem. 1969, 34 (9), 2661–2664.">[8]</span></a></sup>，再通过 <strong>Claisen</strong> 重排推出底物<strong>11</strong>，该化合物<strong>11</strong>已经在2017年同样由李昂课题组完成了全合成<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Li, J.; Zhang, W.; Zhang, F.; Chen, Y.; Li, A. Total Synthesis of Longeracinphyllin A. J. Am. Chem. Soc. 2017, 139 (42), 14893–14896.">[9]</span></a></sup>（对应题 <strong>5.1</strong>），此处按下不表。</p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-12_f686bf3eee405.png" srcset="/img/loading.gif" lazyload alt="ctalk05-12"></p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-12_f686bf3eee405.png" srcset="/img/loading.gif" lazyload alt="ctalk05-12" /></p>
 <p>这里的合成路线和题 <strong>5.2</strong> 的步骤是一样的，所以不多赘述，我们着重看几个重点步骤。</p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-13_25b2a30eead4f.png" srcset="/img/loading.gif" lazyload alt="ctalk05-13"></p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-14_0bd7f410f0752.png" srcset="/img/loading.gif" lazyload alt="ctalk05-14"></p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-13_25b2a30eead4f.png" srcset="/img/loading.gif" lazyload alt="ctalk05-13" /></p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-14_0bd7f410f0752.png" srcset="/img/loading.gif" lazyload alt="ctalk05-14" /></p>
 <p>Claisen 重排一步也是作者在文章中着重讨论的一个反应，对于底物<strong>13</strong>，在加热条件下，目标重排产物<strong>14</strong>非常少（&lt; 2%），主要产物为经历了 Claisen/Cope 连续两步重排的<strong>15</strong>。更换了条件后仍未好转（不过副产物<strong>15</strong>的立体选择性变好了）。对于脱羧后的底物<strong>16</strong>有所好转，普通加热条件下目标产物<strong>19</strong>的产率来到 48%，延长反应时间只观察到副产物增多，最后课题组选用了 <strong>aq. NaOH/MeOH, 80℃, 3d</strong> 条件<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Grieco, P. A.; Brandes, E. B.; McCann, S.; Clark, J. D. Water as a Solvent for the Claisen Rearrangement: Practical Implications for Synthetic Organic Chemistry. J. Org. Chem. 1989, 54 (25), 5849–5851.">[10]</span></a></sup>，成功获得了94%产率的目标产物，且无副反应发生。</p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-15_2656eff069207.png" srcset="/img/loading.gif" lazyload alt="ctalk05-15"></p>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-15_2656eff069207.png" srcset="/img/loading.gif" lazyload alt="ctalk05-15" /></p>
 <p>在化合物<strong>31</strong>通过消除反应制备双烯体时，直接消除会得到两种不同的异构体<strong>29</strong>和<strong>30</strong>，比例为 <strong>29</strong>:<strong>30</strong> = 1:16，混合物加热后变为化合物 <strong>29</strong>:<strong>32</strong> = 2.6:1，继续延长反应时间还会出现二烯<strong>33</strong>，比例略少于<strong>32</strong>。化合物<strong>33</strong>可以从混合物中分离出来，研究者发现该化合物会在 80℃, 4h 条件下继续转化为 <strong>29</strong>, <strong>32</strong>和<strong>33</strong>的混合物，因此作者判断副产物<strong>33</strong>在加热条件下不会影响 Diels-Alder 反应的产率。</p>
 <p>最后看一下亲双烯体的合成，从商用试剂 (+)-genipin 开始可以用已知的四步策略合成化合物<strong>35</strong><sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="Nakatani, K.; Shimano, K.; Hiraishi, A.; Han, Q.; Isoe, S. Synthesis of Asperuloside Aglucon Silyl Ether and Garjasmine from (+)-Genipin via Gardenoside Aglucon Bis(Silyl Ether) as a Common Intermediate. Bulletin of the Chemical Society of Japan 1993, 66 (9), 2646–2652.">[11]</span></a></sup>。不过化合物<strong>35</strong>中需要参与反应的羟基被保护了，而不想反应的羟基却没有保护，所以不得不需要几步反应来调整保护基，一共通过四步反应总产率约 63.7%得到糖基化产物<strong>38</strong>。</p>
 <p>值得注意的是从<strong>35</strong>到<strong>36</strong>这一步反应中发生了消旋，生成了1:1比例的差向异构体(anomers)，因此在糖基化这一步中使用了 <strong>dynamic kinetic resolution</strong> 来将产物转化为对映纯的所需产物。</p>
@@ -374,10 +374,10 @@
 ">[12]</span></a></sup>。</em></p>
 <p><em>更多有关 kinetic resolution 的部分也许可以以后专门写一篇post，在此处就不展开了。</em> ）</p>
 <p>最后，万事俱备，只需把上文分别合成的两个片段通过 Diels-Alder 反应连接到一起即可。反应共生成四种产物，其中目标产物<strong>39</strong>约占24%。</p>
-<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-16_4c18d8c9b60eb.png" srcset="/img/loading.gif" lazyload alt="ctalk05-16"></p>
-<h2 id="总结">总结</h2>
+<p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/12/ctalk05-16_4c18d8c9b60eb.png" srcset="/img/loading.gif" lazyload alt="ctalk05-16" /></p>
+<h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2>
 <p>查看这些竞赛问题背后的研究工作能够发现，在现实科研中遇到的种种问题往往会更加复杂和棘手，许多反应并不会按照你所设想的那样进行，产物的立体化学/副反应/产率等等是在科研中必须要面对和解决的问题。毕竟化学是一门高度依赖实践的学科，所谓“纸上得来终觉浅，绝知此事要躬行”。</p>
-<h2 id="参考">参考</h2>
+<h2 id="参考"><a class="markdownIt-Anchor" href="#参考"></a> 参考</h2>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Croll, E. A.; Kwon, O. Mechanism of the Mitsunobu Reaction: An Ongoing Mystery. Synthesis 2024, 56 (12), 1843–1850.<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Cardullo, F.; Donati, D.; Merlo, G.; Paio, A.; Salaris, M.; Taddei, M. Deprotection of o -Nitrobenzensulfonyl (Nosyl) Derivatives of Amines ­Mediated by a Solid-Supported Thiol. Synlett 2005, 2005 (19), 2996–2998.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Ozturk, T.; Ertas, E.; Mert, O. Use of Lawesson’s Reagent in Organic Syntheses. Chem. Rev. 2007, 107 (11), 5210–5278.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Green, J. C.; Green, M. L. H.; Parkin, G. The Occurrence and Representation of Three-Centre Two-Electron Bonds in Covalent Inorganic Compounds. Chem. Commun. 2012, 48 (94), 11481.<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Nicolaou, K. C.; Estrada, A. A.; Zak, M.; Lee, S. H.; Safina, B. S. A Mild and Selective Method for the Hydrolysis of Esters with Trimethyltin Hydroxide. Angew Chem Int Ed 2005, 44 (9), 1378–1382.<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Mangion, I. K.; MacMillan, D. W. C. Total Synthesis of Brasoside and Littoralisone. J. Am. Chem. Soc. 2005, 127 (11), 3696–3697.<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Zhang, W.; Ding, M.; Li, J.; Guo, Z.; Lu, M.; Chen, Y.; Liu, L.; Shen, Y.-H.; Li, A. Total Synthesis of Hybridaphniphylline B. J. Am. Chem. Soc. 2018, 140 (12), 4227–4231.<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Sisido, K.; Kurozumi, S.; Utimoto, K. Synthesis of Methyl Dl-Jasmonate. J. Org. Chem. 1969, 34 (9), 2661–2664.<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Li, J.; Zhang, W.; Zhang, F.; Chen, Y.; Li, A. Total Synthesis of Longeracinphyllin A. J. Am. Chem. Soc. 2017, 139 (42), 14893–14896.<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Grieco, P. A.; Brandes, E. B.; McCann, S.; Clark, J. D. Water as a Solvent for the Claisen Rearrangement: Practical Implications for Synthetic Organic Chemistry. J. Org. Chem. 1989, 54 (25), 5849–5851.<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Nakatani, K.; Shimano, K.; Hiraishi, A.; Han, Q.; Isoe, S. Synthesis of Asperuloside Aglucon Silyl Ether and Garjasmine from (+)-Genipin via Gardenoside Aglucon Bis(Silyl Ether) as a Common Intermediate. Bulletin of the Chemical Society of Japan 1993, 66 (9), 2646–2652.<a href="#fnref:11" rev="footnote"> ↩</a></span></li><li id="fn:12"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">12.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Yang, Z.; Lin, W.; Yu, B. Rearrangement of Sugar 1,2-Orthoesters to Glycosidic Products: A Mechanistic Implication. Carbohydrate Research 2000, 329 (4), 879–884.<a href="#fnref:12" rev="footnote"> ↩</a></span></li></ol></div></div>
                 
               </div>
