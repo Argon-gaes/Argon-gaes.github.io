@@ -1,0 +1,881 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://pic.ziyuan.wang/2022/d10570d139814.png">
+  <link rel="icon" href="https://pic.ziyuan.wang/2022/d10570d139814.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Sun">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="本篇 post 讨论有机合成中的保护基应用，对合成中应用的各种保护基做一个简要的梳理汇总。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="化学漫谈006">
+<meta property="og:url" content="http://argon-gas.top/p/38187.html">
+<meta property="og:site_name" content="Sun&#39;s BLOG">
+<meta property="og:description" content="本篇 post 讨论有机合成中的保护基应用，对合成中应用的各种保护基做一个简要的梳理汇总。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic2.ziyuan.wang/user/Argon_gas/2026/07/chemessay006_56807ab5d4078.png">
+<meta property="article:published_time" content="2026-07-19T13:14:01.000Z">
+<meta property="article:modified_time" content="2026-08-16T16:30:07.881Z">
+<meta property="article:author" content="Sun">
+<meta property="article:tag" content="chem">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://pic2.ziyuan.wang/user/Argon_gas/2026/07/chemessay006_56807ab5d4078.png">
+  
+  
+  
+  <title>化学漫谈006 - Sun&#39;s BLOG</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/KaTeX/0.16.2/katex.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"argon-gas.top","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Sun&#39;s BLOG</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/schdule/">
+                <i class="iconfont icon-plan"></i>
+                计划
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://pic2.ziyuan.wang/user/Argon_gas/2026/07/chemessay006_56807ab5d4078.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="化学漫谈006"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2026-07-19 21:14" pubdate>
+          2026年7月19日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          4.2k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          27 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+<script src="/js/westeros.js"></script>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">化学漫谈006</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <link rel="stylesheet" type="text/css" href="./src/hint.min.css"><p>本篇 post 讨论有机合成中的保护基应用，对合成中应用的各种保护基做一个简要的梳理汇总。</p>
+<a id="more"></a>
+<h2 id="简述">简述</h2>
+<p>在有机合成中常常会遇到这样的问题：分子中有两个或更多的反应性类似的官能团，而你只想选择性地反应其中的一个，这个时候就不得不考虑如何区分这些官能团了，因此保护基的概念也就自然产生。从我们的需求考虑，合适的保护基应当具有如下的特点：</p>
+<ul>
+<li>保护基应当能在温和条件下将特定官能团保护起来，并能以高收率得到产物。</li>
+<li>同样的，保护基应当能在温和条件下被轻松移除，并能以高收率得到产物。</li>
+<li>保护基应当能在特定的合成路线下保持稳定，不会过于轻易的脱离。</li>
+<li>不同类型的保护基应当具有不同的脱除条件，这样才便于我们操控官能团的保护/脱保护，即具有“orthogonality”。</li>
+<li>类似的，对于相同的官能团，最好也有多个保护/脱保护条件不同的保护基，以便于我们选择性的操控官能团转化。</li>
+</ul>
+<p>除了上述从反应和合成角度考虑的特点之外，保护基还有其他的一些功能：</p>
+<ul>
+<li>提高反应物在有机溶剂中的溶解性，降低极性。如糖类、氨基酸等化合物极性太大，在有机溶剂中溶解度较差，会影响反应和分离纯化，此时通过保护基保护可以调整其极性。</li>
+<li>提高结晶能力，有时反应物过柱子不稳定，因此我们可以通过调整合适的保护基通过重结晶实现纯化。</li>
+<li>通过保护基和官能团结合调整生物活性，如通过保护基屏蔽羟基这样的高极性基团来降低生物活性。</li>
+<li>通过空间位阻较大的保护基来调整临近官能团的反应性。</li>
+</ul>
+<p>那么下面我们就从官能团来分类，介绍一下各种官能团的常用保护基以及其保护/脱保护方法，还有在合成中的应用例子。</p>
+<p>本文内容主要参考自各种网络内容和由 Greene T. W. 和 Wuts P. G. M. 所编著的《Protective Groups in Organic Synthesis》一书，该书中译本由华东理工大学有机教研组翻译，校对者是荣国斌，他在前言里写下了这样一段话：</p>
+<blockquote>
+<p>有机合成中大量的反应涉及到对某个基团的保护或对某个被保护的基团进行去保护的工作。不能做好官能团的保护/去保护，也肯定完成不了或做不好合成工作。不少保护/去保护工作是实现合成目标而必须进行的，但也有许多保护/去保护工作的进行是一种无奈，反映出了我们对化学反应的把握离随心所欲还差的很远。这也是一种挑战，推动我们朝着最终能完全了解并控制各种分子中原子间的成断键过程前进。</p>
+</blockquote>
+<h2 id="各种保护基">各种保护基</h2>
+<p>本文不追求写成百科大全，因此主要讨论最常见最多用的保护基，偏门的保护基不会介绍或不多介绍，不过也许我会随着见识增多慢慢补充上去。另外，参考书目已经是 20 年前出版的了，虽然许多经典的保护/去保护策略依旧沿用，但是在时效性上还是有一定不足，因此我会尽量补充较新的例子。</p>
+<h3 id="羟基">羟基</h3>
+<p>羟基在各种具有生物活性和合成价值的化合物上频繁出现，你甚至很难找到一个不含羟基的高价值天然产物分子，因而对它的选择性保护/去保护也变得非常重要。</p>
+<p>对羟基的各种保护可以大致分为两大类：醚类和酯类，醚类包括各种甲基醚、乙基醚、苄基醚和硅醚等等，而酯类则包括各种甲酸酯、乙酸酯等等。</p>
+<p>下面列举一些最常见的保护基以及反应试剂还有具体合成应用。</p>
+<hr>
+<p><strong>A01：甲基醚（$RO-Me$）</strong></p>
+<p>上保护：</p>
+<p>$NaH/KH\ +\ MeI/Me_2SO_4,\ THF$。在小位阻的醇上引入甲基醚保护的标准方法；</p>
+<p>$Me_2SO_4,\ NaOH,\ Bu_4N^+I^-$。</p>
+<p>$Me_3O^+BF_4^-$。</p>
+<p>去保护：</p>
+<p>$TMSI,\ CHCl_3/CH_3CN$。由于 TMSI 的处理比较敏感，因此有许多原位生成 TMSI 的改进方案（如使用 $TMSCl+NaI$ 等）；</p>
+<p>$BBr_3,\ CH_2Cl_2$。</p>
+<hr>
+<p><strong>A02：甲氧基甲基醚 MOM（ $RO-CH_2OCH_3$）</strong></p>
+<p>上保护：</p>
+<p>$MOMCl,\ NaH,\ THF$。有时会加入 NaI 原位生成 MOMI，增加反应性；</p>
+<p>$MOMCl,\ DIPEA/DMAP,\ CH_2Cl_2$。最常用的条件；</p>
+<p>去保护：</p>
+<p>$HCl,\ MeOH$。</p>
+<hr>
+<p><strong>A03：2-甲氧乙基甲基醚 MEM（$RO-CH_2OCH_2CH_2OCH_3$）</strong></p>
+<p>上保护：</p>
+<p>$MEMCl,\ DIPEA,\ CH_2Cl_2$。</p>
+<p>去保护：</p>
+<p>$ZnBr_2,\ CH_2Cl_2$。</p>
+<hr>
+<p><strong>A04：四氢吡喃基醚 THP（$RO-THP$）</strong></p>
+<p>上保护：</p>
+<p>$3,4-dihydropyran(DHP),\ PTSA,\ CH_2Cl_2$。</p>
+<p>$Pyridinium p-toluenesulfonate(PPTS),\ DHP,\ CH_2Cl_2$。非常温和的条件，能够兼容大多数官能团；</p>
+<p>去保护：</p>
+<p>$AcOH,\ THF,\ H_2O$。</p>
+<p>$PTSA,\ MeOH$。</p>
+<p>$PPTS,\ EtOH$。</p>
+<hr>
+<p><strong>A05：苄醚 Bn（$RO-Bn$）</strong></p>
+<p>上保护：</p>
+<p>$BnBr,\ NaH,\ THF,\ TBAI$。</p>
+<p>去保护：</p>
+<p>$Pd/C,\ H_2,\ EtOH/MeOH$。</p>
+<hr>
+<p><strong>A06：对甲氧基苄基醚 PMB（$RO-PMB$）</strong></p>
+<p>上保护：</p>
+<p>$PMBCl,\ NaH,\ THF$。</p>
+<p>$PMB\ trichloroacetamidate,\ TfOH(cat.),\ CH_2Cl_2$。</p>
+<p>去保护：</p>
+<p>$DDQ,\ CH_2Cl_2$。</p>
+<hr>
+<p><strong>A07：三甲基硅基醚 TMS（$Ro-Si(CH_3)_3$）</strong></p>
+<p>上保护：</p>
+<p>$TMSCl,\ py,\ CH_2Cl_2$。</p>
+<p>$TMSOTf,\ lutidine,\ CH_2Cl_2$。</p>
+<p>去保护：</p>
+<p>$HCl,\ THF,\ H_2O$。</p>
+<p>$Bu_4N^+F^-,\ THF$。</p>
+<hr>
+<p><strong>A08：三异丙基硅基醚 TIPS（$RO-Si(iPr_3)_3$）</strong></p>
+<p>上保护：</p>
+<p>$TIPSCl,\ DMAP,\ CH_2Cl_2$。</p>
+<p>去保护：</p>
+<p>$HCl,\ EtOH$。</p>
+<p>$Bu_4N^+F^-,\ THF$。</p>
+<hr>
+<p><strong>A09：叔丁基二甲基硅基醚 TBS/TBDMS（$RO-Si(tBu)Me_2$）</strong></p>
+<p>上保护：</p>
+<p>$TBSCl,\ imidazole,\ DMF/CH_2Cl_2$。最常用的条件之一；</p>
+<p>$TBSOTf,\ lutidine,\ CH_2Cl_2$。</p>
+<p>去保护：</p>
+<p>$Bu_4N^+F^-,\ THF$。</p>
+<p>$BF_3 \cdot Et_2O,\ CH_2Cl_2/CHCl_3$。</p>
+<p>$HCl/TfOH,\ MeOH/EtOH/THF$。</p>
+<hr>
+<p><strong>A10：叔丁基二苯基硅基醚 TBDPS（$RO-SiPh_2(tBu)$）</strong></p>
+<p>上保护：</p>
+<p>$TBDPSCl,\ imidazole/DMAP,\ DMF$。</p>
+<p>$TBDPSOTf,\ lutidine,\ CH_2Cl_2$。</p>
+<p>去保护：</p>
+<p>$TBAF,\ THF$。</p>
+<p>$HCl,\ MeOH$。</p>
+<hr>
+<p><strong>A11：乙酸酯 Ac（$RO-COCH_3$）</strong></p>
+<p>上保护：</p>
+<p>$Ac_2O,\ py$。乙酰化最常用的方法之一；</p>
+<p>$CH_3COCl$。</p>
+<p>$Ac_2O,\ py,\ DMAP,\ CH_2Cl_2$。</p>
+<p>去保护：</p>
+<p>$K_2CO_3,\ MeOH,\ H_2O$。</p>
+<hr>
+<p><strong>A12：苯甲酸酯 Bz（$RO-COPh$）</strong></p>
+<p>上保护：</p>
+<p>$BzCl/Bz_2O,\ DMAP/py,\ CH_2Cl_2$。</p>
+<p>$BzCl,\ py$。</p>
+<p>去保护：</p>
+<p>$NaOH,\ MeOH, H_2O$。</p>
+<hr>
+<p>上述保护基中讨论较多的是各种硅醚。其硅基所连接的烷基位阻越大，则保护基对酸碱就越稳定，因此常用硅醚保护基的稳定性大致表现为：$TMS &lt; TES&lt;TBS \approx TBDPS &lt; TIPS$。其中 TMS 由于对酸碱均不稳定，因此实际上使用较少。TBS 是最常用的硅醚保护基，TBDPS 和 TIPS 的位阻较大，因此它们是非常稳定的保护基，但是同时也意味着难以脱去。</p>
+<p>硅醚随着体积增大，对酸碱耐受度也逐渐增强，同时 TBS/TBDPS/TIPS 等对氧化剂/还原剂均较稳定。由于 F 可以和 Si 形成极强的 Si-F bond，因此硅醚的一种通用脱除方式是使用氟源，最常见的选择是 TBAF。TMS/TES/TBS 等位阻稍小的保护基也可用酸的水溶液脱去。</p>
+<p>烷基醚相对来说更加稳定，但是也意味着难以脱除，较强的脱除条件可能会影响分子中的其他脆弱结构。多数烷基醚对酸条件敏感，因此可以用酸去除。特别的例子是苄醚 Bn，对酸碱均不敏感，需要通过氢化脱除。</p>
+<p>酯基保护则大多数对碱敏感，在碱性条件下会水解脱去。</p>
+<h4 id="1-2-1-3-二醇">1,2- / 1,3-二醇</h4>
+<p>二醇在设计及合成天然产物中非常常见，因此对它们的保护基调整也随之变得非常重要。</p>
+<p>二醇保护基主要包括环状缩醛/缩酮类、硅基衍生物类和环状原酸酯类等。</p>
+<p>下面列举一些常见保护基：</p>
+<hr>
+<p><strong>B01：丙缩酮</strong></p>
+<p>上保护：</p>
+<p>$TsOH/PPTS,\ Me_2C(OMe)_2,\ DMF$。对于二醇的丙缩酮，既可以保护 1,2-二醇，也可以保护 1,3-二醇，对于三醇化合物，则形成五元环缩酮的速度快于六元环缩酮；</p>
+<p>$CSA,\ Me_2C(OMe)_2,\ CH_2Cl_2$。</p>
+<p>去保护：</p>
+<p>$HCl,\ H_2O,\ THF/MeOH$。</p>
+<hr>
+<p><strong>B02：苄亚基缩醛</strong></p>
+<p>上保护：</p>
+<p>$PhCHO,\ TsOH/PPTS$。苄亚基缩醛既能保护 1,2-二醇，也能保护 1,3-二醇。不过与丙缩酮不同的是，对于三醇化合物，苄亚基缩酮会优先生成 1,3-缩醛（即六元环产物）；</p>
+<p>去保护：</p>
+<p>$Pd/C,\ H_2, AcOH$。能够在温和条件下氢解脱去也是该保护基的一个特点；</p>
+<hr>
+<p><strong>B03：二叔丁基亚硅基 DTBS</strong></p>
+<p>上保护：</p>
+<p>$(tBu)_2Si(OTf)_2,\ lutidine,\ CH_2Cl_2$。二醇的二甲硅基/二异丙基硅基都非常容易水解，因此只有二叔丁基硅基才比较稳定，适合用作保护基。该保护基多用于 1,3-二醇的保护，但是 1,2-二醇也有少量报道；</p>
+<p>去保护：</p>
+<p>$py\cdot HF,\ THF$。</p>
+<p>$pH=10\ buffer,\ THF$。该方法只适用于脱去 1,2-二醇的 DTBS 保护，1,3- / 1,4-二醇的保护在该条件下保持稳定；</p>
+<p>$TBAF,\ THF$。</p>
+<hr>
+<p><strong>B04：环状碳酸酯</strong></p>
+<p>上保护：</p>
+<p>$Cl_2CO,\ py$。</p>
+<p>$CDI,\ PhH$。</p>
+<p>$Triphosgene,\ py$。三光气作为光气的安全替代，且为固体形式，易于操作，三光气的活性比光气低，因此反应需要更高的温度。三光气对于 1, 2, 3-三醇选择性地保护 1,2 位；</p>
+<p>去保护：</p>
+<p>$KOH,\ MeOH$。</p>
+<hr>
+<p>上述的许多保护基既能保护 1,2-二醇，也能保护 1,3-二醇，但是在 1,2,3-三醇存在的条件下，多数保护基都会倾向生成 1,2-保护的五元环结构。主要用于保护 1,3-二醇的两个保护基为苄亚基缩醛（<strong>B02</strong>）和二叔丁基亚硅基（<strong>B03</strong>）。</p>
+<h4 id="酚">酚</h4>
+<p>酚羟基也是天然产物中经常出现的基团，许多能够用来保护醇羟基的保护基也可以用于保护酚羟基，例如 TIPS、TBS、MOM、Bn、Me等等，因此这里不会再次重述一遍。</p>
+<h3 id="羰基">羰基</h3>
+<p>d</p>
+<h3 id="羧基">羧基</h3>
+<p>d</p>
+<h3 id="氨基">氨基</h3>
+<p>d</p>
+<h3 id="硫醇">硫醇</h3>
+<p>d</p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%AD%A6%E5%AD%A6%E5%8C%96%E5%AD%A6/" class="category-chain-item">学学化学</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/chem/">#chem</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>化学漫谈006</div>
+      <div>http://argon-gas.top/p/38187.html</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Sun</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2026年7月19日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/p/5381.html" title="《有机化合物波谱解析》章末总结3">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">《有机化合物波谱解析》章末总结3</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/p/54724.html" title="《有机化合物波谱解析》章末总结2">
+                        <span class="hidden-mobile">《有机化合物波谱解析》章末总结2</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
+    
+  <div id="twikoo"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#comments', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/twikoo/1.6.7/twikoo.all.min.js', function() {
+        var options = Object.assign(
+          {"envId":"https://comments.argon-gas.top","region":"ap-shanghai","path":"window.location.pathname"},
+          {
+            el: '#twikoo',
+            path: 'window.location.pathname',
+            onCommentLoaded: function() {
+              var imgSelector = '#twikoo .tk-content img:not(.tk-owo-emotion)';
+              Fluid.plugins.imageCaption(imgSelector);
+              Fluid.plugins.fancyBox(imgSelector);
+            }
+          }
+        )
+        twikoo.init(options)
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a><br /> <span>Sun Blog 2020 - 2026</span><br /> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+  
+<script src="/js/walden.js"></script>
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>

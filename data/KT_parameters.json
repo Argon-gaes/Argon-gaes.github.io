@@ -1,0 +1,1118 @@
+[
+    {
+        "solvent": "1,1,1,3,3,3-hexafluoro-2-propanol",
+        "pi": 0.65,
+        "alpha": 1.96,
+        "beta": 0.0
+    },
+    {
+        "solvent": "1,1,1-trichloroethane",
+        "pi": 0.49,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "1,1,2,2-tetrachloroethane",
+        "pi": 0.95,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "1,1,3,3-tetramethylguanidine",
+        "pi": 0.76,
+        "alpha": 0.0,
+        "beta": 0.86
+    },
+    {
+        "solvent": "1,1-dichloroethane",
+        "pi": 0.48,
+        "alpha": 0.1,
+        "beta": 0.1
+    },
+    {
+        "solvent": "1,2,3-propanetriol",
+        "pi": 0.62,
+        "alpha": 1.21,
+        "beta": 0.51
+    },
+    {
+        "solvent": "1,2-diaminoethane",
+        "pi": 0.47,
+        "alpha": 0.13,
+        "beta": 1.43
+    },
+    {
+        "solvent": "1,2-dibromoethane",
+        "pi": 0.75,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "1,2-dichlorobenzene",
+        "pi": 0.8,
+        "alpha": 0.0,
+        "beta": 0.03
+    },
+    {
+        "solvent": "1,2-dichloroethane",
+        "pi": 0.81,
+        "alpha": 0.0,
+        "beta": 0.1
+    },
+    {
+        "solvent": "1,2-dimethoxyethane",
+        "pi": 0.53,
+        "alpha": 0.0,
+        "beta": 0.41
+    },
+    {
+        "solvent": "1,3,5-trimethylbenzene",
+        "pi": 0.41,
+        "alpha": 0.0,
+        "beta": 0.13
+    },
+    {
+        "solvent": "1,3-dichlorobenzene",
+        "pi": 0.75,
+        "alpha": 0.0,
+        "beta": 0.03
+    },
+    {
+        "solvent": "1,3-dimethylbenzene",
+        "pi": 0.47,
+        "alpha": 0.0,
+        "beta": 0.11
+    },
+    {
+        "solvent": "1,3-dioxolane",
+        "pi": 0.69,
+        "alpha": 0.0,
+        "beta": 0.45
+    },
+    {
+        "solvent": "1,4-difluorobenzene",
+        "pi": 0.58,
+        "alpha": 0.0,
+        "beta": 0.03
+    },
+    {
+        "solvent": "1,4-dimethylbenzene",
+        "pi": 0.43,
+        "alpha": 0.0,
+        "beta": 0.12
+    },
+    {
+        "solvent": "1-bromobutane",
+        "pi": 0.5,
+        "alpha": 0.0,
+        "beta": 0.13
+    },
+    {
+        "solvent": "1-butyl-3-methyl-1H-imidazol-3-ium trifluoromethanesulfonate",
+        "pi": 1.01,
+        "alpha": 0.63,
+        "beta": 0.46
+    },
+    {
+        "solvent": "1-butyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide",
+        "pi": 0.98,
+        "alpha": 0.62,
+        "beta": 0.24
+    },
+    {
+        "solvent": "1-chlorobutane",
+        "pi": 0.39,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "1-ethyl-3-methyl-1H-imidazol-3-ium dicyanoazanide",
+        "pi": 1.08,
+        "alpha": 0.53,
+        "beta": 0.35
+    },
+    {
+        "solvent": "1-ethyl-3-methyl-1H-imidazol-3-ium hexafluorophosphate",
+        "pi": 0.99,
+        "alpha": 0.76,
+        "beta": 0.2
+    },
+    {
+        "solvent": "1-ethyl-3-methyl-1H-imidazol-3-ium hexyl sulfate",
+        "pi": 0.98,
+        "alpha": 0.65,
+        "beta": 0.71
+    },
+    {
+        "solvent": "1-ethyl-3-methyl-1H-imidazol-3-ium octyl sulfate",
+        "pi": 0.93,
+        "alpha": 0.65,
+        "beta": 0.77
+    },
+    {
+        "solvent": "1-ethyl-3-methyl-1H-imidazol-3-ium perchlorate",
+        "pi": 1.11,
+        "alpha": 0.56,
+        "beta": 0.41
+    },
+    {
+        "solvent": "1-ethyl-3-methylimidazolium acetate",
+        "pi": 1.09,
+        "alpha": 0.4,
+        "beta": 0.95
+    },
+    {
+        "solvent": "1-ethyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide",
+        "pi": 0.9,
+        "alpha": 0.76,
+        "beta": 0.28
+    },
+    {
+        "solvent": "1-ethyl-3-methylimidazolium nitrate",
+        "pi": 1.13,
+        "alpha": 0.48,
+        "beta": 0.66
+    },
+    {
+        "solvent": "1-ethyl-3-methylimidazolium tetrafluoroborate",
+        "pi": 1.03,
+        "alpha": 0.7,
+        "beta": 0.26
+    },
+    {
+        "solvent": "1-hexyl-3-methyl-1H-imidazol-3-ium bis[(trifluoromethyl)sulfonyl]azanide",
+        "pi": 0.98,
+        "alpha": 0.65,
+        "beta": 0.25
+    },
+    {
+        "solvent": "1-iodobutane",
+        "pi": 0.47,
+        "alpha": 0.0,
+        "beta": 0.23
+    },
+    {
+        "solvent": "2,2,2-trifluoroethanol",
+        "pi": 0.73,
+        "alpha": 1.51,
+        "beta": 0.0
+    },
+    {
+        "solvent": "2,6-dimethylpyridine",
+        "pi": 0.8,
+        "alpha": 0.0,
+        "beta": 0.76
+    },
+    {
+        "solvent": "2-bromopyridine",
+        "pi": 1.0,
+        "alpha": 0.0,
+        "beta": 0.53
+    },
+    {
+        "solvent": "2-butanol",
+        "pi": 0.4,
+        "alpha": 0.69,
+        "beta": 0.8
+    },
+    {
+        "solvent": "2-butanone",
+        "pi": 0.67,
+        "alpha": 0.06,
+        "beta": 0.48
+    },
+    {
+        "solvent": "2-chloroaniline",
+        "pi": 0.83,
+        "alpha": 0.25,
+        "beta": 0.4
+    },
+    {
+        "solvent": "2-chloroethanol",
+        "pi": 0.46,
+        "alpha": 1.28,
+        "beta": 0.53
+    },
+    {
+        "solvent": "2-cyanopyridine",
+        "pi": 1.2,
+        "alpha": 0.0,
+        "beta": 0.29
+    },
+    {
+        "solvent": "2-fluoropyridine",
+        "pi": 0.84,
+        "alpha": 0.0,
+        "beta": 0.51
+    },
+    {
+        "solvent": "2-heptanone",
+        "pi": 0.61,
+        "alpha": 0.05,
+        "beta": 0.48
+    },
+    {
+        "solvent": "2-methyl-1-propanol",
+        "pi": 0.4,
+        "alpha": 0.79,
+        "beta": 0.84
+    },
+    {
+        "solvent": "2-methyl-2-butanol",
+        "pi": 0.4,
+        "alpha": 0.28,
+        "beta": 0.93
+    },
+    {
+        "solvent": "2-methyl-2-propanol",
+        "pi": 0.41,
+        "alpha": 0.42,
+        "beta": 0.93
+    },
+    {
+        "solvent": "2-methylbutane",
+        "pi": -0.08,
+        "alpha": 0.0,
+        "beta": 0.01
+    },
+    {
+        "solvent": "2-pentanone",
+        "pi": 0.65,
+        "alpha": 0.0,
+        "beta": 0.52
+    },
+    {
+        "solvent": "2-phenylacetonitrile",
+        "pi": 1.0,
+        "alpha": 0.0,
+        "beta": 0.41
+    },
+    {
+        "solvent": "2-phenylethanol",
+        "pi": 0.88,
+        "alpha": 0.64,
+        "beta": 0.61
+    },
+    {
+        "solvent": "2-propanol",
+        "pi": 0.48,
+        "alpha": 0.76,
+        "beta": 0.84
+    },
+    {
+        "solvent": "2-propanone",
+        "pi": 0.71,
+        "alpha": 0.08,
+        "beta": 0.43
+    },
+    {
+        "solvent": "2-propen-1-ol",
+        "pi": 0.52,
+        "alpha": 0.84,
+        "beta": 0.9
+    },
+    {
+        "solvent": "2-pyrrolidone",
+        "pi": 0.85,
+        "alpha": 0.36,
+        "beta": 0.77
+    },
+    {
+        "solvent": "3,4-dimethylpyridine",
+        "pi": 0.73,
+        "alpha": 0.0,
+        "beta": 0.78
+    },
+    {
+        "solvent": "3-bromopyridine",
+        "pi": 0.89,
+        "alpha": 0.0,
+        "beta": 0.6
+    },
+    {
+        "solvent": "3-chlorophenol",
+        "pi": 0.77,
+        "alpha": 1.57,
+        "beta": 0.23
+    },
+    {
+        "solvent": "3-methyl-1-butanol",
+        "pi": 0.4,
+        "alpha": 0.84,
+        "beta": 0.86
+    },
+    {
+        "solvent": "3-methyl-1-octyl-1H-imidazol-3-ium bis[(trifluoromethyl)sulfonyl]azanide",
+        "pi": 0.97,
+        "alpha": 0.97,
+        "beta": 0.28
+    },
+    {
+        "solvent": "3-methylphenol",
+        "pi": 0.68,
+        "alpha": 1.13,
+        "beta": 0.34
+    },
+    {
+        "solvent": "3-pentanone",
+        "pi": 0.72,
+        "alpha": 0.0,
+        "beta": 0.45
+    },
+    {
+        "solvent": "3-phenylpropanol",
+        "pi": 0.95,
+        "alpha": 0.53,
+        "beta": 0.55
+    },
+    {
+        "solvent": "4-methyl-2-oxo-1,3-dioxolane",
+        "pi": 0.83,
+        "alpha": 0.0,
+        "beta": 0.4
+    },
+    {
+        "solvent": "4-methyl-2-pentanone",
+        "pi": 0.65,
+        "alpha": 0.02,
+        "beta": 0.48
+    },
+    {
+        "solvent": "4-methylphenol",
+        "pi": 0.68,
+        "alpha": 1.64,
+        "beta": 0.34
+    },
+    {
+        "solvent": "4-methylpyridine",
+        "pi": 0.84,
+        "alpha": 0.0,
+        "beta": 0.67
+    },
+    {
+        "solvent": "acetic acid",
+        "pi": 0.64,
+        "alpha": 1.12,
+        "beta": 0.45
+    },
+    {
+        "solvent": "acetic anhydride",
+        "pi": 0.76,
+        "alpha": 0.0,
+        "beta": 0.29
+    },
+    {
+        "solvent": "acetonitrile",
+        "pi": 0.75,
+        "alpha": 0.19,
+        "beta": 0.4
+    },
+    {
+        "solvent": "acetophenone",
+        "pi": 0.9,
+        "alpha": 0.04,
+        "beta": 0.49
+    },
+    {
+        "solvent": "aniline",
+        "pi": 0.73,
+        "alpha": 0.26,
+        "beta": 0.5
+    },
+    {
+        "solvent": "benzene",
+        "pi": 0.59,
+        "alpha": 0.0,
+        "beta": 0.1
+    },
+    {
+        "solvent": "benzonitrile",
+        "pi": 0.9,
+        "alpha": 0.0,
+        "beta": 0.37
+    },
+    {
+        "solvent": "benzyl alcohol",
+        "pi": 0.98,
+        "alpha": 0.6,
+        "beta": 0.52
+    },
+    {
+        "solvent": "bis(2-chloroethyl) ether",
+        "pi": 0.82,
+        "alpha": 0.0,
+        "beta": 0.4
+    },
+    {
+        "solvent": "bis(2-methoxyethyl) ether",
+        "pi": 0.64,
+        "alpha": 0.0,
+        "beta": 0.4
+    },
+    {
+        "solvent": "bromobenzene",
+        "pi": 0.79,
+        "alpha": 0.0,
+        "beta": 0.06
+    },
+    {
+        "solvent": "butanamine",
+        "pi": 0.31,
+        "alpha": 0.0,
+        "beta": 0.72
+    },
+    {
+        "solvent": "butanenitrile",
+        "pi": 0.71,
+        "alpha": 0.0,
+        "beta": 0.4
+    },
+    {
+        "solvent": "butanoic acid",
+        "pi": 0.56,
+        "alpha": 1.1,
+        "beta": 0.45
+    },
+    {
+        "solvent": "butanol",
+        "pi": 0.47,
+        "alpha": 0.84,
+        "beta": 0.84
+    },
+    {
+        "solvent": "butyl acetate",
+        "pi": 0.46,
+        "alpha": 0.0,
+        "beta": 0.45
+    },
+    {
+        "solvent": "carbon disulfide",
+        "pi": 0.61,
+        "alpha": 0.0,
+        "beta": 0.07
+    },
+    {
+        "solvent": "chloroacetonitrile",
+        "pi": 1.01,
+        "alpha": 0.0,
+        "beta": 0.34
+    },
+    {
+        "solvent": "chlorobenzene",
+        "pi": 0.71,
+        "alpha": 0.0,
+        "beta": 0.07
+    },
+    {
+        "solvent": "cis-decalin",
+        "pi": 0.11,
+        "alpha": 0.0,
+        "beta": 0.08
+    },
+    {
+        "solvent": "cyclohexane",
+        "pi": 0.0,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "cyclohexanol",
+        "pi": 0.45,
+        "alpha": 0.66,
+        "beta": 0.84
+    },
+    {
+        "solvent": "cyclohexanone",
+        "pi": 0.76,
+        "alpha": 0.0,
+        "beta": 0.53
+    },
+    {
+        "solvent": "cyclopentanone",
+        "pi": 0.76,
+        "alpha": 0.0,
+        "beta": 0.52
+    },
+    {
+        "solvent": "decane",
+        "pi": 0.03,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "decanol",
+        "pi": 0.45,
+        "alpha": 0.7,
+        "beta": 0.82
+    },
+    {
+        "solvent": "di-n-butyl sulfide",
+        "pi": 0.36,
+        "alpha": 0.0,
+        "beta": 0.38
+    },
+    {
+        "solvent": "dibenzyl ether",
+        "pi": 0.8,
+        "alpha": 0.0,
+        "beta": 0.41
+    },
+    {
+        "solvent": "dibromomethane",
+        "pi": 0.92,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "dibutyl ether",
+        "pi": 0.27,
+        "alpha": 0.0,
+        "beta": 0.46
+    },
+    {
+        "solvent": "dichloromethane",
+        "pi": 0.82,
+        "alpha": 0.13,
+        "beta": 0.1
+    },
+    {
+        "solvent": "diethyl carbonate",
+        "pi": 0.45,
+        "alpha": 0.0,
+        "beta": 0.4
+    },
+    {
+        "solvent": "diethyl ether",
+        "pi": 0.27,
+        "alpha": 0.0,
+        "beta": 0.47
+    },
+    {
+        "solvent": "diethyl sulfide",
+        "pi": 0.46,
+        "alpha": 0.0,
+        "beta": 0.37
+    },
+    {
+        "solvent": "diethylamine",
+        "pi": 0.24,
+        "alpha": 0.3,
+        "beta": 0.7
+    },
+    {
+        "solvent": "diiodomethane",
+        "pi": 0.65,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "diisopropyl ether",
+        "pi": 0.27,
+        "alpha": 0.0,
+        "beta": 0.49
+    },
+    {
+        "solvent": "diisopropyl sulfide",
+        "pi": 0.36,
+        "alpha": 0.0,
+        "beta": 0.38
+    },
+    {
+        "solvent": "dimethyl phthalate",
+        "pi": 0.82,
+        "alpha": 0.0,
+        "beta": 0.78
+    },
+    {
+        "solvent": "dimethyl sulfide",
+        "pi": 0.57,
+        "alpha": 0.0,
+        "beta": 0.34
+    },
+    {
+        "solvent": "dimethyl sulfoxide",
+        "pi": 1.0,
+        "alpha": 0.0,
+        "beta": 0.76
+    },
+    {
+        "solvent": "dimethylcyanamide",
+        "pi": 0.72,
+        "alpha": 0.0,
+        "beta": 0.64
+    },
+    {
+        "solvent": "dioxane",
+        "pi": 0.55,
+        "alpha": 0.0,
+        "beta": 0.37
+    },
+    {
+        "solvent": "diphenyl ether",
+        "pi": 0.66,
+        "alpha": 0.0,
+        "beta": 0.13
+    },
+    {
+        "solvent": "dipropyl ether",
+        "pi": 0.27,
+        "alpha": 0.0,
+        "beta": 0.46
+    },
+    {
+        "solvent": "dodecane",
+        "pi": 0.05,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "ethanediol",
+        "pi": 0.92,
+        "alpha": 0.9,
+        "beta": 0.52
+    },
+    {
+        "solvent": "ethanol",
+        "pi": 0.54,
+        "alpha": 0.86,
+        "beta": 0.75
+    },
+    {
+        "solvent": "ethoxybenzene",
+        "pi": 0.69,
+        "alpha": 0.0,
+        "beta": 0.3
+    },
+    {
+        "solvent": "ethyl acetate",
+        "pi": 0.55,
+        "alpha": 0.0,
+        "beta": 0.45
+    },
+    {
+        "solvent": "ethyl benzoate",
+        "pi": 0.74,
+        "alpha": 0.0,
+        "beta": 0.41
+    },
+    {
+        "solvent": "ethyl chloroacetate",
+        "pi": 0.7,
+        "alpha": 0.0,
+        "beta": 0.35
+    },
+    {
+        "solvent": "ethyl formate",
+        "pi": 0.61,
+        "alpha": 0.0,
+        "beta": 0.36
+    },
+    {
+        "solvent": "ethyl trichloroacetate",
+        "pi": 0.61,
+        "alpha": 0.0,
+        "beta": 0.25
+    },
+    {
+        "solvent": "fluorobenzene",
+        "pi": 0.62,
+        "alpha": 0.0,
+        "beta": 0.07
+    },
+    {
+        "solvent": "formamide",
+        "pi": 0.97,
+        "alpha": 0.71,
+        "beta": 0.48
+    },
+    {
+        "solvent": "formic acid",
+        "pi": 0.65,
+        "alpha": 1.23,
+        "beta": 0.38
+    },
+    {
+        "solvent": "heptane",
+        "pi": -0.08,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "heptanoic acid",
+        "pi": 0.5,
+        "alpha": 1.2,
+        "beta": 0.45
+    },
+    {
+        "solvent": "hexafluorobenzene",
+        "pi": 0.33,
+        "alpha": 0.0,
+        "beta": 0.02
+    },
+    {
+        "solvent": "hexamethylphosphoramide",
+        "pi": 0.87,
+        "alpha": 0.0,
+        "beta": 1.05
+    },
+    {
+        "solvent": "hexane",
+        "pi": -0.04,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "hexanoic acid",
+        "pi": 0.52,
+        "alpha": 1.22,
+        "beta": 0.45
+    },
+    {
+        "solvent": "hexanol",
+        "pi": 0.4,
+        "alpha": 0.8,
+        "beta": 0.84
+    },
+    {
+        "solvent": "iodobenzene",
+        "pi": 0.81,
+        "alpha": 0.0,
+        "beta": 0.06
+    },
+    {
+        "solvent": "methanol",
+        "pi": 0.6,
+        "alpha": 0.98,
+        "beta": 0.66
+    },
+    {
+        "solvent": "methoxybenzene",
+        "pi": 0.73,
+        "alpha": 0.0,
+        "beta": 0.32
+    },
+    {
+        "solvent": "methyl acetate",
+        "pi": 0.6,
+        "alpha": 0.0,
+        "beta": 0.42
+    },
+    {
+        "solvent": "methyl formate",
+        "pi": 0.62,
+        "alpha": 0.0,
+        "beta": 0.37
+    },
+    {
+        "solvent": "morpholine",
+        "pi": 0.39,
+        "alpha": 0.29,
+        "beta": 0.7
+    },
+    {
+        "solvent": "N,N,N',N'-tetramethylurea",
+        "pi": 0.83,
+        "alpha": 0.0,
+        "beta": 0.8
+    },
+    {
+        "solvent": "N,N-diethylacetamide",
+        "pi": 0.84,
+        "alpha": 0.0,
+        "beta": 0.78
+    },
+    {
+        "solvent": "N,N-dimethylacetamide",
+        "pi": 0.88,
+        "alpha": 0.0,
+        "beta": 0.76
+    },
+    {
+        "solvent": "N,N-dimethylaniline",
+        "pi": 0.73,
+        "alpha": 0.0,
+        "beta": 0.43
+    },
+    {
+        "solvent": "N,N-dimethylbenzylamine",
+        "pi": 0.45,
+        "alpha": 0.0,
+        "beta": 0.64
+    },
+    {
+        "solvent": "N,N-dimethylcyclohexylamine",
+        "pi": 0.23,
+        "alpha": 0.0,
+        "beta": 0.84
+    },
+    {
+        "solvent": "N,N-dimethylformamide",
+        "pi": 0.88,
+        "alpha": 0.0,
+        "beta": 0.69
+    },
+    {
+        "solvent": "N-methylacetamide",
+        "pi": 1.01,
+        "alpha": 0.47,
+        "beta": 0.8
+    },
+    {
+        "solvent": "N-methylaniline",
+        "pi": 0.82,
+        "alpha": 0.17,
+        "beta": 0.47
+    },
+    {
+        "solvent": "N-methylformamide",
+        "pi": 0.9,
+        "alpha": 0.62,
+        "beta": 0.8
+    },
+    {
+        "solvent": "N-methylpyrrolidone",
+        "pi": 0.92,
+        "alpha": 0.0,
+        "beta": 0.77
+    },
+    {
+        "solvent": "nitrobenzene",
+        "pi": 1.01,
+        "alpha": 0.0,
+        "beta": 0.3
+    },
+    {
+        "solvent": "nitromethane",
+        "pi": 0.85,
+        "alpha": 0.22,
+        "beta": 0.06
+    },
+    {
+        "solvent": "octadecafluoronaphthalene",
+        "pi": -0.32,
+        "alpha": 0.0,
+        "beta": -0.05
+    },
+    {
+        "solvent": "octane",
+        "pi": 0.01,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "octanol",
+        "pi": 0.4,
+        "alpha": 0.77,
+        "beta": 0.81
+    },
+    {
+        "solvent": "oxane",
+        "pi": 0.51,
+        "alpha": 0.0,
+        "beta": 0.54
+    },
+    {
+        "solvent": "oxolan-2-one",
+        "pi": 0.87,
+        "alpha": 0.0,
+        "beta": 0.49
+    },
+    {
+        "solvent": "pentafluoropyridine",
+        "pi": 0.53,
+        "alpha": 0.0,
+        "beta": 0.16
+    },
+    {
+        "solvent": "pentane",
+        "pi": -0.08,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "pentanoic acid",
+        "pi": 0.54,
+        "alpha": 1.19,
+        "beta": 0.45
+    },
+    {
+        "solvent": "pentanol",
+        "pi": 0.4,
+        "alpha": 0.84,
+        "beta": 0.86
+    },
+    {
+        "solvent": "perfluoro(methylcyclohexane)",
+        "pi": -0.4,
+        "alpha": 0.0,
+        "beta": -0.06
+    },
+    {
+        "solvent": "phenol",
+        "pi": 0.72,
+        "alpha": 1.65,
+        "beta": 0.3
+    },
+    {
+        "solvent": "piperidine",
+        "pi": 0.3,
+        "alpha": 0.0,
+        "beta": 1.04
+    },
+    {
+        "solvent": "propanenitrile",
+        "pi": 0.71,
+        "alpha": 0.0,
+        "beta": 0.39
+    },
+    {
+        "solvent": "propanoic acid",
+        "pi": 0.58,
+        "alpha": 1.12,
+        "beta": 0.45
+    },
+    {
+        "solvent": "propanol",
+        "pi": 0.52,
+        "alpha": 0.84,
+        "beta": 0.9
+    },
+    {
+        "solvent": "pyridine",
+        "pi": 0.87,
+        "alpha": 0.0,
+        "beta": 0.64
+    },
+    {
+        "solvent": "pyrrolidine",
+        "pi": 0.39,
+        "alpha": 0.16,
+        "beta": 0.7
+    },
+    {
+        "solvent": "quinoline",
+        "pi": 0.92,
+        "alpha": 0.0,
+        "beta": 0.64
+    },
+    {
+        "solvent": "sulfolane",
+        "pi": 0.98,
+        "alpha": 0.0,
+        "beta": 0.39
+    },
+    {
+        "solvent": "tetrachloroethene",
+        "pi": 0.28,
+        "alpha": 0.0,
+        "beta": 0.05
+    },
+    {
+        "solvent": "tetrachloromethane",
+        "pi": 0.28,
+        "alpha": 0.0,
+        "beta": 0.1
+    },
+    {
+        "solvent": "tetradecafluorohexane",
+        "pi": -0.41,
+        "alpha": 0.0,
+        "beta": -0.08
+    },
+    {
+        "solvent": "tetrahydrofuran",
+        "pi": 0.58,
+        "alpha": 0.0,
+        "beta": 0.55
+    },
+    {
+        "solvent": "tetramethylsilane",
+        "pi": -0.09,
+        "alpha": 0.0,
+        "beta": 0.02
+    },
+    {
+        "solvent": "thiane",
+        "pi": 0.61,
+        "alpha": 0.0,
+        "beta": 0.36
+    },
+    {
+        "solvent": "thiolane",
+        "pi": 0.62,
+        "alpha": 0.0,
+        "beta": 0.44
+    },
+    {
+        "solvent": "thiolane-1-oxide",
+        "pi": 1.06,
+        "alpha": 0.0,
+        "beta": 0.81
+    },
+    {
+        "solvent": "toluene",
+        "pi": 0.54,
+        "alpha": 0.0,
+        "beta": 0.11
+    },
+    {
+        "solvent": "trans-1,2-dichloroethene",
+        "pi": 0.44,
+        "alpha": 0.0,
+        "beta": 0.0
+    },
+    {
+        "solvent": "tribromomethane",
+        "pi": 0.62,
+        "alpha": 0.05,
+        "beta": 0.05
+    },
+    {
+        "solvent": "tributyl phosphate",
+        "pi": 0.65,
+        "alpha": 0.0,
+        "beta": 0.8
+    },
+    {
+        "solvent": "tributylamine",
+        "pi": 0.16,
+        "alpha": 0.0,
+        "beta": 0.62
+    },
+    {
+        "solvent": "trichloroethene",
+        "pi": 0.53,
+        "alpha": 0.0,
+        "beta": 0.05
+    },
+    {
+        "solvent": "trichloromethane",
+        "pi": 0.58,
+        "alpha": 0.2,
+        "beta": 0.1
+    },
+    {
+        "solvent": "triethyl phosphate",
+        "pi": 0.72,
+        "alpha": 0.0,
+        "beta": 0.77
+    },
+    {
+        "solvent": "triethylamine",
+        "pi": 0.14,
+        "alpha": 0.0,
+        "beta": 0.71
+    },
+    {
+        "solvent": "trimethyl phosphate",
+        "pi": 0.72,
+        "alpha": 0.0,
+        "beta": 0.77
+    },
+    {
+        "solvent": "water",
+        "pi": 1.09,
+        "alpha": 1.17,
+        "beta": 0.47
+    }
+]

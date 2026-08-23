@@ -306,14 +306,14 @@
                 <link rel="stylesheet" type="text/css" href="./src/hint.min.css"><p>由于写文章要经常引用文献，但是脚注老是渲染不出来，于是写一篇有关于脚注渲染问题的记录。</p>
 <a id="more"></a>
 <div class="note note-info">
-            <p>问题：</p><p>脚注在包含双引号（“”）时无法正确渲染。例如：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs markdown">测试文本<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="&quot;测试文本&quot;">[1]</span></a></sup><br><br>[<span class="hljs-symbol">^1</span>]: <span class="hljs-link">&quot;测试文本&quot;</span><br></code></pre></td></tr></table></figure><p>其渲染结果如下：</p><p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/09/footnote-1_253d52de35d47.png" srcset="/img/loading.gif" lazyload alt="footnote-1" /></p>
+            <p>问题：</p><p>脚注在包含双引号（“”）时无法正确渲染。例如：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs markdown">测试文本<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="&quot;测试文本&quot;">[1]</span></a></sup><br><br>[<span class="hljs-symbol">^1</span>]: <span class="hljs-link">&quot;测试文本&quot;</span><br></code></pre></td></tr></table></figure><p>其渲染结果如下：</p><p><img src="https://pic2.ziyuan.wang/user/Argon_gas/2025/09/footnote-1_253d52de35d47.png" srcset="/img/loading.gif" lazyload alt="footnote-1"></p>
           </div>
 <div class="note note-success">
             <p>解决方案：</p><p>出现这种问题应该是因为我用的脚注渲染插件对引号支持不好，如果出现引号会导致 <code>&lt;span&gt;</code>区域作为正文显示出来，在不改动渲染插件代码的情况下只能尽量避免这个问题。</p><p>解决方案包括不使用引号、用单引号代替或使用转义符号 <code>&amp;quot;</code>输入引号。其中第三种方案代码如下：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs markdown">测试文本<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="&quot;测试文本&quot;">[1]</span></a></sup><br><br>[<span class="hljs-symbol">^1</span>]: <span class="hljs-link">&amp;quot;测试文本&amp;quot;</span><br></code></pre></td></tr></table></figure>
           </div>
 <p>测试文本<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="&quot;测试文本&quot;">[1]</span></a></sup></p>
 <p>另外脚注对于格式比较敏感，多出来的空格也会影响到最终的渲染效果。<strong>尤其是在使用编辑器编辑时，脚注行间会莫名其妙多出来一些空格</strong>，然后就导致最后渲染失败，这一点也是需要注意的。</p>
-<p>这几种解决方案都不是非常令人满意，尤其是最后一种虽然效果是最好的，但是要手动把引号转义真的好麻烦。可惜我不会写代码，只好暂且这么用着了。😦</p>
+<p>这几种解决方案都不是非常令人满意，尤其是最后一种虽然效果是最好的，但是要手动把引号转义真的好麻烦。可惜我不会写代码，只好暂且这么用着了。:(</p>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">&quot;测试文本&quot;<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>
                 
               </div>
@@ -697,7 +697,7 @@
 
 
   
-<script src="/js/westeros.js"></script>
+<script src="/js/walden.js"></script>
 
 
 

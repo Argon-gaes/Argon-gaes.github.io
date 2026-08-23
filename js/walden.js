@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="./src/hint.min.css">(function (root, factory) {
+(function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
         define(['exports', 'echarts'], factory);
@@ -9,8 +9,7 @@
         // Browser globals
         factory({}, root.echarts);
     }
-}
-(this, function (_exports, echarts) {
+}(this, function (exports, echarts) {
     var log = function (msg) {
         if (typeof console !== 'undefined') {
             console && console.error && console.error(msg);
@@ -335,7 +334,11 @@
         "legend": {
             "textStyle": {
                 "color": "#999999"
-            }
+            },
+            "left": "center",
+            "right": "auto",
+            "top": "auto",
+            "bottom": 15
         },
         "tooltip": {
             "axisPointer": {
@@ -365,7 +368,7 @@
             },
             "checkpointStyle": {
                 "color": "#3fb1e3",
-                "borderColor": "#3fb1e3"
+                "borderColor": "rgba(63,177,227,0.15)"
             },
             "label": {
                 "color": "#626c91"
@@ -390,16 +393,6 @@
                 "#afe8ff"
             ]
         },
-        "dataZoom": {
-            "backgroundColor": "rgba(255,255,255,0)",
-            "dataBackgroundColor": "rgba(222,222,222,1)",
-            "fillerColor": "rgba(114,230,212,0.25)",
-            "handleColor": "#cccccc",
-            "handleSize": "100%",
-            "textStyle": {
-                "color": "#999999"
-            }
-        },
         "markPoint": {
             "label": {
                 "color": "#ffffff"
@@ -409,6 +402,12 @@
                     "color": "#ffffff"
                 }
             }
+        },
+        "grid": {
+            "left": "15%",
+            "right": "10%",
+            "top": 65,
+            "bottom": 80
         }
     });
 }));
