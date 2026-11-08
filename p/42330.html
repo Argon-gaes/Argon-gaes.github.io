@@ -249,7 +249,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          8.9k 字
+          9k 字
         
       </span>
     
@@ -260,7 +260,7 @@
         
         
         
-          56 分钟
+          57 分钟
         
       </span>
     
@@ -325,13 +325,29 @@ const data = [
     {name:'V', value:142}
 ];
 </script>
-<div id="echarts2985" style="width: 100%;height: 650px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts2985'), 'walden');
+<div
+    id="echarts8657"
+    style="
+        width:100%;
+        height:650px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option = {
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts8657'),
+    'walden'
+);
+
+
+option = {
 
     title:[
         {
@@ -419,9 +435,24 @@ const data = [
     ]
 };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <p>上图中为从1981年1月1日到2019年9月30日止的所有批准药物分类记录<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--info hint--large hint--rounded hint--bounce" aria-label="J. Nat. Prod. 2020, 83, 3, 770–803">[3]</span></a></sup>，其中 N 指未修饰的天然产物，NB 指天然产物植物制剂，ND 指天然产物衍生物，如果再算上 B（生物大分子）和 NM（天然产物仿制物）就更多了。可见天然产物研究在这39年的药物研发中发挥的重要的作用。</p>
 <p>经典的几个例子如：Artemisinin (即青蒿素，是目前治疗恶性疟原虫疟疾起效最快的药物)、Rotenone (鱼藤酮，是一种广泛使用的植物来源杀虫剂)、Paclitaxel (大名鼎鼎的抗癌药物紫杉醇)、Doxorubicin (即阿霉素，用于治疗癌症)等。</p>
 <h2 id="来源分类"><a class="markdownIt-Anchor" href="#来源分类"></a> 来源分类</h2>

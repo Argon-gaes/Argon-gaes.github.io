@@ -262,7 +262,7 @@
         
         
         
-          124 分钟
+          125 分钟
         
       </span>
     
@@ -713,13 +713,29 @@
 <p>当然除了上文介绍的三个理论之外，还有其他许许多多的溶剂极性理论，在此无法一一列举，不过重要的一点是：<strong>针对具体问题需求选择合适的溶剂极性理论分析问题</strong>才是正确的，更复杂更高级的理论在解决问题时未必就比最简单的理论更加简洁高效。</p>
 <h2 id="极性数据表"><a class="markdownIt-Anchor" href="#极性数据表"></a> 极性数据表</h2>
 <p>写了那么多，还是看点更直观的图表吧，下图使用的数据为 Kamlet-Taft parameter。</p>
-<div id="echarts1209" style="width: 100%;height: 800px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts1209'), 'walden');
+<div
+    id="echarts3750"
+    style="
+        width:100%;
+        height:800px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = 
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts3750'),
+    'walden'
+);
+
+
+
 (function () {
 
 var KTData = [];
@@ -2102,9 +2118,24 @@ return {};
 })()
 
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <p>上图为 Kamlet-Taft 溶剂参数空间，可以看到，由于很多溶剂缺乏作为 HBD 的能力（α=0），所以很多点都落在 YZ 平面上。在一般规律上，上图中越靠上方的点（即 π* 越大），则极性越大，所以能够看到水/乙二醇/甲酰胺等点处在最上方。像水/乙酸/3-氯苯酚这种具有强的形成氢键能力的溶剂在 XZ 平面右侧（α 值大的一侧），而像二氯甲烷/氯苯这种接受氢键能力弱的溶剂在 YZ 平面左侧（β 值小的一侧）。</p>
 <h2 id="应用与总结"><a class="markdownIt-Anchor" href="#应用与总结"></a> 应用与总结</h2>
 <p>让我们回归到具体应用中，首先不妨让我们考虑有机实验室中最常见的一个场景：TLC 监测。</p>

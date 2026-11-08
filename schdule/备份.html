@@ -16,12 +16,12 @@
   <meta name="author" content="Sun">
   <meta name="keywords" content="">
   
-    <meta name="description" content="本页面用以记录读书进度，自我激励以促读书。 :) 以下各书籍，精读完成的内容用蓝色标识，泛读&#x2F;部分选读的内容用青色标识。             var myChart &#x3D; echarts.init(document.getElementById(&#39;echarts5813&#39;), &#39;walden&#39;);          var option &#x3D; option&#x3D;{   title:">
+    <meta name="description" content="本页面用以记录读书进度，自我激励以促读书。 :) 以下各书籍，精读完成的内容用蓝色标识，泛读&#x2F;部分选读的内容用青色标识。           var myChart &#x3D; echarts.init(     document.getElementById(&#39;echarts5919&#39;),     &#39;walden&#39; );   option&#x3D;{   title: {     top: 30,">
 <meta property="og:type" content="website">
 <meta property="og:title" content="计划">
 <meta property="og:url" content="http://argon-gas.top/schdule/%E5%A4%87%E4%BB%BD.html">
 <meta property="og:site_name" content="Sun&#39;s BLOG">
-<meta property="og:description" content="本页面用以记录读书进度，自我激励以促读书。 :) 以下各书籍，精读完成的内容用蓝色标识，泛读&#x2F;部分选读的内容用青色标识。             var myChart &#x3D; echarts.init(document.getElementById(&#39;echarts5813&#39;), &#39;walden&#39;);          var option &#x3D; option&#x3D;{   title:">
+<meta property="og:description" content="本页面用以记录读书进度，自我激励以促读书。 :) 以下各书籍，精读完成的内容用蓝色标识，泛读&#x2F;部分选读的内容用青色标识。           var myChart &#x3D; echarts.init(     document.getElementById(&#39;echarts5919&#39;),     &#39;walden&#39; );   option&#x3D;{   title: {     top: 30,">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-12-19T15:22:20.000Z">
 <meta property="article:modified_time" content="2025-01-02T14:50:36.443Z">
@@ -256,13 +256,29 @@
 <div class="markdown-body">
 本页面用以记录读书进度，自我激励以促读书。 :)
 <p>以下各书籍，精读完成的内容用蓝色标识，泛读/部分选读的内容用青色标识。</p>
-<div id="echarts5813" style="width: 100%;height: 260px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts5813'), 'walden');
+<div
+    id="echarts5919"
+    style="
+        width:100%;
+        height:260px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option={
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts5919'),
+    'walden'
+);
+
+
+option={
   title: {
     top: 30,
     left: 'center',
@@ -332,20 +348,51 @@
   }
 };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <hr />
 <div class="note note-success">
             <p>My Record of 2023 😄</p>
           </div>
-<div id="echarts927" style="width: 100%;height: 260px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts927'), 'walden');
+<div
+    id="echarts2598"
+    style="
+        width:100%;
+        height:260px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option={
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts2598'),
+    'walden'
+);
+
+
+option={
   title: {
     top: 30,
     left: 'center',
@@ -450,9 +497,24 @@
   }
 };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <script type="text/javascript">
 var data = [['2023-1-1', 46],['2023-1-2', 73],['2023-1-3', 72],['2023-1-4', 18],['2023-1-5', 64],['2023-1-6', 59],['2023-1-7', 38],['2023-1-8', 82],['2023-1-9', 16],['2023-1-10', 64],
       ['2023-1-11', 75],['2023-1-12', 36],['2023-1-13', 63],['2023-1-14', 25],['2023-1-15', 28],['2023-1-16', 64],['2023-1-17', 70],['2023-1-18', 53],['2023-1-19', 51],['2023-1-20', 17],
@@ -519,13 +581,29 @@ const valueList = data.map(function (item) {
   return item[1];
 });
 </script>
-<div id="echarts2256" style="width: 100%;height: 550px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts2256'), 'walden');
+<div
+    id="echarts3477"
+    style="
+        width:100%;
+        height:550px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = 
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts3477'),
+    'walden'
+);
+
+
+
 option = {
   // Make gradient line here
   visualMap: [
@@ -589,9 +667,24 @@ option = {
   ]
 };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <hr />
 <!--用| "lineStyle": {"color": "#2a99c9"} （蓝） "lineStyle": {"color": "#2ec7c9"} （青）|上色，挺难找的，仔细看看XD-->
 <h2 id="1-the-art-of-writing-reasonable-organic-reaction-mechanisms-2nd-edition-robert-b-grossman"><a class="markdownIt-Anchor" href="#1-the-art-of-writing-reasonable-organic-reaction-mechanisms-2nd-edition-robert-b-grossman"></a> 1 The Art of Writing Reasonable Organic Reaction Mechanisms (2nd Edition) - Robert B. Grossman</h2>
@@ -951,13 +1044,29 @@ var data=[{
  ]
 }];
 </script>
-<div id="echarts5948" style="width: 90%;height: 900px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts5948'), 'walden');
+<div
+    id="echarts9318"
+    style="
+        width:90%;
+        height:900px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option = {
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts9318'),
+    'walden'
+);
+
+
+option = {
       tooltip: {
         trigger: 'item',
         triggerOn: 'mousemove'
@@ -993,9 +1102,24 @@ var data=[{
       ]
     };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <h2 id="2-无机化学与化学分析第三版-史启祯"><a class="markdownIt-Anchor" href="#2-无机化学与化学分析第三版-史启祯"></a> 2 无机化学与化学分析（第三版） - 史启祯</h2>
 <p>主篇精读，副篇泛读，<a href="https://argon-gas.top/tags/series-inorg-1/">章末总结</a>。</p>
 <p><s>预计完成时间：2023.3</s></p>
@@ -1235,13 +1359,29 @@ var data=[{
     ]
   }]
 </script>
-<div id="echarts3258" style="width: 90%;height: 900px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts3258'), 'walden');
+<div
+    id="echarts9518"
+    style="
+        width:90%;
+        height:900px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option = {
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts9518'),
+    'walden'
+);
+
+
+option = {
       tooltip: {
         trigger: 'item',
         triggerOn: 'mousemove'
@@ -1277,9 +1417,24 @@ var data=[{
       ]
     };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <h2 id="3-无机化学第二版-张祖德"><a class="markdownIt-Anchor" href="#3-无机化学第二版-张祖德"></a> 3 无机化学（第二版） - 张祖德</h2>
 <p>精读，做题。</p>
 <p>预计完成时间：2023.5</p>
@@ -1506,13 +1661,29 @@ var data=[{
     ]
   }]
 </script>
-<div id="echarts5697" style="width: 90%;height: 900px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts5697'), 'walden');
+<div
+    id="echarts4567"
+    style="
+        width:90%;
+        height:900px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option = {
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts4567'),
+    'walden'
+);
+
+
+option = {
       tooltip: {
         trigger: 'item',
         triggerOn: 'mousemove'
@@ -1548,9 +1719,24 @@ var data=[{
       ]
     };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <h2 id="4-无机化学第四版上下-宋天佑-程鹏-徐家宁-张丽荣"><a class="markdownIt-Anchor" href="#4-无机化学第四版上下-宋天佑-程鹏-徐家宁-张丽荣"></a> 4 无机化学（第四版）上/下 - 宋天佑、程鹏、徐家宁、张丽荣</h2>
 <p>部分选读。</p>
 <p><s>预计完成时间：2023.3</s></p>
@@ -1604,13 +1790,29 @@ var data=[{
     ]
   }]
 </script>
-<div id="echarts4791" style="width: 90%;height: 900px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts4791'), 'walden');
+<div
+    id="echarts4882"
+    style="
+        width:90%;
+        height:900px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option = {
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts4882'),
+    'walden'
+);
+
+
+option = {
       tooltip: {
         trigger: 'item',
         triggerOn: 'mousemove'
@@ -1646,9 +1848,24 @@ var data=[{
       ]
     };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <h2 id="5-基础有机化学第四版上下-邢其毅-裴伟伟-裴坚-徐瑞秋"><a class="markdownIt-Anchor" href="#5-基础有机化学第四版上下-邢其毅-裴伟伟-裴坚-徐瑞秋"></a> 5 基础有机化学（第四版）上/下 - 邢其毅、裴伟伟、裴坚、徐瑞秋</h2>
 <p>精读，部分篇目泛读。</p>
 <p><s>预计完成时间：2023.5</s></p>
@@ -1970,13 +2187,29 @@ var data=[{
     ]
   }]
 </script>
-<div id="echarts2223" style="width: 90%;height: 900px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts2223'), 'walden');
+<div
+    id="echarts6367"
+    style="
+        width:90%;
+        height:900px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option = {
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts6367'),
+    'walden'
+);
+
+
+option = {
       tooltip: {
         trigger: 'item',
         triggerOn: 'mousemove'
@@ -2012,9 +2245,24 @@ var data=[{
       ]
     };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <h2 id="6-分析化学第六版-上-武汉大学"><a class="markdownIt-Anchor" href="#6-分析化学第六版-上-武汉大学"></a> 6 分析化学（第六版） 上 - 武汉大学</h2>
 <p>精读，做题，<a href="https://argon-gas.top/tags/series-analy-1/">章末总结</a>。</p>
 <p><s>预计完成时间：2023.7</s></p>
@@ -2186,13 +2434,29 @@ var data=[{
     ]
   }]
 </script>
-<div id="echarts3671" style="width: 90%;height: 900px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts3671'), 'walden');
+<div
+    id="echarts7476"
+    style="
+        width:90%;
+        height:900px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option = {
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts7476'),
+    'walden'
+);
+
+
+option = {
       tooltip: {
         trigger: 'item',
         triggerOn: 'mousemove'
@@ -2228,9 +2492,24 @@ var data=[{
       ]
     };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <h2 id="7-中级有机化学反应与机理第二版-吕萍-王彦广"><a class="markdownIt-Anchor" href="#7-中级有机化学反应与机理第二版-吕萍-王彦广"></a> 7 中级有机化学——反应与机理（第二版） - 吕萍、王彦广</h2>
 <p>精读，章末总结。</p>
 <p>预计完成时间：2023</p>
@@ -2408,13 +2687,29 @@ var data=[{
     ]
   }]
 </script>
-<div id="echarts6116" style="width: 90%;height: 900px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts6116'), 'walden');
+<div
+    id="echarts2918"
+    style="
+        width:90%;
+        height:900px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option = {
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts2918'),
+    'walden'
+);
+
+
+option = {
       tooltip: {
         trigger: 'item',
         triggerOn: 'mousemove'
@@ -2450,9 +2745,24 @@ var data=[{
       ]
     };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <h2 id="8-中级无机化学-项斯芬-姚光庆"><a class="markdownIt-Anchor" href="#8-中级无机化学-项斯芬-姚光庆"></a> 8 中级无机化学 - 项斯芬、姚光庆</h2>
 <p>精读，部分章节泛读，章末总结。</p>
 <p>预计完成时间：2023</p>
@@ -2572,13 +2882,29 @@ var data=[{
     ]
   }]
 </script>
-<div id="echarts4151" style="width: 90%;height: 900px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts4151'), 'walden');
+<div
+    id="echarts3873"
+    style="
+        width:90%;
+        height:900px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option = {
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts3873'),
+    'walden'
+);
+
+
+option = {
       tooltip: {
         trigger: 'item',
         triggerOn: 'mousemove'
@@ -2614,9 +2940,24 @@ var data=[{
       ]
     };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <h2 id="9-物理化学第六版上下-傅献彩-候文华"><a class="markdownIt-Anchor" href="#9-物理化学第六版上下-傅献彩-候文华"></a> 9 物理化学（第六版）上/下 - 傅献彩、候文华</h2>
 <p>精读，做题，<a target="_blank" rel="noopener" href="https://www.argon-gas.top/tags/series-phys-1/">章末总结</a>。</p>
 <p>预计完成时间：2023.12</p>
@@ -2885,13 +3226,29 @@ var data=[{
     ]
   }]
 </script>
-<div id="echarts1538" style="width: 90%;height: 900px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts1538'), 'walden');
+<div
+    id="echarts7449"
+    style="
+        width:90%;
+        height:900px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option = {
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts7449'),
+    'walden'
+);
+
+
+option = {
       tooltip: {
         trigger: 'item',
         triggerOn: 'mousemove'
@@ -2927,9 +3284,24 @@ var data=[{
       ]
     };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <h2 id="10-结构化学基础第5版-周公度-段连运"><a class="markdownIt-Anchor" href="#10-结构化学基础第5版-周公度-段连运"></a> 10 结构化学基础（第5版） - 周公度、段连运</h2>
 <p>精读，做题，章末总结。</p>
 <p>预计完成时间：2023.12</p>
@@ -3071,13 +3443,29 @@ var data=[{
     ]
   }]
 </script>
-<div id="echarts6713" style="width: 90%;height: 900px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts6713'), 'walden');
+<div
+    id="echarts4900"
+    style="
+        width:90%;
+        height:900px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option = {
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts4900'),
+    'walden'
+);
+
+
+option = {
       tooltip: {
         trigger: 'item',
         triggerOn: 'mousemove'
@@ -3113,9 +3501,24 @@ var data=[{
       ]
     };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <h2 id="11-atkins-physical-chemistry-11th-edition-peter-atkins-julio-de-paula-james-keeler"><a class="markdownIt-Anchor" href="#11-atkins-physical-chemistry-11th-edition-peter-atkins-julio-de-paula-james-keeler"></a> 11 Atkins’ Physical Chemistry (11th Edition) - Peter Atkins、Julio de Paula、James Keeler</h2>
 <p>大概是看不完的，配合南大物化一起看，进度随缘。</p>
 <p>预计完成时间：SOMEDAY</p>
@@ -3335,13 +3738,29 @@ var data=[{
     ]
   }]
 </script>
-<div id="echarts3567" style="width: 90%;height: 1000px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts3567'), 'walden');
+<div
+    id="echarts9317"
+    style="
+        width:90%;
+        height:1000px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option = {
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts9317'),
+    'walden'
+);
+
+
+option = {
       tooltip: {
         trigger: 'item',
         triggerOn: 'mousemove'
@@ -3377,9 +3796,24 @@ var data=[{
       ]
     };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 <h2 id="12-quantum-chemistrysecond-edition-donald-a-mcquarrie"><a class="markdownIt-Anchor" href="#12-quantum-chemistrysecond-edition-donald-a-mcquarrie"></a> 12 Quantum Chemistry(Second Edition) - Donald A. McQuarrie</h2>
 <p>配合结构化学基础一块看，了解一些基础的量子化学内容。</p>
 <p>预计完成时间：2023.3</p>
@@ -3583,13 +4017,29 @@ var data=[{
     ]
   }]
 </script>
-<div id="echarts8506" style="width: 90%;height: 1100px;margin: 0 auto"></div>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-<script src="../js/walden.js"></script>
-<script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('echarts8506'), 'walden');
+<div
+    id="echarts1990"
+    style="
+        width:90%;
+        height:1100px;
+        margin:0 auto;
+    ">
+</div>
 
-        var option = option = {
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+
+<script>
+
+var myChart = echarts.init(
+    document.getElementById('echarts1990'),
+    'walden'
+);
+
+
+option = {
       tooltip: {
         trigger: 'item',
         triggerOn: 'mousemove'
@@ -3625,9 +4075,24 @@ var data=[{
       ]
     };
 
-        myChart.setOption(option);
-</script>
 
+if(typeof option !== 'undefined'){
+
+    myChart.setOption(option);
+
+}
+
+
+window.addEventListener(
+    'resize',
+    function(){
+
+        myChart.resize();
+
+    }
+);
+
+</script>
 </div>
 
 
